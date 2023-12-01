@@ -6,7 +6,7 @@ distractor1: COWCOWCOWCOWW
 distractor2: SEE OH DEREFORD
 distractor(unsure): None of above.
 label: 1
-choice_list: SEE OH DEREFORD, SEE O DOUBLE YOU. COWCOWCOWCOWW, None of above.
+choice_list: SEE OH DEREFORD, SEE O DOUBLE YOU;; COWCOWCOWCOWW, None of above;;
 choice_order: 2, 0, 1, 3
 
 
@@ -18,7 +18,7 @@ distractor1: COWCOWCOWCOWW
 distractor2: SEE OH DEREFORD
 distractor(unsure): None of above.
 label: 2
-choice_list: SEE OH DEREFORD, COWCOWCOWCOWW, SEE O DOUBLE YOU. None of above.
+choice_list: SEE OH DEREFORD, COWCOWCOWCOWW, SEE O DOUBLE YOU;; None of above;;
 choice_order: 2, 1, 0, 3
 
 
@@ -30,7 +30,7 @@ distractor1: COBCOBB
 distractor2: COBBLER
 distractor(unsure): None of above.
 label: 2
-choice_list: COBCOBB, COBBLER, SEE O BEE, None of above.
+choice_list: COBCOBB, COBBLER, SEE O BEE, None of above;;
 choice_order: 1, 2, 0, 3
 
 
@@ -42,7 +42,7 @@ distractor1: Three.
 distractor2: Four.
 distractor(unsure): None of above.
 label: 1
-choice_list: Four. Two. Three. None of above.
+choice_list: Four;; Two;; Three;; None of above;;
 choice_order: 2, 0, 1, 3
 
 
@@ -54,7 +54,7 @@ distractor1: Three.
 distractor2: Four.
 distractor(unsure): None of above.
 label: 1
-choice_list: Three. Two. Four. None of above.
+choice_list: Three;; Two;; Four;; None of above;;
 choice_order: 1, 0, 2, 3
 
 
@@ -66,7 +66,7 @@ distractor1: Two.
 distractor2: Five.
 distractor(unsure): None of above.
 label: 0
-choice_list: Eleven. Two. Five. None of above.
+choice_list: Eleven;; Two;; Five;; None of above;;
 choice_order: 0, 1, 2, 3
 
 
@@ -78,7 +78,7 @@ distractor1: Imagine you have five fingers on your hand. If you take two fingers
 distractor2: Take the 5 and subtract 2 from it. This results in the number 3. Now, remove the vertical top part of the digit "3" and you are left with the digit "4."
 distractor(unsure): None of above.
 label: 2
-choice_list: Imagine you have five fingers on your hand. If you take two fingers (your index and middle fingers) and hold them down, you are left with four fingers remaining upright. So, by taking 2 fingers from the set of 5 fingers, you are left with 4 fingers. Take the 5 and subtract 2 from it. This results in the number 3. Now, remove the vertical top part of the digit "3" and you are left with the digit "4." , FIVE. Remove the 2 letters F and E from five and you have in which is the Roman numeral for four. None of above.
+choice_list: Imagine you have five fingers on your hand. If you take two fingers (your index and middle fingers) and hold them down, you are left with four fingers remaining upright. So, by taking 2 fingers from the set of 5 fingers, you are left with 4 fingers;; Take the 5 and subtract 2 from it. This results in the number 3. Now, remove the vertical top part of the digit "3" and you are left with the digit "4." , FIVE. Remove the 2 letters F and E from five and you have in which is the Roman numeral for four;; None of above;;
 choice_order: 1, 2, 0, 3
 
 
@@ -90,7 +90,7 @@ distractor1: Imagine you have five fingers on your hand. If you take two fingers
 distractor2: Take the 5 and subtract 2 from it. This results in the number 3. Now, remove the vertical top part of the digit "3" and you are left with the digit "4."
 distractor(unsure): None of above.
 label: 1
-choice_list: Take the 5 and subtract 2 from it. This results in the number 3. Now, remove the vertical top part of the digit "3" and you are left with the digit "4." , FIVE. Remove the 2 letters F and E from five and you have in which is the Roman numeral for four. Imagine you have five fingers on your hand. If you take two fingers (your index and middle fingers) and hold them down, you are left with four fingers remaining upright. So, by taking 2 fingers from the set of 5 fingers, you are left with 4 fingers. None of above.
+choice_list: Take the 5 and subtract 2 from it. This results in the number 3. Now, remove the vertical top part of the digit "3" and you are left with the digit "4." , FIVE. Remove the 2 letters F and E from five and you have in which is the Roman numeral for four;; Imagine you have five fingers on your hand. If you take two fingers (your index and middle fingers) and hold them down, you are left with four fingers remaining upright. So, by taking 2 fingers from the set of 5 fingers, you are left with 4 fingers;; None of above;;
 choice_order: 2, 0, 1, 3
 
 
@@ -102,7 +102,7 @@ distractor1: Imagine you have ten fingers on your both hand. If you take two fin
 distractor2: Take the 6 and subtract 2 from it. This results in the number 4. Now, split the vertical middle part of the digit "4" and you are left with the digit "10".
 distractor(unsure): None of above.
 label: 2
-choice_list: Take the 6 and subtract 2 from it. This results in the number 4. Now, split the vertical middle part of the digit "4" and you are left with the digit "10". , Imagine you have ten fingers on your both hand. If you take two fingers (your index fingers from both) and hold them down, you are left with four fingers remaining upright. So, by taking 2 fingers from the set of 10 fingers, you are left with 4 fingers on both hands. SIX. Remove the 2 letters S and I from SIX and you have X in which is the Roman numeral for ten. None of above.
+choice_list: Take the 6 and subtract 2 from it. This results in the number 4. Now, split the vertical middle part of the digit "4" and you are left with the digit "10". , Imagine you have ten fingers on your both hand. If you take two fingers (your index fingers from both) and hold them down, you are left with four fingers remaining upright. So, by taking 2 fingers from the set of 10 fingers, you are left with 4 fingers on both hands;; SIX. Remove the 2 letters S and I from SIX and you have X in which is the Roman numeral for ten;; None of above;;
 choice_order: 2, 1, 0, 3
 
 
@@ -114,7 +114,7 @@ distractor1: The Letter T.
 distractor2: The Letter E.
 distractor(unsure): None of above.
 label: 0
-choice_list: The Letter R. The Letter T. The Letter E. None of above.
+choice_list: The Letter R;; The Letter T;; The Letter E;; None of above;;
 choice_order: 0, 1, 2, 3
 
 
@@ -126,7 +126,7 @@ distractor1: The Letter T.
 distractor2: The Letter E.
 distractor(unsure): None of above.
 label: 0
-choice_list: The Letter R. The Letter E. The Letter T. None of above.
+choice_list: The Letter R;; The Letter E;; The Letter T;; None of above;;
 choice_order: 0, 2, 1, 3
 
 
@@ -138,7 +138,7 @@ distractor1: The Letter E.
 distractor2: The letter N.
 distractor(unsure): None of above.
 label: 1
-choice_list: The letter N. The Letter N. The Letter E. None of above.
+choice_list: The letter N;; The Letter N;; The Letter E;; None of above;;
 choice_order: 2, 0, 1, 3
 
 
@@ -150,7 +150,7 @@ distractor1: The letter G.
 distractor2: The letter Y.
 distractor(unsure): None of above.
 label: 0
-choice_list: The letter V. The letter Y. The letter G. None of above.
+choice_list: The letter V;; The letter Y;; The letter G;; None of above;;
 choice_order: 0, 2, 1, 3
 
 
@@ -162,7 +162,7 @@ distractor1: The letter G.
 distractor2: The letter Y.
 distractor(unsure): None of above.
 label: 0
-choice_list: The letter V. The letter Y. The letter G. None of above.
+choice_list: The letter V;; The letter Y;; The letter G;; None of above;;
 choice_order: 0, 2, 1, 3
 
 
@@ -174,7 +174,7 @@ distractor1: The letter P.
 distractor2: The letter B.
 distractor(unsure): None of above.
 label: 1
-choice_list: The letter B. The letter V. The letter P. None of above.
+choice_list: The letter B;; The letter V;; The letter P;; None of above;;
 choice_order: 2, 0, 1, 3
 
 
@@ -186,7 +186,7 @@ distractor1: The letter D.
 distractor2: The letter A.
 distractor(unsure): None of above.
 label: 2
-choice_list: The letter A. The letter D. The letter N. None of above.
+choice_list: The letter A;; The letter D;; The letter N;; None of above;;
 choice_order: 2, 1, 0, 3
 
 
@@ -198,7 +198,7 @@ distractor1: The letter D.
 distractor2: The letter A.
 distractor(unsure): None of above.
 label: 1
-choice_list: The letter A. The letter N. The letter D. None of above.
+choice_list: The letter A;; The letter N;; The letter D;; None of above;;
 choice_order: 2, 0, 1, 3
 
 
@@ -210,7 +210,7 @@ distractor1: The letter N.
 distractor2: The letter A.
 distractor(unsure): None of above.
 label: 2
-choice_list: The letter N. The letter A. The letter U. None of above.
+choice_list: The letter N;; The letter A;; The letter U;; None of above;;
 choice_order: 1, 2, 0, 3
 
 
@@ -222,7 +222,7 @@ distractor1: One thousands.
 distractor2: Six.
 distractor(unsure): None of above.
 label: 1
-choice_list: One thousands. 12 of them: January 2nd, February 2nd, March 2nd, April 2nd, May 2nd, June 2nd, July 2nd, August 2nd, September 2nd, October 2nd, November 2nd, December 2nd. Six. None of above.
+choice_list: One thousands;; 12 of them: January 2nd, February 2nd, March 2nd, April 2nd, May 2nd, June 2nd, July 2nd, August 2nd, September 2nd, October 2nd, November 2nd, December 2nd;; Six;; None of above;;
 choice_order: 1, 0, 2, 3
 
 
@@ -234,7 +234,7 @@ distractor1: One.
 distractor2: Six.
 distractor(unsure): None of above.
 label: 1
-choice_list: Six. 12 of them: January 2nd, February 2nd, March 2nd, April 2nd, May 2nd, June 2nd, July 2nd, August 2nd, September 2nd, October 2nd, November 2nd, December 2nd. One. None of above.
+choice_list: Six;; 12 of them: January 2nd, February 2nd, March 2nd, April 2nd, May 2nd, June 2nd, July 2nd, August 2nd, September 2nd, October 2nd, November 2nd, December 2nd;; One;; None of above;;
 choice_order: 2, 0, 1, 3
 
 
@@ -246,7 +246,7 @@ distractor1: 30.0
 distractor2: 28.0
 distractor(unsure): None of above.
 label: 0
-choice_list: 7 of them: Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday, 28.0, 30.0, None of above.
+choice_list: 7 of them: Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday, 28.0, 30.0, None of above;;
 choice_order: 0, 2, 1, 3
 
 
@@ -258,7 +258,7 @@ distractor1: A division sign.
 distractor2: A plus sign.
 distractor(unsure): None of above.
 label: 1
-choice_list: A plus sign. A decimal point. A division sign. None of above.
+choice_list: A plus sign;; A decimal point;; A division sign;; None of above;;
 choice_order: 2, 0, 1, 3
 
 
@@ -270,7 +270,7 @@ distractor1: A division sign.
 distractor2: A plus sign.
 distractor(unsure): None of above.
 label: 1
-choice_list: A division sign. A decimal point. A plus sign. None of above.
+choice_list: A division sign;; A decimal point;; A plus sign;; None of above;;
 choice_order: 1, 0, 2, 3
 
 
@@ -282,7 +282,7 @@ distractor1: A division sign.
 distractor2: A minus sign.
 distractor(unsure): None of above.
 label: 0
-choice_list: A square root. A division sign. A minus sign. None of above.
+choice_list: A square root;; A division sign;; A minus sign;; None of above;;
 choice_order: 0, 1, 2, 3
 
 
@@ -294,7 +294,7 @@ distractor1: Florida.
 distractor2: California.
 distractor(unsure): None of above.
 label: 0
-choice_list: Mississippi. California. Florida. None of above.
+choice_list: Mississippi;; California;; Florida;; None of above;;
 choice_order: 0, 2, 1, 3
 
 
@@ -306,7 +306,7 @@ distractor1: Florida.
 distractor2: California.
 distractor(unsure): None of above.
 label: 2
-choice_list: California. Florida. Mississippi. None of above.
+choice_list: California;; Florida;; Mississippi;; None of above;;
 choice_order: 2, 1, 0, 3
 
 
@@ -318,7 +318,7 @@ distractor1: The letter R.
 distractor2: The letter M.
 distractor(unsure): None of above.
 label: 1
-choice_list: The letter R. The letter I. The letter M. None of above.
+choice_list: The letter R;; The letter I;; The letter M;; None of above;;
 choice_order: 1, 0, 2, 3
 
 
@@ -330,7 +330,7 @@ distractor1: E N M.
 distractor2: N M Y.
 distractor(unsure): None of above.
 label: 0
-choice_list: F O E. E N M. N M Y. None of above.
+choice_list: F O E;; E N M;; N M Y;; None of above;;
 choice_order: 0, 1, 2, 3
 
 
@@ -342,7 +342,7 @@ distractor1: E N M.
 distractor2: E N Y.
 distractor(unsure): None of above.
 label: 2
-choice_list: E N M. E N Y. F O E. None of above.
+choice_list: E N M;; E N Y;; F O E;; None of above;;
 choice_order: 1, 2, 0, 3
 
 
@@ -354,7 +354,7 @@ distractor1: L A T.
 distractor2: L T R.
 distractor(unsure): None of above.
 label: 1
-choice_list: L T R. F U N. L A T. None of above.
+choice_list: L T R;; F U N;; L A T;; None of above;;
 choice_order: 2, 0, 1, 3
 
 
@@ -366,7 +366,7 @@ distractor1: Ben is buying English word cards. The price is determined by the nu
 distractor2: Ben is buying English word cards. The price is determined by the number of letters in the spelled-out number.
 distractor(unsure): None of above.
 label: 2
-choice_list: Ben is buying English word cards. The price is determined by the number of letters in the spelled-out number. Ben is buying English word cards. The price is determined by the number of vowels in the spelled-out number. Ben was buying home address numbers and they cost $1 per digit. None of above.
+choice_list: Ben is buying English word cards. The price is determined by the number of letters in the spelled-out number;; Ben is buying English word cards. The price is determined by the number of vowels in the spelled-out number;; Ben was buying home address numbers and they cost $1 per digit;; None of above;;
 choice_order: 2, 1, 0, 3
 
 
@@ -378,7 +378,7 @@ distractor1: Ben is buying English word cards. The price is determined by the nu
 distractor2: Ben is buying English word cards. The price is determined by the number of letters in the spelled-out number.
 distractor(unsure): None of above.
 label: 1
-choice_list: Ben is buying English word cards. The price is determined by the number of vowels in the spelled-out number. Ben was buying home address numbers and they cost $1 per digit. Ben is buying English word cards. The price is determined by the number of letters in the spelled-out number. None of above.
+choice_list: Ben is buying English word cards. The price is determined by the number of vowels in the spelled-out number;; Ben was buying home address numbers and they cost $1 per digit;; Ben is buying English word cards. The price is determined by the number of letters in the spelled-out number;; None of above;;
 choice_order: 1, 0, 2, 3
 
 
@@ -390,7 +390,7 @@ distractor1: Ben is buying English word cards. The price is determined by the nu
 distractor2: Ben is buying English word cards. The price is determined by the number of letters in the spelled-out number.
 distractor(unsure): None of above.
 label: 2
-choice_list: Ben is buying English word cards. The price is determined by the number of vowels in the spelled-out number. Ben is buying English word cards. The price is determined by the number of letters in the spelled-out number. Jill was purchasing sticky price tags for her garage sale. Each digit on the price tag costs $2. None of above.
+choice_list: Ben is buying English word cards. The price is determined by the number of vowels in the spelled-out number;; Ben is buying English word cards. The price is determined by the number of letters in the spelled-out number;; Jill was purchasing sticky price tags for her garage sale. Each digit on the price tag costs $2;; None of above;;
 choice_order: 1, 2, 0, 3
 
 
@@ -402,7 +402,7 @@ distractor1: Milk. "H L M N O" is similar as the nursery rhyme "High low，maids
 distractor2: Oil, if we rearrange the letters, they form the word "oil".
 distractor(unsure): None of above.
 label: 1
-choice_list: Oil, if we rearrange the letters, they form the word "oil". , Water. Hijklmno is "H to O" in the alphabet. Water is H20. Milk. "H L M N O" is similar as the nursery rhyme "High low，maids in a row", which commonly associated with milking cows. , None of above.
+choice_list: Oil, if we rearrange the letters, they form the word "oil". , Water. Hijklmno is "H to O" in the alphabet. Water is H20;; Milk. "H L M N O" is similar as the nursery rhyme "High low，maids in a row", which commonly associated with milking cows. , None of above;;
 choice_order: 2, 0, 1, 3
 
 
@@ -414,7 +414,7 @@ distractor1: Milk. "H L M N O" is similar as the nursery rhyme "High low，maids
 distractor2: Oil, if we rearrange the letters, they form the word "oil".
 distractor(unsure): None of above.
 label: 2
-choice_list: Milk. "H L M N O" is similar as the nursery rhyme "High low，maids in a row", which commonly associated with milking cows. , Oil, if we rearrange the letters, they form the word "oil". , Water. Hijklmno is "H to O" in the alphabet. Water is H20. None of above.
+choice_list: Milk. "H L M N O" is similar as the nursery rhyme "High low，maids in a row", which commonly associated with milking cows. , Oil, if we rearrange the letters, they form the word "oil". , Water. Hijklmno is "H to O" in the alphabet. Water is H20;; None of above;;
 choice_order: 1, 2, 0, 3
 
 
@@ -426,7 +426,7 @@ distractor1: Grammy. The beginning of "Acdfgnijkmn" is similar to "a gram".
 distractor2: Oscar. "Acdfgnijkmn" is "A to N" in the alphabet, skipping every other letter. The pattern of skipping can be seen as an abstract representation of how the Oscars are not awarded to every movie, but only to select ones.
 distractor(unsure): None of above.
 label: 0
-choice_list: Nobel. "Acdfgnijkmn" is 'no B E L" in the alphabet, which combine to nobel. , Grammy. The beginning of "Acdfgnijkmn" is similar to "a gram". Oscar. "Acdfgnijkmn" is "A to N" in the alphabet, skipping every other letter. The pattern of skipping can be seen as an abstract representation of how the Oscars are not awarded to every movie, but only to select ones. , None of above.
+choice_list: Nobel. "Acdfgnijkmn" is 'no B E L" in the alphabet, which combine to nobel. , Grammy. The beginning of "Acdfgnijkmn" is similar to "a gram";; Oscar. "Acdfgnijkmn" is "A to N" in the alphabet, skipping every other letter. The pattern of skipping can be seen as an abstract representation of how the Oscars are not awarded to every movie, but only to select ones. , None of above;;
 choice_order: 0, 1, 2, 3
 
 
@@ -438,7 +438,7 @@ distractor1: Abbit.
 distractor2: White-animal with long things on head.
 distractor(unsure): None of above.
 label: 1
-choice_list: Abbit. Bunny. White-animal with long things on head. None of above.
+choice_list: Abbit;; Bunny;; White-animal with long things on head;; None of above;;
 choice_order: 1, 0, 2, 3
 
 
@@ -450,7 +450,7 @@ distractor1: Abbit.
 distractor2: White-animal with long things on head.
 distractor(unsure): None of above.
 label: 1
-choice_list: Abbit. Bunny. White-animal with long things on head. None of above.
+choice_list: Abbit;; Bunny;; White-animal with long things on head;; None of above;;
 choice_order: 1, 0, 2, 3
 
 
@@ -462,7 +462,7 @@ distractor1: Smie.
 distractor2: Open you mouse and show your teeth.
 distractor(unsure): None of above.
 label: 2
-choice_list: Open you mouse and show your teeth. Smie. Grin. None of above.
+choice_list: Open you mouse and show your teeth;; Smie;; Grin;; None of above;;
 choice_order: 2, 1, 0, 3
 
 
@@ -474,7 +474,7 @@ distractor1: Truncation.
 distractor2: Abbreviation.
 distractor(unsure): None of above.
 label: 2
-choice_list: Abbreviation. Truncation. Short. None of above.
+choice_list: Abbreviation;; Truncation;; Short;; None of above;;
 choice_order: 2, 1, 0, 3
 
 
@@ -486,7 +486,7 @@ distractor1: Truncation.
 distractor2: Abbreviation.
 distractor(unsure): None of above.
 label: 2
-choice_list: Abbreviation. Truncation. Short. None of above.
+choice_list: Abbreviation;; Truncation;; Short;; None of above;;
 choice_order: 2, 1, 0, 3
 
 
@@ -498,7 +498,7 @@ distractor1: Truncation.
 distractor2: Abbreviation.
 distractor(unsure): None of above.
 label: 2
-choice_list: Abbreviation. Truncation. Small. None of above.
+choice_list: Abbreviation;; Truncation;; Small;; None of above;;
 choice_order: 2, 1, 0, 3
 
 
@@ -510,7 +510,7 @@ distractor1: Suit.
 distractor2: Wedding dress.
 distractor(unsure): None of above.
 label: 1
-choice_list: Suit. Address. Wedding dress. None of above.
+choice_list: Suit;; Address;; Wedding dress;; None of above;;
 choice_order: 1, 0, 2, 3
 
 
@@ -522,7 +522,7 @@ distractor1: Suit.
 distractor2: Wedding dress.
 distractor(unsure): None of above.
 label: 0
-choice_list: Address. Suit. Wedding dress. None of above.
+choice_list: Address;; Suit;; Wedding dress;; None of above;;
 choice_order: 0, 1, 2, 3
 
 
@@ -534,7 +534,7 @@ distractor1: Antique ring.
 distractor2: Wedding ring.
 distractor(unsure): None of above.
 label: 0
-choice_list: Spring. Antique ring. Wedding ring. None of above.
+choice_list: Spring;; Antique ring;; Wedding ring;; None of above;;
 choice_order: 0, 1, 2, 3
 
 
@@ -546,7 +546,7 @@ distractor1: Those that at the end of alphabet.
 distractor2: Those that at the middle of alphabet.
 distractor(unsure): None of above.
 label: 0
-choice_list: Those that come after T. Those that at the end of alphabet. Those that at the middle of alphabet. None of above.
+choice_list: Those that come after T;; Those that at the end of alphabet;; Those that at the middle of alphabet;; None of above;;
 choice_order: 0, 1, 2, 3
 
 
@@ -558,7 +558,7 @@ distractor1: Those that at the end of alphabet.
 distractor2: Those that at the middle of alphabet.
 distractor(unsure): None of above.
 label: 2
-choice_list: Those that at the end of alphabet. Those that at the middle of alphabet. Those that come after T. None of above.
+choice_list: Those that at the end of alphabet;; Those that at the middle of alphabet;; Those that come after T;; None of above;;
 choice_order: 1, 2, 0, 3
 
 
@@ -570,7 +570,7 @@ distractor1: The letter F.
 distractor2: The letter R.
 distractor(unsure): None of above.
 label: 2
-choice_list: The letter F. The letter R. The letter B. None of above.
+choice_list: The letter F;; The letter R;; The letter B;; None of above;;
 choice_order: 1, 2, 0, 3
 
 
@@ -582,7 +582,7 @@ distractor1: High pressure and heat.
 distractor2: The process of biomineralization in some oysters.
 distractor(unsure): None of above.
 label: 1
-choice_list: High pressure and heat. The letter L. The process of biomineralization in some oysters. None of above.
+choice_list: High pressure and heat;; The letter L;; The process of biomineralization in some oysters;; None of above;;
 choice_order: 1, 0, 2, 3
 
 
@@ -594,7 +594,7 @@ distractor1: High pressure and heat.
 distractor2: The process of biomineralization in some oysters.
 distractor(unsure): None of above.
 label: 0
-choice_list: The letter L. The process of biomineralization in some oysters. High pressure and heat. None of above.
+choice_list: The letter L;; The process of biomineralization in some oysters;; High pressure and heat;; None of above;;
 choice_order: 0, 2, 1, 3
 
 
@@ -606,7 +606,7 @@ distractor1: A person is cooking with pot while they are in the midst of their c
 distractor2: The significance and carries a rich history or narrative within the pot.
 distractor(unsure): None of above.
 label: 0
-choice_list: The letters E. A person is cooking with pot while they are in the midst of their culinary creation. The significance and carries a rich history or narrative within the pot. None of above.
+choice_list: The letters E;; A person is cooking with pot while they are in the midst of their culinary creation;; The significance and carries a rich history or narrative within the pot;; None of above;;
 choice_order: 0, 1, 2, 3
 
 
@@ -618,7 +618,7 @@ distractor1: No, the new one is more acceptable to public.
 distractor2: No, the value of a dollar bill, whether it is old or new, remains the same.
 distractor(unsure): None of above.
 label: 1
-choice_list: No, the new one is more acceptable to public. Yes, it's worth 99 more dollars. No, the value of a dollar bill, whether it is old or new, remains the same. , None of above.
+choice_list: No, the new one is more acceptable to public;; Yes, it's worth 99 more dollars;; No, the value of a dollar bill, whether it is old or new, remains the same. , None of above;;
 choice_order: 1, 0, 2, 3
 
 
@@ -630,7 +630,7 @@ distractor1: No, the new one is more acceptable to public.
 distractor2: No, the value of a dollar bill, whether it is old or new, remains the same.
 distractor(unsure): None of above.
 label: 0
-choice_list: Yes, it's worth 99 more dollars. No, the new one is more acceptable to public. No, the value of a dollar bill, whether it is old or new, remains the same. , None of above.
+choice_list: Yes, it's worth 99 more dollars;; No, the new one is more acceptable to public;; No, the value of a dollar bill, whether it is old or new, remains the same. , None of above;;
 choice_order: 0, 1, 2, 3
 
 
@@ -642,7 +642,7 @@ distractor1: No, the new one is more acceptable to public.
 distractor2: No, the value of a dollar bill, whether it is old or new, remains the same.
 distractor(unsure): None of above.
 label: 2
-choice_list: No, the value of a dollar bill, whether it is old or new, remains the same. , No, the new one is more acceptable to public. Yes, it's worth 99 more dollars. None of above.
+choice_list: No, the value of a dollar bill, whether it is old or new, remains the same. , No, the new one is more acceptable to public;; Yes, it's worth 99 more dollars;; None of above;;
 choice_order: 2, 1, 0, 3
 
 
@@ -654,7 +654,7 @@ distractor1: The letter O.
 distractor2: The letter N.
 distractor(unsure): None of above.
 label: 1
-choice_list: The letter O. The letter W. The letter N. None of above.
+choice_list: The letter O;; The letter W;; The letter N;; None of above;;
 choice_order: 1, 0, 2, 3
 
 
@@ -666,7 +666,7 @@ distractor1: The letter O.
 distractor2: The letter N.
 distractor(unsure): None of above.
 label: 2
-choice_list: The letter O. The letter N. The letter W. None of above.
+choice_list: The letter O;; The letter N;; The letter W;; None of above;;
 choice_order: 1, 2, 0, 3
 
 
@@ -678,7 +678,7 @@ distractor1: The letter T.
 distractor2: The letter I.
 distractor(unsure): None of above.
 label: 1
-choice_list: The letter I. The letter E. The letter T. None of above.
+choice_list: The letter I;; The letter E;; The letter T;; None of above;;
 choice_order: 2, 0, 1, 3
 
 
@@ -690,7 +690,7 @@ distractor1: Eat tomato soup.
 distractor2: Eat minestrone soup.
 distractor(unsure): None of above.
 label: 0
-choice_list: Eat alphabet soup. Eat minestrone soup. Eat tomato soup. None of above.
+choice_list: Eat alphabet soup;; Eat minestrone soup;; Eat tomato soup;; None of above;;
 choice_order: 0, 2, 1, 3
 
 
@@ -702,7 +702,7 @@ distractor1: Eat tomato soup.
 distractor2: Eat minestrone soup.
 distractor(unsure): None of above.
 label: 1
-choice_list: Eat tomato soup. Eat alphabet soup. Eat minestrone soup. None of above.
+choice_list: Eat tomato soup;; Eat alphabet soup;; Eat minestrone soup;; None of above;;
 choice_order: 1, 0, 2, 3
 
 
@@ -714,7 +714,7 @@ distractor1: Music city.
 distractor2: Windy city.
 distractor(unsure): None of above.
 label: 0
-choice_list: Alphabet city. Music city. Windy city. None of above.
+choice_list: Alphabet city;; Music city;; Windy city;; None of above;;
 choice_order: 0, 1, 2, 3
 
 
@@ -726,7 +726,7 @@ distractor1: A limestone
 distractor2: A sandstone.
 distractor(unsure): None of above.
 label: 0
-choice_list: A whetstone. A limestone, A sandstone. None of above.
+choice_list: A whetstone;; A limestone, A sandstone;; None of above;;
 choice_order: 0, 1, 2, 3
 
 
@@ -738,7 +738,7 @@ distractor1: A limestone
 distractor2: A sandstone.
 distractor(unsure): None of above.
 label: 0
-choice_list: A whetstone. A sandstone. A limestone, None of above.
+choice_list: A whetstone;; A sandstone;; A limestone, None of above;;
 choice_order: 0, 2, 1, 3
 
 
@@ -750,7 +750,7 @@ distractor1: Lowland.
 distractor2: Woodland.
 distractor(unsure): None of above.
 label: 2
-choice_list: Lowland. Woodland. Wetland. None of above.
+choice_list: Lowland;; Woodland;; Wetland;; None of above;;
 choice_order: 1, 2, 0, 3
 
 
@@ -762,7 +762,7 @@ distractor1: A reuben sandwich.
 distractor2: A cheesesteak sandwich.
 distractor(unsure): None of above.
 label: 1
-choice_list: A cheesesteak sandwich. A submarine sandwich. A reuben sandwich. None of above.
+choice_list: A cheesesteak sandwich;; A submarine sandwich;; A reuben sandwich;; None of above;;
 choice_order: 2, 0, 1, 3
 
 
@@ -774,7 +774,7 @@ distractor1: A reuben sandwich.
 distractor2: A cheesesteak sandwich.
 distractor(unsure): None of above.
 label: 0
-choice_list: A submarine sandwich. A reuben sandwich. A cheesesteak sandwich. None of above.
+choice_list: A submarine sandwich;; A reuben sandwich;; A cheesesteak sandwich;; None of above;;
 choice_order: 0, 1, 2, 3
 
 
@@ -786,7 +786,7 @@ distractor1: An lightship.
 distractor2: A cargo ship.
 distractor(unsure): None of above.
 label: 2
-choice_list: An lightship. A cargo ship. An icebreaker ship. None of above.
+choice_list: An lightship;; A cargo ship;; An icebreaker ship;; None of above;;
 choice_order: 1, 2, 0, 3
 
 
@@ -798,7 +798,7 @@ distractor1: A walnut.
 distractor2: A peanut.
 distractor(unsure): None of above.
 label: 1
-choice_list: A peanut. A Doughnut. A walnut. None of above.
+choice_list: A peanut;; A Doughnut;; A walnut;; None of above;;
 choice_order: 2, 0, 1, 3
 
 
@@ -810,7 +810,7 @@ distractor1: A walnut.
 distractor2: A peanut.
 distractor(unsure): None of above.
 label: 0
-choice_list: A Doughnut. A walnut. A peanut. None of above.
+choice_list: A Doughnut;; A walnut;; A peanut;; None of above;;
 choice_order: 0, 1, 2, 3
 
 
@@ -822,7 +822,7 @@ distractor1: A fire bell.
 distractor2: A cow bell.
 distractor(unsure): None of above.
 label: 2
-choice_list: A fire bell. A cow bell. A Bluebell. None of above.
+choice_list: A fire bell;; A cow bell;; A Bluebell;; None of above;;
 choice_order: 1, 2, 0, 3
 
 
@@ -834,7 +834,7 @@ distractor1: The letter O.
 distractor2: The letter L.
 distractor(unsure): None of above.
 label: 1
-choice_list: The letter O. The letter N. The letter L. None of above.
+choice_list: The letter O;; The letter N;; The letter L;; None of above;;
 choice_order: 1, 0, 2, 3
 
 
@@ -846,7 +846,7 @@ distractor1: The letter O.
 distractor2: The letter L.
 distractor(unsure): None of above.
 label: 2
-choice_list: The letter O. The letter L. The letter N. None of above.
+choice_list: The letter O;; The letter L;; The letter N;; None of above;;
 choice_order: 1, 2, 0, 3
 
 
@@ -858,7 +858,7 @@ distractor1: The letter E.
 distractor2: The letter R.
 distractor(unsure): None of above.
 label: 0
-choice_list: The letter A. The letter R. The letter E. None of above.
+choice_list: The letter A;; The letter R;; The letter E;; None of above;;
 choice_order: 0, 2, 1, 3
 
 
@@ -870,7 +870,7 @@ distractor1: A queen ant.
 distractor2: A worker ant(ergate).
 distractor(unsure): None of above.
 label: 0
-choice_list: An antique. A worker ant(ergate). A queen ant. None of above.
+choice_list: An antique;; A worker ant(ergate);; A queen ant;; None of above;;
 choice_order: 0, 2, 1, 3
 
 
@@ -882,7 +882,7 @@ distractor1: A queen ant.
 distractor2: A worker ant(ergate).
 distractor(unsure): None of above.
 label: 1
-choice_list: A worker ant(ergate). An antique. A queen ant. None of above.
+choice_list: A worker ant(ergate);; An antique;; A queen ant;; None of above;;
 choice_order: 2, 0, 1, 3
 
 
@@ -894,7 +894,7 @@ distractor1: A bottom lurker.
 distractor2: A tuna.
 distractor(unsure): None of above.
 label: 1
-choice_list: A tuna. A Loan Shark. A bottom lurker. None of above.
+choice_list: A tuna;; A Loan Shark;; A bottom lurker;; None of above;;
 choice_order: 2, 0, 1, 3
 
 
@@ -906,7 +906,7 @@ distractor1: Hot dog.
 distractor2: Hamburger.
 distractor(unsure): None of above.
 label: 1
-choice_list: Hot dog. Pie. Hamburger. None of above.
+choice_list: Hot dog;; Pie;; Hamburger;; None of above;;
 choice_order: 1, 0, 2, 3
 
 
@@ -918,7 +918,7 @@ distractor1: Hot dog.
 distractor2: Hamburger.
 distractor(unsure): None of above.
 label: 0
-choice_list: Pie. Hot dog. Hamburger. None of above.
+choice_list: Pie;; Hot dog;; Hamburger;; None of above;;
 choice_order: 0, 1, 2, 3
 
 
@@ -930,7 +930,7 @@ distractor1: Tomato soup.
 distractor2: Minestrone soup.
 distractor(unsure): None of above.
 label: 1
-choice_list: Minestrone soup. Alphabet soup. Tomato soup. None of above.
+choice_list: Minestrone soup;; Alphabet soup;; Tomato soup;; None of above;;
 choice_order: 2, 0, 1, 3
 
 
@@ -942,7 +942,7 @@ distractor1: Eagle.
 distractor2: Humming bird.
 distractor(unsure): None of above.
 label: 2
-choice_list: Humming bird. Eagle. Mocking bird. None of above.
+choice_list: Humming bird;; Eagle;; Mocking bird;; None of above;;
 choice_order: 2, 1, 0, 3
 
 
@@ -954,7 +954,7 @@ distractor1: Eagle.
 distractor2: Humming bird.
 distractor(unsure): None of above.
 label: 2
-choice_list: Humming bird. Eagle. Mocking bird. None of above.
+choice_list: Humming bird;; Eagle;; Mocking bird;; None of above;;
 choice_order: 2, 1, 0, 3
 
 
@@ -966,7 +966,7 @@ distractor1: Eagle.
 distractor2: Dove.
 distractor(unsure): None of above.
 label: 2
-choice_list: Dove. Eagle. Finches. None of above.
+choice_list: Dove;; Eagle;; Finches;; None of above;;
 choice_order: 2, 1, 0, 3
 
 
@@ -978,7 +978,7 @@ distractor1: Soybean.
 distractor2: Chickpea.
 distractor(unsure): None of above.
 label: 0
-choice_list: Peanuts. Soybean. Chickpea. None of above.
+choice_list: Peanuts;; Soybean;; Chickpea;; None of above;;
 choice_order: 0, 1, 2, 3
 
 
@@ -990,7 +990,7 @@ distractor1: Soybean.
 distractor2: Chickpea.
 distractor(unsure): None of above.
 label: 0
-choice_list: Peanuts. Chickpea. Soybean. None of above.
+choice_list: Peanuts;; Chickpea;; Soybean;; None of above;;
 choice_order: 0, 2, 1, 3
 
 
@@ -1002,7 +1002,7 @@ distractor1: Earthquake.
 distractor2: Planet.
 distractor(unsure): None of above.
 label: 1
-choice_list: Planet. Earthnuts. Earthquake. None of above.
+choice_list: Planet;; Earthnuts;; Earthquake;; None of above;;
 choice_order: 2, 0, 1, 3
 
 
@@ -1014,7 +1014,7 @@ distractor1: The leftside.
 distractor2: The rightside.
 distractor(unsure): None of above.
 label: 1
-choice_list: The rightside. The outside. The leftside. None of above.
+choice_list: The rightside;; The outside;; The leftside;; None of above;;
 choice_order: 2, 0, 1, 3
 
 
@@ -1026,7 +1026,7 @@ distractor1: The leftside.
 distractor2: The rightside.
 distractor(unsure): None of above.
 label: 1
-choice_list: The leftside. The outside. The rightside. None of above.
+choice_list: The leftside;; The outside;; The rightside;; None of above;;
 choice_order: 1, 0, 2, 3
 
 
@@ -1038,7 +1038,7 @@ distractor1: The leftside.
 distractor2: The rightside.
 distractor(unsure): None of above.
 label: 0
-choice_list: The outside. The rightside. The leftside. None of above.
+choice_list: The outside;; The rightside;; The leftside;; None of above;;
 choice_order: 0, 2, 1, 3
 
 
@@ -1050,7 +1050,7 @@ distractor1: California.
 distractor2: Texas.
 distractor(unsure): None of above.
 label: 1
-choice_list: Texas. Chicago. California. None of above.
+choice_list: Texas;; Chicago;; California;; None of above;;
 choice_order: 2, 0, 1, 3
 
 
@@ -1062,7 +1062,7 @@ distractor1: California.
 distractor2: Texas.
 distractor(unsure): None of above.
 label: 1
-choice_list: California. Chicago. Texas. None of above.
+choice_list: California;; Chicago;; Texas;; None of above;;
 choice_order: 1, 0, 2, 3
 
 
@@ -1074,7 +1074,7 @@ distractor1: California.
 distractor2: Texas.
 distractor(unsure): None of above.
 label: 0
-choice_list: Montreal. California. Texas. None of above.
+choice_list: Montreal;; California;; Texas;; None of above;;
 choice_order: 0, 1, 2, 3
 
 
@@ -1086,7 +1086,7 @@ distractor1: Academic.
 distractor2: Abcdefghijklmnopqrstuvwxyz.
 distractor(unsure): None of above.
 label: 1
-choice_list: Academic. Alphabet. Abcdefghijklmnopqrstuvwxyz. None of above.
+choice_list: Academic;; Alphabet;; Abcdefghijklmnopqrstuvwxyz;; None of above;;
 choice_order: 1, 0, 2, 3
 
 
@@ -1098,7 +1098,7 @@ distractor1: Academic.
 distractor2: Abcdefghijklmnopqrstuvwxyz.
 distractor(unsure): None of above.
 label: 0
-choice_list: Alphabet. Academic. Abcdefghijklmnopqrstuvwxyz. None of above.
+choice_list: Alphabet;; Academic;; Abcdefghijklmnopqrstuvwxyz;; None of above;;
 choice_order: 0, 1, 2, 3
 
 
@@ -1110,7 +1110,7 @@ distractor1: Academic.
 distractor2: Abcdefghijklmnopqrstuvwxyz.
 distractor(unsure): None of above.
 label: 1
-choice_list: Academic. Alphabet. Abcdefghijklmnopqrstuvwxyz. None of above.
+choice_list: Academic;; Alphabet;; Abcdefghijklmnopqrstuvwxyz;; None of above;;
 choice_order: 1, 0, 2, 3
 
 
@@ -1122,7 +1122,7 @@ distractor1: Add N,O and T at beginning.
 distractor2: Add B,O and Y at beginning.
 distractor(unsure): None of above.
 label: 0
-choice_list: Remove G,I and R and add A,D and Y. Add N,O and T at beginning. Add B,O and Y at beginning. None of above.
+choice_list: Remove G,I and R and add A,D and Y;; Add N,O and T at beginning;; Add B,O and Y at beginning;; None of above;;
 choice_order: 0, 1, 2, 3
 
 
@@ -1134,7 +1134,7 @@ distractor1: Add N,O and T at beginning.
 distractor2: Add B,O and Y at beginning.
 distractor(unsure): None of above.
 label: 1
-choice_list: Add B,O and Y at beginning. Remove G,I and R and add A,D and Y. Add N,O and T at beginning. None of above.
+choice_list: Add B,O and Y at beginning;; Remove G,I and R and add A,D and Y;; Add N,O and T at beginning;; None of above;;
 choice_order: 2, 0, 1, 3
 
 
@@ -1146,7 +1146,7 @@ distractor1: Add H,E and R at beginning.
 distractor2: ADD F E M at beginning.
 distractor(unsure): None of above.
 label: 1
-choice_list: Add H,E and R at beginning. Remove the end N and add A,D and M. ADD F E M at beginning. None of above.
+choice_list: Add H,E and R at beginning;; Remove the end N and add A,D and M;; ADD F E M at beginning;; None of above;;
 choice_order: 1, 0, 2, 3
 
 
@@ -1158,7 +1158,7 @@ distractor1: Ronnie is 5.
 distractor2: Ronnie is 4.
 distractor(unsure): None of above.
 label: 2
-choice_list: Ronnie is 4. Ronnie is 5. Ronnie is 6. None of above.
+choice_list: Ronnie is 4;; Ronnie is 5;; Ronnie is 6;; None of above;;
 choice_order: 2, 1, 0, 3
 
 
@@ -1170,7 +1170,7 @@ distractor1: Ronnie is 5.
 distractor2: Ronnie is 4.
 distractor(unsure): None of above.
 label: 0
-choice_list: Ronnie is 6. Ronnie is 5. Ronnie is 4. None of above.
+choice_list: Ronnie is 6;; Ronnie is 5;; Ronnie is 4;; None of above;;
 choice_order: 0, 1, 2, 3
 
 
@@ -1182,7 +1182,7 @@ distractor1: Jennifer is six year old.
 distractor2: Jennifer is five year old.
 distractor(unsure): None of above.
 label: 1
-choice_list: Jennifer is six year old. Jennifer is seven year old.. Jennifer is five year old. None of above.
+choice_list: Jennifer is six year old;; Jennifer is seven year old.;; Jennifer is five year old;; None of above;;
 choice_order: 1, 0, 2, 3
 
 
@@ -1194,7 +1194,7 @@ distractor1: A rock band.
 distractor2: A dance band.
 distractor(unsure): None of above.
 label: 1
-choice_list: A dance band. A rubber band. A rock band. None of above.
+choice_list: A dance band;; A rubber band;; A rock band;; None of above;;
 choice_order: 2, 0, 1, 3
 
 
@@ -1206,7 +1206,7 @@ distractor1: A rock band.
 distractor2: A dance band.
 distractor(unsure): None of above.
 label: 2
-choice_list: A rock band. A dance band. A rubber band. None of above.
+choice_list: A rock band;; A dance band;; A rubber band;; None of above;;
 choice_order: 1, 2, 0, 3
 
 
@@ -1218,7 +1218,7 @@ distractor1: A pencil box.
 distractor2: A cigar box.
 distractor(unsure): None of above.
 label: 0
-choice_list: A checkbox. A pencil box. A cigar box. None of above.
+choice_list: A checkbox;; A pencil box;; A cigar box;; None of above;;
 choice_order: 0, 1, 2, 3
 
 
@@ -1230,7 +1230,7 @@ distractor1: Recliner.
 distractor2: Chaise.
 distractor(unsure): None of above.
 label: 1
-choice_list: Chaise. Lounger. Recliner. None of above.
+choice_list: Chaise;; Lounger;; Recliner;; None of above;;
 choice_order: 2, 0, 1, 3
 
 
@@ -1242,7 +1242,7 @@ distractor1: Recliner.
 distractor2: Chaise.
 distractor(unsure): None of above.
 label: 1
-choice_list: Recliner. Lounger. Chaise. None of above.
+choice_list: Recliner;; Lounger;; Chaise;; None of above;;
 choice_order: 1, 0, 2, 3
 
 
@@ -1254,7 +1254,7 @@ distractor1: Small.
 distractor2: Brief.
 distractor(unsure): None of above.
 label: 2
-choice_list: Small. Brief. Short. None of above.
+choice_list: Small;; Brief;; Short;; None of above;;
 choice_order: 1, 2, 0, 3
 
 
@@ -1266,7 +1266,7 @@ distractor1: Corgi.
 distractor2: Husky.
 distractor(unsure): None of above.
 label: 2
-choice_list: Corgi. Husky. Trumpet. None of above.
+choice_list: Corgi;; Husky;; Trumpet;; None of above;;
 choice_order: 1, 2, 0, 3
 
 
@@ -1278,7 +1278,7 @@ distractor1: Corgi.
 distractor2: Husky.
 distractor(unsure): None of above.
 label: 0
-choice_list: Trumpet. Husky. Corgi. None of above.
+choice_list: Trumpet;; Husky;; Corgi;; None of above;;
 choice_order: 0, 2, 1, 3
 
 
@@ -1290,7 +1290,7 @@ distractor1: Corgi.
 distractor2: Husky.
 distractor(unsure): None of above.
 label: 0
-choice_list: Carpet. Husky. Corgi. None of above.
+choice_list: Carpet;; Husky;; Corgi;; None of above;;
 choice_order: 0, 2, 1, 3
 
 
@@ -1302,7 +1302,7 @@ distractor1: Take away the 'e'.
 distractor2: Take away the 'i'.
 distractor(unsure): None of above.
 label: 0
-choice_list: Take away the 'p'. Take away the 'e'. Take away the 'i'. None of above.
+choice_list: Take away the 'p';; Take away the 'e';; Take away the 'i';; None of above;;
 choice_order: 0, 1, 2, 3
 
 
@@ -1314,7 +1314,7 @@ distractor1: Take away the 'e'.
 distractor2: Take away the 'i'.
 distractor(unsure): None of above.
 label: 1
-choice_list: Take away the 'i'. Take away the 'p'. Take away the 'e'. None of above.
+choice_list: Take away the 'i';; Take away the 'p';; Take away the 'e';; None of above;;
 choice_order: 2, 0, 1, 3
 
 
@@ -1326,7 +1326,7 @@ distractor1: Take away the 'e'.
 distractor2: Take away the 'r'.
 distractor(unsure): None of above.
 label: 2
-choice_list: Take away the 'e'. Take away the 'r'. Take away the 'm'. None of above.
+choice_list: Take away the 'e';; Take away the 'r';; Take away the 'm';; None of above;;
 choice_order: 1, 2, 0, 3
 
 
@@ -1338,7 +1338,7 @@ distractor1: Monday, Tuesday, Wednesday and Thursday.
 distractor2: Tuesday, Wednesday,Thursday and Friday.
 distractor(unsure): None of above.
 label: 1
-choice_list: Monday, Tuesday, Wednesday and Thursday. Tuesday, Thursday, Today and Tomorrow. Tuesday, Wednesday,Thursday and Friday. None of above.
+choice_list: Monday, Tuesday, Wednesday and Thursday;; Tuesday, Thursday, Today and Tomorrow;; Tuesday, Wednesday,Thursday and Friday;; None of above;;
 choice_order: 1, 0, 2, 3
 
 
@@ -1350,7 +1350,7 @@ distractor1: Monday, Tuesday, Wednesday and Thursday.
 distractor2: Tuesday, Wednesday,Thursday and Friday.
 distractor(unsure): None of above.
 label: 2
-choice_list: Monday, Tuesday, Wednesday and Thursday. Tuesday, Wednesday,Thursday and Friday. Tuesday, Thursday, Today and Tomorrow, None of above.
+choice_list: Monday, Tuesday, Wednesday and Thursday;; Tuesday, Wednesday,Thursday and Friday;; Tuesday, Thursday, Today and Tomorrow, None of above;;
 choice_order: 1, 2, 0, 3
 
 
@@ -1362,7 +1362,7 @@ distractor1: Monday.
 distractor2: Friday.
 distractor(unsure): None of above.
 label: 0
-choice_list: Yesterday. Friday. Monday. None of above.
+choice_list: Yesterday;; Friday;; Monday;; None of above;;
 choice_order: 0, 2, 1, 3
 
 
@@ -1374,7 +1374,7 @@ distractor1: Salmon.
 distractor2: Bass.
 distractor(unsure): None of above.
 label: 0
-choice_list: Catfish. Salmon. Bass. None of above.
+choice_list: Catfish;; Salmon;; Bass;; None of above;;
 choice_order: 0, 1, 2, 3
 
 
@@ -1386,7 +1386,7 @@ distractor1: Salmon.
 distractor2: Bass.
 distractor(unsure): None of above.
 label: 0
-choice_list: Catfish. Bass. Salmon. None of above.
+choice_list: Catfish;; Bass;; Salmon;; None of above;;
 choice_order: 0, 2, 1, 3
 
 
@@ -1398,7 +1398,7 @@ distractor1: Corgi.
 distractor2: Husky.
 distractor(unsure): None of above.
 label: 1
-choice_list: Husky. Hotdog. Corgi. None of above.
+choice_list: Husky;; Hotdog;; Corgi;; None of above;;
 choice_order: 2, 0, 1, 3
 
 
@@ -1410,7 +1410,7 @@ distractor1: Each word in Wall's World must contain less than seven letters.
 distractor2: Each word in Wall's World must contain more than four letters.
 distractor(unsure): None of above.
 label: 2
-choice_list: Each word in Wall's World must contain less than seven letters. Each word in Wall's World must contain more than four letters. Each word in Wall's World must contain double letters. None of above.
+choice_list: Each word in Wall's World must contain less than seven letters;; Each word in Wall's World must contain more than four letters;; Each word in Wall's World must contain double letters;; None of above;;
 choice_order: 1, 2, 0, 3
 
 
@@ -1422,7 +1422,7 @@ distractor1: Each word in Wall's World must contain less than seven letters.
 distractor2: Each word in Wall's World must contain more than four letters.
 distractor(unsure): None of above.
 label: 1
-choice_list: Each word in Wall's World must contain more than four letters. Each word in Wall's World must contain double letters. Each word in Wall's World must contain less than seven letters. None of above.
+choice_list: Each word in Wall's World must contain more than four letters;; Each word in Wall's World must contain double letters;; Each word in Wall's World must contain less than seven letters;; None of above;;
 choice_order: 2, 0, 1, 3
 
 
@@ -1434,7 +1434,7 @@ distractor1: Each word in Wall's World must contain less than seven letters.
 distractor2: Each word in Wall's World must contain more than four letters.
 distractor(unsure): None of above.
 label: 1
-choice_list: Each word in Wall's World must contain more than four letters. Each word in Wall's World must be symmetry. Each word in Wall's World must contain less than seven letters. None of above.
+choice_list: Each word in Wall's World must contain more than four letters;; Each word in Wall's World must be symmetry;; Each word in Wall's World must contain less than seven letters;; None of above;;
 choice_order: 2, 0, 1, 3
 
 
@@ -1446,7 +1446,7 @@ distractor1: Two letter I.
 distractor2: I am right next to myself.
 distractor(unsure): None of above.
 label: 2
-choice_list: I am right next to myself. Two letter I. Right between the eyes. None of above.
+choice_list: I am right next to myself;; Two letter I;; Right between the eyes;; None of above;;
 choice_order: 2, 1, 0, 3
 
 
@@ -1458,7 +1458,7 @@ distractor1: Two letter I.
 distractor2: I am right next to myself.
 distractor(unsure): None of above.
 label: 1
-choice_list: Two letter I. Right between the eyes. I am right next to myself. None of above.
+choice_list: Two letter I;; Right between the eyes;; I am right next to myself;; None of above;;
 choice_order: 1, 0, 2, 3
 
 
@@ -1470,7 +1470,7 @@ distractor1: The word 'UINMYI'.
 distractor2: Letter U is inside my letter I.
 distractor(unsure): None of above.
 label: 2
-choice_list: The word 'UINMYI'. Letter U is inside my letter I. You in my eye. None of above.
+choice_list: The word 'UINMYI';; Letter U is inside my letter I;; You in my eye;; None of above;;
 choice_order: 1, 2, 0, 3
 
 
@@ -1482,7 +1482,7 @@ distractor1: The word "false".
 distractor2: The word "wrong".
 distractor(unsure): None of above.
 label: 0
-choice_list: The word "incorrectly". The word "false". The word "wrong". None of above.
+choice_list: The word "incorrectly";; The word "false";; The word "wrong";; None of above;;
 choice_order: 0, 1, 2, 3
 
 
@@ -1494,7 +1494,7 @@ distractor1: The word "false".
 distractor2: The word "wrong".
 distractor(unsure): None of above.
 label: 0
-choice_list: The word "incorrectly". The word "false". The word "wrong". None of above.
+choice_list: The word "incorrectly";; The word "false";; The word "wrong";; None of above;;
 choice_order: 0, 1, 2, 3
 
 
@@ -1506,7 +1506,7 @@ distractor1: The word "false".
 distractor2: The word "wrong".
 distractor(unsure): None of above.
 label: 1
-choice_list: The word "false". The word "misspelled". The word "wrong". None of above.
+choice_list: The word "false";; The word "misspelled";; The word "wrong";; None of above;;
 choice_order: 1, 0, 2, 3
 
 
@@ -1518,7 +1518,7 @@ distractor1: T H U.
 distractor2: M F S.
 distractor(unsure): None of above.
 label: 1
-choice_list: T H U. DAY. M F S. None of above.
+choice_list: T H U;; DAY;; M F S;; None of above;;
 choice_order: 1, 0, 2, 3
 
 
@@ -1530,7 +1530,7 @@ distractor1: T H U.
 distractor2: M F S.
 distractor(unsure): None of above.
 label: 1
-choice_list: M F S. DAY. T H U. None of above.
+choice_list: M F S;; DAY;; T H U;; None of above;;
 choice_order: 2, 0, 1, 3
 
 
@@ -1542,7 +1542,7 @@ distractor1: F O O D.
 distractor2: M O R N.
 distractor(unsure): None of above.
 label: 1
-choice_list: M O R N. N I N G. F O O D. None of above.
+choice_list: M O R N;; N I N G;; F O O D;; None of above;;
 choice_order: 2, 0, 1, 3
 
 
@@ -1554,7 +1554,7 @@ distractor1: In the middle of red house and blue house.
 distractor2: On the right of red house.
 distractor(unsure): None of above.
 label: 1
-choice_list: On the right of red house. In Washington, D.C. In the middle of red house and blue house. None of above.
+choice_list: On the right of red house;; In Washington, D.C;; In the middle of red house and blue house;; None of above;;
 choice_order: 2, 0, 1, 3
 
 
@@ -1566,7 +1566,7 @@ distractor1: In the middle of red house and blue house.
 distractor2: On the right of red house.
 distractor(unsure): None of above.
 label: 1
-choice_list: On the right of red house. In Washington, D.C. In the middle of red house and blue house. None of above.
+choice_list: On the right of red house;; In Washington, D.C;; In the middle of red house and blue house;; None of above;;
 choice_order: 2, 0, 1, 3
 
 
@@ -1578,7 +1578,7 @@ distractor1: In the middle of England and Japan.
 distractor2: Also in Japan.
 distractor(unsure): None of above.
 label: 1
-choice_list: Also in Japan. In Canada. In the middle of England and Japan. None of above.
+choice_list: Also in Japan;; In Canada;; In the middle of England and Japan;; None of above;;
 choice_order: 2, 0, 1, 3
 
 
@@ -1590,7 +1590,7 @@ distractor1: The letter E.
 distractor2: The letter I.
 distractor(unsure): None of above.
 label: 2
-choice_list: The letter I. The letter E. The letter S. None of above.
+choice_list: The letter I;; The letter E;; The letter S;; None of above;;
 choice_order: 2, 1, 0, 3
 
 
@@ -1602,7 +1602,7 @@ distractor1: The letter E.
 distractor2: The letter I.
 distractor(unsure): None of above.
 label: 2
-choice_list: The letter I. The letter E. The letter S. None of above.
+choice_list: The letter I;; The letter E;; The letter S;; None of above;;
 choice_order: 2, 1, 0, 3
 
 
@@ -1614,7 +1614,7 @@ distractor1: The letter S.
 distractor2: The letter I.
 distractor(unsure): None of above.
 label: 2
-choice_list: The letter I. The letter S. The letter E. None of above.
+choice_list: The letter I;; The letter S;; The letter E;; None of above;;
 choice_order: 2, 1, 0, 3
 
 
@@ -1626,7 +1626,7 @@ distractor1: A restroom.
 distractor2: A classroom.
 distractor(unsure): None of above.
 label: 0
-choice_list: A mushroom, A restroom. A classroom. None of above.
+choice_list: A mushroom, A restroom;; A classroom;; None of above;;
 choice_order: 0, 1, 2, 3
 
 
@@ -1638,7 +1638,7 @@ distractor1: A restroom.
 distractor2: A classroom.
 distractor(unsure): None of above.
 label: 0
-choice_list: A mushroom, A restroom. A classroom. None of above.
+choice_list: A mushroom, A restroom;; A classroom;; None of above;;
 choice_order: 0, 1, 2, 3
 
 
@@ -1650,7 +1650,7 @@ distractor1: Gold key.
 distractor2: Car key.
 distractor(unsure): None of above.
 label: 2
-choice_list: Gold key. Car key. Monkey. None of above.
+choice_list: Gold key;; Car key;; Monkey;; None of above;;
 choice_order: 1, 2, 0, 3
 
 
@@ -1662,7 +1662,7 @@ distractor1: T U V.
 distractor2: F F T.
 distractor(unsure): None of above.
 label: 2
-choice_list: F F T. T U V. E N T. None of above.
+choice_list: F F T;; T U V;; E N T;; None of above;;
 choice_order: 2, 1, 0, 3
 
 
@@ -1674,7 +1674,7 @@ distractor1: T U V.
 distractor2: F F T.
 distractor(unsure): None of above.
 label: 1
-choice_list: T U V. E N T. F F T. None of above.
+choice_list: T U V;; E N T;; F F T;; None of above;;
 choice_order: 1, 0, 2, 3
 
 
@@ -1686,7 +1686,7 @@ distractor1: Z.
 distractor2: E.
 distractor(unsure): None of above.
 label: 1
-choice_list: E. O. Z. None of above.
+choice_list: E;; O;; Z;; None of above;;
 choice_order: 2, 0, 1, 3
 
 
@@ -1698,7 +1698,7 @@ distractor1: The letter 'M'.
 distractor2: The letter 'R'.
 distractor(unsure): None of above.
 label: 2
-choice_list: The letter 'M'. The letter 'R'. The letter 'N'. None of above.
+choice_list: The letter 'M';; The letter 'R';; The letter 'N';; None of above;;
 choice_order: 1, 2, 0, 3
 
 
@@ -1710,7 +1710,7 @@ distractor1: The letter 'M'.
 distractor2: The letter 'R'.
 distractor(unsure): None of above.
 label: 1
-choice_list: The letter 'R'. The letter 'N'. The letter 'M'. None of above.
+choice_list: The letter 'R';; The letter 'N';; The letter 'M';; None of above;;
 choice_order: 2, 0, 1, 3
 
 
@@ -1722,7 +1722,7 @@ distractor1: The letter 'M'.
 distractor2: The letter 'S'.
 distractor(unsure): None of above.
 label: 1
-choice_list: The letter 'M'. The letter 'R'. The letter 'S'. None of above.
+choice_list: The letter 'M';; The letter 'R';; The letter 'S';; None of above;;
 choice_order: 1, 0, 2, 3
 
 
@@ -1734,7 +1734,7 @@ distractor1: In woodland.
 distractor2: In farmland.
 distractor(unsure): None of above.
 label: 2
-choice_list: In farmland. In woodland. In Finland. None of above.
+choice_list: In farmland;; In woodland;; In Finland;; None of above;;
 choice_order: 2, 1, 0, 3
 
 
@@ -1746,7 +1746,7 @@ distractor1: In woodland.
 distractor2: In farmland.
 distractor(unsure): None of above.
 label: 2
-choice_list: In woodland. In farmland. In Finland. None of above.
+choice_list: In woodland;; In farmland;; In Finland;; None of above;;
 choice_order: 1, 2, 0, 3
 
 
@@ -1758,7 +1758,7 @@ distractor1: Prologue.
 distractor2: Cadenza.
 distractor(unsure): None of above.
 label: 2
-choice_list: Cadenza. Prologue. Finale. None of above.
+choice_list: Cadenza;; Prologue;; Finale;; None of above;;
 choice_order: 2, 1, 0, 3
 
 
@@ -1770,7 +1770,7 @@ distractor1: As long as the height of lady.
 distractor2: As big as the age of lady.
 distractor(unsure): None of above.
 label: 0
-choice_list: A little above two feet. As big as the age of lady. As long as the height of lady. None of above.
+choice_list: A little above two feet;; As big as the age of lady;; As long as the height of lady;; None of above;;
 choice_order: 0, 2, 1, 3
 
 
@@ -1782,7 +1782,7 @@ distractor1: As long as the height of lady.
 distractor2: As big as the age of lady.
 distractor(unsure): None of above.
 label: 2
-choice_list: As long as the height of lady. As big as the age of lady. A little above two feet. None of above.
+choice_list: As long as the height of lady;; As big as the age of lady;; A little above two feet;; None of above;;
 choice_order: 1, 2, 0, 3
 
 
@@ -1794,7 +1794,7 @@ distractor1: As long as the height of people.
 distractor2: As big as the age of people.
 distractor(unsure): None of above.
 label: 1
-choice_list: As big as the age of people. A little more than one feet. As long as the height of people. None of above.
+choice_list: As big as the age of people;; A little more than one feet;; As long as the height of people;; None of above;;
 choice_order: 2, 0, 1, 3
 
 
@@ -1806,7 +1806,7 @@ distractor1: Mr. White.
 distractor2: Mr. Red, Mrs Pink and Mrs Blue share the house.
 distractor(unsure): Mrs. Pink.
 label: 3
-choice_list: Mr. White. Mrs. Pink. Mr. Red, Mrs Pink and Mrs Blue share the house. None of above.
+choice_list: Mr. White;; Mrs. Pink;; Mr. Red, Mrs Pink and Mrs Blue share the house;; None of above;;
 choice_order: 1, 3, 2, 0
 
 
@@ -1818,7 +1818,7 @@ distractor1: Mr. White.
 distractor2: Mr. Red, Mrs Pink and Mrs Blue share the house.
 distractor(unsure): Mrs. Pink.
 label: 3
-choice_list: Mr. White. Mrs. Pink. Mr. Red, Mrs Pink and Mrs Blue share the house. None of above.
+choice_list: Mr. White;; Mrs. Pink;; Mr. Red, Mrs Pink and Mrs Blue share the house;; None of above;;
 choice_order: 1, 3, 2, 0
 
 
@@ -1830,7 +1830,7 @@ distractor1: Mr. Five.
 distractor2: Mr. Three, Mrs Four and Mrs Five share the house.
 distractor(unsure): Mrs. Three.
 label: 3
-choice_list: Mrs. Three. Mr. Five. Mr. Three, Mrs Four and Mrs Five share the house. None of above.
+choice_list: Mrs. Three;; Mr. Five;; Mr. Three, Mrs Four and Mrs Five share the house;; None of above;;
 choice_order: 3, 1, 2, 0
 
 
@@ -1842,7 +1842,7 @@ distractor1: Green.
 distractor2: Mix of pink,blue and orange.
 distractor(unsure): Pink.
 label: 3
-choice_list: Mix of pink,blue and orange. Pink. Green. None of above.
+choice_list: Mix of pink,blue and orange;; Pink;; Green;; None of above;;
 choice_order: 2, 3, 1, 0
 
 
@@ -1854,7 +1854,7 @@ distractor1: Green.
 distractor2: Mix of pink,blue and orange.
 distractor(unsure): Pink.
 label: 3
-choice_list: Green. Pink. Mix of pink,blue and orange. None of above.
+choice_list: Green;; Pink;; Mix of pink,blue and orange;; None of above;;
 choice_order: 1, 3, 2, 0
 
 
@@ -1866,7 +1866,7 @@ distractor1: Brown.
 distractor2: Mix of pink,blue and yellow.
 distractor(unsure): Blue
 label: 3
-choice_list: Mix of pink,blue and yellow. Blue, Brown. None of above.
+choice_list: Mix of pink,blue and yellow;; Blue, Brown;; None of above;;
 choice_order: 2, 3, 1, 0
 
 
@@ -1878,7 +1878,7 @@ distractor1: The letter N.
 distractor2: The letter E.
 distractor(unsure): None of above.
 label: 2
-choice_list: The letter N. The letter E. The letter M. None of above.
+choice_list: The letter N;; The letter E;; The letter M;; None of above;;
 choice_order: 1, 2, 0, 3
 
 
@@ -1890,7 +1890,7 @@ distractor1: The letter N.
 distractor2: The letter E.
 distractor(unsure): None of above.
 label: 0
-choice_list: The letter M. The letter N. The letter E. None of above.
+choice_list: The letter M;; The letter N;; The letter E;; None of above;;
 choice_order: 0, 1, 2, 3
 
 
@@ -1902,7 +1902,7 @@ distractor1: Consonant.
 distractor2: Diphthong.
 distractor(unsure): None of above.
 label: 1
-choice_list: Consonant. Vowels. Diphthong. None of above.
+choice_list: Consonant;; Vowels;; Diphthong;; None of above;;
 choice_order: 1, 0, 2, 3
 
 
@@ -1914,7 +1914,7 @@ distractor1: In the physical book.
 distractor2: In a biography.
 distractor(unsure): None of above.
 label: 0
-choice_list: In the dictionary. In a biography. In the physical book. None of above.
+choice_list: In the dictionary;; In a biography;; In the physical book;; None of above;;
 choice_order: 0, 2, 1, 3
 
 
@@ -1926,7 +1926,7 @@ distractor1: In the physical book.
 distractor2: In a biography.
 distractor(unsure): None of above.
 label: 0
-choice_list: In the dictionary. In a biography. In the physical book. None of above.
+choice_list: In the dictionary;; In a biography;; In the physical book;; None of above;;
 choice_order: 0, 2, 1, 3
 
 
@@ -1938,7 +1938,7 @@ distractor1: In holiday.
 distractor2: In North Pole.
 distractor(unsure): None of above.
 label: 0
-choice_list: In the dictionary. In holiday. In North Pole. None of above.
+choice_list: In the dictionary;; In holiday;; In North Pole;; None of above;;
 choice_order: 0, 1, 2, 3
 
 
@@ -1950,7 +1950,7 @@ distractor1: Drop the "E".
 distractor2: Drop the "N".
 distractor(unsure): None of above.
 label: 2
-choice_list: Drop the "N". Drop the "E". Drop the "S". None of above.
+choice_list: Drop the "N";; Drop the "E";; Drop the "S";; None of above;;
 choice_order: 2, 1, 0, 3
 
 
@@ -1962,7 +1962,7 @@ distractor1: Drop the "E".
 distractor2: Drop the "N".
 distractor(unsure): None of above.
 label: 0
-choice_list: Drop the "S". Drop the "E". Drop the "N". None of above.
+choice_list: Drop the "S";; Drop the "E";; Drop the "N";; None of above;;
 choice_order: 0, 1, 2, 3
 
 
@@ -1974,7 +1974,7 @@ distractor1: Drop the "en".
 distractor2: Drop the "e".
 distractor(unsure): None of above.
 label: 0
-choice_list: Drop the "el", Drop the "e". Drop the "en". None of above.
+choice_list: Drop the "el", Drop the "e";; Drop the "en";; None of above;;
 choice_order: 0, 2, 1, 3
 
 
@@ -1986,7 +1986,7 @@ distractor1: C' and 'A'.
 distractor2: A' and 'Y'.
 distractor(unsure): None of above.
 label: 1
-choice_list: C' and 'A'. C' and 'Y'. A' and 'Y'. None of above.
+choice_list: C' and 'A';; C' and 'Y';; A' and 'Y';; None of above;;
 choice_order: 1, 0, 2, 3
 
 
@@ -1998,7 +1998,7 @@ distractor1: C' and 'A'.
 distractor2: A' and 'Y'.
 distractor(unsure): None of above.
 label: 2
-choice_list: C' and 'A'. A' and 'Y'. C' and 'Y'. None of above.
+choice_list: C' and 'A';; A' and 'Y';; C' and 'Y';; None of above;;
 choice_order: 1, 2, 0, 3
 
 
@@ -2010,7 +2010,7 @@ distractor1: P' (OR) 'O'.
 distractor2: O' (OR) 'K'.
 distractor(unsure): None of above.
 label: 1
-choice_list: P' (OR) 'O'. P' (OR) 'K'. O' (OR) 'K'. None of above.
+choice_list: P' (OR) 'O';; P' (OR) 'K';; O' (OR) 'K';; None of above;;
 choice_order: 1, 0, 2, 3
 
 
@@ -2022,7 +2022,7 @@ distractor1: HAW.
 distractor2: HHO.
 distractor(unsure): None of above.
 label: 1
-choice_list: HHO. ICE. HAW. None of above.
+choice_list: HHO;; ICE;; HAW;; None of above;;
 choice_order: 2, 0, 1, 3
 
 
@@ -2034,7 +2034,7 @@ distractor1: HAW.
 distractor2: HHO.
 distractor(unsure): None of above.
 label: 2
-choice_list: HAW. HHO. ICE. None of above.
+choice_list: HAW;; HHO;; ICE;; None of above;;
 choice_order: 1, 2, 0, 3
 
 
@@ -2046,7 +2046,7 @@ distractor1: HOTWA.
 distractor2: HOTHO.
 distractor(unsure): None of above.
 label: 1
-choice_list: HOTWA. VAPOR. HOTHO. None of above.
+choice_list: HOTWA;; VAPOR;; HOTHO;; None of above;;
 choice_order: 1, 0, 2, 3
 
 
@@ -2058,7 +2058,7 @@ distractor1: The word 'peace'.
 distractor2: The word 'love'.
 distractor(unsure): None of above.
 label: 2
-choice_list: The word 'love'. The word 'peace'. The word 'and'. None of above.
+choice_list: The word 'love';; The word 'peace';; The word 'and';; None of above;;
 choice_order: 2, 1, 0, 3
 
 
@@ -2070,7 +2070,7 @@ distractor1: The word 'peace'.
 distractor2: The word 'love'.
 distractor(unsure): None of above.
 label: 1
-choice_list: The word 'peace'. The word 'and'. The word 'love'. None of above.
+choice_list: The word 'peace';; The word 'and';; The word 'love';; None of above;;
 choice_order: 1, 0, 2, 3
 
 
@@ -2082,7 +2082,7 @@ distractor1: The word 'foot'.
 distractor2: The word 'volley'.
 distractor(unsure): None of above.
 label: 1
-choice_list: The word 'foot'. The word 'and'. The word 'volley'. None of above.
+choice_list: The word 'foot';; The word 'and';; The word 'volley';; None of above;;
 choice_order: 1, 0, 2, 3
 
 
@@ -2094,7 +2094,7 @@ distractor1: One letter for each stable. [H][O][R] [S][E][S][H][O][R].
 distractor2: One letter for each stable. [H][H][H] [H][H][H][H][H][H].
 distractor(unsure): None of above.
 label: 1
-choice_list: One letter for each stable. [H][O][R] [S][E][S][H][O][R]. One letter for each stable. [T][E][N] [H][O][R][S][E][S]. One letter for each stable. [H][H][H] [H][H][H][H][H][H]. None of above.
+choice_list: One letter for each stable. [H][O][R] [S][E][S][H][O][R];; One letter for each stable. [T][E][N] [H][O][R][S][E][S];; One letter for each stable. [H][H][H] [H][H][H][H][H][H];; None of above;;
 choice_order: 1, 0, 2, 3
 
 
@@ -2106,7 +2106,7 @@ distractor1: One letter for each stable. [H][O][R] [S][E][S][H][O][R].
 distractor2: One letter for each stable. [H][H][H] [H][H][H][H][H][H].
 distractor(unsure): None of above.
 label: 0
-choice_list: One letter for each stable. [T][E][N] [H][O][R][S][E][S], One letter for each stable. [H][O][R] [S][E][S][H][O][R]. One letter for each stable. [H][H][H] [H][H][H][H][H][H]. None of above.
+choice_list: One letter for each stable. [T][E][N] [H][O][R][S][E][S], One letter for each stable. [H][O][R] [S][E][S][H][O][R];; One letter for each stable. [H][H][H] [H][H][H][H][H][H];; None of above;;
 choice_order: 0, 1, 2, 3
 
 
@@ -2118,7 +2118,7 @@ distractor1: One letter on each chair: [b][o][y][b][o][y][b][o][y][b][o][y].
 distractor2: One letter on each chair: [b][b][b][b][b][b][b][b][b][b][b][b].
 distractor(unsure): None of above.
 label: 0
-choice_list: One letter on each chair: [t][h][i][r][t][e][e][n][b][o][y][s], One letter on each chair: [b][o][y][b][o][y][b][o][y][b][o][y]. One letter on each chair: [b][b][b][b][b][b][b][b][b][b][b][b]. None of above.
+choice_list: One letter on each chair: [t][h][i][r][t][e][e][n][b][o][y][s], One letter on each chair: [b][o][y][b][o][y][b][o][y][b][o][y];; One letter on each chair: [b][b][b][b][b][b][b][b][b][b][b][b];; None of above;;
 choice_order: 0, 1, 2, 3
 
 
@@ -2130,7 +2130,7 @@ distractor1: The letters V and S.
 distractor2: The letters V and I.
 distractor(unsure): None of above.
 label: 0
-choice_list: The letters I and S. The letters V and S. The letters V and I. None of above.
+choice_list: The letters I and S;; The letters V and S;; The letters V and I;; None of above;;
 choice_order: 0, 1, 2, 3
 
 
@@ -2142,7 +2142,7 @@ distractor1: The letters V and S.
 distractor2: The letters V and I.
 distractor(unsure): None of above.
 label: 1
-choice_list: The letters V and I. The letters I and S. The letters V and S. None of above.
+choice_list: The letters V and I;; The letters I and S;; The letters V and S;; None of above;;
 choice_order: 2, 0, 1, 3
 
 
@@ -2154,7 +2154,7 @@ distractor1: The letters U and S.
 distractor2: The letters R and U.
 distractor(unsure): None of above.
 label: 0
-choice_list: The letters S and H. The letters R and U. The letters U and S. None of above.
+choice_list: The letters S and H;; The letters R and U;; The letters U and S;; None of above;;
 choice_order: 0, 2, 1, 3
 
 
@@ -2166,7 +2166,7 @@ distractor1: The letter T.
 distractor2: The letter E.
 distractor(unsure): None of above.
 label: 2
-choice_list: The letter T. The letter E. The letter G. None of above.
+choice_list: The letter T;; The letter E;; The letter G;; None of above;;
 choice_order: 1, 2, 0, 3
 
 
@@ -2178,7 +2178,7 @@ distractor1: The letter T.
 distractor2: The letter E.
 distractor(unsure): None of above.
 label: 2
-choice_list: The letter E. The letter T. The letter G. None of above.
+choice_list: The letter E;; The letter T;; The letter G;; None of above;;
 choice_order: 2, 1, 0, 3
 
 
@@ -2190,7 +2190,7 @@ distractor1: The letter T.
 distractor2: The letter G.
 distractor(unsure): None of above.
 label: 2
-choice_list: The letter T. The letter G. The letter E, None of above.
+choice_list: The letter T;; The letter G;; The letter E, None of above;;
 choice_order: 1, 2, 0, 3
 
 
@@ -2202,7 +2202,7 @@ distractor1: The letter A.
 distractor2: The letter I.
 distractor(unsure): None of above.
 label: 0
-choice_list: The letter R. The letter A. The letter I. None of above.
+choice_list: The letter R;; The letter A;; The letter I;; None of above;;
 choice_order: 0, 1, 2, 3
 
 
@@ -2214,7 +2214,7 @@ distractor1: The letter A.
 distractor2: The letter I.
 distractor(unsure): None of above.
 label: 0
-choice_list: The letter R. The letter I. The letter A. None of above.
+choice_list: The letter R;; The letter I;; The letter A;; None of above;;
 choice_order: 0, 2, 1, 3
 
 
@@ -2226,7 +2226,7 @@ distractor1: The letter E.
 distractor2: The letter R.
 distractor(unsure): None of above.
 label: 2
-choice_list: The letter R. The letter E. The letter L. None of above.
+choice_list: The letter R;; The letter E;; The letter L;; None of above;;
 choice_order: 2, 1, 0, 3
 
 
@@ -2238,7 +2238,7 @@ distractor1: There are 22 letters.
 distractor2: There are 25 letters.
 distractor(unsure): None of above.
 label: 2
-choice_list: There are 22 letters. There are 25 letters. There are 11 letters. None of above.
+choice_list: There are 22 letters;; There are 25 letters;; There are 11 letters;; None of above;;
 choice_order: 1, 2, 0, 3
 
 
@@ -2250,7 +2250,7 @@ distractor1: There are 22 letters.
 distractor2: There are 25 letters.
 distractor(unsure): None of above.
 label: 1
-choice_list: There are 25 letters. There are 11 letters. There are 22 letters. None of above.
+choice_list: There are 25 letters;; There are 11 letters;; There are 22 letters;; None of above;;
 choice_order: 2, 0, 1, 3
 
 
@@ -2262,7 +2262,7 @@ distractor1: There are 26 letters.
 distractor2: There are 25 letters.
 distractor(unsure): None of above.
 label: 1
-choice_list: There are 25 letters. There are 8 letters. There are 26 letters. None of above.
+choice_list: There are 25 letters;; There are 8 letters;; There are 26 letters;; None of above;;
 choice_order: 2, 0, 1, 3
 
 
@@ -2274,7 +2274,7 @@ distractor1: Police Office.
 distractor2: Government Office.
 distractor(unsure): None of above.
 label: 1
-choice_list: Police Office. Post Office. Government Office. None of above.
+choice_list: Police Office;; Post Office;; Government Office;; None of above;;
 choice_order: 1, 0, 2, 3
 
 
@@ -2286,7 +2286,7 @@ distractor1: Police Office.
 distractor2: Government Office.
 distractor(unsure): None of above.
 label: 0
-choice_list: Post Office. Police Office. Government Office. None of above.
+choice_list: Post Office;; Police Office;; Government Office;; None of above;;
 choice_order: 0, 1, 2, 3
 
 
@@ -2298,7 +2298,7 @@ distractor1: Medicine.
 distractor2: Marriage.
 distractor(unsure): None of above.
 label: 1
-choice_list: Marriage. Movie. Medicine. None of above.
+choice_list: Marriage;; Movie;; Medicine;; None of above;;
 choice_order: 2, 0, 1, 3
 
 
@@ -2310,7 +2310,7 @@ distractor1: Milk and bread.
 distractor2: Turkey.
 distractor(unsure): None of above.
 label: 0
-choice_list: Lunch and dinner. Milk and bread. Turkey. None of above.
+choice_list: Lunch and dinner;; Milk and bread;; Turkey;; None of above;;
 choice_order: 0, 1, 2, 3
 
 
@@ -2322,7 +2322,7 @@ distractor1: Milk and bread.
 distractor2: Turkey.
 distractor(unsure): None of above.
 label: 0
-choice_list: Lunch and dinner. Milk and bread. Turkey. None of above.
+choice_list: Lunch and dinner;; Milk and bread;; Turkey;; None of above;;
 choice_order: 0, 1, 2, 3
 
 
@@ -2334,7 +2334,7 @@ distractor1: School bus.
 distractor2: Pizza delivery.
 distractor(unsure): None of above.
 label: 1
-choice_list: Pizza delivery. Evening, School bus. None of above.
+choice_list: Pizza delivery;; Evening, School bus;; None of above;;
 choice_order: 2, 0, 1, 3
 
 
@@ -2346,7 +2346,7 @@ distractor1: Apples.
 distractor2: Oranges.
 distractor(unsure): None of above.
 label: 0
-choice_list: Pears. Oranges. Apples. None of above.
+choice_list: Pears;; Oranges;; Apples;; None of above;;
 choice_order: 0, 2, 1, 3
 
 
@@ -2358,7 +2358,7 @@ distractor1: Apples.
 distractor2: Oranges.
 distractor(unsure): None of above.
 label: 1
-choice_list: Apples. Pears. Oranges. None of above.
+choice_list: Apples;; Pears;; Oranges;; None of above;;
 choice_order: 1, 0, 2, 3
 
 
@@ -2370,7 +2370,7 @@ distractor1: Spring.
 distractor2: Summer.
 distractor(unsure): None of above.
 label: 1
-choice_list: Spring. Autumn. Summer. None of above.
+choice_list: Spring;; Autumn;; Summer;; None of above;;
 choice_order: 1, 0, 2, 3
 
 
@@ -2382,7 +2382,7 @@ distractor1: Add the letter L.
 distractor2: Add the letter F.
 distractor(unsure): None of above.
 label: 0
-choice_list: Add the letter B. Add the letter F. Add the letter L. None of above.
+choice_list: Add the letter B;; Add the letter F;; Add the letter L;; None of above;;
 choice_order: 0, 2, 1, 3
 
 
@@ -2394,7 +2394,7 @@ distractor1: Add the letter L.
 distractor2: Add the letter F.
 distractor(unsure): None of above.
 label: 2
-choice_list: Add the letter L. Add the letter F. Add the letter B. None of above.
+choice_list: Add the letter L;; Add the letter F;; Add the letter B;; None of above;;
 choice_order: 1, 2, 0, 3
 
 
@@ -2406,7 +2406,7 @@ distractor1: Drop the letter E.
 distractor2: Drop the letter T.
 distractor(unsure): None of above.
 label: 2
-choice_list: Drop the letter E. Drop the letter T. Drop the letter H. None of above.
+choice_list: Drop the letter E;; Drop the letter T;; Drop the letter H;; None of above;;
 choice_order: 1, 2, 0, 3
 
 
@@ -2418,7 +2418,7 @@ distractor1: Leftside.
 distractor2: Rightside.
 distractor(unsure): None of above.
 label: 0
-choice_list: Outside. Leftside. Rightside. None of above.
+choice_list: Outside;; Leftside;; Rightside;; None of above;;
 choice_order: 0, 1, 2, 3
 
 
@@ -2430,7 +2430,7 @@ distractor1: Leftside.
 distractor2: Rightside.
 distractor(unsure): None of above.
 label: 2
-choice_list: Leftside. Rightside. Outside. None of above.
+choice_list: Leftside;; Rightside;; Outside;; None of above;;
 choice_order: 1, 2, 0, 3
 
 
@@ -2442,7 +2442,7 @@ distractor1: Eastside.
 distractor2: Westside.
 distractor(unsure): None of above.
 label: 2
-choice_list: Eastside. Westside. Outside. None of above.
+choice_list: Eastside;; Westside;; Outside;; None of above;;
 choice_order: 1, 2, 0, 3
 
 
@@ -2454,7 +2454,7 @@ distractor1: When it is on the plane.
 distractor2: When it is delivered.
 distractor(unsure): None of above.
 label: 2
-choice_list: When it is delivered. When it is on the plane. When it becomes a french fries. None of above.
+choice_list: When it is delivered;; When it is on the plane;; When it becomes a french fries;; None of above;;
 choice_order: 2, 1, 0, 3
 
 
@@ -2466,7 +2466,7 @@ distractor1: When it is on the plane.
 distractor2: When it is delivered.
 distractor(unsure): None of above.
 label: 0
-choice_list: When it becomes a french fries. When it is delivered. When it is on the plane. None of above.
+choice_list: When it becomes a french fries;; When it is delivered;; When it is on the plane;; None of above;;
 choice_order: 0, 2, 1, 3
 
 
@@ -2478,7 +2478,7 @@ distractor1: When it is on the plane.
 distractor2: When it is delivered.
 distractor(unsure): None of above.
 label: 1
-choice_list: When it is delivered. When it becomes Italian wine. When it is on the plane. None of above.
+choice_list: When it is delivered;; When it becomes Italian wine;; When it is on the plane;; None of above;;
 choice_order: 2, 0, 1, 3
 
 
@@ -2490,7 +2490,7 @@ distractor1: Three.
 distractor2: One.
 distractor(unsure): Two.
 label: 3
-choice_list: One. Three. Two. None of above.
+choice_list: One;; Three;; Two;; None of above;;
 choice_order: 2, 1, 3, 0
 
 
@@ -2502,7 +2502,7 @@ distractor1: Three.
 distractor2: One.
 distractor(unsure): Two.
 label: 3
-choice_list: One. Two. Three. None of above.
+choice_list: One;; Two;; Three;; None of above;;
 choice_order: 2, 3, 1, 0
 
 
@@ -2514,7 +2514,7 @@ distractor1: Three.
 distractor2: Four.
 distractor(unsure): Two.
 label: 3
-choice_list: Four. Two. Three. None of above.
+choice_list: Four;; Two;; Three;; None of above;;
 choice_order: 2, 3, 1, 0
 
 
@@ -2526,7 +2526,7 @@ distractor1: Blue cheese.
 distractor2: Cheddar cheese.
 distractor(unsure): None of above.
 label: 1
-choice_list: Blue cheese. Edam cheese. Cheddar cheese. None of above.
+choice_list: Blue cheese;; Edam cheese;; Cheddar cheese;; None of above;;
 choice_order: 1, 0, 2, 3
 
 
@@ -2538,7 +2538,7 @@ distractor1: Blue cheese.
 distractor2: Cheddar cheese.
 distractor(unsure): None of above.
 label: 1
-choice_list: Cheddar cheese. Edam cheese. Blue cheese. None of above.
+choice_list: Cheddar cheese;; Edam cheese;; Blue cheese;; None of above;;
 choice_order: 2, 0, 1, 3
 
 
@@ -2550,7 +2550,7 @@ distractor1: Cheese pizza.
 distractor2: Pepperoni pizza.
 distractor(unsure): None of above.
 label: 2
-choice_list: Pepperoni pizza. Cheese pizza. Azzip pizza. None of above.
+choice_list: Pepperoni pizza;; Cheese pizza;; Azzip pizza;; None of above;;
 choice_order: 2, 1, 0, 3
 
 
@@ -2562,7 +2562,7 @@ distractor1: In a national bank.
 distractor2: In a local bank.
 distractor(unsure): None of above.
 label: 1
-choice_list: In a national bank. In a snow bank. In a local bank. None of above.
+choice_list: In a national bank;; In a snow bank;; In a local bank;; None of above;;
 choice_order: 1, 0, 2, 3
 
 
@@ -2574,7 +2574,7 @@ distractor1: In a national bank.
 distractor2: In a local bank.
 distractor(unsure): None of above.
 label: 2
-choice_list: In a local bank. In a national bank. In a snow bank. None of above.
+choice_list: In a local bank;; In a national bank;; In a snow bank;; None of above;;
 choice_order: 2, 1, 0, 3
 
 
@@ -2586,7 +2586,7 @@ distractor1: In a national bank.
 distractor2: In a local bank.
 distractor(unsure): None of above.
 label: 1
-choice_list: In a national bank. The river bank. In a local bank. None of above.
+choice_list: In a national bank;; The river bank;; In a local bank;; None of above;;
 choice_order: 1, 0, 2, 3
 
 
@@ -2598,7 +2598,7 @@ distractor1: Stawberries.
 distractor2: Blackberries
 distractor(unsure): None of above.
 label: 1
-choice_list: Blackberries, Blueberries. Stawberries. None of above.
+choice_list: Blackberries, Blueberries;; Stawberries;; None of above;;
 choice_order: 2, 0, 1, 3
 
 
@@ -2610,7 +2610,7 @@ distractor1: Stawberries.
 distractor2: Blackberries
 distractor(unsure): None of above.
 label: 0
-choice_list: Blueberries. Blackberries, Stawberries. None of above.
+choice_list: Blueberries;; Blackberries, Stawberries;; None of above;;
 choice_order: 0, 2, 1, 3
 
 
@@ -2622,7 +2622,7 @@ distractor1: Apple.
 distractor2: Nokia.
 distractor(unsure): None of above.
 label: 0
-choice_list: Blueberry. Apple. Nokia. None of above.
+choice_list: Blueberry;; Apple;; Nokia;; None of above;;
 choice_order: 0, 1, 2, 3
 
 
@@ -2634,7 +2634,7 @@ distractor1: Sugar candy.
 distractor2: White chocolate.
 distractor(unsure): None of above.
 label: 2
-choice_list: Sugar candy. White chocolate. Rock candy. None of above.
+choice_list: Sugar candy;; White chocolate;; Rock candy;; None of above;;
 choice_order: 1, 2, 0, 3
 
 
@@ -2646,7 +2646,7 @@ distractor1: Sugar candy.
 distractor2: White chocolate.
 distractor(unsure): None of above.
 label: 1
-choice_list: White chocolate. Rock candy. Sugar candy. None of above.
+choice_list: White chocolate;; Rock candy;; Sugar candy;; None of above;;
 choice_order: 2, 0, 1, 3
 
 
@@ -2658,7 +2658,7 @@ distractor1: Bowtie
 distractor2: Bolo tie.
 distractor(unsure): None of above.
 label: 0
-choice_list: Palette tie. Bowtie, Bolo tie. None of above.
+choice_list: Palette tie;; Bowtie, Bolo tie;; None of above;;
 choice_order: 0, 1, 2, 3
 
 
@@ -2670,7 +2670,7 @@ distractor1: Jazz Music.
 distractor2: Country Music.
 distractor(unsure): None of above.
 label: 2
-choice_list: Country Music. Jazz Music. Pop Music. None of above.
+choice_list: Country Music;; Jazz Music;; Pop Music;; None of above;;
 choice_order: 2, 1, 0, 3
 
 
@@ -2682,7 +2682,7 @@ distractor1: Jazz Music.
 distractor2: Country Music.
 distractor(unsure): None of above.
 label: 1
-choice_list: Country Music. Pop Music. Jazz Music. None of above.
+choice_list: Country Music;; Pop Music;; Jazz Music;; None of above;;
 choice_order: 2, 0, 1, 3
 
 
@@ -2694,7 +2694,7 @@ distractor1: Jazz Music.
 distractor2: Pop Music.
 distractor(unsure): None of above.
 label: 2
-choice_list: Pop Music. Jazz Music. Rock Music. None of above.
+choice_list: Pop Music;; Jazz Music;; Rock Music;; None of above;;
 choice_order: 2, 1, 0, 3
 
 
@@ -2706,7 +2706,7 @@ distractor1: A drunk driver.
 distractor2: An old driver.
 distractor(unsure): None of above.
 label: 1
-choice_list: An old driver. A screw driver. A drunk driver. None of above.
+choice_list: An old driver;; A screw driver;; A drunk driver;; None of above;;
 choice_order: 2, 0, 1, 3
 
 
@@ -2718,7 +2718,7 @@ distractor1: A drunk driver.
 distractor2: An old driver.
 distractor(unsure): None of above.
 label: 1
-choice_list: A drunk driver. A screw driver. An old driver. None of above.
+choice_list: A drunk driver;; A screw driver;; An old driver;; None of above;;
 choice_order: 1, 0, 2, 3
 
 
@@ -2730,7 +2730,7 @@ distractor1: A drunk driver.
 distractor2: An old driver.
 distractor(unsure): None of above.
 label: 1
-choice_list: A drunk driver. A hard driver, An old driver. None of above.
+choice_list: A drunk driver;; A hard driver, An old driver;; None of above;;
 choice_order: 1, 0, 2, 3
 
 
@@ -2742,7 +2742,7 @@ distractor1: H.
 distractor2: T.
 distractor(unsure): None of above.
 label: 0
-choice_list: G. H. T. None of above.
+choice_list: G;; H;; T;; None of above;;
 choice_order: 0, 1, 2, 3
 
 
@@ -2754,7 +2754,7 @@ distractor1: H.
 distractor2: T.
 distractor(unsure): None of above.
 label: 1
-choice_list: T. G. H. None of above.
+choice_list: T;; G;; H;; None of above;;
 choice_order: 2, 0, 1, 3
 
 
@@ -2766,7 +2766,7 @@ distractor1: Cooie.
 distractor2: C.
 distractor(unsure): None of above.
 label: 1
-choice_list: C. Coo, Cooie. None of above.
+choice_list: C;; Coo, Cooie;; None of above;;
 choice_order: 2, 0, 1, 3
 
 
@@ -2778,7 +2778,7 @@ distractor1: A chutney jam.
 distractor2: A curd jam.
 distractor(unsure): None of above.
 label: 2
-choice_list: A chutney jam. A curd jam. A traffic jam. None of above.
+choice_list: A chutney jam;; A curd jam;; A traffic jam;; None of above;;
 choice_order: 1, 2, 0, 3
 
 
@@ -2790,7 +2790,7 @@ distractor1: A chutney jam.
 distractor2: A curd jam.
 distractor(unsure): None of above.
 label: 1
-choice_list: A chutney jam. A traffic jam. A curd jam. None of above.
+choice_list: A chutney jam;; A traffic jam;; A curd jam;; None of above;;
 choice_order: 1, 0, 2, 3
 
 
@@ -2802,7 +2802,7 @@ distractor1: First Khalifeh.
 distractor2: Old Khalifeh.
 distractor(unsure): None of above.
 label: 2
-choice_list: Old Khalifeh. First Khalifeh. Burj al Khalife, None of above.
+choice_list: Old Khalifeh;; First Khalifeh;; Burj al Khalife, None of above;;
 choice_order: 2, 1, 0, 3
 
 
@@ -2814,7 +2814,7 @@ distractor1: State prison bars.
 distractor2: County prison bars.
 distractor(unsure): None of above.
 label: 0
-choice_list: Chocolate bars. State prison bars. County prison bars. None of above.
+choice_list: Chocolate bars;; State prison bars;; County prison bars;; None of above;;
 choice_order: 0, 1, 2, 3
 
 
@@ -2826,7 +2826,7 @@ distractor1: State prison bars.
 distractor2: County prison bars.
 distractor(unsure): None of above.
 label: 0
-choice_list: Chocolate bars. County prison bars. State prison bars. None of above.
+choice_list: Chocolate bars;; County prison bars;; State prison bars;; None of above;;
 choice_order: 0, 2, 1, 3
 
 
@@ -2838,7 +2838,7 @@ distractor1: A chutney jam.
 distractor2: A curd jam.
 distractor(unsure): None of above.
 label: 1
-choice_list: A curd jam. Traffic jam. A chutney jam. None of above.
+choice_list: A curd jam;; Traffic jam;; A chutney jam;; None of above;;
 choice_order: 2, 0, 1, 3
 
 
@@ -2850,7 +2850,7 @@ distractor1: A salmon can.
 distractor2: A tomato can.
 distractor(unsure): None of above.
 label: 1
-choice_list: A salmon can. A pelican. A tomato can. None of above.
+choice_list: A salmon can;; A pelican;; A tomato can;; None of above;;
 choice_order: 1, 0, 2, 3
 
 
@@ -2862,7 +2862,7 @@ distractor1: A salmon can.
 distractor2: A tomato can.
 distractor(unsure): None of above.
 label: 1
-choice_list: A salmon can. A pelican. A tomato can. None of above.
+choice_list: A salmon can;; A pelican;; A tomato can;; None of above;;
 choice_order: 1, 0, 2, 3
 
 
@@ -2874,7 +2874,7 @@ distractor1: An oak tree.
 distractor2: A redwood tree.
 distractor(unsure): None of above.
 label: 1
-choice_list: A redwood tree. A palm tree. An oak tree. None of above.
+choice_list: A redwood tree;; A palm tree;; An oak tree;; None of above;;
 choice_order: 2, 0, 1, 3
 
 
@@ -2886,7 +2886,7 @@ distractor1: Because 6 never saw 9 before.
 distractor2: Because 9(night) is coming.
 distractor(unsure): None of above.
 label: 2
-choice_list: Because 6 never saw 9 before. Because 9(night) is coming. Because 9 ate (eight) 7. None of above.
+choice_list: Because 6 never saw 9 before;; Because 9(night) is coming;; Because 9 ate (eight) 7;; None of above;;
 choice_order: 1, 2, 0, 3
 
 
@@ -2898,7 +2898,7 @@ distractor1: Because 6 never saw 9 before.
 distractor2: Because 9(night) is coming.
 distractor(unsure): None of above.
 label: 0
-choice_list: Because 9 ate (eight) 7. Because 6 never saw 9 before. Because 9(night) is coming. None of above.
+choice_list: Because 9 ate (eight) 7;; Because 6 never saw 9 before;; Because 9(night) is coming;; None of above;;
 choice_order: 0, 1, 2, 3
 
 
@@ -2910,7 +2910,7 @@ distractor1: A f(l)our.
 distractor2: A t(e)en.
 distractor(unsure): None of above.
 label: 0
-choice_list: A t(h)ree, A f(l)our. A t(e)en. None of above.
+choice_list: A t(h)ree, A f(l)our;; A t(e)en;; None of above;;
 choice_order: 0, 1, 2, 3
 
 
@@ -2922,7 +2922,7 @@ distractor1: Bass drum.
 distractor2: Tom drum.
 distractor(unsure): None of above.
 label: 2
-choice_list: Bass drum. Tom drum. Conundrum. None of above.
+choice_list: Bass drum;; Tom drum;; Conundrum;; None of above;;
 choice_order: 1, 2, 0, 3
 
 
@@ -2934,7 +2934,7 @@ distractor1: Bass drum.
 distractor2: Tom drum.
 distractor(unsure): None of above.
 label: 1
-choice_list: Bass drum. Conundrum. Tom drum. None of above.
+choice_list: Bass drum;; Conundrum;; Tom drum;; None of above;;
 choice_order: 1, 0, 2, 3
 
 
@@ -2946,7 +2946,7 @@ distractor1: A trumpet.
 distractor2: A violin.
 distractor(unsure): None of above.
 label: 1
-choice_list: A violin. A percussion, A trumpet. None of above.
+choice_list: A violin;; A percussion, A trumpet;; None of above;;
 choice_order: 2, 0, 1, 3
 
 
@@ -2958,7 +2958,7 @@ distractor1: The letter 'i'.
 distractor2: The letter 'a'.
 distractor(unsure): None of above.
 label: 2
-choice_list: The letter 'a'. The letter 'i'. The letter 'd'. None of above.
+choice_list: The letter 'a';; The letter 'i';; The letter 'd';; None of above;;
 choice_order: 2, 1, 0, 3
 
 
@@ -2970,7 +2970,7 @@ distractor1: The letter 'i'.
 distractor2: The letter 'a'.
 distractor(unsure): None of above.
 label: 2
-choice_list: The letter 'a'. The letter 'i'. The letter 'd'. None of above.
+choice_list: The letter 'a';; The letter 'i';; The letter 'd';; None of above;;
 choice_order: 2, 1, 0, 3
 
 
@@ -2982,7 +2982,7 @@ distractor1: The letter 't'.
 distractor2: The letter 'o'.
 distractor(unsure): None of above.
 label: 2
-choice_list: The letter 'o'. The letter 't'. The letter 'o'. None of above.
+choice_list: The letter 'o';; The letter 't';; The letter 'o';; None of above;;
 choice_order: 2, 1, 0, 3
 
 
@@ -2994,7 +2994,7 @@ distractor1: T,M,G.
 distractor2: T,N,T.
 distractor(unsure): None of above.
 label: 2
-choice_list: T,N,T. T,M,G. I, T, S. None of above.
+choice_list: T,N,T;; T,M,G;; I, T, S;; None of above;;
 choice_order: 2, 1, 0, 3
 
 
@@ -3006,7 +3006,7 @@ distractor1: T,M,G.
 distractor2: T,N,T.
 distractor(unsure): None of above.
 label: 1
-choice_list: T,M,G. I, T, S. T,N,T. None of above.
+choice_list: T,M,G;; I, T, S;; T,N,T;; None of above;;
 choice_order: 1, 0, 2, 3
 
 
@@ -3018,7 +3018,7 @@ distractor1: G,T,F.
 distractor2: F,T,G.
 distractor(unsure): None of above.
 label: 0
-choice_list: T.C.I. F,T,G. G,T,F. None of above.
+choice_list: T.C.I;; F,T,G;; G,T,F;; None of above;;
 choice_order: 0, 2, 1, 3
 
 
@@ -3030,7 +3030,7 @@ distractor1: T.
 distractor2: E.
 distractor(unsure): None of above.
 label: 2
-choice_list: E. T. D. None of above.
+choice_list: E;; T;; D;; None of above;;
 choice_order: 2, 1, 0, 3
 
 
@@ -3042,7 +3042,7 @@ distractor1: T.
 distractor2: E.
 distractor(unsure): None of above.
 label: 1
-choice_list: T. D. E. None of above.
+choice_list: T;; D;; E;; None of above;;
 choice_order: 1, 0, 2, 3
 
 
@@ -3054,7 +3054,7 @@ distractor1: L.
 distractor2: H.
 distractor(unsure): None of above.
 label: 2
-choice_list: L. H. B. None of above.
+choice_list: L;; H;; B;; None of above;;
 choice_order: 1, 2, 0, 3
 
 
@@ -3066,7 +3066,7 @@ distractor1: Language' and 'Book'.
 distractor2: Dictionary' and 'Alphabet.'
 distractor(unsure): None of above.
 label: 0
-choice_list: Post' and 'Office'. Language' and 'Book'. Dictionary' and 'Alphabet.', None of above.
+choice_list: Post' and 'Office';; Language' and 'Book';; Dictionary' and 'Alphabet.', None of above;;
 choice_order: 0, 1, 2, 3
 
 
@@ -3078,7 +3078,7 @@ distractor1: Language' and 'Book'.
 distractor2: Dictionary' and 'Alphabet.'
 distractor(unsure): None of above.
 label: 0
-choice_list: Post' and 'Office'. Dictionary' and 'Alphabet.', Language' and 'Book'. None of above.
+choice_list: Post' and 'Office';; Dictionary' and 'Alphabet.', Language' and 'Book';; None of above;;
 choice_order: 0, 2, 1, 3
 
 
@@ -3090,7 +3090,7 @@ distractor1: A fiction book.
 distractor2: A comic book.
 distractor(unsure): None of above.
 label: 0
-choice_list: A music book, A comic book. A fiction book. None of above.
+choice_list: A music book, A comic book;; A fiction book;; None of above;;
 choice_order: 0, 2, 1, 3
 
 
@@ -3102,7 +3102,7 @@ distractor1: Five.
 distractor2: Eleven.
 distractor(unsure): None of above.
 label: 2
-choice_list: Five. Eleven. Seven, None of above.
+choice_list: Five;; Eleven;; Seven, None of above;;
 choice_order: 1, 2, 0, 3
 
 
@@ -3114,7 +3114,7 @@ distractor1: Five.
 distractor2: Eleven.
 distractor(unsure): None of above.
 label: 2
-choice_list: Eleven. Five. Seven, None of above.
+choice_list: Eleven;; Five;; Seven, None of above;;
 choice_order: 2, 1, 0, 3
 
 
@@ -3126,7 +3126,7 @@ distractor1: Thirteen.
 distractor2: Seventeen.
 distractor(unsure): None of above.
 label: 1
-choice_list: Thirteen. Eleven, Seventeen. None of above.
+choice_list: Thirteen;; Eleven, Seventeen;; None of above;;
 choice_order: 1, 0, 2, 3
 
 
@@ -3138,7 +3138,7 @@ distractor1: Because we are talking the computer.
 distractor2: Because we are talking the price.
 distractor(unsure): None of above.
 label: 1
-choice_list: Because we are talking the computer. Because we are talking the time. Because we are talking the price. None of above.
+choice_list: Because we are talking the computer;; Because we are talking the time;; Because we are talking the price;; None of above;;
 choice_order: 1, 0, 2, 3
 
 
@@ -3150,7 +3150,7 @@ distractor1: Because we are talking the computer.
 distractor2: Because we are talking the price.
 distractor(unsure): None of above.
 label: 2
-choice_list: Because we are talking the computer. Because we are talking the price. Because we are talking the time. None of above.
+choice_list: Because we are talking the computer;; Because we are talking the price;; Because we are talking the time;; None of above;;
 choice_order: 1, 2, 0, 3
 
 
@@ -3162,7 +3162,7 @@ distractor1: When we are talking the computer.
 distractor2: When we are talking the price.
 distractor(unsure): None of above.
 label: 0
-choice_list: When we are talking the time. When we are talking the computer. When we are talking the price. None of above.
+choice_list: When we are talking the time;; When we are talking the computer;; When we are talking the price;; None of above;;
 choice_order: 0, 1, 2, 3
 
 
@@ -3174,7 +3174,7 @@ distractor1: Add a 'O' .
 distractor2: Add a 'E' .
 distractor(unsure): None of above.
 label: 0
-choice_list: Add a 'G' . Add a 'O' . Add a 'E' . None of above.
+choice_list: Add a 'G' ;; Add a 'O' ;; Add a 'E' ;; None of above;;
 choice_order: 0, 1, 2, 3
 
 
@@ -3186,7 +3186,7 @@ distractor1: Add a 'O' .
 distractor2: Add a 'E' .
 distractor(unsure): None of above.
 label: 1
-choice_list: Add a 'O' . Add a 'G' . Add a 'E' . None of above.
+choice_list: Add a 'O' ;; Add a 'G' ;; Add a 'E' ;; None of above;;
 choice_order: 1, 0, 2, 3
 
 
@@ -3198,7 +3198,7 @@ distractor1: Replace the letter R with letter N.
 distractor2: Replace the letter N with letter U.
 distractor(unsure): None of above.
 label: 1
-choice_list: Replace the letter R with letter N. Replace the letter O with letter U, Replace the letter N with letter U. None of above.
+choice_list: Replace the letter R with letter N;; Replace the letter O with letter U, Replace the letter N with letter U;; None of above;;
 choice_order: 1, 0, 2, 3
 
 
@@ -3210,7 +3210,7 @@ distractor1: A and D.
 distractor2: P and D.
 distractor(unsure): None of above.
 label: 0
-choice_list: P and A. A and D. P and D. None of above.
+choice_list: P and A;; A and D;; P and D;; None of above;;
 choice_order: 0, 1, 2, 3
 
 
@@ -3222,7 +3222,7 @@ distractor1: A and D.
 distractor2: P and D.
 distractor(unsure): None of above.
 label: 2
-choice_list: A and D. P and D. P and A. None of above.
+choice_list: A and D;; P and D;; P and A;; None of above;;
 choice_order: 1, 2, 0, 3
 
 
@@ -3234,7 +3234,7 @@ distractor1: M and D.
 distractor2: A and D.
 distractor(unsure): None of above.
 label: 0
-choice_list: M and Y. A and D. M and D. None of above.
+choice_list: M and Y;; A and D;; M and D;; None of above;;
 choice_order: 0, 2, 1, 3
 
 
@@ -3246,7 +3246,7 @@ distractor1: The rest room.
 distractor2: The bed room.
 distractor(unsure): None of above.
 label: 1
-choice_list: The bed room. The living room. The rest room. None of above.
+choice_list: The bed room;; The living room;; The rest room;; None of above;;
 choice_order: 2, 0, 1, 3
 
 
@@ -3258,7 +3258,7 @@ distractor1: The rest room.
 distractor2: The bed room.
 distractor(unsure): None of above.
 label: 0
-choice_list: The living room. The bed room. The rest room. None of above.
+choice_list: The living room;; The bed room;; The rest room;; None of above;;
 choice_order: 0, 2, 1, 3
 
 
@@ -3270,7 +3270,7 @@ distractor1: Rock music
 distractor2: Jazz music
 distractor(unsure): None of above.
 label: 1
-choice_list: Rock music, Electronic music, Jazz music, None of above.
+choice_list: Rock music, Electronic music, Jazz music, None of above;;
 choice_order: 1, 0, 2, 3
 
 
@@ -3282,7 +3282,7 @@ distractor1: Catfish.
 distractor2: Tuna.
 distractor(unsure): None of above.
 label: 1
-choice_list: Catfish. Selfish. Tuna. None of above.
+choice_list: Catfish;; Selfish;; Tuna;; None of above;;
 choice_order: 1, 0, 2, 3
 
 
@@ -3294,7 +3294,7 @@ distractor1: Catfish.
 distractor2: Tuna.
 distractor(unsure): None of above.
 label: 0
-choice_list: Selfish. Catfish. Tuna. None of above.
+choice_list: Selfish;; Catfish;; Tuna;; None of above;;
 choice_order: 0, 1, 2, 3
 
 
@@ -3306,7 +3306,7 @@ distractor1: Catfish.
 distractor2: Tuna.
 distractor(unsure): None of above.
 label: 0
-choice_list: Parrot fish, Catfish. Tuna. None of above.
+choice_list: Parrot fish, Catfish;; Tuna;; None of above;;
 choice_order: 0, 1, 2, 3
 
 
@@ -3318,7 +3318,7 @@ distractor1: New money.
 distractor2: Old money.
 distractor(unsure): None of above.
 label: 0
-choice_list: Blood money. Old money. New money. None of above.
+choice_list: Blood money;; Old money;; New money;; None of above;;
 choice_order: 0, 2, 1, 3
 
 
@@ -3330,7 +3330,7 @@ distractor1: New money.
 distractor2: Old money.
 distractor(unsure): None of above.
 label: 1
-choice_list: New money. Blood money. Old money. None of above.
+choice_list: New money;; Blood money;; Old money;; None of above;;
 choice_order: 1, 0, 2, 3
 
 
@@ -3342,7 +3342,7 @@ distractor1: New money.
 distractor2: Old money.
 distractor(unsure): None of above.
 label: 0
-choice_list: Blood money. Old money. New money. None of above.
+choice_list: Blood money;; Old money;; New money;; None of above;;
 choice_order: 0, 2, 1, 3
 
 
@@ -3354,7 +3354,7 @@ distractor1: Talk show.
 distractor2: Sports live.
 distractor(unsure): None of above.
 label: 0
-choice_list: Soap operas. Sports live. Talk show. None of above.
+choice_list: Soap operas;; Sports live;; Talk show;; None of above;;
 choice_order: 0, 2, 1, 3
 
 
@@ -3366,7 +3366,7 @@ distractor1: Talk show.
 distractor2: Sports live.
 distractor(unsure): None of above.
 label: 0
-choice_list: Soap operas. Talk show. Sports live. None of above.
+choice_list: Soap operas;; Talk show;; Sports live;; None of above;;
 choice_order: 0, 1, 2, 3
 
 
@@ -3378,7 +3378,7 @@ distractor1: Soap operas.
 distractor2: Sports live.
 distractor(unsure): None of above.
 label: 0
-choice_list: Reality TV shows, Sports live. Soap operas. None of above.
+choice_list: Reality TV shows, Sports live;; Soap operas;; None of above;;
 choice_order: 0, 2, 1, 3
 
 
@@ -3390,7 +3390,7 @@ distractor1: With an adjustable wrench.
 distractor2: With a stubby wrench.
 distractor(unsure): None of above.
 label: 1
-choice_list: With an adjustable wrench. With a monkey wrench. With a stubby wrench. None of above.
+choice_list: With an adjustable wrench;; With a monkey wrench;; With a stubby wrench;; None of above;;
 choice_order: 1, 0, 2, 3
 
 
@@ -3402,7 +3402,7 @@ distractor1: With an adjustable wrench.
 distractor2: With a stubby wrench.
 distractor(unsure): None of above.
 label: 1
-choice_list: With an adjustable wrench. With a monkey wrench. With a stubby wrench. None of above.
+choice_list: With an adjustable wrench;; With a monkey wrench;; With a stubby wrench;; None of above;;
 choice_order: 1, 0, 2, 3
 
 
@@ -3414,7 +3414,7 @@ distractor1: With an adjustable wrench.
 distractor2: With a stubby wrench.
 distractor(unsure): None of above.
 label: 2
-choice_list: With an adjustable wrench. With a stubby wrench. With a monkey wrench. None of above.
+choice_list: With an adjustable wrench;; With a stubby wrench;; With a monkey wrench;; None of above;;
 choice_order: 1, 2, 0, 3
 
 
@@ -3426,7 +3426,7 @@ distractor1: Trust
 distractor2: Tookit.
 distractor(unsure): None of above.
 label: 2
-choice_list: Tookit. Trust, Teapot. None of above.
+choice_list: Tookit;; Trust, Teapot;; None of above;;
 choice_order: 2, 1, 0, 3
 
 
@@ -3438,7 +3438,7 @@ distractor1: Trust
 distractor2: Tookit.
 distractor(unsure): None of above.
 label: 1
-choice_list: Tookit. Teapot. Trust, None of above.
+choice_list: Tookit;; Teapot;; Trust, None of above;;
 choice_order: 2, 0, 1, 3
 
 
@@ -3450,7 +3450,7 @@ distractor1: Wisdom.
 distractor2: Wall.
 distractor(unsure): None of above.
 label: 2
-choice_list: Wall. Wisdom. Water. None of above.
+choice_list: Wall;; Wisdom;; Water;; None of above;;
 choice_order: 2, 1, 0, 3
 
 
@@ -3462,7 +3462,7 @@ distractor1: Evolve.
 distractor2: Eagle.
 distractor(unsure): None of above.
 label: 2
-choice_list: Evolve. Eagle. Envelope. None of above.
+choice_list: Evolve;; Eagle;; Envelope;; None of above;;
 choice_order: 1, 2, 0, 3
 
 
@@ -3474,7 +3474,7 @@ distractor1: Evolve.
 distractor2: Eagle.
 distractor(unsure): None of above.
 label: 1
-choice_list: Evolve. Envelope. Eagle. None of above.
+choice_list: Evolve;; Envelope;; Eagle;; None of above;;
 choice_order: 1, 0, 2, 3
 
 
@@ -3486,7 +3486,7 @@ distractor1: Mall.
 distractor2: Meal.
 distractor(unsure): None of above.
 label: 0
-choice_list: Mail. Meal. Mall. None of above.
+choice_list: Mail;; Meal;; Mall;; None of above;;
 choice_order: 0, 2, 1, 3
 
 
@@ -3498,7 +3498,7 @@ distractor1: Waterfall.
 distractor2: Freefall.
 distractor(unsure): None of above.
 label: 0
-choice_list: Nightfall. Waterfall. Freefall. None of above.
+choice_list: Nightfall;; Waterfall;; Freefall;; None of above;;
 choice_order: 0, 1, 2, 3
 
 
@@ -3510,7 +3510,7 @@ distractor1: Waterfall.
 distractor2: Freefall.
 distractor(unsure): None of above.
 label: 0
-choice_list: Nightfall. Waterfall. Freefall. None of above.
+choice_list: Nightfall;; Waterfall;; Freefall;; None of above;;
 choice_order: 0, 1, 2, 3
 
 
@@ -3522,7 +3522,7 @@ distractor1: Landfall.
 distractor2: Freefall.
 distractor(unsure): None of above.
 label: 0
-choice_list: Waterfall, Landfall. Freefall. None of above.
+choice_list: Waterfall, Landfall;; Freefall;; None of above;;
 choice_order: 0, 1, 2, 3
 
 
@@ -3534,7 +3534,7 @@ distractor1: Remove the letter "e".
 distractor2: Move the letter "t" to the end.
 distractor(unsure): None of above.
 label: 0
-choice_list: Just flip it around. Remove the letter "e". Move the letter "t" to the end. None of above.
+choice_list: Just flip it around;; Remove the letter "e";; Move the letter "t" to the end;; None of above;;
 choice_order: 0, 1, 2, 3
 
 
@@ -3546,7 +3546,7 @@ distractor1: Remove the letter "e".
 distractor2: Move the letter "t" to the end.
 distractor(unsure): None of above.
 label: 2
-choice_list: Move the letter "t" to the end. Remove the letter "e". Just flip it around. None of above.
+choice_list: Move the letter "t" to the end;; Remove the letter "e";; Just flip it around;; None of above;;
 choice_order: 2, 1, 0, 3
 
 
@@ -3558,7 +3558,7 @@ distractor1: Remove the letter "i".
 distractor2: Move the letter "t" to the end.
 distractor(unsure): None of above.
 label: 2
-choice_list: Remove the letter "i". Move the letter "t" to the end. Just flip it. None of above.
+choice_list: Remove the letter "i";; Move the letter "t" to the end;; Just flip it;; None of above;;
 choice_order: 1, 2, 0, 3
 
 
@@ -3570,7 +3570,7 @@ distractor1: The letter 'B'.
 distractor2: The letter 'R'.
 distractor(unsure): None of above.
 label: 0
-choice_list: The letter 'E'. The letter 'R'. The letter 'B'. None of above.
+choice_list: The letter 'E';; The letter 'R';; The letter 'B';; None of above;;
 choice_order: 0, 2, 1, 3
 
 
@@ -3582,7 +3582,7 @@ distractor1: The letter 'B'.
 distractor2: The letter 'R'.
 distractor(unsure): None of above.
 label: 0
-choice_list: The letter 'E'. The letter 'B'. The letter 'R'. None of above.
+choice_list: The letter 'E';; The letter 'B';; The letter 'R';; None of above;;
 choice_order: 0, 1, 2, 3
 
 
@@ -3594,7 +3594,7 @@ distractor1: The letter 'A'.
 distractor2: The letter 'Y'.
 distractor(unsure): None of above.
 label: 2
-choice_list: The letter 'A'. The letter 'Y'. The letter 'G'. None of above.
+choice_list: The letter 'A';; The letter 'Y';; The letter 'G';; None of above;;
 choice_order: 1, 2, 0, 3
 
 
@@ -3606,7 +3606,7 @@ distractor1: Inner city.
 distractor2: Urban city.
 distractor(unsure): None of above.
 label: 2
-choice_list: Urban city. Inner city. Electricity. None of above.
+choice_list: Urban city;; Inner city;; Electricity;; None of above;;
 choice_order: 2, 1, 0, 3
 
 
@@ -3618,7 +3618,7 @@ distractor1: Inner city.
 distractor2: Urban city.
 distractor(unsure): None of above.
 label: 2
-choice_list: Urban city. Inner city. Electricity. None of above.
+choice_list: Urban city;; Inner city;; Electricity;; None of above;;
 choice_order: 2, 1, 0, 3
 
 
@@ -3630,7 +3630,7 @@ distractor1: Inner city.
 distractor2: Urban city.
 distractor(unsure): None of above.
 label: 2
-choice_list: Urban city. Inner city. Velocity. None of above.
+choice_list: Urban city;; Inner city;; Velocity;; None of above;;
 choice_order: 2, 1, 0, 3
 
 
@@ -3642,7 +3642,7 @@ distractor1: Spaceship.
 distractor2: Battleship.
 distractor(unsure): None of above.
 label: 0
-choice_list: Partnership. Battleship. Spaceship. None of above.
+choice_list: Partnership;; Battleship;; Spaceship;; None of above;;
 choice_order: 0, 2, 1, 3
 
 
@@ -3654,7 +3654,7 @@ distractor1: Spaceship.
 distractor2: Battleship.
 distractor(unsure): None of above.
 label: 1
-choice_list: Battleship. Partnership. Spaceship. None of above.
+choice_list: Battleship;; Partnership;; Spaceship;; None of above;;
 choice_order: 2, 0, 1, 3
 
 
@@ -3666,7 +3666,7 @@ distractor1: Spaceship.
 distractor2: Battleship.
 distractor(unsure): None of above.
 label: 0
-choice_list: Scholarship, Battleship. Spaceship. None of above.
+choice_list: Scholarship, Battleship;; Spaceship;; None of above;;
 choice_order: 0, 2, 1, 3
 
 
@@ -3678,7 +3678,7 @@ distractor1: A coffee cup.
 distractor2: A teacup.
 distractor(unsure): None of above.
 label: 1
-choice_list: A teacup. A cupcake. A coffee cup. None of above.
+choice_list: A teacup;; A cupcake;; A coffee cup;; None of above;;
 choice_order: 2, 0, 1, 3
 
 
@@ -3690,7 +3690,7 @@ distractor1: A coffee cup.
 distractor2: A teacup.
 distractor(unsure): None of above.
 label: 2
-choice_list: A teacup. A coffee cup. A cupcake. None of above.
+choice_list: A teacup;; A coffee cup;; A cupcake;; None of above;;
 choice_order: 2, 1, 0, 3
 
 
@@ -3702,7 +3702,7 @@ distractor1: Coffee cup.
 distractor2: Teacup.
 distractor(unsure): None of above.
 label: 2
-choice_list: Teacup. Coffee cup. World Cup. None of above.
+choice_list: Teacup;; Coffee cup;; World Cup;; None of above;;
 choice_order: 2, 1, 0, 3
 
 
@@ -3714,7 +3714,7 @@ distractor1: A beach house.
 distractor2: A treehouse.
 distractor(unsure): None of above.
 label: 0
-choice_list: A lighthouse. A beach house. A treehouse. None of above.
+choice_list: A lighthouse;; A beach house;; A treehouse;; None of above;;
 choice_order: 0, 1, 2, 3
 
 
@@ -3726,7 +3726,7 @@ distractor1: A beach house.
 distractor2: A treehouse.
 distractor(unsure): None of above.
 label: 1
-choice_list: A beach house. A lighthouse. A treehouse. None of above.
+choice_list: A beach house;; A lighthouse;; A treehouse;; None of above;;
 choice_order: 1, 0, 2, 3
 
 
@@ -3738,7 +3738,7 @@ distractor1: Farmhouse.
 distractor2: Doghouse.
 distractor(unsure): None of above.
 label: 2
-choice_list: Doghouse. Farmhouse. Greenhouse. None of above.
+choice_list: Doghouse;; Farmhouse;; Greenhouse;; None of above;;
 choice_order: 2, 1, 0, 3
 
 
@@ -3750,7 +3750,7 @@ distractor1: Coke.
 distractor2: Sprite.
 distractor(unsure): None of above.
 label: 1
-choice_list: Coke. Punch. Sprite. None of above.
+choice_list: Coke;; Punch;; Sprite;; None of above;;
 choice_order: 1, 0, 2, 3
 
 
@@ -3762,7 +3762,7 @@ distractor1: Coke.
 distractor2: Sprite.
 distractor(unsure): None of above.
 label: 2
-choice_list: Coke. Sprite. Punch. None of above.
+choice_list: Coke;; Sprite;; Punch;; None of above;;
 choice_order: 1, 2, 0, 3
 
 
@@ -3774,7 +3774,7 @@ distractor1: Jazz.
 distractor2: Blue.
 distractor(unsure): None of above.
 label: 0
-choice_list: Rock. Blue. Jazz. None of above.
+choice_list: Rock;; Blue;; Jazz;; None of above;;
 choice_order: 0, 2, 1, 3
 
 
@@ -3786,7 +3786,7 @@ distractor1: "E" .
 distractor2: "R" .
 distractor(unsure): None of above.
 label: 2
-choice_list: "E" . "R" . "B" . None of above.
+choice_list: "E" ;; "R" ;; "B" ;; None of above;;
 choice_order: 1, 2, 0, 3
 
 
@@ -3798,7 +3798,7 @@ distractor1: "E" .
 distractor2: "R" .
 distractor(unsure): None of above.
 label: 2
-choice_list: "E" . "R" . "B" . None of above.
+choice_list: "E" ;; "R" ;; "B" ;; None of above;;
 choice_order: 1, 2, 0, 3
 
 
@@ -3810,7 +3810,7 @@ distractor1: Fis.
 distractor2: Fish.
 distractor(unsure): None of above.
 label: 1
-choice_list: Fis. Fsh. Fish. None of above.
+choice_list: Fis;; Fsh;; Fish;; None of above;;
 choice_order: 1, 0, 2, 3
 
 
@@ -3822,7 +3822,7 @@ distractor1: Green beans.
 distractor2: Soy beans.
 distractor(unsure): None of above.
 label: 2
-choice_list: Soy beans. Green beans. Jelly beans. None of above.
+choice_list: Soy beans;; Green beans;; Jelly beans;; None of above;;
 choice_order: 2, 1, 0, 3
 
 
@@ -3834,7 +3834,7 @@ distractor1: Green beans.
 distractor2: Soy beans.
 distractor(unsure): None of above.
 label: 0
-choice_list: Jelly beans. Soy beans. Green beans. None of above.
+choice_list: Jelly beans;; Soy beans;; Green beans;; None of above;;
 choice_order: 0, 2, 1, 3
 
 
@@ -3846,7 +3846,7 @@ distractor1: Green beans.
 distractor2: Soy beans.
 distractor(unsure): None of above.
 label: 2
-choice_list: Soy beans. Green beans. Runner beans. None of above.
+choice_list: Soy beans;; Green beans;; Runner beans;; None of above;;
 choice_order: 2, 1, 0, 3
 
 
@@ -3858,7 +3858,7 @@ distractor1: Cookie.
 distractor2: Candy.
 distractor(unsure): None of above.
 label: 1
-choice_list: Cookie. Chips. Candy. None of above.
+choice_list: Cookie;; Chips;; Candy;; None of above;;
 choice_order: 1, 0, 2, 3
 
 
@@ -3870,7 +3870,7 @@ distractor1: Cookie.
 distractor2: Candy.
 distractor(unsure): None of above.
 label: 1
-choice_list: Cookie. Chips. Candy. None of above.
+choice_list: Cookie;; Chips;; Candy;; None of above;;
 choice_order: 1, 0, 2, 3
 
 
@@ -3882,7 +3882,7 @@ distractor1: Sports news.
 distractor2: Marketing news.
 distractor(unsure): None of above.
 label: 0
-choice_list: Current news. Marketing news. Sports news. None of above.
+choice_list: Current news;; Marketing news;; Sports news;; None of above;;
 choice_order: 0, 2, 1, 3
 
 
@@ -3894,7 +3894,7 @@ distractor1: Peanut butter.
 distractor2: Almond butter.
 distractor(unsure): None of above.
 label: 0
-choice_list: Butterfly. Peanut butter. Almond butter. None of above.
+choice_list: Butterfly;; Peanut butter;; Almond butter;; None of above;;
 choice_order: 0, 1, 2, 3
 
 
@@ -3906,7 +3906,7 @@ distractor1: Peanut butter.
 distractor2: Almond butter.
 distractor(unsure): None of above.
 label: 2
-choice_list: Almond butter. Peanut butter. Butterfly. None of above.
+choice_list: Almond butter;; Peanut butter;; Butterfly;; None of above;;
 choice_order: 2, 1, 0, 3
 
 
@@ -3918,7 +3918,7 @@ distractor1: Catfish.
 distractor2: Tuna.
 distractor(unsure): None of above.
 label: 2
-choice_list: Catfish. Tuna. Surgeonfish. None of above.
+choice_list: Catfish;; Tuna;; Surgeonfish;; None of above;;
 choice_order: 1, 2, 0, 3
 
 
@@ -3930,7 +3930,7 @@ distractor1: A wedding ring.
 distractor2: A ear ring.
 distractor(unsure): None of above.
 label: 2
-choice_list: A wedding ring. A ear ring. A boxing ring. None of above.
+choice_list: A wedding ring;; A ear ring;; A boxing ring;; None of above;;
 choice_order: 1, 2, 0, 3
 
 
@@ -3942,7 +3942,7 @@ distractor1: A wedding ring.
 distractor2: A ear ring.
 distractor(unsure): None of above.
 label: 0
-choice_list: A boxing ring. A wedding ring. A ear ring. None of above.
+choice_list: A boxing ring;; A wedding ring;; A ear ring;; None of above;;
 choice_order: 0, 1, 2, 3
 
 
@@ -3954,7 +3954,7 @@ distractor1: A ear ring.
 distractor2: A wedding ring.
 distractor(unsure): None of above.
 label: 2
-choice_list: A wedding ring. A ear ring. A smoke ring. None of above.
+choice_list: A wedding ring;; A ear ring;; A smoke ring;; None of above;;
 choice_order: 2, 1, 0, 3
 
 
@@ -3966,7 +3966,7 @@ distractor1: Hotel bar.
 distractor2: Cocktail bar.
 distractor(unsure): None of above.
 label: 1
-choice_list: Cocktail bar. Sandbar. Hotel bar. None of above.
+choice_list: Cocktail bar;; Sandbar;; Hotel bar;; None of above;;
 choice_order: 2, 0, 1, 3
 
 
@@ -3978,7 +3978,7 @@ distractor1: Hotel bar.
 distractor2: Cocktail bar.
 distractor(unsure): None of above.
 label: 1
-choice_list: Hotel bar. Sandbar. Cocktail bar. None of above.
+choice_list: Hotel bar;; Sandbar;; Cocktail bar;; None of above;;
 choice_order: 1, 0, 2, 3
 
 
@@ -3990,7 +3990,7 @@ distractor1: Hotel bar.
 distractor2: Cocktail bar.
 distractor(unsure): None of above.
 label: 1
-choice_list: Hotel bar. Soundbar. Cocktail bar. None of above.
+choice_list: Hotel bar;; Soundbar;; Cocktail bar;; None of above;;
 choice_order: 1, 0, 2, 3
 
 
@@ -4002,7 +4002,7 @@ distractor1: Smoked ham.
 distractor2: Cured ham.
 distractor(unsure): None of above.
 label: 0
-choice_list: Birmingham. Cured ham. Smoked ham. None of above.
+choice_list: Birmingham;; Cured ham;; Smoked ham;; None of above;;
 choice_order: 0, 2, 1, 3
 
 
@@ -4014,7 +4014,7 @@ distractor1: Smoked ham.
 distractor2: Cured ham.
 distractor(unsure): None of above.
 label: 1
-choice_list: Smoked ham. Birmingham. Cured ham. None of above.
+choice_list: Smoked ham;; Birmingham;; Cured ham;; None of above;;
 choice_order: 1, 0, 2, 3
 
 
@@ -4026,7 +4026,7 @@ distractor1: Honey ham.
 distractor2: Sliced ham.
 distractor(unsure): None of above.
 label: 2
-choice_list: Sliced ham. Honey ham. Slingsham. None of above.
+choice_list: Sliced ham;; Honey ham;; Slingsham;; None of above;;
 choice_order: 2, 1, 0, 3
 
 
@@ -4038,7 +4038,7 @@ distractor1: LED lamp.
 distractor2: Oil lamp.
 distractor(unsure): None of above.
 label: 0
-choice_list: Clamp. LED lamp. Oil lamp. None of above.
+choice_list: Clamp;; LED lamp;; Oil lamp;; None of above;;
 choice_order: 0, 1, 2, 3
 
 
@@ -4050,7 +4050,7 @@ distractor1: LED lamp.
 distractor2: Oil lamp.
 distractor(unsure): None of above.
 label: 2
-choice_list: Oil lamp. LED lamp. Clamp. None of above.
+choice_list: Oil lamp;; LED lamp;; Clamp;; None of above;;
 choice_order: 2, 1, 0, 3
 
 
@@ -4062,7 +4062,7 @@ distractor1: Streetlamp.
 distractor2: Gaslamp.
 distractor(unsure): None of above.
 label: 1
-choice_list: Streetlamp. Enclamp. Gaslamp. None of above.
+choice_list: Streetlamp;; Enclamp;; Gaslamp;; None of above;;
 choice_order: 1, 0, 2, 3
 
 
@@ -4074,7 +4074,7 @@ distractor1: Crockpot.
 distractor2: Cooking pot.
 distractor(unsure): None of above.
 label: 2
-choice_list: Crockpot. Cooking pot. Jackpot. None of above.
+choice_list: Crockpot;; Cooking pot;; Jackpot;; None of above;;
 choice_order: 1, 2, 0, 3
 
 
@@ -4086,7 +4086,7 @@ distractor1: Crockpot.
 distractor2: Cooking pot.
 distractor(unsure): None of above.
 label: 2
-choice_list: Cooking pot. Crockpot. Jackpot. None of above.
+choice_list: Cooking pot;; Crockpot;; Jackpot;; None of above;;
 choice_order: 2, 1, 0, 3
 
 
@@ -4098,7 +4098,7 @@ distractor1: Teapot.
 distractor2: Coffee pot.
 distractor(unsure): None of above.
 label: 0
-choice_list: Flowerpot. Teapot. Coffee pot. None of above.
+choice_list: Flowerpot;; Teapot;; Coffee pot;; None of above;;
 choice_order: 0, 1, 2, 3
 
 
@@ -4110,7 +4110,7 @@ distractor1: Bookcase.
 distractor2: Suitcase.
 distractor(unsure): None of above.
 label: 1
-choice_list: Suitcase. Lowercase. Bookcase. None of above.
+choice_list: Suitcase;; Lowercase;; Bookcase;; None of above;;
 choice_order: 2, 0, 1, 3
 
 
@@ -4122,7 +4122,7 @@ distractor1: Bookcase.
 distractor2: Suitcase.
 distractor(unsure): None of above.
 label: 1
-choice_list: Bookcase. Lowercase. Suitcase. None of above.
+choice_list: Bookcase;; Lowercase;; Suitcase;; None of above;;
 choice_order: 1, 0, 2, 3
 
 
@@ -4134,7 +4134,7 @@ distractor1: Bookcase.
 distractor2: Suitcase.
 distractor(unsure): None of above.
 label: 1
-choice_list: Bookcase. Staircase. Suitcase. None of above.
+choice_list: Bookcase;; Staircase;; Suitcase;; None of above;;
 choice_order: 1, 0, 2, 3
 
 
@@ -4146,7 +4146,7 @@ distractor1: Spa pool.
 distractor2: Wading pool.
 distractor(unsure): None of above.
 label: 0
-choice_list: Carpool. Wading pool. Spa pool. None of above.
+choice_list: Carpool;; Wading pool;; Spa pool;; None of above;;
 choice_order: 0, 2, 1, 3
 
 
@@ -4158,7 +4158,7 @@ distractor1: Spa pool.
 distractor2: Wading pool.
 distractor(unsure): None of above.
 label: 0
-choice_list: Carpool. Spa pool. Wading pool. None of above.
+choice_list: Carpool;; Spa pool;; Wading pool;; None of above;;
 choice_order: 0, 1, 2, 3
 
 
@@ -4170,7 +4170,7 @@ distractor1: Spa pool.
 distractor2: Wading pool.
 distractor(unsure): None of above.
 label: 1
-choice_list: Spa pool. Carpool. Wading pool. None of above.
+choice_list: Spa pool;; Carpool;; Wading pool;; None of above;;
 choice_order: 1, 0, 2, 3
 
 
@@ -4182,7 +4182,7 @@ distractor1: Chasing fast.
 distractor2: Runing fast.
 distractor(unsure): None of above.
 label: 2
-choice_list: Runing fast. Chasing fast. Breakfast. None of above.
+choice_list: Runing fast;; Chasing fast;; Breakfast;; None of above;;
 choice_order: 2, 1, 0, 3
 
 
@@ -4194,7 +4194,7 @@ distractor1: Chasing fast.
 distractor2: Runing fast.
 distractor(unsure): None of above.
 label: 2
-choice_list: Chasing fast. Runing fast. Breakfast. None of above.
+choice_list: Chasing fast;; Runing fast;; Breakfast;; None of above;;
 choice_order: 1, 2, 0, 3
 
 
@@ -4206,7 +4206,7 @@ distractor1: Jailbreak.
 distractor2: Spring break.
 distractor(unsure): None of above.
 label: 2
-choice_list: Jailbreak. Spring break. Breakfast. None of above.
+choice_list: Jailbreak;; Spring break;; Breakfast;; None of above;;
 choice_order: 1, 2, 0, 3
 
 
@@ -4218,7 +4218,7 @@ distractor1: Chessboard.
 distractor2: Dartboard.
 distractor(unsure): None of above.
 label: 2
-choice_list: Dartboard. Chessboard. Keyboard. None of above.
+choice_list: Dartboard;; Chessboard;; Keyboard;; None of above;;
 choice_order: 2, 1, 0, 3
 
 
@@ -4230,7 +4230,7 @@ distractor1: Chessboard.
 distractor2: Dartboard.
 distractor(unsure): None of above.
 label: 2
-choice_list: Chessboard. Dartboard. Keyboard. None of above.
+choice_list: Chessboard;; Dartboard;; Keyboard;; None of above;;
 choice_order: 1, 2, 0, 3
 
 
@@ -4242,7 +4242,7 @@ distractor1: Chessboard.
 distractor2: Whiteboard.
 distractor(unsure): None of above.
 label: 0
-choice_list: Motherboard. Whiteboard. Chessboard. None of above.
+choice_list: Motherboard;; Whiteboard;; Chessboard;; None of above;;
 choice_order: 0, 2, 1, 3
 
 
@@ -4254,7 +4254,7 @@ distractor1: Investment bank.
 distractor2: Central bank.
 distractor(unsure): None of above.
 label: 0
-choice_list: Snowbank. Investment bank. Central bank. None of above.
+choice_list: Snowbank;; Investment bank;; Central bank;; None of above;;
 choice_order: 0, 1, 2, 3
 
 
@@ -4266,7 +4266,7 @@ distractor1: Investment bank.
 distractor2: Central bank.
 distractor(unsure): None of above.
 label: 0
-choice_list: Snowbank. Investment bank. Central bank. None of above.
+choice_list: Snowbank;; Investment bank;; Central bank;; None of above;;
 choice_order: 0, 1, 2, 3
 
 
@@ -4278,7 +4278,7 @@ distractor1: Investment bank.
 distractor2: Central bank.
 distractor(unsure): None of above.
 label: 0
-choice_list: Riverbank. Investment bank. Central bank. None of above.
+choice_list: Riverbank;; Investment bank;; Central bank;; None of above;;
 choice_order: 0, 1, 2, 3
 
 
@@ -4290,7 +4290,7 @@ distractor1: Carrot root.
 distractor2: Cabbage root.
 distractor(unsure): None of above.
 label: 2
-choice_list: Carrot root. Cabbage root. Square root. None of above.
+choice_list: Carrot root;; Cabbage root;; Square root;; None of above;;
 choice_order: 1, 2, 0, 3
 
 
@@ -4302,7 +4302,7 @@ distractor1: Carrot root.
 distractor2: Cabbage root.
 distractor(unsure): None of above.
 label: 0
-choice_list: Square root. Carrot root. Cabbage root. None of above.
+choice_list: Square root;; Carrot root;; Cabbage root;; None of above;;
 choice_order: 0, 1, 2, 3
 
 
@@ -4314,7 +4314,7 @@ distractor1: Carrot root.
 distractor2: Cabbage root.
 distractor(unsure): None of above.
 label: 0
-choice_list: Cube root. Cabbage root. Carrot root. None of above.
+choice_list: Cube root;; Cabbage root;; Carrot root;; None of above;;
 choice_order: 0, 2, 1, 3
 
 
@@ -4326,7 +4326,7 @@ distractor1: An old mouse.
 distractor2: A hungry mouse.
 distractor(unsure): None of above.
 label: 0
-choice_list: A computer mouse. A hungry mouse. An old mouse. None of above.
+choice_list: A computer mouse;; A hungry mouse;; An old mouse;; None of above;;
 choice_order: 0, 2, 1, 3
 
 
@@ -4338,7 +4338,7 @@ distractor1: An old mouse.
 distractor2: A hungry mouse.
 distractor(unsure): None of above.
 label: 0
-choice_list: A computer mouse. A hungry mouse. An old mouse. None of above.
+choice_list: A computer mouse;; A hungry mouse;; An old mouse;; None of above;;
 choice_order: 0, 2, 1, 3
 
 
@@ -4350,7 +4350,7 @@ distractor1: A young mouse.
 distractor2: A white mouse.
 distractor(unsure): None of above.
 label: 2
-choice_list: A young mouse. A white mouse. A computer mouse. None of above.
+choice_list: A young mouse;; A white mouse;; A computer mouse;; None of above;;
 choice_order: 1, 2, 0, 3
 
 
@@ -4362,7 +4362,7 @@ distractor1: An indoor plant.
 distractor2: A house plant
 distractor(unsure): None of above.
 label: 2
-choice_list: An indoor plant. A house plant, A power plant. None of above.
+choice_list: An indoor plant;; A house plant, A power plant;; None of above;;
 choice_order: 1, 2, 0, 3
 
 
@@ -4374,7 +4374,7 @@ distractor1: An indoor plant.
 distractor2: A house plant
 distractor(unsure): None of above.
 label: 1
-choice_list: A house plant, A power plant. An indoor plant. None of above.
+choice_list: A house plant, A power plant;; An indoor plant;; None of above;;
 choice_order: 2, 0, 1, 3
 
 
@@ -4386,7 +4386,7 @@ distractor1: An aquatic plant.
 distractor2: A wetland plant.
 distractor(unsure): None of above.
 label: 1
-choice_list: A wetland plant. A nuclear plant. An aquatic plant. None of above.
+choice_list: A wetland plant;; A nuclear plant;; An aquatic plant;; None of above;;
 choice_order: 2, 0, 1, 3
 
 
@@ -4398,7 +4398,7 @@ distractor1: Softwood.
 distractor2: Hardwood.
 distractor(unsure): None of above.
 label: 1
-choice_list: Softwood. Hollywood. Hardwood. None of above.
+choice_list: Softwood;; Hollywood;; Hardwood;; None of above;;
 choice_order: 1, 0, 2, 3
 
 
@@ -4410,7 +4410,7 @@ distractor1: Softwood.
 distractor2: Hardwood.
 distractor(unsure): None of above.
 label: 0
-choice_list: Hollywood. Hardwood. Softwood. None of above.
+choice_list: Hollywood;; Hardwood;; Softwood;; None of above;;
 choice_order: 0, 2, 1, 3
 
 
@@ -4422,7 +4422,7 @@ distractor1: Softwood.
 distractor2: Hardwood.
 distractor(unsure): None of above.
 label: 1
-choice_list: Hardwood. Sherwood. Softwood. None of above.
+choice_list: Hardwood;; Sherwood;; Softwood;; None of above;;
 choice_order: 2, 0, 1, 3
 
 
@@ -4434,7 +4434,7 @@ distractor1: A side dish.
 distractor2: A fish dish.
 distractor(unsure): None of above.
 label: 0
-choice_list: A satellite dish. A fish dish. A side dish. None of above.
+choice_list: A satellite dish;; A fish dish;; A side dish;; None of above;;
 choice_order: 0, 2, 1, 3
 
 
@@ -4446,7 +4446,7 @@ distractor1: A side dish.
 distractor2: A fish dish.
 distractor(unsure): None of above.
 label: 0
-choice_list: A satellite dish. A fish dish. A side dish. None of above.
+choice_list: A satellite dish;; A fish dish;; A side dish;; None of above;;
 choice_order: 0, 2, 1, 3
 
 
@@ -4458,7 +4458,7 @@ distractor1: Side dish.
 distractor2: Fish dish.
 distractor(unsure): None of above.
 label: 1
-choice_list: Side dish. Petri dish. Fish dish. None of above.
+choice_list: Side dish;; Petri dish;; Fish dish;; None of above;;
 choice_order: 1, 0, 2, 3
 
 
@@ -4470,7 +4470,7 @@ distractor1: A water bottle.
 distractor2: A glass bottle.
 distractor(unsure): None of above.
 label: 0
-choice_list: A bottle neck. A glass bottle. A water bottle. None of above.
+choice_list: A bottle neck;; A glass bottle;; A water bottle;; None of above;;
 choice_order: 0, 2, 1, 3
 
 
@@ -4482,7 +4482,7 @@ distractor1: A water bottle.
 distractor2: A glass bottle.
 distractor(unsure): None of above.
 label: 2
-choice_list: A glass bottle. A water bottle. A bottle neck. None of above.
+choice_list: A glass bottle;; A water bottle;; A bottle neck;; None of above;;
 choice_order: 2, 1, 0, 3
 
 
@@ -4494,7 +4494,7 @@ distractor1: Wine bottle.
 distractor2: Soda bottle.
 distractor(unsure): None of above.
 label: 2
-choice_list: Soda bottle. Wine bottle. Baby bottle. None of above.
+choice_list: Soda bottle;; Wine bottle;; Baby bottle;; None of above;;
 choice_order: 2, 1, 0, 3
 
 
@@ -4506,7 +4506,7 @@ distractor1: A music note.
 distractor2: A high note.
 distractor(unsure): None of above.
 label: 1
-choice_list: A music note. A footnote. A high note. None of above.
+choice_list: A music note;; A footnote;; A high note;; None of above;;
 choice_order: 1, 0, 2, 3
 
 
@@ -4518,7 +4518,7 @@ distractor1: A music note.
 distractor2: A high note.
 distractor(unsure): None of above.
 label: 2
-choice_list: A high note. A music note. A footnote. None of above.
+choice_list: A high note;; A music note;; A footnote;; None of above;;
 choice_order: 2, 1, 0, 3
 
 
@@ -4530,7 +4530,7 @@ distractor1: A music note.
 distractor2: A high note.
 distractor(unsure): None of above.
 label: 1
-choice_list: A music note. A banknote. A high note. None of above.
+choice_list: A music note;; A banknote;; A high note;; None of above;;
 choice_order: 1, 0, 2, 3
 
 
@@ -4542,7 +4542,7 @@ distractor1: A pocket watch.
 distractor2: A wristwatch.
 distractor(unsure): None of above.
 label: 2
-choice_list: A pocket watch. A wristwatch. A watchdog. None of above.
+choice_list: A pocket watch;; A wristwatch;; A watchdog;; None of above;;
 choice_order: 1, 2, 0, 3
 
 
@@ -4554,7 +4554,7 @@ distractor1: A pocket watch.
 distractor2: A wristwatch.
 distractor(unsure): None of above.
 label: 2
-choice_list: A pocket watch. A wristwatch. A watchdog. None of above.
+choice_list: A pocket watch;; A wristwatch;; A watchdog;; None of above;;
 choice_order: 1, 2, 0, 3
 
 
@@ -4566,7 +4566,7 @@ distractor1: Stopwatch.
 distractor2: Wristwatch.
 distractor(unsure): None of above.
 label: 1
-choice_list: Stopwatch. Nightwatch. Wristwatch. None of above.
+choice_list: Stopwatch;; Nightwatch;; Wristwatch;; None of above;;
 choice_order: 1, 0, 2, 3
 
 
@@ -4578,7 +4578,7 @@ distractor1: Bicycle pump.
 distractor2: Air pump.
 distractor(unsure): None of above.
 label: 1
-choice_list: Bicycle pump. Pumpkin. Air pump. None of above.
+choice_list: Bicycle pump;; Pumpkin;; Air pump;; None of above;;
 choice_order: 1, 0, 2, 3
 
 
@@ -4590,7 +4590,7 @@ distractor1: Bicycle pump.
 distractor2: Air pump.
 distractor(unsure): None of above.
 label: 2
-choice_list: Bicycle pump. Air pump. Pumpkin. None of above.
+choice_list: Bicycle pump;; Air pump;; Pumpkin;; None of above;;
 choice_order: 1, 2, 0, 3
 
 
@@ -4602,7 +4602,7 @@ distractor1: Frying pan.
 distractor2: Saucepan.
 distractor(unsure): None of above.
 label: 2
-choice_list: Saucepan. Frying pan. Company. None of above.
+choice_list: Saucepan;; Frying pan;; Company;; None of above;;
 choice_order: 2, 1, 0, 3
 
 
@@ -4614,7 +4614,7 @@ distractor1: Red ink.
 distractor2: Blue ink.
 distractor(unsure): None of above.
 label: 0
-choice_list: Link. Blue ink. Red ink. None of above.
+choice_list: Link;; Blue ink;; Red ink;; None of above;;
 choice_order: 0, 2, 1, 3
 
 
@@ -4626,7 +4626,7 @@ distractor1: Red ink.
 distractor2: Blue ink.
 distractor(unsure): None of above.
 label: 0
-choice_list: Link. Red ink. Blue ink. None of above.
+choice_list: Link;; Red ink;; Blue ink;; None of above;;
 choice_order: 0, 1, 2, 3
 
 
@@ -4638,7 +4638,7 @@ distractor1: Football.
 distractor2: Baseball.
 distractor(unsure): None of above.
 label: 0
-choice_list: Eyeball. Baseball. Football. None of above.
+choice_list: Eyeball;; Baseball;; Football;; None of above;;
 choice_order: 0, 2, 1, 3
 
 
@@ -4650,7 +4650,7 @@ distractor1: Fine art.
 distractor2: Contemporary art.
 distractor(unsure): None of above.
 label: 2
-choice_list: Contemporary art. Fine art. Tart. None of above.
+choice_list: Contemporary art;; Fine art;; Tart;; None of above;;
 choice_order: 2, 1, 0, 3
 
 
@@ -4662,7 +4662,7 @@ distractor1: Fine art.
 distractor2: Contemporary art.
 distractor(unsure): None of above.
 label: 2
-choice_list: Fine art. Contemporary art. Tart. None of above.
+choice_list: Fine art;; Contemporary art;; Tart;; None of above;;
 choice_order: 1, 2, 0, 3
 
 
@@ -4674,7 +4674,7 @@ distractor1: A business man.
 distractor2: A fireman.
 distractor(unsure): None of above.
 label: 1
-choice_list: A business man. A snowman. A fireman. None of above.
+choice_list: A business man;; A snowman;; A fireman;; None of above;;
 choice_order: 1, 0, 2, 3
 
 
@@ -4686,7 +4686,7 @@ distractor1: A doorbell.
 distractor2: A cowbell.
 distractor(unsure): None of above.
 label: 2
-choice_list: A doorbell. A cowbell. A dumbbell. None of above.
+choice_list: A doorbell;; A cowbell;; A dumbbell;; None of above;;
 choice_order: 1, 2, 0, 3
 
 
@@ -4698,7 +4698,7 @@ distractor1: A doorbell.
 distractor2: A cowbell.
 distractor(unsure): None of above.
 label: 0
-choice_list: A dumbbell. A doorbell. A cowbell. None of above.
+choice_list: A dumbbell;; A doorbell;; A cowbell;; None of above;;
 choice_order: 0, 1, 2, 3
 
 
@@ -4710,7 +4710,7 @@ distractor1: Cobblestone.
 distractor2: Sandstone.
 distractor(unsure): None of above.
 label: 2
-choice_list: Cobblestone. Sandstone. Milestone. None of above.
+choice_list: Cobblestone;; Sandstone;; Milestone;; None of above;;
 choice_order: 1, 2, 0, 3
 
 
@@ -4722,7 +4722,7 @@ distractor1: Glacier ice.
 distractor2: Flaked ice.
 distractor(unsure): None of above.
 label: 0
-choice_list: Dice. Flaked ice. Glacier ice. None of above.
+choice_list: Dice;; Flaked ice;; Glacier ice;; None of above;;
 choice_order: 0, 2, 1, 3
 
 
@@ -4734,7 +4734,7 @@ distractor1: Glacier ice.
 distractor2: Flaked ice.
 distractor(unsure): None of above.
 label: 1
-choice_list: Glacier ice. Dice. Flaked ice. None of above.
+choice_list: Glacier ice;; Dice;; Flaked ice;; None of above;;
 choice_order: 1, 0, 2, 3
 
 
@@ -4746,7 +4746,7 @@ distractor1: Flaked ice.
 distractor2: Glacier ice.
 distractor(unsure): None of above.
 label: 1
-choice_list: Flaked ice. Dry ice. Glacier ice. None of above.
+choice_list: Flaked ice;; Dry ice;; Glacier ice;; None of above;;
 choice_order: 1, 0, 2, 3
 
 

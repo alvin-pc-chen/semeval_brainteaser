@@ -41,7 +41,7 @@ def remove_lines(string):
         string = string.replace("\n", "")
         string = string.replace("\xa0", " ")
         string = string.replace("  ", " ")
-        string = string.replace(".,", ".")
+        string = string.replace(".,", ";;")
         if string.startswith(" "):
             string = string[1:]
         if string.endswith(" "):
