@@ -41,16 +41,31 @@ def remove_lines(string):
         string = string.replace("\n", "")
         string = string.replace("\xa0", " ")
         string = string.replace("  ", " ")
-        string = string.replace(".,", ";;")
+        string = string.replace(".;", ";")
+        string = string.replace(". ;", ";")
         if string.startswith(" "):
             string = string[1:]
         if string.endswith(" "):
             string = string[:-1]
-        if string.endswith(","):
-            string = string[:-1]
+        if string.endswith("; "):
+            string = string[:-2]
         return string
     elif isinstance(string, list):
         return [remove_lines(x) for x in string]
+    else:
+        return str(string)
+
+
+def extra_spaces(string):
+    """
+    Remove spaces at the start and end of string
+    """
+    if isinstance(string, str):
+        if string.startswith(" "):
+            string = string[1:]
+        if string.endswith(" "):
+            string = string[:-1]
+        return string
     else:
         return str(string)
 
@@ -68,7 +83,7 @@ def npy_to_txt(npy_path, txt_path):
             for key in npy[i]:
                 f.write(remove_lines(key) + ": ")
                 if isinstance(npy[i][key], list):
-                    line = "".join(str(x) + ", " for x in npy[i][key])
+                    line = "".join(extra_spaces(x) + "; " for x in npy[i][key])
                     f.write(remove_lines(line) + "\n")
                 else:
                     f.write(remove_lines(npy[i][key]) + "\n")
@@ -92,7 +107,7 @@ def npy_to_tsv(npy_path, tsv_path):
             row = []
             for key in npy[i]:
                 if isinstance(npy[i][key], list):
-                    line = "".join(str(x) + ", " for x in npy[i][key])
+                    line = "".join(extra_spaces(x) + "; " for x in npy[i][key])
                     row.append(remove_lines(line))
                 else:
                     row.append(remove_lines(npy[i][key]))

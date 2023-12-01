@@ -1,240 +1,240 @@
 Question 1:
 question: What kind of stock doesn't have shares?
-choice_list: Small-cap stock;; Livestock;; Growth stock;; None of above;;
+choice_list: Small-cap stock; Livestock; Growth stock; None of above;
 
 
 Question 2:
 question: What do you call a toothless bear?
-choice_list: A brown bear;; A polar bear;; A gummy bear;; None of above;;
+choice_list: A brown bear; A polar bear; A gummy bear; None of above;
 
 
 Question 3:
 question: Where will a computer technician keep all his key?
-choice_list: A mouse;; A monitor;; A keyboard;; None of above;;
+choice_list: A mouse; A monitor; A keyboard; None of above;
 
 
 Question 4:
 question: What do you call a bear with no teeth?
-choice_list: A brown bear;; A gummy bear;; A polar bear;; None of above;;
+choice_list: A brown bear; A gummy bear; A polar bear; None of above;
 
 
 Question 5:
 question: What was the result of the tiny lobster's math test?
-choice_list: Very-bad;; Sea-plus;; Very-Good;; None of above;;
+choice_list: Very-bad; Sea-plus; Very-Good; None of above;
 
 
 Question 6:
 question: What tree can you carry in your hand?
-choice_list: Palm;; Oak;; Pine;; None of above;;
+choice_list: Palm; Oak; Pine; None of above;
 
 
 Question 7:
 question: What chain is having trouble in connecting?
-choice_list: Blockchain;; Supply chain;; Logic chain;; None of above;;
+choice_list: Blockchain; Supply chain; Logic chain; None of above;
 
 
 Question 8:
 question: What kind of shot didn't hurt?
-choice_list: A fireshot;; A screenshot;; A gunshot;; None of above;;
+choice_list: A fireshot; A screenshot; A gunshot; None of above;
 
 
 Question 9:
 question: What kind of birds always make noise?
-choice_list: Humming bird;; Hawk;; Owl;; None of above;;
+choice_list: Humming bird; Hawk; Owl; None of above;
 
 
 Question 10:
 question: What type of table doesn't have chairs?
-choice_list: A dining table;; A coffee table;; A water table;; None of above;;
+choice_list: A dining table; A coffee table; A water table; None of above;
 
 
 Question 11:
 question: What type of chase never involves running?
-choice_list: Escape chase;; Paperchase;; Risky chase;; None of above;;
+choice_list: Escape chase; Paperchase; Risky chase; None of above;
 
 
 Question 12:
 question: What is the most difficult key to turn?
-choice_list: A new key;; A gold key;; A donkey;; None of above;;
+choice_list: A new key; A gold key; A donkey; None of above;
 
 
 Question 13:
 question: What clothing does a house wear?
-choice_list: Address;; Suit;; Wedding dress;; None of above;;
+choice_list: Address; Suit; Wedding dress; None of above;
 
 
 Question 14:
 question: What species of geese engages in snake-fighting?
-choice_list: Canada goose;; Snow goose;; Mongoose;; None of above;;
+choice_list: Canada goose; Snow goose; Mongoose; None of above;
 
 
 Question 15:
 question: What is the capital in Washington?
-choice_list: The letter N;; The letter T;; The letter W;; None of above;;
+choice_list: The letter N; The letter T; The letter W; None of above;
 
 
 Question 16:
 question: How do you make "one" disappear?
-choice_list: By saying "zero,two,three" to omit "one";; Add a "g" and "one" Gone;; Use "single" as an alternative word;; None of above;;
+choice_list: By saying "zero,two,three" to omit "one"; Add a "g" and "one" Gone; Use "single" as an alternative word; None of above;
 
 
 Question 17:
 question: How do you get rid of "one"?
-choice_list: Add a "g" and "one" Gone;; Use "single" as an alternative word;; By saying "zero,two,three" to omit "one";; None of above;;
+choice_list: Add a "g" and "one" Gone; Use "single" as an alternative word; By saying "zero,two,three" to omit "one"; None of above;
 
 
 Question 18:
 question: What kind of wave doesn't involve water?
-choice_list: Microwave;; Seawave;; Tidewave;; None of above;;
+choice_list: Microwave; Seawave; Tidewave; None of above;
 
 
 Question 19:
 question: What kind of goose fights with snakes?
-choice_list: Snow goose;; Canada goose;; Mongoose;; None of above;;
+choice_list: Snow goose; Canada goose; Mongoose; None of above;
 
 
 Question 20:
 question: What kind of chain is edible?
-choice_list: Food chain;; Logic chain;; Blockchain;; None of above;;
+choice_list: Food chain; Logic chain; Blockchain; None of above;
 
 
 Question 21:
 question: What animal keeps the best time?
-choice_list: A watchdog;; An elephant;; A whale;; None of above;;
+choice_list: A watchdog; An elephant; A whale; None of above;
 
 
 Question 22:
 question: What animal has the best chronology?
-choice_list: An elephant;; A watchdog;; A whale;; None of above;;
+choice_list: An elephant; A watchdog; A whale; None of above;
 
 
 Question 23:
 question: What stocks make everyone happy no matter what the situation?
-choice_list: Laughingstock;; Penny stock;; Value stock;; None of above;;
+choice_list: Laughingstock; Penny stock; Value stock; None of above;
 
 
 Question 24:
 question: If a stock doesn't have shares, what kind is it?
-choice_list: Livestock;; Growth stock;; Small-cap stock;; None of above;;
+choice_list: Livestock; Growth stock; Small-cap stock; None of above;
 
 
 Question 25:
 question: What kind of tree is most safe?
-choice_list: Pine;; Hemlock;; Oak;; None of above;;
+choice_list: Pine; Hemlock; Oak; None of above;
 
 
 Question 26:
 question: What is the hardest key to turn?
-choice_list: A new key;; A donkey;; A gold key;; None of above;;
+choice_list: A new key; A donkey; A gold key; None of above;
 
 
 Question 27:
 question: What is the capital in London?
-choice_list: The letter L;; The letter N;; The letter D;; None of above;;
+choice_list: The letter L; The letter N; The letter D; None of above;
 
 
 Question 28:
 question: What is Washington's capital?
-choice_list: The letter T;; The letter W;; The letter N;; None of above;;
+choice_list: The letter T; The letter W; The letter N; None of above;
 
 
 Question 29:
 question: What kind of tree can you hold in your hands?
-choice_list: Oak;; Pine;; Palm;; None of above;;
+choice_list: Oak; Pine; Palm; None of above;
 
 
 Question 30:
 question: What kind of chase involves running at all times?
-choice_list: Risky chase;; Escape chase;; Paperchase;; None of above;;
+choice_list: Risky chase; Escape chase; Paperchase; None of above;
 
 
 Question 31:
 question: What kind of pet would houses like to keep even it doesn't make sound?
-choice_list: Cat;; Carpet;; Dog;; None of above;;
+choice_list: Cat; Carpet; Dog; None of above;
 
 
 Question 32:
 question: When the king was performing really bad with throwing arrows, to give a score to him, what did the hand of the king say?
-choice_list: Aim-highness, King-winner;; Good-shooter;; None of above;;
+choice_list: Aim-highness; King-winner; Good-shooter; None of above;
 
 
 Question 33:
 question: What is the best key for a satisfying meal?
-choice_list: A joykey;; A turkey;; A hockey;; None of above;;
+choice_list: A joykey; A turkey; A hockey; None of above;
 
 
 Question 34:
 question: What does a rain cloud wear under their raincoat?
-choice_list: Thunderware;; Suit;; Skirt;; None of above;;
+choice_list: Thunderware; Suit; Skirt; None of above;
 
 
 Question 35:
 question: What is the cake that if you wouldn't be careful, eating it can result in losing your fingers?
-choice_list: A crab cake;; A birthday cake;; A spicy cake;; None of above;;
+choice_list: A crab cake; A birthday cake; A spicy cake; None of above;
 
 
 Question 36:
 question: What sort of table doesn't have legs?
-choice_list: A dining table;; A coffee table;; A multiplication table;; None of above;;
+choice_list: A dining table; A coffee table; A multiplication table; None of above;
 
 
 Question 37:
 question: What dress do houses wear?
-choice_list: Address;; Suit;; Wedding dress;; None of above;;
+choice_list: Address; Suit; Wedding dress; None of above;
 
 
 Question 38:
 question: How do you get rid of "all"?
-choice_list: By saying "not none" to refer "all";; Add a "f" and "all" fall;; Use "whole" as an alternative word;; None of above;;
+choice_list: By saying "not none" to refer "all"; Add a "f" and "all" fall; Use "whole" as an alternative word; None of above;
 
 
 Question 39:
 question: What did the little lobster get on its math test?
-choice_list: Sea-plus;; Very-bad;; Very-Good;; None of above;;
+choice_list: Sea-plus; Very-bad; Very-Good; None of above;
 
 
 Question 40:
 question: What kind of shot can aim the space?
-choice_list: A moonshot;; A gunshot;; A fireshot;; None of above;;
+choice_list: A moonshot; A gunshot; A fireshot; None of above;
 
 
 Question 41:
 question: What sort of injection wasn't painful?
-choice_list: A fireshot;; A screenshot;; A gunshot;; None of above;;
+choice_list: A fireshot; A screenshot; A gunshot; None of above;
 
 
 Question 42:
 question: What kind of table has no legs?
-choice_list: A multiplication table;; A coffee table;; A dining table;; None of above;;
+choice_list: A multiplication table; A coffee table; A dining table; None of above;
 
 
 Question 43:
 question: What kind of bird is always out of breath?
-choice_list: Sparrow;; Hawk;; Puffin;; None of above;;
+choice_list: Sparrow; Hawk; Puffin; None of above;
 
 
 Question 44:
 question: What do rain clouds wear beneath their raincoat?
-choice_list: Thunderware;; Suit;; Skirt;; None of above;;
+choice_list: Thunderware; Suit; Skirt; None of above;
 
 
 Question 45:
 question: Which chain exactly is edible?
-choice_list: Logic chain;; Food chain;; Gold chain;; None of above;;
+choice_list: Logic chain; Food chain; Gold chain; None of above;
 
 
 Question 46:
 question: What is the best key to a good dinner?
-choice_list: A joykey;; A hockey;; A turkey;; None of above;;
+choice_list: A joykey; A hockey; A turkey; None of above;
 
 
 Question 47:
 question: What type of fish participates in space research?
-choice_list: Starfish;; Catfish;; Yellow fish;; None of above;;
+choice_list: Starfish; Catfish; Yellow fish; None of above;
 
 
 Question 48:
 question: What does the moon use to lighten up its face?
-choice_list: Cloud;; Moonbeam;; Nightmare;; None of above;;
+choice_list: Cloud; Moonbeam; Nightmare; None of above;
 
 
