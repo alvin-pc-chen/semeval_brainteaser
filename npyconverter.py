@@ -111,7 +111,7 @@ def clean_npy(npy_path):
                 npy[i][key] = [remove_lines(x) for x in npy[i][key]]
             else:
                 npy[i][key] = remove_lines(npy[i][key])
-    np.save(npy_path, npy, allow_pickle=True)
+    np.save(save_path, npy, allow_pickle=True)
 
 
 def main():
