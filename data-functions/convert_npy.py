@@ -1,13 +1,16 @@
-# File locations
-NPY_DATA_PATH = "data/data-npy"
-CLEAN_DATA_PATH = "data/data-npy-clean"
-TXT_DATA_PATH = "data/data-txt"
-TSV_DATA_PATH = "data/data-tsv"
-
-import numpy as np
+# Imports
 import os
+from pathlib import Path
 import re
+import numpy as np
 import csv
+
+# File locations
+ROOTDIR = str(Path().parent.absolute().parent.absolute())
+NPY_DATA_PATH = ROOTDIR + "/data/data-npy"
+CLEAN_DATA_PATH = ROOTDIR + "/data/data-npy-clean"
+TXT_DATA_PATH = ROOTDIR + "/data/data-txt"
+TSV_DATA_PATH = ROOTDIR + "/data/data-tsv"
 
 
 def find_npy_files(path):
@@ -28,14 +31,10 @@ def remove_lines(string):
     """
     Do a little clean up on the string:
     1. remove new lines
-    2. remove double spaces
-    3. remove non-breaking spaces
-    4. remove leading spaces
-    5. remove trailing spaces
-    6. remove trailing commas
-    7. remove period + comma
+    2. remove extra (non-breaking, double, extra) spaces
+    3. replace period + semicolon and remove extra semicolons
     TODO:
-    3. fix typos?
+    1. fix typos?
     """
     if isinstance(string, str):
         string = string.replace("\n", "")
@@ -119,7 +118,7 @@ def clean_npy(npy_path):
     Clean up the npy file with remove_lines()
     """
     npy = np.load(npy_path, allow_pickle=True)
-    save_path = re.sub(r"data-npy", "data-npy-clean", npy_path)
+    save_path = re.sub(r"data-npy", "data-npy-clean" , npy_path)
     for i in range(len(npy)):
         for key in npy[i]:
             if isinstance(npy[i][key], list):
