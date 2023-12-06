@@ -1,0 +1,129 @@
+Created: 2023-12-06_00-48-25
+Model: gpt-3.5-turbo, Version: 0
+Number of Questions: 30, Number of Examples: 0, Number of Bad Outputs: 2
+F1: 0.3502164502164502, Accuracy: 0
+System Prompt: You are a Question Answering Model, your response must be a number from the choices that are delimited by the symbol ";" .
+User Prompt: Think outside of the box and respond with the number corresponding to the best choice for the following question.
+Question: 
+
+
+Question SP-124: A man was born in 1898. He is still alive now at the age 33 How is this possible ?
+Model Answer: None of above.
+Correct Answer: he was born in room 1898 in the hospital.
+
+Question SP-39_CR: How can a pilot take off in Los Angeles on Tuesday, fly for 48 hours, and land in Tokyo on Tuesday?
+Model Answer: None of above.
+Correct Answer: The pilot's airplane is named Tuesday.
+
+Question SP-162_CR: There were 10 pigeons sitting in a row. A tiger came and caught one of them and ate it. How many pigeons are left for the tiger to eat?
+Model Answer (Wrong): 0 = Nine.
+Correct Answer: None of above.
+
+Question SP-9_CR: The coaches of the first and the fifth national basket ball champion shares the same parents, but were not brothers. How can this be possible?
+Model Answer: None of above.
+Correct Answer: They were the same man.
+
+Question SP-185_SR: How could a guy go outdoors in the torrential rain without getting a single hair on his head wet?
+Model Answer: None of above.
+Correct Answer: He is bald.
+
+Question SP-125: A man is late for an appointment and, in his haste, takes a corner so fast that only two wheels were on the pavement. A policeman is standing on the corner, but he did not give him a ticket. Why?
+Model Answer: None of above.
+Correct Answer: He was on a motorcycle.
+
+Question SP-162_SR: What is the maximum number of gold coins a leprechaun can toss into an empty pot?
+Model Answer: None of above.
+Correct Answer: One. After that, it no longer empty.
+
+Question SP-153_SR: Two women and two doctors enter an ice cream shop. Each of them orders an ice cream cone. When their ice cream arrives, there is just one strawberry, one chocolate, and one vanilla flavor. Why didn't they complain?
+Model Answer: None of above.
+Correct Answer: One of the women was a doctor.
+
+Question SP-168: Andy is put in a cell with a dirt floor and only one window. The window is too high for him to reach. The only thing in the cell is a shovel. He won't be able to get any food or water and only has two days to escape or he'll die. Andy can't dig a tunnel because it will take him much longer than two days to do it. How will Andy escape from the cell?
+Model Answer: Andy has to use the shovel to create a pile of dirt under the window so he can climb up onto it and escape from the cell.
+Correct Answer: Andy has to use the shovel to create a pile of dirt under the window so he can climb up onto it and escape from the cell.
+
+Question SP-23_SR: A common peasant recently purchased many camels and is transporting them to his land. He counts them as he travels happily and finds that there are 29 of them. He leaps off his camel in fright after thinking he had purchased 30 camels and counts them once more. He is delighted to find 30. He counts his camels again thirty minutes later, and this time there are only 29. He dismounts his camel in confusion and counts once more. There are 30 once more. Can you elaborate?
+Model Answer: None of above.
+Correct Answer: When he is on the camel he omits to count it.
+
+Question SP-87_SR: How to carry an elephant on one hand?
+Model Answer: None of above.
+Correct Answer: None of above.
+
+Question SP-173_CR: I have a friend who claims that he has a especial kite that it's 10 kilograms, however, he can throw it towards a direction and at some point that he can say exactly when, the kite will change directions and comes straight back to him. How's that possible?
+Model Answer: The kite your friend has is made of a special material that is lighter than air. Despite its weight being stated as 10 kilograms, it actually has negative mass, allowing it to defy gravity.
+Correct Answer: The kite is too heavy to fly so the only reasonable answer is that the kite is always thrown towards the sky and because of its weight, it can be expected that at a particular time, it wil change directions and comes straight back to him.
+
+Question SP-8: All of Mrs. Smith pets are dogs except one, and all her pets are cats except one. But Mrs.Smith only has 2 pets, how is that possible?
+Model Answer: Mrs. Smith has one cat and one dog.
+Correct Answer: Mrs. Smith has one cat and one dog.
+
+Question SP-104_SR: A girl fell into a 60-foot well after slipping, but she was unwet. How is it even possible?
+Model Answer: None of above.
+Correct Answer: The well is dry.
+
+Question SP-169_SR: The ground floor has an elevator. In the elevator, there are four individuals, including myself. When the lift arrives at the first floor, one person exits and three people enter. The lift ascends to the second level, 2 people exit, and 6 people enter. It then proceeds to the next floor, where no one exits but 12 individuals enter. The elevator wire snaps halfway up to the next story, and it smashes to the floor. Everyone everyone in the elevator dies except me. How did I make it?
+Model Answer: None of above.
+Correct Answer: I got off on the first floor.
+
+Question SP-180: If you were alone in a dark room, with only one match and an oil lamp, a fireplace, and a candle to choose from, which would you light first?
+Model Answer: None of above.
+Correct Answer: None of above.
+
+Question SP-2_CR: Tom is a clean freak but he never dries his hair after a shower. How is this possible?
+Model Answer: This man is bald.
+Correct Answer: This man is bald.
+
+Question SP-132: A large truck is crossing a bridge 1 mile long. The bridge can only hold 14000 lbs, which is the exact weight of the truck. The truck makes it half way across the bridge and stops. A bird lands on the truck, but the bridge doesn't collapse. How is that possible?
+Model Answer: The bird's weight is too little that won't affect the bridge to collapse.
+Correct Answer: Because it has driven a half mile - you would subtract the gas used from the total weight of the truck.
+
+Question SP-69: A rancher had 500 cows and took one shot that got them all. How did he do it?
+Model Answer: None of above.
+Correct Answer: A panoramic photo.
+
+Question SP-177_CR: Mark was a bad employee and his boss was annoyed by him. His boss wanted to do something to stop him from coming to the office. He picked up the phone and fixed the problem. Now, Mark can't come to the office and he's fired.
+Model Answer (Wrong): 0 = The boss called the security to tell them not to let Mark in the office anymore
+Correct Answer: The boss called the security to tell them not to let Mark in the office anymore
+
+Question SP-53: A woman who lives in new york legally married three men, she did not get divorce, get an enrollment, or legally seperate. How is this possible?
+Model Answer: None of above.
+Correct Answer: She is a minister.
+
+Question SP-145_SR: A man was staring out a sixth-floor window when he decided to jump. He did not perish or get any injuries. How?
+Model Answer: None of above.
+Correct Answer: He jumped in the window. He was outside the window to wash it.
+
+Question SP-175_CR: A man steps into a chamber and activates a switch. In a matter of seconds, he becomes 15 kilograms lighter. How did he lose the weight?
+Model Answer: The chamber is actually a lift. When he gets inside and the lift descends rapidly, the quick downward motion temporarily reduces his weight.
+Correct Answer: The chamber is actually a lift. When he gets inside and the lift descends rapidly, the quick downward motion temporarily reduces his weight.
+
+Question SP-148_CR: They are a couple of friends that are playing in water. Suddenly they get suffocated and die although they had their heads outside the water
+Model Answer: None of above.
+Correct Answer: The friends were fish, playing in the water.
+
+Question SP-103_CR: Johnson is a famous doctors in the world and benefit mankind greatly. However, he never been to a medical school. How is that possible?
+Model Answer: None of above.
+Correct Answer: Johnson is a "doctors" in the academic sense
+
+Question SP-93_SR: A cat was outside when it began to rain. Even though the cat was thoroughly saturated by the rain and had nowhere to hide from it, not a single hair was wet. How is this possible?
+Model Answer: None of above.
+Correct Answer: It was a hairless cat.
+
+Question SP-204_SR: At 98 mph, an electric train is traveling south. There is a northeast wind. Where is the smoke coming from?
+Model Answer: There is no smoke. it's an electric train!
+Correct Answer: There is no smoke. it's an electric train!
+
+Question SP-38: I dig out tiny caves and store gold and silver in them. I also build bridges of silver and make crowns of gold. They are the smallest you could imagine. Sooner or later everybody needs my help, yet many people are afraid to let me help them. Why?
+Model Answer: I am a dentist.
+Correct Answer: I am a dentist.
+
+Question SP-1: A woman shoots her husband. Then she holds him underwater for over 5 minutes. Finally, she hangs him. But 5 minutes later, they both go out and enjoy a wonderful dinner together. How can this be?
+Model Answer: None of above.
+Correct Answer: The woman was a photographer. She shot a picture of her husband, developed it, and hung it up to dry.
+
+Question SP-18: There are 3 apples for 2 sons and 2 fathers to eat. Each of them get their own apple. How is it numerically possible?
+Model Answer: One father gave his apple to his son.
+Correct Answer: They are one son, one father and one grandfather.
+

@@ -1,0 +1,130 @@
+Created: 2023-12-06_00-44-21
+Model: gpt-3.5-turbo, Version: 0
+Number of Questions: 30, Number of Examples: 10, Number of Bad Outputs: 0
+F1: 0.3476190476190476, Accuracy: 0
+System Prompt: You are a Question Answering Model, your response must be a number from the choices that are delimited by the symbol ";" .
+User Prompt: Think outside of the box and respond with the number corresponding to the best choice for the following question.
+
+Question: 
+
+
+Question SP-91_SR: Some months' names contain eight letters, while others only contain five. Which month has three?
+Model Answer: They all do.
+Correct Answer: They all do.
+
+Question SP-49: Wednesday,Tom and Joe went to a restaurant and ate dinner. When they were done they paid and left. Tom and Joe didn't pay. Who did?
+Model Answer: None of above.
+Correct Answer: Wednesday. The name of the third person in the group, not the day.
+
+Question SP-61_SR: Without breaking the law, a truck driver went three blocks down a one-way street. Why is that?
+Model Answer: None of above.
+Correct Answer: The truck driver was walking.
+
+Question SP-135: Two cars were involved in an accident in the center of town. The man who was driving a little green car, had overtaken a big black car. The driver had misjudged the distance between him and the on-coming traffic and had to serve back in, causing the black car to serve and crash into a shop window. When the occupants of the cars were examined everyone in the green car was okay, but in the black car was one dead man. However, the driver of the green car was not charged with manslaughter, why was this so?
+Model Answer: The black car was a hearse and was on its way to a funeral.
+Correct Answer: The black car was a hearse and was on its way to a funeral.
+
+Question SP-96: There are 8 brothers. Brother 1 is playing checkers. Brother 2 is eating. Brother 3 is watching video games. Brother 4 is dancing. Brother 5 is texting. Brother 6 is at school. Brother 7 is sleeping. What is Brother 8 doing?
+Model Answer: None of above.
+Correct Answer: Brother 8 is playing checkers.
+
+Question SP-202_SR: I planted a stone, and it sprouted leaves and fruit. How is that even possible?
+Model Answer: The stone that was buried in the ground symbolizes an idea or a concept. By burying the idea and nurturing it with care and effort, it grew and blossomed into a fruitful outcome or achievement.
+Correct Answer: The stone was actually a seed, not an ordinary stone. The seed of a cherry is called a stone.
+
+Question SP-89_SR: Who would take office as president if the vice president passed away?
+Model Answer: The speaker of the House.
+Correct Answer: The President.
+
+Question SP-100: Two girls have the same parents and were born at the same hour of the same day of the same month, but they are not twins. How can this be possible?
+Model Answer: They were not born in the same year.
+Correct Answer: They were not born in the same year.
+
+Question SP-13_SR: A man who resided on the twenty-story building's top floor had to travel up and down each day for work, as well as for food and other requirements. He could only use the elevator up to the fifteenth story most days, after which he had to continue walking. However, he could ride all the way to the twentieth storey when it poured. Why?
+Model Answer: The man wasn't tall enough to reach the button for the 20th floor. He could only reach the 15th story button on the elevator. When it rained, he brought his umbrella, and used it to press the 20th story button on the elevator.
+Correct Answer: The man wasn't tall enough to reach the button for the 20th floor. He could only reach the 15th story button on the elevator. When it rained, he brought his umbrella, and used it to press the 20th story button on the elevator.
+
+Question SP-178_CR: Katie picks up 30 pages of papers every evening and write numbers from 0 to 20 on them. Why does she act this way?
+Model Answer: None of above.
+Correct Answer: She has a class with 30 students and every day she distributes small quiz papers and in the evening she grades them
+
+Question SP-198_SR: What animal does not have wings but can fly?
+Model Answer: A caterpillar.
+Correct Answer: A caterpillar.
+
+Question SP-62_CR: Emily stands outside a building. She doesn't know what time it is, but she knows she has to go in to find out. Where is Emily?
+Model Answer: None of above.
+Correct Answer: Clock store.
+
+Question SP-201: Imagine you are in a room, with no doors, windows, or anything. How do you get out?
+Model Answer: Stop imagining.
+Correct Answer: Stop imagining.
+
+Question SP-160: What question can never be answered with a Yes?
+Model Answer: None of above.
+Correct Answer: Are you asleep?
+
+Question SP-69_SR: A rancher shot once and killed all 500 of his cows. What was his secret?
+Model Answer: A panoramic photo.
+Correct Answer: A panoramic photo.
+
+Question SP-115_SR: A guy was just going about his business when his suit was ripped. Why did he pass away three minutes later?
+Model Answer: He never ruin clothes before. His heart couldn't handle the stress, leading to his unfortunate demise.
+Correct Answer: He was an astronaut on a space walk, doing repairs.
+
+Question SP-136_SR: A horse was tethered to a 5 meter long rope, and the horse's food was 15 meters distant. What path did the horse use to get to the food?
+Model Answer: The rope stretches proportionally, providing the extra length needed for the horse to reach the hay fifteen meters away.
+Correct Answer: The rope wasn't tied to anything so he could reach the food.
+
+Question SP-171_CR: there is a restaurant that can fit 20 people, but the owner is not happy with the number of people coming to the restaurant. Somebody tries to help him by bringing people for the restaurant. how many does he have to bring until the restaurant wouldn't be empty anymore?
+Model Answer: None of above.
+Correct Answer: One.
+
+Question SP-134_CR: A guy goes to a football stadium for each time their team has a match, and yet he is left with a lot of money at the end of the year. How?
+Model Answer: None of above.
+Correct Answer: He is the coach of the football team.
+
+Question SP-132_CR: A car elevator in a high-rise building can carry a maximum weight of 10,000 lbs. One day a worker drove an operational car weighing 10,000 lbs from a long distance to get into the elevator. He didn't notice a car was hiding in the rear and moved the car into the elevator. However, the elevator worked as usual, how is that possible?
+Model Answer: None of above.
+Correct Answer: Because it has driven a long distance - you would subtract the gas used from the total weight of the truck.
+
+Question SP-37: A beggar's brother died, but the man who died had no brother. How could that be?
+Model Answer: None of above.
+Correct Answer: The beggar was the man's sister.
+
+Question SP-103_CR: Johnson is a famous doctors in the world and benefit mankind greatly. However, he never been to a medical school. How is that possible?
+Model Answer: None of above.
+Correct Answer: Johnson is a "doctors" in the academic sense
+
+Question SP-106: An electric train is going south at 98 mph. The wind is blowing northeast. Which direction is the smoke blowing?
+Model Answer: None of above.
+Correct Answer: None of above.
+
+Question SP-63_SR: Which could see the best in complete darkness? a tiger, a bat, or an owl.
+Model Answer: Bat.
+Correct Answer: None of above.
+
+Question SP-180_SR: Which would you light first if you were alone in a dark room with just one match with an oil lamp, a fireplace, and a candle to select from?
+Model Answer: None of above.
+Correct Answer: None of above.
+
+Question SP-76_SR: A one-story home at the intersection of the street had bedrooms painted yellow, a kitchen painted orange, a living room painted red, a garage painted blue, an entryway painted green, and a sitting room painted purple. Which color did the stairs have?
+Model Answer: None of above.
+Correct Answer: None of above.
+
+Question SP-6_SR: Tom was arguing with his younger sister. Because of the fighting, their mother decided to have them stand on the same piece of newspaper so they couldn't touch each other as punishment. How did she manage to do this?
+Model Answer: The newspaper was folded multiple times and ended with a special shape.
+Correct Answer: Tom's mother slid a newspaper under a door, each sibling standing on each side.
+
+Question SP-167_SR: A PC has a bomb on top of it. A phone, a comb, keys, and a cup are arranged around the computer. Which object is destroyed first when the explosion occurs?
+Model Answer: None of above.
+Correct Answer: None of above.
+
+Question SP-89: If the vice president were to die, who is supposed to be president?
+Model Answer: None of above.
+Correct Answer: The President.
+
+Question SP-23_CR: Each of the 30 participants in the masquerade had to wear a unique hat to distinguish themselves from one another. The host, however, only tallied 29 when he counted the number of hats to determine attendance. All 30 persons had signed their names on the spreadsheet, which confused him. He repeated the count. There are still 29. How is that even doable?
+Model Answer: One person had moved away from the group when the host was counting.
+Correct Answer: The host had a hat himself and he forget to count it.
+

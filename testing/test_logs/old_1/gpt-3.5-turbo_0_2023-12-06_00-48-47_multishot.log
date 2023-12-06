@@ -1,0 +1,129 @@
+Created: 2023-12-06_00-48-47
+Model: gpt-3.5-turbo, Version: 0
+Number of Questions: 30, Number of Examples: 10, Number of Bad Outputs: 0
+F1: 0.4096638655462185, Accuracy: 0
+System Prompt: You are a Question Answering Model, your response must be a number from the choices that are delimited by the symbol ";" .
+User Prompt: Think outside of the box and respond with the number corresponding to the best choice for the following question.
+Question: 
+
+
+Question SP-177: Sam's dad couldn't keep his son from playing video games. To keep Sam from playing video games all the time, the dad grabbed a hammer and solved the problem. Now he can play video games but Sam cannot. What did the dad do
+Model Answer: The dad built a shelf out of Sam's reach and put the video game console up there. The dad can still reach it to play but Sam cannot.
+Correct Answer: The dad built a shelf out of Sam's reach and put the video game console up there. The dad can still reach it to play but Sam cannot.
+
+Question SP-6_CR: A couple is having a disagreement over the man's error. The man kept apologizing and pleading with the woman to allow him to see her directly. The woman was still upset. Thus, she wouldn't agree. The couple, though, was positioned on the same mat. How is that even doable?
+Model Answer: None of above.
+Correct Answer: The couple was standing on two sides of the girl's apartment door, which had a rug under it.
+
+Question SP-160: What question can never be answered with a Yes?
+Model Answer: None of above.
+Correct Answer: Are you asleep?
+
+Question SP-64: There was a man who everybody called Batman he knew nothing about bats and thought they were gross. He still loved it when people called him Batman! How could this be?
+Model Answer: None of above.
+Correct Answer: He was the star baseball player.
+
+Question SP-71_SR: Mrs. Adams informs her next-door neighbor that her son is turning 16 today and will turn 20 on his next birthday. How is that possible?
+Model Answer: He was born on February 29.
+Correct Answer: He was born on February 29.
+
+Question SP-28: A certain large animal lives happily and thrives here on Earth. One day, every single one of these writers is wiped out by a mysterious disease that affects only this particular animal. There are none left anywhere on earth -- they are all gone. About a year or so later, they begin to reappear on Earth again. How can this be?
+Model Answer: None of above.
+Correct Answer: The animal is the Mule. Since all Mules are born sterile, you can only get a Mule by crossing a donkey with a horse.
+
+Question SP-131_CR: Tricky Tim was on an adrenaline-filled motorcycle ride when suddenly the brakes malfunctioned. As they sped along the highway, a frightened Tim clung to the handlebars with all his might. From his peripheral vision, Tim spotted a truck approaching and, realizing his motorcycle was completely out of control, he began to panic. Flailing his arms about in his fear, he accidentally caused the motorcycle to slow down and stop. What could Tricky Tim have done to make the motorcycle stop?
+Model Answer: Tim accidentally hit the motorcycle's engine kill switch. When a motorcycle's engine is cut off, it will naturally decelerate and eventually stop.
+Correct Answer: Tim accidentally hit the motorcycle's engine kill switch. When a motorcycle's engine is cut off, it will naturally decelerate and eventually stop.
+
+Question SP-131: Bouncing Bob was riding a particularly risky horse when suddenly its bridge came off. As they raced down the road, a screaming Bob lung to the horse's ears for dear life. Out of the corner of his eye, Bob saw a car coming, and realizing the horse was completely out of control, he panicked. Failing his arms about, he accidentally caused the horse to come to an abrupt halt. What could Bouncing Bob have done to make the horse stop?
+Model Answer: None of above.
+Correct Answer: Bob accidentally put his hands over the horse's eyes. If a horse can't see he will automatically stop.
+
+Question SP-127: Imagine Johnny, a party clown, is carrying three pieces of gold each piece weighing one kilogram. While taking a walk he comes to a bridge that has a sign posted saying the bridge could hold only a maximum of 80 kilograms. John weighs 78 kilograms and the gold weighs three kilograms. Johnny reads the sign and still safely crossed the bridge with all the gold. How did he manage this?
+Model Answer: None of above.
+Correct Answer: Johnny is a clown so he has mastered juggling. When he came to the bridge he judged the gold, always keeping one piece in the air.
+
+Question SP-171: I have a large money box, 10 inches wide and 5 inches tall. Roughly how many coins can I place until my money box is no longer empty?
+Model Answer: Infinite.
+Correct Answer: One.
+
+Question SP-1_SR: An individual shoots their spouse. She continues by keeping him submerged for over five minutes. She hangs him finally. However, they go out together and have a fantastic supper five minutes later. Why is this the case?
+Model Answer: The woman was a photographer. She shot a picture of her husband, developed it, and hung it up to dry.
+Correct Answer: The woman was a photographer. She shot a picture of her husband, developed it, and hung it up to dry.
+
+Question SP-26_CR: A tower suddenly moves directly to another tower, and the tower hitted vanishes. It's not a dream or an illusion. So where might this occur?
+Model Answer: On a chessboard.
+Correct Answer: On a chessboard.
+
+Question SP-199_SR: In a small town, a logical with some free time made the decision to get a haircut. There were only two barbers in the town, and they each had a shop. The rational glance into one store revealed that it was incredibly expensive. His clothes were messy, his hair was poorly cut, and the barber needed to shave. The other store was very well-kept. The barber had recently had his hair cut and was immaculately dressed. Why did the logical get his haircut at the first place he went?
+Model Answer: None of above.
+Correct Answer: Each barber must have cut the other's hair. The logical picked the barber who had given his rival the better haircut.
+
+Question SP-11_CR: Within Joshua Tree National Park, a couple is driving. Because there is no light in the area to improve the view, the Joshua Tree National area is well known for its starry sky. The couple travels here for the first time, and the roads are rough. Their vehicle's headlights are damaged. How did they manage to prevent being crushed?
+Model Answer: Their eyes have the ability to adapt to low-light conditions over time.
+Correct Answer: It was during the daylight hours.
+
+Question SP-194_SR: A hiker lands near a lake. He sees a sign that says "No swimming allowed," yet the duck dives into the water anyhow. Why?
+Model Answer: Because ducks can't read.
+Correct Answer: Because ducks can't read.
+
+Question SP-94: Two men had to go to the south side of the river, the river is pretty wide and rapid. There is one boat, but only one person fits on it. Lucky they both got to the south side of the river. How?
+Model Answer: One person already at the south side of the river.
+Correct Answer: One person already at the south side of the river.
+
+Question SP-86_CR: In a tube that is 6 feet long with 3 feet in radius, how much water can it store?
+Model Answer: 108π cubic feet.
+Correct Answer: None of above.
+
+Question SP-82: Two mothers and two daughters went out to eat, everyone ate one slice of pizza, yet only three slices were eaten. How's that possible?
+Model Answer: The group included a grandmother, her daughter and her daughter's daughter.
+Correct Answer: The group included a grandmother, her daughter and her daughter's daughter.
+
+Question SP-67: I left my campsite and hired south for 3 miles. Then I turned east and hired for 3 miles. I then turned north and hired for 3 miles, at which time I came upon a bear inside my tent eating my food! What color was the bear?
+Model Answer: None of above.
+Correct Answer: White.
+
+Question SP-118: All the electricity was out in town and none of the street lights or traffic signals had power. A dark limousine was cruising down the newly paved blacktop, with its headlights off. A young boy dressed totally in black (with no reflector) stepped out to cross the street. The moon wasn't out and the boy had no flashlight, yet the driver stopped to let the boy cross the street. How did the driver see the boy?
+Model Answer: None of above.
+Correct Answer: The driver saw the boy because it was during the daylight hours.
+
+Question SP-39: How could a cowboy ride into town on Friday, stay two days, and ride out on Wednesday?
+Model Answer: His horse is named Wednesday.
+Correct Answer: His horse is named Wednesday.
+
+Question SP-51_CR: Morgan is dying near the sea line. Many people witness her death but no one feel sad. Why?
+Model Answer: None of above.
+Correct Answer: Morgan is the name of hurricane.
+
+Question SP-106_CR: A submarine is moving west at a speed of 30 knots. There is a strong current moving east. Where are the trail of bubbles coming from?
+Model Answer: None of above.
+Correct Answer: None of above.
+
+Question SP-76_SR: A one-story home at the intersection of the street had bedrooms painted yellow, a kitchen painted orange, a living room painted red, a garage painted blue, an entryway painted green, and a sitting room painted purple. Which color did the stairs have?
+Model Answer: None of above.
+Correct Answer: None of above.
+
+Question SP-116_SR: How can you stand physically behind your friend while he stands physically behind you?
+Model Answer: With the help of optical illusions.
+Correct Answer: By standing back to back.
+
+Question SP-152_CR: A man took several shots heavily and even fell down from the hit, but he still survived. How's that possible?
+Model Answer: None of above.
+Correct Answer: They were whiskey shots.
+
+Question SP-132_CR: A car elevator in a high-rise building can carry a maximum weight of 10,000 lbs. One day a worker drove an operational car weighing 10,000 lbs from a long distance to get into the elevator. He didn't notice a car was hiding in the rear and moved the car into the elevator. However, the elevator worked as usual, how is that possible?
+Model Answer: None of above.
+Correct Answer: Because it has driven a long distance - you would subtract the gas used from the total weight of the truck.
+
+Question SP-36_SR: A car accident involving a father and son resulted in the death of the father. The son was transported to the hospital by ambulance. He required surgery right away. A doctor entered the operating room and said, "I can't operate on him. He's my son." after taking one look at the young patient. Why?
+Model Answer: Because the doctor is the mother of the son.
+Correct Answer: Because the doctor is the mother of the son.
+
+Question SP-155_CR: Linda is enjoying a music track on her headphones in flight when the music abruptly stops. No one is around Linda and nobody touches her headphones. A moment later, the music starts playing again. How can this be?
+Model Answer: None of above.
+Correct Answer: Linda was on an airplane that just went through turbulence and the interference caused the temporary interruption.
+
+Question SP-12_CR: The ship was in the central Pacific Ocean. The ship suddenly began to sink without being crushed. However, each team was still preoccupied with its own tasks, so none was threatening. Why?
+Model Answer: It was a Submarine.
+Correct Answer: It was a Submarine.
+

@@ -1,0 +1,130 @@
+Created: 2023-12-06_00-34-06
+Model: gpt-3.5-turbo, Version: 0
+Number of Questions: 30, Number of Examples: 0, Number of Bad Outputs: 1
+F1: 0.2582579185520362, Accuracy: 0
+System Prompt: You are a Question Answering Model, your response must be a number from the choices that are delimited by the symbol ";" .
+User Prompt: Think outside of the box and respond with the number corresponding to the best choice for the following question.
+
+Question: 
+
+
+Question SP-2_CR: Tom is a clean freak but he never dries his hair after a shower. How is this possible?
+Model Answer: This man is bald.
+Correct Answer: This man is bald.
+
+Question SP-66: Maria and Juliana went out for drinks together. They ordered the same drink. Juliana was really thirsty and finished five in the time it took Maria to finish one. The drinks were poisoned, but only Maria died. How?
+Model Answer: None of above.
+Correct Answer: The poison was in the ice.
+
+Question SP-93_SR: A cat was outside when it began to rain. Even though the cat was thoroughly saturated by the rain and had nowhere to hide from it, not a single hair was wet. How is this possible?
+Model Answer: None of above.
+Correct Answer: It was a hairless cat.
+
+Question SP-56_CR: Two lighthouses are situated back to back on the same island, one faces due North and the other due South. They never turn or rotate. How can they both illuminate the same ship at the same time?
+Model Answer: There are reflection on the island.
+Correct Answer: The ship is exactly in between the two lighthouses.
+
+Question SP-116_CR: Two men are using a ladder but both are face-to-face and can't pass each other. How's that physically possible ?
+Model Answer: The ladder is set horizontally and two people are hanging from it one going from left to right and the other one from right to left
+Correct Answer: The ladder is set horizontally and two people are hanging from it one going from left to right and the other one from right to left
+
+Question SP-83: A man dressed in all black is walking down a country lane. Suddenly, a large black car with no lights on comes around the corner and speeches to a halt. How did the car's driver know he was there?
+Model Answer: None of above.
+Correct Answer: It was day time.
+
+Question SP-188_CR: A rooster and a bull were expecting their first child, but since they were having a competition, they wanted to precipitate the process. Which one of them gave birth first?
+Model Answer: None of above.
+Correct Answer: None of above.
+
+Question SP-70_CR: John family puts a lot of emphasis on birthdays to build rapport with each other, however, this year, no one even mention John's birthday at all. Why?
+Model Answer: None of above.
+Correct Answer: He was born on February 29th
+
+Question SP-48_SR: Why is Christmas Day so chilly?
+Model Answer: Because it's in December.
+Correct Answer: Because it's in December.
+
+Question SP-145: A man was looking through a 6th floor window, thought for a minute then jumped, but did not die or get hurt at all. How?
+Model Answer: He used the collison between his body and walls to slow down.
+Correct Answer: He jumped in the window. He was outside the window to wash it.
+
+Question SP-51_CR: Morgan is dying near the sea line. Many people witness her death but no one feel sad. Why?
+Model Answer: None of above.
+Correct Answer: Morgan is the name of hurricane.
+
+Question SP-6: Tom and his younger sister were fighting. Their mother was tired of the fighting and decided to punish them by making them stand on the same piece of newspaper in such a way that they couldn't touch each other. How did she accomplish this?
+Model Answer: The newspaper was folded multiple times and ended with a special shape.
+Correct Answer: Tom's mother slid a newspaper under a door, each sibling standing on each side.
+
+Question SP-127_CR: Picture Robert, an adept circus performer, carrying five silver spheres, each weighing two kilograms. While trekking, he stumbles upon a rickety old bridge with a sign pronouncing that it can only bear a maximum of 90 kilograms. The silver spheres weigh ten kilograms and Robert weighs 81 kilograms. Robert sees the sign and crosses the bridge securely with all his treasures. How did he manage to do this?
+Model Answer: None of above.
+Correct Answer: Robert is a clown so he has mastered juggling. When he came to the bridge he judged the gold, always keeping one piece in the air.
+
+Question SP-168_SR: Andy is placed in a cell with no windows and a dirt floor. He can't reach the window because it's too high. A shovel is the sole object in the cell. He won't be able to find food or water, and he only has two days to flee or perish. Andy is unable to construct a tunnel since it will take him considerably longer than two days. How will Andy get out of the cell?
+Model Answer: Andy has to use the shovel to create a pile of dirt under the window so he can climb up onto it and escape from the cell.
+Correct Answer: Andy has to use the shovel to create a pile of dirt under the window so he can climb up onto it and escape from the cell.
+
+Question SP-203_SR: How many birth days do most people have on average?
+Model Answer (Wrong): 0 = People may celebrate their birthdays annually, so it depends on their life span.
+Correct Answer: They technically only have one birth day in their lifetime.
+
+Question SP-99_CR: Soccer was being played between two teams. Team One had a player who score two balls in a role. Team TWO doesn't have a player scoring due to the good defense of Team One. However, Team One still loss the game. Why?
+Model Answer: None of above.
+Correct Answer: The player scored in their own goal.
+
+Question SP-74_SR: A man and his dog are both standing on opposite sides of a river. The guy summons his dog, who quickly crosses the river without getting wet. There were no bridges or boats. What was the dog's secret?
+Model Answer: None of above.
+Correct Answer: The river was frozen.
+
+Question SP-171_SR: I have a small money box that is 5 inches broad by 2 inches height. How many coins can I put in my money box till the box will no longer be empty?
+Model Answer: None of above.
+Correct Answer: One.
+
+Question SP-103_CR: Johnson is a famous doctors in the world and benefit mankind greatly. However, he never been to a medical school. How is that possible?
+Model Answer: None of above.
+Correct Answer: Johnson is a "doctors" in the academic sense
+
+Question SP-97: There lived a man in a house and every time he went to bed he turned on the light. One night, the man forgot to turn on the light. The next day he read the paper and sinking into deep self-blame. Why?
+Model Answer: None of above.
+Correct Answer: The man lived in a lighthouse. He forgot to turn on the light and a ship crashed.
+
+Question SP-115_CR: A man was swimming in a sea, when he had a small injury and he lost only a small amount of blood, a minute later, he died in a painful way
+Model Answer: None of above.
+Correct Answer: When he started bleeding, a shark noticed and ate him.
+
+Question SP-27: Dorothy has never expressed suicidal thoughts, but whenever she experiences feelings of sadness or depression, she makes arrangements to travel to a very high spot that she has visited on numerous occasions. Once there, she proceeds to jump from that great height. The fascinating fact though is she has never been injured from this leap, and in fact, she tells everyone that she feels much better afterward. If she’s not suicidal, then what is going on here, and why has she never been injured, or even worse, died from her risky actions?
+Model Answer: None of above.
+Correct Answer: Dorothy is a sky jumper.
+
+Question SP-199: A logical with some time to kill in a small town decided to get a haircut. The town had only two barber, each with his own shop. The logical glance into one shop and saw that it was extremely until. The barber needed a shave, his clothes were unkempt, and his hair was badly cut. The other shop was extremely neat. The barber was freshly shaved and spotlessly dressed, his hair neatly trimmed. Why did the logical return to the first shop for his haircut?
+Model Answer: Each barber must have cut the other's hair. The logical picked the barber who had given his rival the better haircut.
+Correct Answer: Each barber must have cut the other's hair. The logical picked the barber who had given his rival the better haircut.
+
+Question SP-153: Two women and two doctors walk into an ice cream parlor. They each order an ice cream cone. When their ice cream come, there is only 1 strawberry,1 chocolate and 1 vanilla. How come they didn't complain?
+Model Answer: None of above.
+Correct Answer: One of the women was a doctor.
+
+Question SP-65_CR: A man took his son to a baseball game. The coach of the team saw the man and said, "That boy is my son." Yet, the man at the baseball game was the boy's father. How is that possible?
+Model Answer: None of above.
+Correct Answer: The coach of the team is the boy's mother.
+
+Question SP-48_CR: Why is Independence Day so hot?
+Model Answer: None of above.
+Correct Answer: Because it's in July.
+
+Question SP-35: Three men sitting in a small motorboat one meter from the shoreline. The first is afraid of water, the second is afraid of drowning, and the third is afraid of sharks. The boat's motor is not operational and there is nothing to row with. How do they get to the shoreline?
+Model Answer: They can just walk onto its as the boat is one-meter inland.
+Correct Answer: They can just walk onto its as the boat is one-meter inland.
+
+Question SP-13_CR: A man uses the elevator since he is too old to use his crutch to ascend to the 12th floor. He is asked to hit the 17th button by a woman who is taller than him because she is unable to do it herself. Why?
+Model Answer: None of above.
+Correct Answer: The old man can reach the button with the help of his crutch.
+
+Question SP-207_SR: Ten pears hung high, ten men passed past, Each taking a fruit and leaving nine hanging there. How is that possible?
+Model Answer: None of above.
+Correct Answer: EACH is the name of one of the men.
+
+Question SP-18_SR: There are 3 apples available for 2 fathers and 2 boys to consume. They each receive a single apple. How is it a mathematical possibility?
+Model Answer: One father gave his apple to his son.
+Correct Answer: They are one son, one father and one grandfather.
+

@@ -1,0 +1,129 @@
+Created: 2023-12-06_01-22-39
+Model: gpt-3.5-turbo, Version: 0
+Number of Questions: 30, Number of Examples: 0, Number of Bad Outputs: 0
+F1: 0.16895604395604394, Accuracy: 0.2
+System Prompt: You are a Question Answering Model, your response must be a number from the choices that are delimited by the symbol ";" .
+User Prompt: Think outside of the box and respond with the number corresponding to the best choice for the following question.
+Question: 
+
+
+Question SP-87_CR: How to fit an entire mountain inside a suitcase?
+Model Answer: None of above.
+Correct Answer: None of above.
+
+Question SP-57_SR: A shooter put his hat away and donned a blindfold. He then made a 100-yard walk, turned around, and shot a bullet in the hat. The man's vision was completely obscured by the effective blindfold. How did he pull this off?
+Model Answer: He uses the sound to feel the direction.
+Correct Answer: He hung his hat on the barrel of his gun.
+
+Question SP-21_CR: Jessica will read the Bible every night before bed. Jessica had forgotten to buy candles for a backup one day when the electricity went out, but she still read a chapter before turning in. How is that even doable?
+Model Answer: None of above.
+Correct Answer: Sally was blind, she was reading a book by Braille.
+
+Question SP-172_CR: What's the especial day in which all people sleep less than normal days?
+Model Answer: Winter Solstice since the day is the shortest
+Correct Answer: Winter Solstice since the day is the shortest
+
+Question SP-74: A man stands on one side of a river, his dog on the other. The man calls his dog, who immediately crosses the river without getting wet and without using a bridge or a boat. How did the dog do it?
+Model Answer: None of above.
+Correct Answer: The river was frozen.
+
+Question SP-26_SR: A tower is jumped over by a horse, and the tower vanishes. It's not a dream or an illusion. So where might this occur?
+Model Answer: None of above.
+Correct Answer: On a chessboard.
+
+Question SP-5_CR: There is a peculiar vase holding seven magical beans. You must distribute these beans among seven sorcerers, ensuring each one gets a bean, but still leaving one bean in the vase. How could this enchanting scenario occur?
+Model Answer: Hand over the final bean to the seventh sorcerer without removing it from the vase.
+Correct Answer: Hand over the final bean to the seventh sorcerer without removing it from the vase.
+
+Question SP-114_SR: Although they were born on the same day of the same month, two students who go to the same school and share a teacher are not related. How is this even conceivable?
+Model Answer: None of above.
+Correct Answer: They were not born in the same year.
+
+Question SP-104_CR: A boy accidentally walked into a 10-foot deep pool, yet he didn't get wet. How is this possible?
+Model Answer: None of above.
+Correct Answer: The pool was empty.
+
+Question SP-92_SR: It turns out that Sandy was being truthful when she said she had seen an ocean devoid of water. How is it even doable?
+Model Answer: None of above.
+Correct Answer: Sandy saw the ocean on a map.
+
+Question SP-144: One morning a man is leaving on a business trip and finds he left some paperwork at his office. He runs into his office to get it and the night watchman stops him and says, "Sir, don't get on the plane. I had a dream last night that the plane would crash and everyone would die!" The man takes his word and cancels his trip. Sure enough, the plane crashes and everyone dies. The next morning the man gives the watchman a $1,000 reward for saving his life and then fires him. Why did he fire the watchman that saved his life?
+Model Answer: None of above.
+Correct Answer: The watchman was fired for sleeping on the job.
+
+Question SP-63_CR: Who would hear the quietest sound in a completely soundproof room? A dog, a dolphin, or a bat?
+Model Answer: None of above.
+Correct Answer: None of above.
+
+Question SP-143_SR: A thirty-story skyscraper caught fire one day. Nothing happened to a man who leapt out a window. Nothing was beneath him. What makes this possible?
+Model Answer: None of above.
+Correct Answer: He was first floor.
+
+Question SP-198_SR: What animal does not have wings but can fly?
+Model Answer: None of above.
+Correct Answer: A caterpillar.
+
+Question SP-97_SR: In a home where he resided, the man always lit the room before bed. The man neglected to switch on the light one evening. He read the newspaper the following day and sinking into deep self-blame. Why?
+Model Answer: None of above.
+Correct Answer: The man lived in a lighthouse. He forgot to turn on the light and a ship crashed.
+
+Question SP-128_CR: Jimy went in the middle of the warzone and bombarded a lot of territories that were in the possession of the enemy. When he got back, he didn't get any medals or any praises. Why?
+Model Answer: None of above.
+Correct Answer: Jimy was the name of the fighter-jet that was flying over enemy's territory.
+
+Question SP-97: There lived a man in a house and every time he went to bed he turned on the light. One night, the man forgot to turn on the light. The next day he read the paper and sinking into deep self-blame. Why?
+Model Answer: None of above.
+Correct Answer: The man lived in a lighthouse. He forgot to turn on the light and a ship crashed.
+
+Question SP-98: David's birthday is in December, but it is never in the winter. Why?
+Model Answer: None of above.
+Correct Answer: He lives in Australia.
+
+Question SP-165_CR: Two chickens were passing by a really hungry tiger. Tiger however, saw them but couldn't reach them. What happened?
+Model Answer: The tiger was in the zoo.
+Correct Answer: The tiger was in the zoo.
+
+Question SP-145: A man was looking through a 6th floor window, thought for a minute then jumped, but did not die or get hurt at all. How?
+Model Answer: None of above.
+Correct Answer: He jumped in the window. He was outside the window to wash it.
+
+Question SP-149_SR: What question can someone ask all day and receive radically different responses, yet all of them might be correct?
+Model Answer: None of above.
+Correct Answer: What time is it?
+
+Question SP-66: Maria and Juliana went out for drinks together. They ordered the same drink. Juliana was really thirsty and finished five in the time it took Maria to finish one. The drinks were poisoned, but only Maria died. How?
+Model Answer: None of above.
+Correct Answer: The poison was in the ice.
+
+Question SP-110_CR: A thief was walking down the street. He walked past the security guards and also the people whom he had stolen from. Nevertheless, nobody was catching him. So why not?
+Model Answer: None of above.
+Correct Answer: At that time, he was just walking down the street. He stolen from others previously.
+
+Question SP-106: An electric train is going south at 98 mph. The wind is blowing northeast. Which direction is the smoke blowing?
+Model Answer: None of above.
+Correct Answer: None of above.
+
+Question SP-198: What animal has no wings, but yet will fly?
+Model Answer: None of above.
+Correct Answer: A caterpillar.
+
+Question SP-15: Even if they are starving, natives living in the Arctic will never eat a penguin's egg. Why not?
+Model Answer: Penguins and their eggs are not part of their traditional or cultural diet.
+Correct Answer: Penguins only live in Antarctica.
+
+Question SP-105: I buried a stone in the ground, and it grew and produced fruit. How is this possible?
+Model Answer: None of above.
+Correct Answer: The stone was actually a seed, not an ordinary stone. The seed of a cherry is called a stone.
+
+Question SP-124_CR: A man went to Italy to celebrate his birthday, but he only had his phone with himself. How's this even possible?
+Model Answer: None of above.
+Correct Answer: Italy was name of the restaurant he was celebrating his birthday in.
+
+Question SP-53_SR: A woman who lives in New York legally wed three men; she didn't get divorced, enroll, or separate from them in any other way. How is that even possible?
+Model Answer: None of above.
+Correct Answer: She is a minister.
+
+Question SP-127_SR: Imagine Johnny, a party clown, is clutching three gold coins, each weighing one kilogram. While walking, he comes upon a bridge with a sign stating that it can only handle a maximum of 80 kilos. The gold weighs three kilos and John weighs 78 pounds. Johnny reads the notice and crosses the bridge safely with all of the riches. How did he pull it off?
+Model Answer: None of above.
+Correct Answer: Johnny is a clown so he has mastered juggling. When he came to the bridge he judged the gold, always keeping one piece in the air.
+

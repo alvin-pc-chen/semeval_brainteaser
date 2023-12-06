@@ -1,0 +1,375 @@
+Created: 2023-12-06_01-52-35
+Model: gpt-3.5-turbo, Version: 0
+Number of Questions: 80, Number of Examples: 15, Number of Bad Outputs: 0
+F1: 0.44144144144144143, Accuracy: 0.45
+System Prompt: You are a Question Answering Model, your response must be a number from the choices that are delimited by the symbol ";". Here are some examples: 
+Question: "A one-story house is built from red bricks. The doors, windows, and roof are all made of red bricks. What color is the basement?"
+Choices: 0 = There is no basement in a one-story house built on a single floor.; 1 = The basement is uncolored as the basement is only used for storing stuffs.; 2 = It should be red as the whole house is in red.; 3 = None of above.; 
+Response: 0
+Question: "There was once a bad wizard. He abducted three women from their homes and transformed them into identical rose plants. They were placed in his garden. One of the women pleaded with the magician to allow her to see her husband and kids. He concurred. He took the woman to her home at night. He arrived early in the morning and drove her home. The spouse made the decision to go get her one day. He entered the wizard's garden as a result. He kept glancing at the three identical rose bushes, trying to determine which one might be his wife. He took his wife home as soon as he realized the solution. How did he recognize his wife among the rosebushes?"
+Choices: 0 = The husband knew which rose bush was his wife because it was the only one that still had her distinctive scent.; 1 = The wizard brought the rosebush to her home at night and returned her to the garden in the morning. Therefore, she was the only plant without dew.; 2 = The husband knew which rose bush was his wife because it was the only one that leaned towards him as he approached; 3 = None of above.; 
+Response: 1
+Question: "In a hole that is 6 feet long, 4 feet wide, and 3 feet deep, how much dirt is there?"
+Choices: 0 = 18 feet squares.; 1 = 12 feet squares.; 2 = 24 feet squares.; 3 = None of above.; 
+Response: 3
+Question: "How can you lift an elephant with one hand?"
+Choices: 0 = Crane.; 1 = Forklift.; 2 = Hydraulic Jacks.; 3 = None of above.; 
+Response: 3
+Question: "A group of people were shooting each other. They shot their friends in heads and also in other parts of the bodies. They had a lot of pain but nobody died. How is that possible?"
+Choices: 0 = No one was seriously injured.; 1 = There was a hospital nearby.; 2 = They were using fake guns like in paint ball; 3 = None of above.; 
+Response: 2
+Question: "One evening, Joe and Sally were relaxing in their family room. Sally, Joe's wife, was reading while he was watching television. The moment the electricity went out, Joe made the decision to retire to bed, but Sally continued to read. Sally carried on reading without using any artificial lighting. How?"
+Choices: 0 = Because it was daytime.; 1 = Sally was blind, she was reading a book by Braille.; 2 = Sally is smart that she pretended to reading the book.; 3 = None of above.; 
+Response: 1
+Question: "A guy grabbed and yanked on a woman's ring before dropping it. What happened to save her life?"
+Choices: 0 = They were skydiving, and she was unconscious.; 1 = The ring is too heavy that limited woman's daily life.; 2 = The woman was crazy about her ring and lose the tenet of her own life.; 3 = None of above.; 
+Response: 0
+Question: "A person is 15 years old in 1990. That same person is ten years old in 1995. What makes this possible?"
+Choices: 0 = This person wanted to be younger so he revised his birthday.; 1 = The genes in person is unnormal as others.; 2 = The years are in B.C.; 3 = None of above.; 
+Response: 2
+Question: "What question can someone ask all day and receive radically different responses, yet all of them might be correct?"
+Choices: 0 = What's the square root of 16?; 1 = What time is it?; 2 = What is the result of 5317 by 9321.; 3 = None of above.; 
+Response: 1
+Question: "Six women were hiking on a trail when a sudden snowfall began. Five of the women hurried along, but the sixth did not. Still, they all reached the cabin at the same time, and all but the sixth were cold. How is that possible?"
+Choices: 0 = The 6th woman beated them at the end.; 1 = The sixth woman was in a photograph that one of the others was carrying.; 2 = The 6th woman walked slowly to dodge the snow.; 3 = None of above.; 
+Response: 1
+Question: "How many gold coins can a leprechaun throw in an empty pot?"
+Choices: 0 = Infinite number of gold coins.; 1 = One. After that, it no longer empty.; 2 = It based on the size of the pot.; 3 = None of above.; 
+Response: 1
+Question: "A woman took her young daughter with her when she went to see her bank manager. The bank manager permitted the woman's daughter to spend the meeting with his secretary. The secretary turned to the other secretary after the woman and her daughter left and told her, "That little girl was my daughter." How is that possible?"
+Choices: 0 = The girl has two mothers.; 1 = The gril's mother gets a promotion.; 2 = The secretary was the girl's father.; 3 = None of above.; 
+Response: 2
+Question: "Dorothy has never expressed suicidal thoughts, but whenever she experiences feelings of sadness or depression, she makes arrangements to travel to a very high spot that she has visited on numerous occasions. Once there, she proceeds to jump from that great height. The fascinating fact though is she has never been injured from this leap, and in fact, she tells everyone that she feels much better afterward. If she’s not suicidal, then what is going on here, and why has she never been injured, or even worse, died from her risky actions?"
+Choices: 0 = Dprpyju was just raving to show her is outstanding.; 1 = Consistent exercise has made him a very strong man.; 2 = Dorothy is a sky jumper.; 3 = None of above.; 
+Response: 2
+Question: "There is only one boat, yet only one person can fit on it. The river is pretty wide and rapid. Fortunately, they both get to south side of the river. How?"
+Choices: 0 = One person already at the south side of the river.; 1 = They both jump to the south side.; 2 = One men go home to get a another boat.; 3 = None of above.; 
+Response: 0
+Question: "Sandy claims she saw an ocean without water, and it turns out, she was being honest. How is that possible?"
+Choices: 0 = Ocean is too cold that it freezes totally.; 1 = The whether is too hot that vaporates all water.; 2 = The ocean is on a map.; 3 = None of above.; 
+Response: 2
+
+User Prompt: Think outside of the box and respond with the number corresponding to the best choice for the following question.
+Question: 
+
+
+Question SP-198: What animal has no wings, but yet will fly?
+Model Answer: A caterpillar.
+Correct Answer: A caterpillar.
+
+Question SP-32_SR: A train is approaching a man who is strolling down a railroad track quickly. He charges directly at the train for roughly 10 feet before finally jumping off the track instead of doing so right away. Why?
+Model Answer: None of above.
+Correct Answer: The man was on a bridge when he first saw the train so he couldn't jump off the track immediately.
+
+Question SP-43_SR: One woman placed a quick delivery pizza order, and it was delivered the following year. How is that even possible?
+Model Answer: She ordered the pizza for New Year's Day.
+Correct Answer: She ordered the pizza for New Year's Day.
+
+Question SP-25_CR: Lily stood on the edge of the 18th floor of the high-rise apartment complex. Overwhelmed with fatigue, she opened the balcony door and stepped through. It was a steep drop from the balcony to the pavement below. Amazingly, after stepping, she was unscathed. Given that there was nothing to soften her landing or slow her descent, how could she have survived the step?
+Model Answer: None of above.
+Correct Answer: Lily was exhausted from apartment cleaning, she opened the balcony door and stepped inside.
+
+Question SP-70: A man dies of old age on his 25 birthday. How is this possible?
+Model Answer: He was born on February 29th
+Correct Answer: He was born on February 29th
+
+Question SP-12_CR: The ship was in the central Pacific Ocean. The ship suddenly began to sink without being crushed. However, each team was still preoccupied with its own tasks, so none was threatening. Why?
+Model Answer: It was a Submarine.
+Correct Answer: It was a Submarine.
+
+Question SP-200: A plane crashed between the border of Canada and America. Where do you bury the survivors?
+Model Answer: None of above.
+Correct Answer: None of above.
+
+Question SP-126_SR: Four men sat down to play, and they played all night until the sun came up. They played for gold, not for pleasure, with individual scores for everyone. They had all earned good money when it came to square accounts. Can you explain the paradox: If no one loses, how can everyone win?
+Model Answer: None of above.
+Correct Answer: The men were musicians..
+
+Question SP-138_CR: Two lifeguards are monitoring a one-way swimming lane in a public pool, watching for any safety infractions. They see a swimmer moving in the wrong direction but they don't take action. Why?
+Model Answer: None of above.
+Correct Answer: The swimmer wasn't swimming at the time, he was just walking in the shallow end of the pool.
+
+Question SP-45_CR: Mary was enjoying a peaceful paddle in her inflatable kayak on a narrow river. As she turned a bend, she realized that the river became significantly narrower, too narrow for her kayak to pass through. She can't paddle backward due to the strong current. A fellow kayaker on the shore knew how to solve her predicament. What was his suggestion?
+Model Answer: None of above.
+Correct Answer: He suggested that she deflate her kayak slightly.
+
+Question SP-63: Which would see most clearly in total darkness? A bat, a tiger, or an owl.
+Model Answer: Bat.
+Correct Answer: None of above.
+
+Question SP-192_SR: Ten chickens are gathered in a field. How many of them remain on the field if four of them take off flying?
+Model Answer: None of above.
+Correct Answer: None of above.
+
+Question SP-179_SR: In a grocery store, a man fills a shopping basket. He walks out of the store without paying, and no one stops him or calls the cops. Why?
+Model Answer: The man is an employee of the store and was filling the cart with trash to take out to the trash can.
+Correct Answer: The man is an employee of the store and was filling the cart with trash to take out to the trash can.
+
+Question SP-95_SR: On July 4, a girl traveled to the United States to party for three days before returning on July 4. How did she manage that?
+Model Answer: She went over on the date of the 4th of July and came home on the boat called the July 4.
+Correct Answer: She went over on the date of the 4th of July and came home on the boat called the July 4.
+
+Question SP-44_SR: A five-pound steel ball will fall through water at 40 degrees Fahrenheit more quickly than water at 20 degrees Fahrenheit if it is dropped from a height of 45 inches in Jamaica. How is that even doable?
+Model Answer: None of above.
+Correct Answer: At 20 degrees Fahrenheit the water would be ice.
+
+Question SP-168: Andy is put in a cell with a dirt floor and only one window. The window is too high for him to reach. The only thing in the cell is a shovel. He won't be able to get any food or water and only has two days to escape or he'll die. Andy can't dig a tunnel because it will take him much longer than two days to do it. How will Andy escape from the cell?
+Model Answer: Andy has to use the shovel to create a pile of dirt under the window so he can climb up onto it and escape from the cell.
+Correct Answer: Andy has to use the shovel to create a pile of dirt under the window so he can climb up onto it and escape from the cell.
+
+Question SP-111: A pet shop owner had a parrot with a sign on its cage that said "Parrot repeats everything it hears". Davey bought the parrot and for two weeks he spoke to it and it didn't say a word. He returned the parrot but the shopkeeper said he never lied about the parrot. How can this be?
+Model Answer: The parrot was deaf.
+Correct Answer: The parrot was deaf.
+
+Question SP-13_CR: A man uses the elevator since he is too old to use his crutch to ascend to the 12th floor. He is asked to hit the 17th button by a woman who is taller than him because she is unable to do it herself. Why?
+Model Answer: None of above.
+Correct Answer: The old man can reach the button with the help of his crutch.
+
+Question SP-50_CR: A man was dancing at a ball when he unintentionally swung his arm off a glass on the table; oddly, not a drop of wine leaked. How is that possible?
+Model Answer: There is no wine in the glass.
+Correct Answer: There is no wine in the glass.
+
+Question SP-164_SR: When the instructor spanked every child in the class, not a single parent protested. Why is this so?
+Model Answer: None of above.
+Correct Answer: The teacher was in an orphanage school.
+
+Question SP-180_CR: A man is a chef with five dishes to make in half an hour: Crispy Smashed Potatoes, Picadillo, Zuppa Toscana, Classic Pot Roast, and also potatoes. Which one does he have to make first?
+Model Answer: None of above.
+Correct Answer: None of above.
+
+Question SP-113_SR: Some months have 30 days, while others have 31. How many people have 28?
+Model Answer: None of above.
+Correct Answer: They all do.
+
+Question SP-195: Twenty-seven ducks are going to the pond. Five of them got lost, thirteen of them are staying home, and nine of them are at the pond. Where are the rest of them?
+Model Answer: None of above.
+Correct Answer: None of above.
+
+Question SP-17_CR: Several harvested radishes were once stolen from a neighbor by a slothful farmer. The radishes were missing, so his neighbor reported it to the police. The farmer told the authorities that the radishes came from his own farm this morning. Even though he planted radishes on his own farm, he was nonetheless detained by the police anyway. How?
+Model Answer: None of above.
+Correct Answer: There are no dew on the raddishes, so they were not harvested from his own farm on the morning.
+
+Question SP-58_CR: A woman is found dead in a field of snow. The only tracks are her own leading up to her. There are no signs of struggle, no other footprints, and no other evidence. Only an abandoned pack of balloons is found nearby. How did she die?
+Model Answer: None of above.
+Correct Answer: She was in a hot air balloon which was losing altitude and crashed.
+
+Question SP-8_SR: All but one of Mrs. Smith's pets are dogs, and all but one are cats. But how is it possible that Mrs. Smith only has two pets?
+Model Answer: Mrs.Smith has one additional pet that is neither a dog or a cat.
+Correct Answer: Mrs. Smith has one cat and one dog.
+
+Question SP-84_SR: Why is the value of 1968 pennies higher than 1967 pennies?
+Model Answer: None of above.
+Correct Answer: Because there is one more penny in 1968 pennies than in 1967 pennies
+
+Question SP-41_CR: Tom received an invitation to a holiday party. He was shocked to discover that no single person was at the party. The party is still filled with singing, though. How is that even doable?
+Model Answer: None of above.
+Correct Answer: All people at the party except Tom is married.
+
+Question SP-140_SR: There is a bus full of passengers traveling through San Francisco, and no one gets off the bus. However, when it reaches the opposite side, there isn't a single person remaining. What makes this possible?
+Model Answer: They are all married.
+Correct Answer: They are all married.
+
+Question SP-98_SR: Despite being in December, David's birthday is never in the winter. Why?
+Model Answer: He lives in Australia.
+Correct Answer: He lives in Australia.
+
+Question SP-15_CR: Even in the harshest of droughts, a man living in New York City would never drink from the Mississippi River. Why not?
+Model Answer: The Mississippi River doesn't flow through New York City.
+Correct Answer: The Mississippi River doesn't flow through New York City.
+
+Question SP-51_CR: Morgan is dying near the sea line. Many people witness her death but no one feel sad. Why?
+Model Answer: None of above.
+Correct Answer: Morgan is the name of hurricane.
+
+Question SP-200_CR: We have 5 roosters and each one gives 1 egg per day. How many eggs do we have after a week?
+Model Answer: None of above.
+Correct Answer: None of above.
+
+Question SP-112: How can you leave a room with two legs and return with six legs?
+Model Answer: Bring a chair back with you.
+Correct Answer: Bring a chair back with you.
+
+Question SP-162_CR: There were 10 pigeons sitting in a row. A tiger came and caught one of them and ate it. How many pigeons are left for the tiger to eat?
+Model Answer: None of above.
+Correct Answer: None of above.
+
+Question SP-176_CR: James lives in a sky scraper with 100 floors. his house is broken into by killers, so he runs towards the window and jumps being scared, but he doesn't die. how's that possible?
+Model Answer: he was in the first floor, so nothing happened to him by jumping one floor
+Correct Answer: he was in the first floor, so nothing happened to him by jumping one floor
+
+Question SP-93: While a cat was outside, it started to downpour. The cat couldn’t find any shelter and got completely soaked by the rain, yet not a single hair was wet. How could this be?
+Model Answer: The cat succeeded in avoiding all rain drops.
+Correct Answer: It was a hairless cat.
+
+Question SP-160_CR: What question can never be answered with a "no"?
+Model Answer: None of above.
+Correct Answer: Are you awake?
+
+Question SP-185_SR: How could a guy go outdoors in the torrential rain without getting a single hair on his head wet?
+Model Answer: None of above.
+Correct Answer: He is bald.
+
+Question SP-66: Maria and Juliana went out for drinks together. They ordered the same drink. Juliana was really thirsty and finished five in the time it took Maria to finish one. The drinks were poisoned, but only Maria died. How?
+Model Answer: The poison was in the ice.
+Correct Answer: The poison was in the ice.
+
+Question SP-111_CR: There was an employee that told on his resume that he will do anything that he will be told be to. Nonetheless, on the first day of job in the manufacturing company, his boss was really annoyed as he wasn't doing anything his boss was showing him to do. What was the problem ?
+Model Answer: The man was tired and doesn't want to anything anymore.
+Correct Answer: The man was blind and they had to explicitly tell him what to do not to show him
+
+Question SP-81_SR: How did the young youngster kick his soccer ball 10 feet, and it miraculously returned to him?
+Model Answer: There is a rope between the ball and the boy.
+Correct Answer: He kicked it up.
+
+Question SP-23: A simple peasant bought a number of camels and is taking them to his farm. As he rides contentedly along he counts them - he counts 29. He was sure he had bought 30 camel, so in alarm he jumps off his camel and counts the camels again. To his delight there are 30. Half an hour later, he counts his camels and once more there are just 29. Confused, he climbs off his camel and counts again. Once more there are 30. Can you explain?
+Model Answer: When he is on the camel he omits to count it.
+Correct Answer: When he is on the camel he omits to count it.
+
+Question SP-20_CR: Every night, a man would sleep with a light on, as bright as the sun, dazzling the neighbors. But why did his neighbors never complain?
+Model Answer: None of above.
+Correct Answer: He lived in a light house.
+
+Question SP-67_SR: I departed my campsite and traveled 3 miles to the south. I then made an eastward turn and traveled 3 miles. After 3 miles of heading north, I turned around and saw a bear eating inside my tent! The bear was what color?
+Model Answer: None of above.
+Correct Answer: White.
+
+Question SP-128_CR: Jimy went in the middle of the warzone and bombarded a lot of territories that were in the possession of the enemy. When he got back, he didn't get any medals or any praises. Why?
+Model Answer: Jimy was the name of the fighter-jet that was flying over enemy's territory.
+Correct Answer: Jimy was the name of the fighter-jet that was flying over enemy's territory.
+
+Question SP-89_CR: If the vise captain of a ship were to step down, who is supposed to take command?
+Model Answer: None of above.
+Correct Answer: The captain.
+
+Question SP-96_SR: 8 brothers are present. Chess is being played by Brother 1. Brother 2 is chowing down. The third brother is playing video games. 4th Brother is jiving. Brother 5 is sending an SMS. Brother No. 6 is in class. Brother 7 is sound asleep. Who or what is Brother 8?
+Model Answer: None of above.
+Correct Answer: Brother 8 is playing checkers.
+
+Question SP-129: A woman was horrified to find a fly in her tea. The waiter took her cup and went into the kitchen and returned with a fresh cup of tea. She shouted, "You brought me the same tea!" How did she know?
+Model Answer: When she stirred the tea, the whirlpool it created was spinning in the same direction as the original cup of tea.
+Correct Answer: She had already put sugar in it and when she tasted the new tea it was already sweet.
+
+Question SP-106_CR: A submarine is moving west at a speed of 30 knots. There is a strong current moving east. Where are the trail of bubbles coming from?
+Model Answer: None of above.
+Correct Answer: None of above.
+
+Question SP-64_CR: There is a man who everyone calls "Lightning," yet he's afraid of storms and has no interest in meteorology. Despite this, he is delighted when people refer to him as "Lightning." How could this be?
+Model Answer: None of above.
+Correct Answer: He's a professional sprinter.
+
+Question SP-176: A woman opened a door, streamed, and then was found dead a few minutes later. No gunshot were heard in the area. What happened to her?
+Model Answer: Upon opening the door, the woman was startled by her own reflection in a mirror.
+Correct Answer: She was on an airplane and opened the door while the plane was in flight, falling to her death.
+
+Question SP-9_CR: The coaches of the first and the fifth national basket ball champion shares the same parents, but were not brothers. How can this be possible?
+Model Answer: They were the same man.
+Correct Answer: They were the same man.
+
+Question SP-12: On a fine sunny day a ship was in the harbor. All of a sudden the ship began to sink. There was no storm and nothing wrong with the ship yet it sank right in front of the spectators eyes. What caused the ship to sink?
+Model Answer: None of above.
+Correct Answer: It was a Submarine.
+
+Question SP-119_CR: 10 people are sitting on a table and all are stealthy taking food off of other people's plates. After they get up from the table, nobody is hungry and all have eaten the same amount. How's that possible?
+Model Answer: They were sitting on the rounded table and all of them were doing the same thing.
+Correct Answer: They were sitting on the rounded table and all of them were doing the same thing.
+
+Question SP-131_SR: Bouncing Bob was riding a very dangerous horse when its bridge suddenly collapsed. A screaming Bob sprang for the horse's ears as they sped down the road. Bob spotted a vehicle approaching out of the corner of his eye and worried when he realized the horse was entirely out of control. He unintentionally brought the horse to a standstill by flailing his arms around. What might Bouncing Bob have done to bring the horse to a halt?
+Model Answer: None of above.
+Correct Answer: Bob accidentally put his hands over the horse's eyes. If a horse can't see he will automatically stop.
+
+Question SP-177_SR: Sam's father couldn't stop his kid from playing video games. To prohibit Sam from playing video games all the time, the father got a hammer and fixed the problem. Now he can play video games, but Sam cannot. What exactly did the father do?
+Model Answer: The dad took the hammer and used it to break Sam's glasses.
+Correct Answer: The dad built a shelf out of Sam's reach and put the video game console up there. The dad can still reach it to play but Sam cannot.
+
+Question SP-37: A beggar's brother died, but the man who died had no brother. How could that be?
+Model Answer: None of above.
+Correct Answer: The beggar was the man's sister.
+
+Question SP-116_SR: How can you stand physically behind your friend while he stands physically behind you?
+Model Answer: With the help of optical illusions.
+Correct Answer: By standing back to back.
+
+Question SP-118: All the electricity was out in town and none of the street lights or traffic signals had power. A dark limousine was cruising down the newly paved blacktop, with its headlights off. A young boy dressed totally in black (with no reflector) stepped out to cross the street. The moon wasn't out and the boy had no flashlight, yet the driver stopped to let the boy cross the street. How did the driver see the boy?
+Model Answer: None of above.
+Correct Answer: The driver saw the boy because it was during the daylight hours.
+
+Question SP-202_SR: I planted a stone, and it sprouted leaves and fruit. How is that even possible?
+Model Answer: The stone that was buried in the ground symbolizes an idea or a concept. By burying the idea and nurturing it with care and effort, it grew and blossomed into a fruitful outcome or achievement.
+Correct Answer: The stone was actually a seed, not an ordinary stone. The seed of a cherry is called a stone.
+
+Question SP-113_CR: Some animals have four legs and some only have two, Which one of them have one leg?
+Model Answer: None of above.
+Correct Answer: They all do.
+
+Question SP-208_CR: You are running so fast but you're not getting closer. Where are you?
+Model Answer: Treadmill.
+Correct Answer: Treadmill.
+
+Question SP-101_SR: Walking along the seashore is a man. Without turning around, he is surprised to see his own footstep clearly. How is that even doable?
+Model Answer: The reflection by the sea let him saw the footsetp.
+Correct Answer: He is walking backward.
+
+Question SP-204: An electric train is going south at 98 mph. The wind is blowing northeast. Which direction is the smoke blowing?
+Model Answer: There is no smoke. it's an electric train!
+Correct Answer: There is no smoke. it's an electric train!
+
+Question SP-102: Three people are stuck inside a dark cave. The first fears the complete darkness, the second fears bats, and the third fears getting lost. They don't have any flashlights, lanterns or any kind of light source, and their cell phones have no signal so they can't use them as a light source either. How do they get out of the cave?
+Model Answer: They can just walk out as it's daytime outside the cave.
+Correct Answer: They can just walk out as it's daytime outside the cave.
+
+Question SP-133_SR: A computer and word processor tiny enough to fit in your pocket are available for purchase at a shop. In all languages, it can add, multiply, subtract, divide, and write. Any error will be corrected by a delete device. It does not require any electricity to function. What is the cost? It's only a few pennies! How can the store earn a profit when it sells it so cheaply?
+Model Answer: The computer is a wooden pencil with an eraser.
+Correct Answer: The computer is a wooden pencil with an eraser.
+
+Question SP-17: There once was an evil wizard. He took 3 woman from their homes and turned them into rose bushes that looked exactly alike. He put them in his garden. One of the woman had a husband and children and begged the wizard to let her see them. He agreed. At night, he brought the woman to her house. In the morning he came and took her home. One day the husband decided to go rescue her. So he stuck into the wizard's garden. He looked and looked at the 3 identical rose bushes trying to figure out which could be his wife. Suddenly, he knew the answer and he took his wife home. How did he know which rose bush was his wife?
+Model Answer: The husband knew which rose bush was his wife because it was the only one that still had her distinctive scent.
+Correct Answer: The wizard brought the rosebush to her home at night and returned her to the garden in the morning. Therefore, she was the only plant without dew.
+
+Question SP-109: Two fathers and two sons went fishing one day. They were there the whole day and only caught 3 fish. One father said, that is enough for all of us, we will have one each. How can this be possible?
+Model Answer: There was the father, his son, and his son's son.
+Correct Answer: There was the father, his son, and his son's son.
+
+Question SP-110: A bus driver was heading down a street in Colorado. He went right past a stop sign without stopping, he turned left where there was a "no left turn" sign, and he went the wrong way on a one-way street. Then he went on the left side of the road past a cop car. Still - he didn't break any traffic laws. Why not?
+Model Answer: None of above.
+Correct Answer: He was walking.
+
+Question SP-106: An electric train is going south at 98 mph. The wind is blowing northeast. Which direction is the smoke blowing?
+Model Answer: None of above.
+Correct Answer: None of above.
+
+Question SP-5: Five apples are in a basket. How do you divide them among five girls so that each girl gets an apple, but one apple remains in the basket?
+Model Answer: None of above.
+Correct Answer: Give the fifth girl her apple in the basket.
+
+Question SP-71: Mrs. Adams tells her neighbor that her son turns 16 today and that next birthday he'll be 20. How can that be?
+Model Answer: He was born on February 29.
+Correct Answer: He was born on February 29.
+
+Question SP-13: A man who lived on the top floor of a twenty story building had to go up and down daily for work, and of course, for food and the other necessities. On most days he could only ride the elevator to the fifteenth story, and he would have to walk the rest of the way. When it rained, however, he could ride all the way up to the twentieth story. Why?
+Model Answer: None of above.
+Correct Answer: The man wasn't tall enough to reach the button for the 20th floor. He could only reach the 15th story button on the elevator. When it rained, he brought his umbrella, and used it to press the 20th story button on the elevator.
+
+Question SP-154_SR: Along an old dirt road, 50 kings are mounted on 50 horses. They arrived at a 50-peach tree. Each took one, there were still 49. How is that even possible?
+Model Answer: Each is the name of one of the kings and he's the only one that took one.
+Correct Answer: Each is the name of one of the kings and he's the only one that took one.
+
+Question SP-174_CR: A tower stands in front of a horse, and the horse jumps over. Both the horse and the tower are fine. Why?
+Model Answer: It is on the chessboard.
+Correct Answer: It is on the chessboard.
+
+Question SP-163: Thomas was caught stealing 27 times in one year, yet he was never arrested. How come?
+Model Answer: Thomas was a baseball player and was stealing bases.
+Correct Answer: Thomas was a baseball player and was stealing bases.
+
+Question SP-197: A woman went to Virginia to get a job. She promised her mother she would come back and visit sometime. Then, in the middle of winter, her mother shouted, "April is here!". How is this possible?
+Model Answer: Her mother stayed in the home for the whole winter.
+Correct Answer: The woman's name is April.
+
+Question SP-67_CR: A new explorer got lost while travelling. She decided to walk 3 miles to the south and made an eastward turn, and ran 3 miles. Suddenly she realized it was the wrong way then she decided to walk 3 miles to the north. Amazingly, she went back to the point of departure. Where is she?
+Model Answer: None of above.
+Correct Answer: North Pole.
+
+Question SP-15_SR: Natives of the Arctic will never eat a penguin's egg, not even if they are starving. Exactly why not?
+Model Answer: None of above.
+Correct Answer: Penguins only live in Antarctica.
+

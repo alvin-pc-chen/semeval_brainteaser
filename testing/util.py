@@ -5,6 +5,8 @@ from pathlib import Path
 from typing import List
 import random
 from datetime import datetime
+from openai import OpenAI
+import prompts
 
 # File locations
 ROOTDIR = str(Path().parent.absolute().parent.absolute())
@@ -37,23 +39,14 @@ def load_data(path=WORKING_DIR):
 
 
 def split_data(data, split=0.8):
-    """
-    Split data into training and testing sets
-    :param data: list of data
-    :param split: percentage of data to use for training
-    :return: training and testing sets
-    """
     random.shuffle(data)
     split_index = int(len(data) * split)
     return data[:split_index], data[split_index:]
 
 
-def split_data_by_type(data, split=0.8):
+def split_data_by_type(data):
     """
-    Split train/dev sets by type, only run on train data
-    :param data: list of dict
-    :param split: dev/train split
-    :return: base data train/dev, sr data train/dev, cr data train/dev
+    Split data into base, sr, and cr
     """
     sr = []
     cr = []
@@ -65,24 +58,159 @@ def split_data_by_type(data, split=0.8):
             cr.append(d)
         else:
             base.append(d)
-    return split_data(base, split), split_data(sr, split), split_data(cr, split)
+    return base, sr, cr
 
 
-def log_results(results, name, path=TEST_LOGS):
+
+# Testing starts here
+def log_results(
+        answers,
+        wrong_answers,
+        ids,
+        model,
+        f1,
+        accuracy,
+        question_prompt,
+        system_prompt,
+        n,
+        m,
+        dataset,
+        training_data,
+        version,
+        path=TEST_LOGS):
     """
-    Log results to file
-    :param results: header with model name, time, prompt information, etc.
-    :param name: name of model
-    :param path: path to log file
+    Header: timestamp, model, version, statistics, prompts
+    Body: question, correct answer, model answer
     """
+    time = datetime.utcnow().strftime("%Y-%m-%d_%H-%M-%S")
+    name = model + "_" + version + "_" + time
+    if training_data is not None:
+        name += "_multishot"
     with open(f"{path}/{name}.log", "a") as f:
-        f.write(f"{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n")
-        for r in results:
-            f.write(f"{r}\n")
-        f.write("\n")
+        # Write header
+        f.write(f"Created: {time}\n")
+        f.write(f"Model: {model}, Version: {version}\n")
+        f.write(f"Number of Questions: {n}, Number of Examples: {m}, Number of Bad Outputs: {len(wrong_answers)}\n")
+        f.write(f"F1: {f1}, Accuracy: {accuracy}\n")
+        f.write(f"System Prompt: {system_prompt}\n")
+        f.write(f"User Prompt: {question_prompt}\n\n\n")
+        # Write question, correct answer, model answer
+        for i in range(n):
+            f.write(f"Question {ids[i]}: {dataset[i]['question']}\n")
+            if ids[i] in wrong_answers:
+                f.write(f"Model Answer (Wrong): {wrong_answers[ids[i]]}\n")
+            else:
+                f.write(f"Model Answer: {dataset[i]['choice_list'][answers[i]]}\n")
+            f.write(f"Correct Answer: {dataset[i]['answer']}\n\n")
 
 
-def accuracy(predicted_labels, true_labels):
+def generate_prompt(question, prefix):
+    choices = "".join(str(i) + " = " + question["choice_list"][i] + "; " for i in range(4))
+    content = prefix + "\"" + question["question"] + "\"\nChoices: " + choices + "\nResponse: "
+    return {"role": "user", "content": content}
+
+
+def multishot_prompt(training, prefix):
+    prompt = prefix
+    for i in range(len(training)):
+        choices = "".join(str(j) + " = " + training[i]["choice_list"][j] + "; " for j in range(4))
+        prompt += "Question: "+"\""+ training[i]["question"] +"\"\nChoices: "+ choices +"\nResponse: "+ training[i]["label"] +"\n"
+    return {"role": "system", "content": prompt}
+
+
+# Testing for GPT
+# Model settings
+MODEL = "gpt-3.5-turbo"
+SYSTEM_PROMPT = {"role": "system", 
+                 "content": "You are a Question Answering Model, \
+                your response must be a number from the choices that are delimited by the symbol \";\" ."}
+MULTI_PREFIX = "You are a Question Answering Model, \
+                your response must be a number from the choices that are delimited by the symbol \";\". \
+                Here are some examples: \n"
+SP_QUESTION = "Think outside of the box and respond with the number corresponding to the best choice for the \
+                following question.\n\nQuestion: "
+WP_QUESTION = "For the following word problem, look at the meaning and letters in the words and respond with the \
+                number corresponding to the best choice.\n\nQuestion: "
+def run_test_nofinetune(
+            client,
+            dataset,
+            question_prompt,
+            n=30,
+            training_data=None,
+            m=10,
+            model=MODEL,
+            version="0",
+            system_prompt=SYSTEM_PROMPT,
+            multi_prefix=MULTI_PREFIX,
+            classes=[0, 1, 2, 3],):
+    """
+    Dataset is a list of dicts, each dict contains question, choices, and answer
+    training_data either none or list of training data
+    n is the number of questions to test
+    m is the number of training examples to use
+    no finetuning means some outputs may not be ints, non-ints will be set as incorrect answer
+    return avg f1 score
+    """
+    answers = []
+    labels = []
+    ids = []
+    wrong_answers = {}
+    count = 0
+    # Randomize dataset
+    random.shuffle(dataset)
+    if training_data is not None:
+        random.shuffle(training_data)
+    # Run test
+    for i in range(n):
+        user_prompt = generate_prompt(dataset[i], question_prompt)
+        if training_data is not None:
+            first_prompt = multishot_prompt(training_data[:m], multi_prefix)
+        else:
+            first_prompt = system_prompt
+            m = 0
+        prompt = [first_prompt, user_prompt]
+        response = client.chat.completions.create(model=model, messages=prompt)
+        ans = response.choices[0].message.content
+        if ans in ["0", "1", "2", "3"]:
+            answers.append(int(ans))
+        elif dataset[i]["label"] == 0:
+            answers.append(1)
+            wrong_answers[dataset[i]["id"]] = ans
+        else:
+            answers.append(0)
+            wrong_answers[dataset[i]["id"]] = ans
+        labels.append(int(dataset[i]["label"]))
+        ids.append(dataset[i]["id"])
+        # Manual Accuracy
+        if answers[i] == labels[i]:
+            count += 1
+    # Get F1 and Accuracy
+    f1 = avg_f1_score(answers, labels, classes)
+    acc = count/n
+    # Log results
+    log_results(
+        answers,
+        wrong_answers,
+        ids,
+        model,
+        f1,
+        acc,
+        question_prompt,
+        first_prompt['content'],
+        n,
+        m,
+        dataset[:n],
+        training_data,
+        version,
+    )
+    return f1, acc
+
+
+# Make finetune testing
+
+
+# F1 starts here
+def accuracy(predicted_labels: List[int], true_labels: List[int]):
     """
     Accuracy is correct predictions / all predicitons
     """

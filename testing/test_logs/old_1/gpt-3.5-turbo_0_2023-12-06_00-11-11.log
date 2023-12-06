@@ -1,0 +1,130 @@
+Created: 2023-12-06_00-11-11
+Model: gpt-3.5-turbo, Version: 0
+Number of Questions: 30, Number of Examples: 0, Number of Bad Outputs: 1
+F1: 0.0, Accuracy: 0
+System Prompt: You are a Question Answering Model,                 your response must be a number from the choices that are delimited by the symbol ";" .
+User Prompt: Think outside of the box and respond with the number corresponding to the best choice for the                 following question.
+
+Question: 
+
+
+Question SP-178: Every two weeks a woman sits down and writes two words on 60 sheets of paper. Why does she do this?
+Model Answer: None of above.
+Correct Answer: The woman owns her own business with 60 employees. Every week she signs her name on their paychecks.
+
+Question SP-36: A father and son were in a car accident where the father was killed. The ambulance brought the son to the hospital. He needed immediate surgery. In the operating room, a doctor came in and looked at the little boy and said I can't operate on him he is my son. Why?
+Model Answer: Because the doctor is the mother of the son.
+Correct Answer: Because the doctor is the mother of the son.
+
+Question SP-49_SR: Wednesday, Tom and Joe had dinner at a restaurant. After finishing, they paid and departed. Joe and Tom don't have to pay. Who paid the bill?
+Model Answer: None of above.
+Correct Answer: Wednesday. The name of the third person in the group, not the day.
+
+Question SP-20: A man moved into a new house and decided he was tired after the journey and turned off all the lights and went to bed. The next morning he killed 365 people, he does not sleep walk he slept like a baby. How could this be?
+Model Answer: None of above.
+Correct Answer: He lived in a light house.
+
+Question SP-106_SR: At 98 mph, an electric train is traveling south. There is a northeast wind. Where is the smoke coming from?
+Model Answer: None of above.
+Correct Answer: None of above.
+
+Question SP-43_SR: One woman placed a quick delivery pizza order, and it was delivered the following year. How is that even possible?
+Model Answer: None of above.
+Correct Answer: She ordered the pizza for New Year's Day.
+
+Question SP-94_CR: Two person had to go to the top of the hill. There's only one motorcycle, yet only one person can ride it. Fortunately, they both get to the top of the hill. How?
+Model Answer: None of above.
+Correct Answer: One person is already at the top of the hill.
+
+Question SP-127: Imagine Johnny, a party clown, is carrying three pieces of gold each piece weighing one kilogram. While taking a walk he comes to a bridge that has a sign posted saying the bridge could hold only a maximum of 80 kilograms. John weighs 78 kilograms and the gold weighs three kilograms. Johnny reads the sign and still safely crossed the bridge with all the gold. How did he manage this?
+Model Answer: Johnny is a clown so he has mastered juggling. When he came to the bridge he judged the gold, always keeping one piece in the air.
+Correct Answer: Johnny is a clown so he has mastered juggling. When he came to the bridge he judged the gold, always keeping one piece in the air.
+
+Question SP-84: Why are 1968 pennies worth more than 1967 pennies?
+Model Answer: None of above.
+Correct Answer: Because there is one more penny in 1968 pennies than in 1967 pennies
+
+Question SP-86_CR: In a tube that is 6 feet long with 3 feet in radius, how much water can it store?
+Model Answer (Wrong): 2 = 108π cubic feet.
+Correct Answer: None of above.
+
+Question SP-54: George was cleaning the windows on the eighteenth floor of an office block when there was a massive power failure. The electric hoist on his platform was immoblized. So how did he manage to get down before the power was restored?
+Model Answer: George walked down the stairs. He was cleaning the inside of the windows.
+Correct Answer: George walked down the stairs. He was cleaning the inside of the windows.
+
+Question SP-144_CR: When a woman is about to leave for an overseas conference, she realizes she left her presentation slides at her workplace. "Miss, don't board the ship," the security guard pleads as he stops her while she dashes into the office to fetch them. "I had a dream last night that the ship would sink and everyone aboard would drown." Heeding his warning, she decides not to go. As predicted, the ship sinks, with no survivors. The next day, the woman rewards the guard with a $5,000 bonus for saving her life before letting him go. Why did she dismiss the guard who saved her life?
+Model Answer: The watchman was fired for not warning the woman in advance.
+Correct Answer: The security guard was fired for sleeping on duty.
+
+Question SP-108_CR: A one-story house is built from red bricks. The doors, windows, and roof are all made of red bricks. What color is the basement?
+Model Answer: There is no basement in a one-story house built on a single floor.
+Correct Answer: There is no basement in a one-story house built on a single floor.
+
+Question SP-94: Two men had to go to the south side of the river, the river is pretty wide and rapid. There is one boat, but only one person fits on it. Lucky they both got to the south side of the river. How?
+Model Answer: None of above.
+Correct Answer: One person already at the south side of the river.
+
+Question SP-178_SR: A lady sits down every two weeks and writes two words on 60 pieces of paper. Why does she act this way?
+Model Answer: None of above.
+Correct Answer: The woman owns her own business with 60 employees. Every week she signs her name on their paychecks.
+
+Question SP-201_SR: Assume you're in a room with no doors, windows, or anything else. How do you escape?
+Model Answer: None of above.
+Correct Answer: Stop imagining.
+
+Question SP-198_CR: What animal does not have legs but can jump?
+Model Answer: None of above.
+Correct Answer: A tadpole.
+
+Question SP-99: Two teams were playing soccer against each other. One player from Team One scored a hat trick (triple goal). Their teammates were very happy. But when he scored the fourth goal, their teammates scolded him instead. How could this be possible?
+Model Answer: The player scored in their own goal.
+Correct Answer: The player scored in their own goal.
+
+Question SP-56_CR: Two lighthouses are situated back to back on the same island, one faces due North and the other due South. They never turn or rotate. How can they both illuminate the same ship at the same time?
+Model Answer: None of above.
+Correct Answer: The ship is exactly in between the two lighthouses.
+
+Question SP-112_SR: How can you leave a room with two legs and return with six legs?
+Model Answer: None of above.
+Correct Answer: Bring a chair back with you.
+
+Question SP-138_SR: Two officers are stationed along a one-way roadway, checking for traffic offenses. They see a taxi driver driving in the wrong direction but do nothing. Why?
+Model Answer: None of above.
+Correct Answer: The taxi driver wasn't driving at the time, he was walking.
+
+Question SP-163: Thomas was caught stealing 27 times in one year, yet he was never arrested. How come?
+Model Answer: None of above.
+Correct Answer: Thomas was a baseball player and was stealing bases.
+
+Question SP-74_SR: A man and his dog are both standing on opposite sides of a river. The guy summons his dog, who quickly crosses the river without getting wet. There were no bridges or boats. What was the dog's secret?
+Model Answer: None of above.
+Correct Answer: The river was frozen.
+
+Question SP-207: Ten pears hanging high, Ten men come passing by, Each took a pear and left nine hanging there. How could that be?
+Model Answer: None of above.
+Correct Answer: EACH is the name of one of the men.
+
+Question SP-77: Sally lives in a place where six months of the year is mild summer and the temperature drops significantly the other six months. She owns a lake where there is a small island. She wants to build a house on the island and needs to get materials there. She doesn't have a boat, plane, or anything to transport them to the island. How does Sally solve this problem?
+Model Answer: She waits to take the materials over during the colder months because the lake will freeze over, so she can walk over it.
+Correct Answer: She waits to take the materials over during the colder months because the lake will freeze over, so she can walk over it.
+
+Question SP-82_SR: When two moms and two daughters went out to dine, just three slices of pizza were consumed. What makes that possible?
+Model Answer: The group included a grandmother, her daughter and her daughter's daughter.
+Correct Answer: The group included a grandmother, her daughter and her daughter's daughter.
+
+Question SP-56: Two camels were facing in opposite directions. One was facing due East and one was facing due West. They were in the desert so there was no reflection. How can they manage to see each other without walking around or turning around or moving their heads?
+Model Answer: None of above.
+Correct Answer: The two camels were facing each other the entire time.
+
+Question SP-84_CR: Why is the value of 1990 dollars higher than 1989 dollars ?
+Model Answer: None of above.
+Correct Answer: Because there is one more dollars.
+
+Question SP-50: A magician had a water glass that was filled to the top. Holding the glass above his head he let it drop to the carpet without spilling a single drop of water. How could he manage to drop the glass from a height of six feet and not spill any water?
+Model Answer: None of above.
+Correct Answer: The glass was filled, but not with water.
+
+Question SP-144_SR: When a man leaves for a business trip one morning, he discovers that he left some paperwork at his office. Sir, don't get on the plane, the night watchman commands as he stops him as he runs into his office to retrieve it. Last night, I had a dream that the plane would crash and everyone would perish. He honors his word, and the man decides not to go. As expected, the plane crashes, killing everyone on board. The following morning, the man rewards the watchman with $1,000 for saving his life before dismissing him. Why did he let go of the watchman who kept him alive?
+Model Answer: None of above.
+Correct Answer: The watchman was fired for sleeping on the job.
+

@@ -1,0 +1,160 @@
+Created: 2023-12-06_01-23-00
+Model: gpt-3.5-turbo, Version: 0
+Number of Questions: 30, Number of Examples: 10, Number of Bad Outputs: 0
+F1: 0.544047619047619, Accuracy: 0.5666666666666667
+System Prompt: You are a Question Answering Model, your response must be a number from the choices that are delimited by the symbol ";". Here are some examples: 
+Question: "Katie picks up 30 pages of papers every evening and write numbers from 0 to 20 on them. Why does she act this way?"
+Choices: 0 = She wants to practice her math.; 1 = She has a class with 30 students and every day she distributes small quiz papers and in the evening she grades them; 2 = She tries to take full advantage of papers.; 3 = None of above.; 
+Response: 1
+Question: "A magician had a water glass that was filled to the top. Holding the glass above his head he let it drop to the carpet without spilling a single drop of water. How could he manage to drop the glass from a height of six feet and not spill any water?"
+Choices: 0 = The glass was filled, but not with water.; 1 = The glass is too heavy.; 2 = Surface tension prevents water from spilling.; 3 = None of above.; 
+Response: 0
+Question: "Not a single parent objected when the teacher spanked every child in the class. How come?"
+Choices: 0 = The teacher had informed all the parents in advance about the unique disciplinary approach.; 1 = The teacher had informed all the children in advance about the unique disciplinary approach.; 2 = The teacher was in an orphanage school.; 3 = None of above.; 
+Response: 2
+Question: "Fred is listening to the radio when it suddenly stops playing. Nobody is with Fred and nobody touches the radio. A few seconds later, the radio resumes playing. How can this be?"
+Choices: 0 = All electricity on the earth is cut down.; 1 = Fred was driving his car through a tunnel.; 2 = The car required more electricity to speed up so the radio was cut off.; 3 = None of above.; 
+Response: 1
+Question: "A couple is having a disagreement over the man's error. The man kept apologizing and pleading with the woman to allow him to see her directly. The woman was still upset. Thus, she wouldn't agree. The couple, though, was positioned on the same mat. How is that even doable?"
+Choices: 0 = The mat was folded in multiple times and end up with a special shape.; 1 = The woman kept turning her back to the man.; 2 = The couple was standing on two sides of the girl's apartment door, which had a rug under it.; 3 = None of above.; 
+Response: 2
+Question: "I planted a stone, and it sprouted leaves and fruit. How is that even possible?"
+Choices: 0 = The stone was actually a seed, not an ordinary stone. The seed of a cherry is called a stone.; 1 = You buried a stone in the ground, and as time passed, a tree grew above it. The fruit produced by the tree is unrelated to the stone itself.; 2 = The stone that was buried in the ground symbolizes an idea or a concept. By burying the idea and nurturing it with care and effort, it grew and blossomed into a fruitful outcome or achievement.; 3 = None of above.; 
+Response: 0
+Question: "Even though Matthew has never expressed any desire to endanger himself, whenever he feels stressed or overwhelmed, he makes plans to visit a certain deep spot that he has visited many times before. Once there, he decides to plunge into the profound depth. The astonishing thing is that he has never been hurt because of his dive, and he even says he feels much better afterwards. What is happening here, and why has he never been injured or, even worse, killed as a result of his risky behavior, if he isn't trying to harm himself?"
+Choices: 0 = Matthew is a deep-sea diver.; 1 = Consistent exercise has made him a very strong man.; 2 = Matthew was just raving to show her is outstanding.; 3 = None of above.; 
+Response: 0
+Question: "Three men sitting in a small motorboat one meter from the shoreline. The first is afraid of water, the second is afraid of drowning, and the third is afraid of sharks. The boat's motor is not operational and there is nothing to row with. How do they get to the shoreline?"
+Choices: 0 = They can wait until the water evaporates completely.; 1 = They can just walk onto its as the boat is one-meter inland.; 2 = They can wait until water level is high enough, they can safely step out onto the shoreline.; 3 = None of above.; 
+Response: 1
+Question: "A town that has been painted black has a black dog standing in the midst of an intersection. Due to a storm-related power outage, none of the street lights are functioning. When a car with two broken headlights approaches the dog, it turns away in time to miss him. How was the dog able to be seen by the driver in time?"
+Choices: 0 = The driver could have relied on their sense of hearing to detect the presence of the dog.; 1 = The broken headlights can emit a small amount of light, even if it's dim.; 2 = It was during the daylight hours.; 3 = None of above.; 
+Response: 2
+Question: "A bus journeying through the desert had six women aboard. Suddenly, the bus breaks down in the middle of nowhere and all six women have to walk under the scorching sun. Yet, not a single woman gets sunburnt! Why?"
+Choices: 0 = There came a big cloud which covered the sun for several minutes.; 1 = A woman's skin is thick enough to withstand the sun's rays; 2 = Because they were all married and not single.; 3 = None of above.; 
+Response: 2
+
+User Prompt: Think outside of the box and respond with the number corresponding to the best choice for the following question.
+Question: 
+
+
+Question SP-196_SR: A tank contains ten fish. Two fish drown. Four fish are swimming away.Three fish perish. How many fish are there left in the tank?
+Model Answer: None of above.
+Correct Answer: None of above.
+
+Question SP-22_CR: Four people sat down to play a board game. They played four rounds and each person won twice. How can this be possible?
+Model Answer: Some rounds ended in ties or draws.
+Correct Answer: The four people were playing in two teams of two each. Each team won twice.
+
+Question SP-40: There are three doors. In each door is a way to die. The first door has fire and lava. The second door has lions that haven't eaten in 5 years. In the third door, there is a 1,000-foot drop into an alligator. Which door will you likely survive?
+Model Answer: None of above.
+Correct Answer: The second door with the lions. Since they haven't eaten in 5 years they will have died.
+
+Question SP-57_CR: A famed pilot walks 100 yards away from his plane, puts on a blindfold, and then flies his plane through a ring hanging in the sky, all without any technological assistance or help from others. His vision was entirely obscured by the blindfold. How did he do this?
+Model Answer: Before putting on the blindfold, the pilot attached the ring to the front of his plane.
+Correct Answer: Before putting on the blindfold, the pilot attached the ring to the front of his plane.
+
+Question SP-127_SR: Imagine Johnny, a party clown, is clutching three gold coins, each weighing one kilogram. While walking, he comes upon a bridge with a sign stating that it can only handle a maximum of 80 kilos. The gold weighs three kilos and John weighs 78 pounds. Johnny reads the notice and crosses the bridge safely with all of the riches. How did he pull it off?
+Model Answer: Johnny is a clown so he has mastered juggling. When he came to the bridge he judged the gold, always keeping one piece in the air.
+Correct Answer: Johnny is a clown so he has mastered juggling. When he came to the bridge he judged the gold, always keeping one piece in the air.
+
+Question SP-144: One morning a man is leaving on a business trip and finds he left some paperwork at his office. He runs into his office to get it and the night watchman stops him and says, "Sir, don't get on the plane. I had a dream last night that the plane would crash and everyone would die!" The man takes his word and cancels his trip. Sure enough, the plane crashes and everyone dies. The next morning the man gives the watchman a $1,000 reward for saving his life and then fires him. Why did he fire the watchman that saved his life?
+Model Answer: The watchman was fired for sleeping on the job.
+Correct Answer: The watchman was fired for sleeping on the job.
+
+Question SP-69_SR: A rancher shot once and killed all 500 of his cows. What was his secret?
+Model Answer: A panoramic photo.
+Correct Answer: A panoramic photo.
+
+Question SP-36_SR: A car accident involving a father and son resulted in the death of the father. The son was transported to the hospital by ambulance. He required surgery right away. A doctor entered the operating room and said, "I can't operate on him. He's my son." after taking one look at the young patient. Why?
+Model Answer: Because the doctor is the mother of the son.
+Correct Answer: Because the doctor is the mother of the son.
+
+Question SP-62_SR: Nolan is in front of a store. She is unable to read the signs, but she is aware that she must enter in order to make a purchase. Where in the store is she?
+Model Answer: None of above.
+Correct Answer: Eye glasses store.
+
+Question SP-61_CR: Without breaking any rules, a man managed to enter a ladies-only club. How is this possible?
+Model Answer: The man was a security guard at the club.
+Correct Answer: The man was a security guard at the club.
+
+Question SP-163: Thomas was caught stealing 27 times in one year, yet he was never arrested. How come?
+Model Answer: Thomas was a baseball player and was stealing bases.
+Correct Answer: Thomas was a baseball player and was stealing bases.
+
+Question SP-82: Two mothers and two daughters went out to eat, everyone ate one slice of pizza, yet only three slices were eaten. How's that possible?
+Model Answer: The group included a grandmother, her daughter and her daughter's daughter.
+Correct Answer: The group included a grandmother, her daughter and her daughter's daughter.
+
+Question SP-170_SR: A 12-round boxing battle is organized between two boxers. (Only pure boxing. There are no kicks or takedowns allowed). After only six rounds, one of the boxers is knocked out, yet no man throws a punch. What makes this possible?
+Model Answer: They only used their heads in the match.
+Correct Answer: Both the boxers were female.
+
+Question SP-124_SR: In 1898, a guy was born. He is still living at the age of 33. How is this even possible?
+Model Answer: His birthday is February 29th, which is celebrated every four years.
+Correct Answer: he was born in room 1898 in the hospital.
+
+Question SP-159_CR: Two men are found dead in their house, however there is no sign of one of them killing the other one, neither the sign of any other intruders. How's that possible?
+Model Answer: None of above.
+Correct Answer: They both comitted suiside.
+
+Question SP-104_CR: A boy accidentally walked into a 10-foot deep pool, yet he didn't get wet. How is this possible?
+Model Answer: The pool was empty.
+Correct Answer: The pool was empty.
+
+Question SP-137_CR: There is an ambulance that is carrying a patient that is severely injured, however, when they get stuck in traffic, the ambulance is not trying to squeeze in the free spots to get to the hospital faster. Why?
+Model Answer: None of above.
+Correct Answer: The patient in the ambulance is dead.
+
+Question SP-7_CR: If a boat is parked in a marina and tied to a nearby station, how did its owner found the boat a couple of hours later in the middle of the ocean?
+Model Answer: The station wasn't fixed in the marina
+Correct Answer: The station wasn't fixed in the marina
+
+Question SP-201: Imagine you are in a room, with no doors, windows, or anything. How do you get out?
+Model Answer: Stop imagining.
+Correct Answer: Stop imagining.
+
+Question SP-165_SR: Cleopatra and Anthony perished after being near a fish tank. What occurred?
+Model Answer: None of above.
+Correct Answer: Cleopatra and Anthony were fish and they can't survive without water.
+
+Question SP-0: Mr. and Mrs. Mustard have six daughters and each daughter has one brother. But there are only 9 people in the family, how is that possible?
+Model Answer: Each daughter shares the same brother.
+Correct Answer: Each daughter shares the same brother.
+
+Question SP-174_CR: A tower stands in front of a horse, and the horse jumps over. Both the horse and the tower are fine. Why?
+Model Answer: None of above.
+Correct Answer: It is on the chessboard.
+
+Question SP-135_SR: An collision involving two automobiles occurred in the town center. A man driving a small green automobile had passed a large black car. The driver had underestimated the space between himself and oncoming traffic and had to service back in, forcing the black car to serve and crash into a shop window. When the passengers of the automobiles were investigated, everyone in the green car was fine, but there was one dead guy in the black car. Why, though, was the driver of the green automobile not charged with manslaughter?
+Model Answer: The black car was an autonomous vehicle and had no living driver or passengers
+Correct Answer: The black car was a hears and was on its way to a funeral.
+
+Question SP-104: A girl slipped and fell into a 60-foot well, yet she didn't get wet. How is this possible?
+Model Answer: The well is dry.
+Correct Answer: The well is dry.
+
+Question SP-99: Two teams were playing soccer against each other. One player from Team One scored a hat trick (triple goal). Their teammates were very happy. But when he scored the fourth goal, their teammates scolded him instead. How could this be possible?
+Model Answer: The player scored in their own goal.
+Correct Answer: The player scored in their own goal.
+
+Question SP-126: Four men sat down to play, They played all night till the break of day. They played for gold and not for fun, With separate scores for every one. When they had come to square accounts, They all had made quite fair amounts. Can you explain the paradox, If no one lost, how all could gain?
+Model Answer: None of above.
+Correct Answer: The men were musicians..
+
+Question SP-165: Cleopatra and Anthony were near a fish bowl and somehow they died. What happened?
+Model Answer: None of above.
+Correct Answer: Cleopatra and Anthony were fish and they can't survive without water.
+
+Question SP-143_CR: A man was in an airplane, when one of the engines failed and he threw himself out of the plane, however, he didn't use his parashoot. How's that possible?
+Model Answer: The plane was still on the ground when the engine failed
+Correct Answer: The plane was still on the ground when the engine failed
+
+Question SP-193_SR: Both persons who were playing chess won. What caused this to happen?
+Model Answer: The both lose, in fact, which is also both won.
+Correct Answer: They were playing against other opponents.
+
+Question SP-80_SR: What adjective best describes a man without all of his fingers on one hand?
+Model Answer: None of above.
+Correct Answer: None of above.
+
