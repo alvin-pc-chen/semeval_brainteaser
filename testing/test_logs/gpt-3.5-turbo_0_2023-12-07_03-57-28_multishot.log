@@ -1,0 +1,255 @@
+Created: 2023-12-07_03-57-28
+Model: gpt-3.5-turbo, Version: 0
+Number of Questions: 50, Number of Examples: 15, Number of Bad Outputs: 0
+F1: 0.4392703201970444, Accuracy: 0.52
+System Prompt: You are a Question Answering Model, your response must be a number from the choices that are delimited by the symbol ";". Here are some examples: 
+Question: "How can you say rabbit without using the letter R?"
+Choices: 0 = Abbit.; 1 = Bunny.; 2 = White-animal with long things on head.; 3 = None of above.; 
+Response: 1
+Question: "What kind of ring is square?"
+Choices: 0 = A wedding ring.; 1 = A ear ring.; 2 = A boxing ring.; 3 = None of above.; 
+Response: 2
+Question: "How can you add 2 to 11 and get 1?"
+Choices: 0 = When we are talking the time.; 1 = When we are talking the computer.; 2 = When we are talking the price.; 3 = None of above.; 
+Response: 0
+Question: "What driver never gets pulled over?"
+Choices: 0 = A drunk driver.; 1 = A screw driver.; 2 = An old driver.; 3 = None of above.; 
+Response: 1
+Question: "What can be seen in the middle of March and April that cannot be seen at the beginning or end of either month?"
+Choices: 0 = The letter R.; 1 = The letter A.; 2 = The letter I.; 3 = None of above.; 
+Response: 0
+Question: "How can you take 2 from 5 and leave 4?"
+Choices: 0 = Imagine you have five fingers on your hand. If you take two fingers (your index and middle fingers) and hold them down, you are left with four fingers remaining upright. So, by taking 2 fingers from the set of 5 fingers, you are left with 4 fingers.; 1 = Take the 5 and subtract 2 from it. This results in the number 3. Now, remove the vertical top part of the digit "3" and you are left with the digit "4."; 2 = FIVE. Remove the 2 letters F and E from five and you have in which is the Roman numeral for four.; 3 = None of above.; 
+Response: 2
+Question: "Which city is the most shocking?"
+Choices: 0 = Urban city.; 1 = Inner city.; 2 = Electricity.; 3 = None of above.; 
+Response: 2
+Question: "What foods do math teachers enjoy eating?"
+Choices: 0 = Pie.; 1 = Hot dog.; 2 = Hamburger.; 3 = None of above.; 
+Response: 0
+Question: "What two words when combined hold the most letters?"
+Choices: 0 = Post' and 'Office'.; 1 = Language' and 'Book'.; 2 = Dictionary' and 'Alphabet.'; 3 = None of above.; 
+Response: 0
+Question: "Which beans cannot be grown in a garden?"
+Choices: 0 = Jelly beans.; 1 = Soy beans.; 2 = Green beans.; 3 = None of above.; 
+Response: 0
+Question: "What alphabet letters arrive after suppertime?"
+Choices: 0 = Those that at the end of alphabet.; 1 = Those that at the middle of alphabet.; 2 = Those that come after T.; 3 = None of above.; 
+Response: 2
+Question: "How did the champ fix the leaky facet?"
+Choices: 0 = With an adjustable wrench.; 1 = With a monkey wrench.; 2 = With a stubby wrench.; 3 = None of above.; 
+Response: 1
+Question: "What sort of band never performs music?"
+Choices: 0 = A rock band.; 1 = A dance band.; 2 = A rubber band.; 3 = None of above.; 
+Response: 2
+Question: "What does a land become when it is raining."
+Choices: 0 = Lowland.; 1 = Woodland.; 2 = Wetland.; 3 = None of above.; 
+Response: 2
+Question: "What comes once in a minute, twice in a moment, but never in a thousand years?"
+Choices: 0 = The letter N.; 1 = The letter E.; 2 = The letter M.; 3 = None of above.; 
+Response: 2
+
+User Prompt: For the following word problem, look at the meaning and letters in the words and respond with the number corresponding to the best choice.
+Question: 
+
+
+Question WP-4_CR: I will undoubtedly be here Wednesday, and someone found me Monday. Tuesday I'm not here. Who am I?
+Model Answer: The letter N.
+Correct Answer: The Letter N.
+
+Question WP-54_CR: What kind of keys can't open locks?
+Model Answer: Monkey.
+Correct Answer: Monkey.
+
+Question WP-76_SR: What is the total number of letters in the alphabet?
+Model Answer: None of above.
+Correct Answer: There are 11 letters.
+
+Question WP-126: What kind of ship has two mates but no captain?
+Model Answer: Battleship.
+Correct Answer: Partnership.
+
+Question WP-9_SR: Are there any four-eyes thing you are aware of?
+Model Answer: None of above.
+Correct Answer: Mississippi.
+
+Question WP-23: What does a stone become when in the water?
+Model Answer: A limestone
+Correct Answer: A whetstone.
+
+Question WP-11_SR: Ben entered a hardware store and inquired about the cost of several items. One costs $1, Eight costs $1, Seventeen costs $2, One Hundred Four costs $3, and One Thousand Seven Hundred Twenty-two costs $4, the salesman declared. What did Ben purchase?
+Model Answer: Ben is buying English word cards. The price is determined by the number of letters in the spelled-out number.
+Correct Answer: Ben was buying home address numbers and they cost $1 per digit.
+
+Question WP-116_SR: How did the champ repair the leaking facet?
+Model Answer: With a monkey wrench.
+Correct Answer: With a monkey wrench.
+
+Question WP-114_CR: What type of currency do zombia use?
+Model Answer: Blood money.
+Correct Answer: Blood money.
+
+Question WP-39: What three letters change a girl into a woman?
+Model Answer: Remove G,I and R and add A,D and Y.
+Correct Answer: Remove G,I and R and add A,D and Y.
+
+Question WP-112_SR: Do Ghosts avoid certain rooms?
+Model Answer: None of above.
+Correct Answer: The living room.
+
+Question WP-42: What 7 letter word becomes longer when the third letter is removed?
+Model Answer: None of above.
+Correct Answer: Lounger.
+
+Question WP-160_SR: What kind of ink doesn't leave stains behind?
+Model Answer: Link.
+Correct Answer: Link.
+
+Question WP-105_SR: Guess next letters in the series GNL.
+Model Answer: None of above.
+Correct Answer: I, T, S.
+
+Question WP-131_SR: What beverage does a boxer like to drink?
+Model Answer: Punch.
+Correct Answer: Punch.
+
+Question WP-53_SR: I am the start of suffering and the finish of illness. You need me to express happiness because you are unable to do so on your own. I am constantly at risk, but I'm never in danger. I may be in the sun, but I'm never out of the shadows.
+Model Answer: The letter S.
+Correct Answer: The letter S.
+
+Question WP-4_SR: I will undoubtedly be here tomorrow, and someone found me yesterday. Today I'm not here. Who am I?
+Model Answer: The Letter R.
+Correct Answer: The Letter R.
+
+Question WP-35_SR: What is the sum of 3/7 chicken, 2/3 cat, and 2/4 goat?
+Model Answer: None of above.
+Correct Answer: Chicago.
+
+Question WP-100: What kind of can never needs a can-opener?
+Model Answer: A pelican.
+Correct Answer: A pelican.
+
+Question WP-31_SR: Which bird is the rudest?
+Model Answer: Mocking bird.
+Correct Answer: Mocking bird.
+
+Question WP-81: What's the quickest way to make oil boil?
+Model Answer: Add the letter F.
+Correct Answer: Add the letter B.
+
+Question WP-152: What kind of wood never gets chopped?
+Model Answer: Hardwood.
+Correct Answer: Hollywood.
+
+Question WP-135_SR: What is a computer's preferred treat?
+Model Answer: Chips.
+Correct Answer: Chips.
+
+Question WP-104: What is in the middle of India?
+Model Answer: None of above.
+Correct Answer: The letter 'd'.
+
+Question WP-34_SR: What is the most feathered side of the turkey?
+Model Answer: The outside.
+Correct Answer: The outside.
+
+Question WP-0: How do you spell COW in thirteen letters?
+Model Answer: SEE O DOUBLE YOU.
+Correct Answer: SEE O DOUBLE YOU.
+
+Question WP-0_CR: How do you spell COB in seven letters?
+Model Answer: COBBLER
+Correct Answer: SEE O BEE
+
+Question WP-161_SR: What kind of artwork isn't displayed in galleries?
+Model Answer: Tart.
+Correct Answer: Tart.
+
+Question WP-65_SR: What can be seen once in a minute, two times if you consider a moment, but you cannot see that in a thousand years?
+Model Answer: The letter M.
+Correct Answer: The letter M.
+
+Question WP-41: What kind of a band, never plays music?
+Model Answer: A rubber band.
+Correct Answer: A rubber band.
+
+Question WP-73: Always in visible, yet never out of sight.What are they?
+Model Answer: The letters V and I.
+Correct Answer: The letters I and S.
+
+Question WP-68: How do you spell candy in 2 letters?
+Model Answer: None of above.
+Correct Answer: C' and 'Y'.
+
+Question WP-154_CR: What sort of dish is incapable of holding food?
+Model Answer: Petri dish.
+Correct Answer: Petri dish.
+
+Question WP-162_SR: Which sort of bell doesn't ring?
+Model Answer: A dumbbell.
+Correct Answer: A dumbbell.
+
+Question WP-145_SR: What kind of pool are you unable to swim?
+Model Answer: None of above.
+Correct Answer: Carpool.
+
+Question WP-108: I am an odd number, but if you take away just a single letter, I become even. Can you guess my number?
+Model Answer: Seven
+Correct Answer: Seven
+
+Question WP-8_CR: What mathematical symbol can we use to create a number greater than 2 but less than 3 between the numbers 3 and 2?
+Model Answer: A square root.
+Correct Answer: A square root.
+
+Question WP-107_SR: What two terms have the most letters when combined?
+Model Answer: Dictionary' and 'Alphabet.'
+Correct Answer: Post' and 'Office'.
+
+Question WP-154: What type of dish doesn't hold food?
+Model Answer: A satellite dish.
+Correct Answer: A satellite dish.
+
+Question WP-94: What do you call a ghost without a host?
+Model Answer: None of above.
+Correct Answer: G.
+
+Question WP-77_CR: What contains from one to infinite characters in it and starts with a M and ends with an E?
+Model Answer: Medicine.
+Correct Answer: Movie.
+
+Question WP-118: What begins with 'E', ends with 'E', and only has one letter in it?
+Model Answer: Envelope.
+Correct Answer: Envelope.
+
+Question WP-47_CR: What type of dog sits in the sun all day?
+Model Answer: Hotdog.
+Correct Answer: Hotdog.
+
+Question WP-18_SR: How does a pear become a pearl suddenly?
+Model Answer: None of above.
+Correct Answer: The letter L.
+
+Question WP-105_CR: Guess the following three Characters in the list GTF
+Model Answer: G,T,F.
+Correct Answer: T.C.I.
+
+Question WP-34_CR: What is the most green side of the house?
+Model Answer: The leftside.
+Correct Answer: The outside.
+
+Question WP-151_CR: What plants can not photosyntheszie but can produce energy.
+Model Answer: A nuclear plant.
+Correct Answer: A nuclear plant.
+
+Question WP-147: What type of board can't you play games on?
+Model Answer: Keyboard.
+Correct Answer: Keyboard.
+
+Question WP-6_CR: What is found in Saturdays, Sundays, and Tuesday, but not in Mondays, Wednesdays or Fridays?
+Model Answer: The letter N.
+Correct Answer: The letter U.
+
+Question WP-53_CR: I am at the start of energy and the end of time and space. I am essential to creation, and I surround every place. What am I?
+Model Answer: The letter E.
+Correct Answer: The letter E.
+

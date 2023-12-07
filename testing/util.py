@@ -1,24 +1,15 @@
 import os
 from numpy import logical_and, sum as t_sum
 import numpy as np
-from pathlib import Path
 from typing import List
 import random
 from datetime import datetime
 from openai import OpenAI
 import prompts
-
-# File locations
-ROOTDIR = str(Path().parent.absolute().parent.absolute())
-NPY_DATA_PATH = ROOTDIR + "/data/data-npy"
-CLEAN_DATA_PATH = ROOTDIR + "/data/data-npy-clean"
-TXT_DATA_PATH = ROOTDIR + "/data/data-txt"
-TSV_DATA_PATH = ROOTDIR + "/data/data-tsv"
-WORKING_DIR = CLEAN_DATA_PATH + "/all-data-new"
-TEST_LOGS = ROOTDIR + "/testing/test_logs"
+import constants
 
 
-def load_data(path=WORKING_DIR):
+def load_data(path=constants.WORKING_DIR):
     """
     Load data from path
     :param path: path to data
@@ -61,8 +52,36 @@ def split_data_by_type(data):
     return base, sr, cr
 
 
-
 # Testing starts here
+def log_embeddings_rate_limited(
+        data,
+        name,
+        client,
+        model="text-embedding-ada-002",
+        rate=2500,
+        path=constants.EMBEDDINGS,):
+    time = datetime.utcnow().strftime("%Y-%m-%d")
+    filename = f"{path}/{name}_{time}.npy"
+    embeddings = []
+    count = 0
+    for d in data:
+        if count > rate:
+            time.sleep(60)
+            count = 0
+        count += 1
+        embedding = {}
+        # Should question number be attached to choice? Should answer also get answer number?
+        choices = "".join(str(i) + " = " + d["choice_list"][i] + " " for i in range(4))
+        raw = "Question: " + d["question"] + "\n Choices: " + choices
+        if "answer" in d:
+            raw += "\nAnswer: " + str(d["label"]) + " = " + d["answer"]
+            embedding["label"] = d["label"]
+        embedding["embedding"] = client.embeddings.create(input=raw, model=model).data[0].embedding
+        embedding["id"] = d["id"]
+        embeddings.append(embedding)
+    np.save(filename, embeddings)
+
+
 def log_results(
         answers,
         wrong_answers,
@@ -77,7 +96,7 @@ def log_results(
         dataset,
         training_data,
         version,
-        path=TEST_LOGS):
+        path=constants.TEST_LOGS):
     """
     Header: timestamp, model, version, statistics, prompts
     Body: question, correct answer, model answer
@@ -119,29 +138,17 @@ def multishot_prompt(training, prefix):
 
 
 # Testing for GPT
-# Model settings
-MODEL = "gpt-3.5-turbo"
-SYSTEM_PROMPT = {"role": "system", 
-                 "content": "You are a Question Answering Model, \
-                your response must be a number from the choices that are delimited by the symbol \";\" ."}
-MULTI_PREFIX = "You are a Question Answering Model, \
-                your response must be a number from the choices that are delimited by the symbol \";\". \
-                Here are some examples: \n"
-SP_QUESTION = "Think outside of the box and respond with the number corresponding to the best choice for the \
-                following question.\n\nQuestion: "
-WP_QUESTION = "For the following word problem, look at the meaning and letters in the words and respond with the \
-                number corresponding to the best choice.\n\nQuestion: "
 def run_test_nofinetune(
             client,
+            model,
             dataset,
             question_prompt,
+            system_prompt,
+            multi_prefix,
             n=30,
             training_data=None,
             m=10,
-            model=MODEL,
             version="0",
-            system_prompt=SYSTEM_PROMPT,
-            multi_prefix=MULTI_PREFIX,
             classes=[0, 1, 2, 3],):
     """
     Dataset is a list of dicts, each dict contains question, choices, and answer

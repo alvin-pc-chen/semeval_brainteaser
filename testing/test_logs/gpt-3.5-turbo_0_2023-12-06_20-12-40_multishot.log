@@ -1,0 +1,270 @@
+Created: 2023-12-06_20-12-40
+Model: gpt-3.5-turbo, Version: 0
+Number of Questions: 50, Number of Examples: 20, Number of Bad Outputs: 0
+F1: 0.4051868610692141, Accuracy: 0.42
+System Prompt: You are a Question Answering Model, your response must be a number from the choices that are delimited by the symbol ";". Here are some examples: 
+Question: "Cleopatra and Anthony perished after being near a fish tank. What occurred?"
+Choices: 0 = Cleopatra and Anthony were fish and they can't survive without water.; 1 = Cleopatra and Anthony drowned in the fishbowl.; 2 = Cleopatra and Anthony got attacked by the fish in the bowl.; 3 = None of above.; 
+Response: 0
+Question: "When John, a young child, told his parents he intended to shoot and blow up people, they were shocked. His parents were really happy with his professional decision. Remember, his parents weren't exactly aggressive folks. Why?"
+Choices: 0 = John wants to be a video game designer and his parent are addicted to vedio gams.; 1 = The parents known John was kiding and didn't pay attention.; 2 = John wanted to be a photographer.; 3 = None of above.; 
+Response: 2
+Question: "A woman is sitting in her hotel room and hears a knock at the door. She opens the door to see a man whom she's never met before. He says, "I'm sorry, I have made a mistake, I thought this was my room." He then goes down the corridor and into the elevator. The woman goes back into her room and calls security. What made the woman so suspicious of the man?"
+Choices: 0 = The woman thought the man is rude.; 1 = The woman knows this man on the newspaper.; 2 = If he really thought it was his hotel room, he would have tried to open the door not knock on it first.; 3 = None of above.; 
+Response: 2
+Question: "To go where he was going, the man had to cross the rivers. He was unable to utilize his inflatable raft because of a notice prohibiting boats and swimming on the bank. He finally succeeded in crossing the river. The only bridge on the river was broken. How didn't the man manage to do that?"
+Choices: 0 = The river was frozen.; 1 = He jumped half-mile far to across the river.; 2 = He detoured for a long distance to avoid acrossing the river.; 3 = None of above.; 
+Response: 0
+Question: "A man pushes his car until he reaches a hotel. When he arrives, he realizes he's bankrupt. What happened?"
+Choices: 0 = He was tired, and he realized that he had to spend all money to rest in hotel.; 1 = The man was pushing his car because it had run out of gas.; 2 = He's playing Monopoly and he lands on a space with a hotel and doesn't have the money to pay the fee.; 3 = None of above.; 
+Response: 2
+Question: "A car accident involving a father and son resulted in the death of the father. The son was transported to the hospital by ambulance. He required surgery right away. A doctor entered the operating room and said, "I can't operate on him. He's my son." after taking one look at the young patient. Why?"
+Choices: 0 = The son has two fathers.; 1 = Because the doctor is the mother of the son.; 2 = The son calls the police for help to save his father.; 3 = None of above.; 
+Response: 1
+Question: "Imagine Johnny, a party clown, is carrying three pieces of gold each piece weighing one kilogram. While taking a walk he comes to a bridge that has a sign posted saying the bridge could hold only a maximum of 80 kilograms. John weighs 78 kilograms and the gold weighs three kilograms. Johnny reads the sign and still safely crossed the bridge with all the gold. How did he manage this?"
+Choices: 0 = Johnny sank the gold to the bottom of the river and left a mark so that he could find it later.; 1 = Johnny burried one gold in the start of the bridge and make sure the location is private enough that no one can find.; 2 = Johnny is a clown so he has mastered juggling. When he came to the bridge he judged the gold, always keeping one piece in the air.; 3 = None of above.; 
+Response: 2
+Question: "A chess team has five players, and each player has one coach. But there are only six participants in the team. How is that possible?"
+Choices: 0 = Each player shares the same coach.; 1 = Some players are backups and not allowed to play.; 2 = Some coaches get a raise.; 3 = None of above.; 
+Response: 0
+Question: "The more you take, the more you leave behind"
+Choices: 0 = Love.; 1 = Footsteps.; 2 = Money.; 3 = None of above.; 
+Response: 1
+Question: "A man bought a plane ticket to visit his hometown and landed in the next century. How did this happen?"
+Choices: 0 = The pilot got lost and spent the whole year to find the way.; 1 = He boarded the plane on New Year's Eve and arrived after midnight on New Year's Day of the next century.; 2 = The plane was too far away.; 3 = None of above.; 
+Response: 1
+Question: "A horse is tied to a five-meter rope in front of an old saloon. Ten meters behind the horse is a bale of hay. Without breaking his rope, the horse is able to eat the hay whenever he chooses.How is this possible?"
+Choices: 0 = The rope stretches proportionally, providing the extra length needed for the horse to reach the hay ten meters away.; 1 = The rope is not tied to anything else.; 2 = The walls of the saloon retract or collapse inwards, creating more space for the horse to reach the hay.; 3 = None of above.; 
+Response: 1
+Question: "Several harvested radishes were once stolen from a neighbor by a slothful farmer. The radishes were missing, so his neighbor reported it to the police. The farmer told the authorities that the radishes came from his own farm this morning. Even though he planted radishes on his own farm, he was nonetheless detained by the police anyway. How?"
+Choices: 0 = The farmer's farm did not have suitable conditions for growing radishes.; 1 = There are no dew on the raddishes, so they were not harvested from his own farm on the morning.; 2 = Radishes don't grow during the current season.; 3 = None of above.; 
+Response: 1
+Question: "A large truck is crossing a bridge 1 mile long. The bridge can only hold 14000 lbs, which is the exact weight of the truck. The truck makes it half way across the bridge and stops. A bird lands on the truck, but the bridge doesn't collapse. How is that possible?"
+Choices: 0 = The bird's weight is too little that won't affect the bridge to collapse.; 1 = Because the wings of the bird can hold up the truck and lift it a little for a while.; 2 = Because it has driven a half mile - you would subtract the gas used from the total weight of the truck.; 3 = None of above.; 
+Response: 2
+Question: "A man went to sleep with the light on. However, his boss didn't blame for wasting electricity him after seeing that. Why?"
+Choices: 0 = The man is a calendar maker.; 1 = The man is a world-renowned botanist moved into a rare greenhouse.; 2 = The man lived in a lighthouse.; 3 = None of above.; 
+Response: 2
+Question: "Two farmers got into a heated argument and started fighting. A farmer was so enraged that he threw a handful of stones at the other farmer. The stones hit the farmer exactly, but the other farmer received no harm at all. Why?"
+Choices: 0 = The stones was actually seeds, not ordinary stones. The seed of a cherry is called a stone.; 1 = The other farmer was wearing protective clothing or had some form of shield that prevented the stones from causing harm.; 2 = The stones were small or lacked enough force to cause any significant injury.; 3 = None of above.; 
+Response: 0
+Question: "Why can't a lady who lives in Canada be buried in the United States?"
+Choices: 0 = Because she didn't have a visa.; 1 = Because the price is high and unaffordable.; 2 = Because she is still alive.; 3 = None of above.; 
+Response: 2
+Question: "A one-story house is built from red bricks. The doors, windows, and roof are all made of red bricks. What color is the basement?"
+Choices: 0 = There is no basement in a one-story house built on a single floor.; 1 = It should be red as the whole house is in red.; 2 = The basement is uncolored as the basement is only used for storing stuffs.; 3 = None of above.; 
+Response: 0
+Question: "A store has on sale a computer and word processor small enough to fit in your pocket. It can add, multiply, subtract, divide, and write in all languages. A delete device will correct any error. No electricity is required to operate it. The price? Only a few cents! How can the store make a profit by selling it so cheap?"
+Choices: 0 = The computer is a wooden pencil with an eraser.; 1 = The store stole steal this computer from others.; 2 = The store had thounsands of computers in warehouse so they decided to start promotions.; 3 = None of above.; 
+Response: 0
+Question: "Two men were working in the same store with the same shift and same tasks given to them, however they were not seeing each other at all. How can this be possible?"
+Choices: 0 = They both didn't focus on their work.; 1 = They were too busy to see each other.; 2 = They were living in different periods of time and both working in that store.; 3 = None of above.; 
+Response: 2
+Question: "A tower is jumped over by a horse, and the tower vanishes. It's not a dream or an illusion. So where might this occur?"
+Choices: 0 = On the moon.; 1 = On a chessboard.; 2 = Under the sea.; 3 = None of above.; 
+Response: 1
+
+User Prompt: Think outside of the box and respond with the number corresponding to the best choice for the following question.
+Question: 
+
+
+Question SP-27_CR: Even though Matthew has never expressed any desire to endanger himself, whenever he feels stressed or overwhelmed, he makes plans to visit a certain deep spot that he has visited many times before. Once there, he decides to plunge into the profound depth. The astonishing thing is that he has never been hurt because of his dive, and he even says he feels much better afterwards. What is happening here, and why has he never been injured or, even worse, killed as a result of his risky behavior, if he isn't trying to harm himself?
+Model Answer: Matthew is a deep-sea diver.
+Correct Answer: Matthew is a deep-sea diver.
+
+Question SP-48_SR: Why is Christmas Day so chilly?
+Model Answer: None of above.
+Correct Answer: Because it's in December.
+
+Question SP-138_CR: Two lifeguards are monitoring a one-way swimming lane in a public pool, watching for any safety infractions. They see a swimmer moving in the wrong direction but they don't take action. Why?
+Model Answer: None of above.
+Correct Answer: The swimmer wasn't swimming at the time, he was just walking in the shallow end of the pool.
+
+Question SP-130_SR: A person is 15 years old in 1990. That same person is ten years old in 1995. What makes this possible?
+Model Answer: None of above.
+Correct Answer: The years are in B.C.
+
+Question SP-64_SR: Everyone called him "Batman," but he knew nothing about bats and thought they were disgusting. He still cherished being referred to as Batman! How is this possible?
+Model Answer: None of above.
+Correct Answer: He was the star baseball player.
+
+Question SP-40_SR: Three doors are present. Every door has a way to exit. The first door has lava and fire inside. Lions behind the second door haven't eaten in five years. There is a 1,000-foot drop into an alligator inside the third door. Which door will you probably get through?
+Model Answer: The second door with the lions. Since they haven't eaten in 5 years they will have died.
+Correct Answer: The second door with the lions. Since they haven't eaten in 5 years they will have died.
+
+Question SP-170_SR: A 12-round boxing battle is organized between two boxers. (Only pure boxing. There are no kicks or takedowns allowed). After only six rounds, one of the boxers is knocked out, yet no man throws a punch. What makes this possible?
+Model Answer: They only used their heads in the match.
+Correct Answer: Both the boxers were female.
+
+Question SP-23_SR: A common peasant recently purchased many camels and is transporting them to his land. He counts them as he travels happily and finds that there are 29 of them. He leaps off his camel in fright after thinking he had purchased 30 camels and counts them once more. He is delighted to find 30. He counts his camels again thirty minutes later, and this time there are only 29. He dismounts his camel in confusion and counts once more. There are 30 once more. Can you elaborate?
+Model Answer: The peasant is mistakenly considering himself as one of the camels when he counts them.
+Correct Answer: When he is on the camel he omits to count it.
+
+Question SP-188_CR: A rooster and a bull were expecting their first child, but since they were having a competition, they wanted to precipitate the process. Which one of them gave birth first?
+Model Answer: None of above.
+Correct Answer: None of above.
+
+Question SP-167_SR: A PC has a bomb on top of it. A phone, a comb, keys, and a cup are arranged around the computer. Which object is destroyed first when the explosion occurs?
+Model Answer: The hairbush.
+Correct Answer: None of above.
+
+Question SP-95_SR: On July 4, a girl traveled to the United States to party for three days before returning on July 4. How did she manage that?
+Model Answer: She went over on the date of the 4th of July and came home on the boat called the July 4.
+Correct Answer: She went over on the date of the 4th of July and came home on the boat called the July 4.
+
+Question SP-153_CR: They were eight students, taking an exam with nobody else inside the room. when the time was up, they were only 7 taken tests. How's that possible?
+Model Answer: Two students had the same answer, so they just handed in one paper.
+Correct Answer: One of the students was a examiner.
+
+Question SP-61: A truck driver went three blocks the wrong way down a one-way street without breaking the law. How come?
+Model Answer: None of above.
+Correct Answer: The truck driver was walking.
+
+Question SP-82: Two mothers and two daughters went out to eat, everyone ate one slice of pizza, yet only three slices were eaten. How's that possible?
+Model Answer: The group included a grandmother, her daughter and her daughter's daughter.
+Correct Answer: The group included a grandmother, her daughter and her daughter's daughter.
+
+Question SP-124: A man was born in 1898. He is still alive now at the age 33 How is this possible ?
+Model Answer: His birthday is February 29th, which is celebrated every four years.
+Correct Answer: he was born in room 1898 in the hospital.
+
+Question SP-67_SR: I departed my campsite and traveled 3 miles to the south. I then made an eastward turn and traveled 3 miles. After 3 miles of heading north, I turned around and saw a bear eating inside my tent! The bear was what color?
+Model Answer: None of above.
+Correct Answer: White.
+
+Question SP-109_SR: One day, two dads and two sons went fishing. They were there all day and barely caught three fish. One father stated, "That is enough for all of us; we will each have one." How is this possible?
+Model Answer: There was the father, his son, and his son's son.
+Correct Answer: There was the father, his son, and his son's son.
+
+Question SP-2_SR: Rain began to fall as Samuel was taking a stroll. He wasn't wearing a hat, and he didn't have an umbrella. Even though his clothes were completely drenched, not a single hair on his head was moist. How is this even possible?
+Model Answer: This man is bald.
+Correct Answer: This man is bald.
+
+Question SP-83_SR: A guy is strolling down a rural way while wearing nothing but black. Unexpectedly, a big, dark automobile turns the corner without any lights on and stops abruptly. How did the driver of the automobile know that he was there?
+Model Answer: None of above.
+Correct Answer: It was day time.
+
+Question SP-173_SR: Laura claims that she can toss a ball so that it flies away from her, changes course abruptly, and then returns to her on its own. Is that even conceivable?
+Model Answer: None of above.
+Correct Answer: Yes, if she throws it straight in the air!
+
+Question SP-102_SR: In a pitch-black cave, three individuals are imprisoned. The first is terrified of total darkness, the second is terrified of bats, and the third is terrified of becoming lost. They lack any form of light source, including flashlights, lanterns, and mobile phones, which they cannot use as a light source since they have no signal. How are they going to escape the cave?
+Model Answer: They can just walk out as it's daytime outside the cave.
+Correct Answer: They can just walk out as it's daytime outside the cave.
+
+Question SP-53_CR: A woman living in Rome legally gave birth to five children, but she has never been pregnant. How is this possible?
+Model Answer: None of above.
+Correct Answer: The woman is a surrogate mother.
+
+Question SP-195_SR: Twenty-seven ducks are going to the pond. Five of them got lost, thirteen of them are staying home, and nine of them are at the pond. Where are the rest of them?
+Model Answer: None of above.
+Correct Answer: None of above.
+
+Question SP-152_SR: A guy grabbed and yanked on a woman's ring before dropping it. What happened to save her life?
+Model Answer: None of above.
+Correct Answer: They were skydiving, and she was unconscious.
+
+Question SP-10_CR: Eight people were sitting under a large tree. Suddenly, a gust of wind blows, yet none of them got hit by any falling leaves. How is this possible?
+Model Answer: It was winter and the tree doesn't have any leaves.
+Correct Answer: It was winter and the tree doesn't have any leaves.
+
+Question SP-173_CR: I have a friend who claims that he has a especial kite that it's 10 kilograms, however, he can throw it towards a direction and at some point that he can say exactly when, the kite will change directions and comes straight back to him. How's that possible?
+Model Answer: The kite your friend has is made of a special material that is lighter than air. Despite its weight being stated as 10 kilograms, it actually has negative mass, allowing it to defy gravity.
+Correct Answer: The kite is too heavy to fly so the only reasonable answer is that the kite is always thrown towards the sky and because of its weight, it can be expected that at a particular time, it wil change directions and comes straight back to him.
+
+Question SP-48_CR: Why is Independence Day so hot?
+Model Answer: None of above.
+Correct Answer: Because it's in July.
+
+Question SP-144_CR: When a woman is about to leave for an overseas conference, she realizes she left her presentation slides at her workplace. "Miss, don't board the ship," the security guard pleads as he stops her while she dashes into the office to fetch them. "I had a dream last night that the ship would sink and everyone aboard would drown." Heeding his warning, she decides not to go. As predicted, the ship sinks, with no survivors. The next day, the woman rewards the guard with a $5,000 bonus for saving her life before letting him go. Why did she dismiss the guard who saved her life?
+Model Answer: None of above.
+Correct Answer: The security guard was fired for sleeping on duty.
+
+Question SP-93_CR: A person was outside when it started snowing heavily. Even though he was directly exposed to the snowfall without any protection, not a single snowflake landed on his hair. How is this possible?
+Model Answer: The man succeeded in avoiding all snow flake.
+Correct Answer: He is bold.
+
+Question SP-21_SR: One evening, Joe and Sally were relaxing in their family room. Sally, Joe's wife, was reading while he was watching television. The moment the electricity went out, Joe made the decision to retire to bed, but Sally continued to read. Sally carried on reading without using any artificial lighting. How?
+Model Answer: Sally was blind, she was reading a book by Braille.
+Correct Answer: Sally was blind, she was reading a book by Braille.
+
+Question SP-113_CR: Some animals have four legs and some only have two, Which one of them have one leg?
+Model Answer: None of above.
+Correct Answer: They all do.
+
+Question SP-118: All the electricity was out in town and none of the street lights or traffic signals had power. A dark limousine was cruising down the newly paved blacktop, with its headlights off. A young boy dressed totally in black (with no reflector) stepped out to cross the street. The moon wasn't out and the boy had no flashlight, yet the driver stopped to let the boy cross the street. How did the driver see the boy?
+Model Answer: The driver was good at listening.
+Correct Answer: The driver saw the boy because it was during the daylight hours.
+
+Question SP-45_CR: Mary was enjoying a peaceful paddle in her inflatable kayak on a narrow river. As she turned a bend, she realized that the river became significantly narrower, too narrow for her kayak to pass through. She can't paddle backward due to the strong current. A fellow kayaker on the shore knew how to solve her predicament. What was his suggestion?
+Model Answer: He suggested that she expand the river slightly.
+Correct Answer: He suggested that she deflate her kayak slightly.
+
+Question SP-159_SR: A guy is found dead at his desk, alone in the closed office. He did not commit himself, and no weapons were found in the room. A sealed envelope on the desk in front of him is the sole clue.How did he pass away?
+Model Answer: None of above.
+Correct Answer: The envelope glue was poisoned and when the man linked the envelope to seal it, he died.
+
+Question SP-49_CR: Friday, Jason and Kobe go to a restaurant for dinner. The waiter gave three sets of knives and forks to their table. Why?
+Model Answer: Friday is also the name of one person, there are three people in total.
+Correct Answer: Friday is also the name of one person, there are three people in total.
+
+Question SP-119_SR: Four automobiles, each approaching from a separate direction, arrive to a four-way stop. They can't decide who arrived first, so they all proceed at the same time. They do not collide, but all four automobiles are destroyed. What makes this possible?
+Model Answer: None of above.
+Correct Answer: They all made right-hand turns.
+
+Question SP-136_SR: A horse was tethered to a 5 meter long rope, and the horse's food was 15 meters distant. What path did the horse use to get to the food?
+Model Answer: The rope stretches proportionally, providing the extra length needed for the horse to reach the hay fifteen meters away.
+Correct Answer: The rope wasn't tied to anything so he could reach the food.
+
+Question SP-144: One morning a man is leaving on a business trip and finds he left some paperwork at his office. He runs into his office to get it and the night watchman stops him and says, "Sir, don't get on the plane. I had a dream last night that the plane would crash and everyone would die!" The man takes his word and cancels his trip. Sure enough, the plane crashes and everyone dies. The next morning the man gives the watchman a $1,000 reward for saving his life and then fires him. Why did he fire the watchman that saved his life?
+Model Answer: None of above.
+Correct Answer: The watchman was fired for sleeping on the job.
+
+Question SP-200: A plane crashed between the border of Canada and America. Where do you bury the survivors?
+Model Answer: None of above.
+Correct Answer: None of above.
+
+Question SP-53_SR: A woman who lives in New York legally wed three men; she didn't get divorced, enroll, or separate from them in any other way. How is that even possible?
+Model Answer: None of above.
+Correct Answer: She is a minister.
+
+Question SP-35: Three men sitting in a small motorboat one meter from the shoreline. The first is afraid of water, the second is afraid of drowning, and the third is afraid of sharks. The boat's motor is not operational and there is nothing to row with. How do they get to the shoreline?
+Model Answer: They can just walk onto its as the boat is one-meter inland.
+Correct Answer: They can just walk onto its as the boat is one-meter inland.
+
+Question SP-44_CR: In Jamaica, some kids can stand on the water at 20 degrees Fahrenheit, how is that possible?
+Model Answer: At 20 degrees Fahrenheit the water would be ice.
+Correct Answer: At 20 degrees Fahrenheit the water would be ice.
+
+Question SP-95_CR: On May 1, a boy flew to Japan to participate in a festival for five days before returning on May 1. How did he manage that?
+Model Answer: He went over on the date of the 1st of May and came home on the airplane named the May 1.
+Correct Answer: He went over on the date of the 1st of May and came home on the airplane named the May 1.
+
+Question SP-9_SR: Despite sharing the same parents, the 22nd and 24th presidents of the United States of America were not related. How is this even conceivable?
+Model Answer: They were the same man.
+Correct Answer: They were the same man.
+
+Question SP-150_CR: A man was in a restaurant, and asked another person how's the food and the guy recommended some dishes and said they're absolutely astonishing. The food was really bad though. How is that possible?
+Model Answer: The person that was asked was the owner of the restaurant.
+Correct Answer: The person that was asked was the owner of the restaurant.
+
+Question SP-208_SR: The more you take, the more you abandon.
+Model Answer: Footsteps.
+Correct Answer: Footsteps.
+
+Question SP-207_CR: There were twenty boys with different names in the classroom, All went up to the blackboard and wrote names on the board, however, there was only one name on the board, how's that possible?
+Model Answer: All is the name of one of the boys.
+Correct Answer: All is the name of one of the boys.
+
+Question SP-193: Two people were playing chess and both won. How did this happen?
+Model Answer: None of above.
+Correct Answer: They were playing against other opponents.
+
+Question SP-70: A man dies of old age on his 25 birthday. How is this possible?
+Model Answer: He was born on February 29th
+Correct Answer: He was born on February 29th
+
+Question SP-144_SR: When a man leaves for a business trip one morning, he discovers that he left some paperwork at his office. Sir, don't get on the plane, the night watchman commands as he stops him as he runs into his office to retrieve it. Last night, I had a dream that the plane would crash and everyone would perish. He honors his word, and the man decides not to go. As expected, the plane crashes, killing everyone on board. The following morning, the man rewards the watchman with $1,000 for saving his life before dismissing him. Why did he let go of the watchman who kept him alive?
+Model Answer: None of above.
+Correct Answer: The watchman was fired for sleeping on the job.
+

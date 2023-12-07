@@ -118,7 +118,7 @@ def clean_npy(npy_path):
     Clean up the npy file with remove_lines()
     """
     npy = np.load(npy_path, allow_pickle=True)
-    save_path = re.sub(r"data-npy", "data-npy-clean" , npy_path)
+    save_path = re.sub(r"data-npy", "data-npy-clean", npy_path)
     for i in range(len(npy)):
         for key in npy[i]:
             if isinstance(npy[i][key], list):

@@ -1,7 +1,6 @@
 jupyter
 openai
 numpy
-datasets
 torch
-spacy==3.7.2
-scipy
+colabcode
+scikit-learn
