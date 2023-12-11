@@ -8,7 +8,7 @@ from openai import OpenAI
 import prompts
 import constants
 
-
+#### UTIL FOR DATA ####
 def load_data(path=constants.WORKING_DIR):
     """
     Load data from path
@@ -52,7 +52,19 @@ def split_data_by_type(data):
     return base, sr, cr
 
 
-# Testing starts here
+def submission_log(data, name, path=constants.SUBMISSION):
+    """
+    answer_sen for SP
+    answer_word for WP
+    """
+    filename = f"{path}/{name}.txt"
+    with open(filename, "a") as f:
+        for d in data:
+            f.write(f"{str(d)}\n")
+    print(f"Saved submission to {filename}")
+
+
+#### UTIL FOR TESTING ####
 def log_embeddings_rate_limited(
         data,
         name,
@@ -82,7 +94,39 @@ def log_embeddings_rate_limited(
     np.save(filename, embeddings)
 
 
-def log_results(
+def log_results(answers,
+                ids,
+                dataset,
+                model,
+                f1,
+                accuracy,
+                multishot=False,
+                version="0",
+                path=constants.TEST_LOGS):
+    time = datetime.utcnow().strftime("%Y-%m-%d_%H-%M-%S")
+    name = model + "_" + version + "_" + time
+    if multishot:
+        name += "_multishot"
+    # Find datapoints
+    datapoints = []
+    for i in range(len(ids)):
+        for d in dataset:
+            if d["id"] == ids[i]:
+                datapoints.append(d)
+                break
+    with open(f"{path}/{name}.log", "a") as f:
+        # Write header
+        f.write(f"Created: {time}\n")
+        f.write(f"Model: {model}, Version: {version}\n")
+        f.write(f"F1: {f1}, Accuracy: {accuracy}\n\n\n")
+        # Write question, correct answer, model answer
+        for i in range(len(answers)):
+            f.write(f"Question {ids[i]}: {datapoints[i]['question']}\n")
+            f.write(f"Model Answer: {datapoints[i]['choice_list'][answers[i]]}\n")
+            f.write(f"Correct Answer: {datapoints[i]['answer']}\n\n")
+
+
+def log_results_gpt_nofinetune(
         answers,
         wrong_answers,
         ids,
@@ -195,7 +239,7 @@ def run_test_nofinetune(
     f1 = avg_f1_score(answers, labels, classes)
     acc = count/n
     # Log results
-    log_results(
+    log_results_gpt_nofinetune(
         answers,
         wrong_answers,
         ids,

@@ -10,6 +10,7 @@ WORKING_DIR = CLEAN_DATA_PATH + "/all-data-new"
 TEST_LOGS = ROOTDIR + "/testing/test_logs"
 MODELS = ROOTDIR + "/testing/models"
 EMBEDDINGS = ROOTDIR + "/testing/embeddings"
+SUBMISSION = ROOTDIR + "/submission"
 
 # Models
 GPT3_TURBO = "gpt-3.5-turbo"

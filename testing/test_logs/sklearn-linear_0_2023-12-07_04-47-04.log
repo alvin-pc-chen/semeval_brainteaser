@@ -1,0 +1,413 @@
+Created: 2023-12-07_04-47-04
+Model: sklearn-linear, Version: 0
+F1: 0.3874779507630953, Accuracy: 0.4803921568627451
+
+
+Question SP-57_CR: A famed pilot walks 100 yards away from his plane, puts on a blindfold, and then flies his plane through a ring hanging in the sky, all without any technological assistance or help from others. His vision was entirely obscured by the blindfold. How did he do this?
+Model Answer: He uses the sound to feel the direction.
+Correct Answer: Before putting on the blindfold, the pilot attached the ring to the front of his plane.
+
+Question SP-81: How did the boy kick his soccer ball ten feet, and then have it come back to him on its own?
+Model Answer: There is a rope between the ball and the boy.
+Correct Answer: He kicked it up.
+
+Question SP-99_CR: Soccer was being played between two teams. Team One had a player who score two balls in a role. Team TWO doesn't have a player scoring due to the good defense of Team One. However, Team One still loss the game. Why?
+Model Answer: His teammates is envy about him.
+Correct Answer: The player scored in their own goal.
+
+Question SP-149_SR: What question can someone ask all day and receive radically different responses, yet all of them might be correct?
+Model Answer: What's the square root of 16?
+Correct Answer: What time is it?
+
+Question SP-155_SR: When the radio abruptly stops playing, Fred is still listening to it. Fred is alone, and no one plays with the radio. After a brief pause, the radio starts up again. How is this possible?
+Model Answer: The car required more electricity to speed up so the radio was cut off.
+Correct Answer: Fred was driving his car through a tunnel.
+
+Question SP-40: There are three doors. In each door is a way to die. The first door has fire and lava. The second door has lions that haven't eaten in 5 years. In the third door, there is a 1,000-foot drop into an alligator. Which door will you likely survive?
+Model Answer: The first door, the first door is destroyed and you can see the fire in it.
+Correct Answer: The second door with the lions. Since they haven't eaten in 5 years they will have died.
+
+Question SP-148_CR: They are a couple of friends that are playing in water. Suddenly they get suffocated and die although they had their heads outside the water
+Model Answer: The friends were fish, playing in the water.
+Correct Answer: The friends were fish, playing in the water.
+
+Question SP-106: An electric train is going south at 98 mph. The wind is blowing northeast. Which direction is the smoke blowing?
+Model Answer: South.
+Correct Answer: None of above.
+
+Question SP-27: Dorothy has never expressed suicidal thoughts, but whenever she experiences feelings of sadness or depression, she makes arrangements to travel to a very high spot that she has visited on numerous occasions. Once there, she proceeds to jump from that great height. The fascinating fact though is she has never been injured from this leap, and in fact, she tells everyone that she feels much better afterward. If she’s not suicidal, then what is going on here, and why has she never been injured, or even worse, died from her risky actions?
+Model Answer: Dorothy is a sky jumper.
+Correct Answer: Dorothy is a sky jumper.
+
+Question SP-160_SR: What question can never have a Yes answer?
+Model Answer: Are you asleep?
+Correct Answer: Are you asleep?
+
+Question SP-127: Imagine Johnny, a party clown, is carrying three pieces of gold each piece weighing one kilogram. While taking a walk he comes to a bridge that has a sign posted saying the bridge could hold only a maximum of 80 kilograms. John weighs 78 kilograms and the gold weighs three kilograms. Johnny reads the sign and still safely crossed the bridge with all the gold. How did he manage this?
+Model Answer: Johnny burried one gold in the start of the bridge and make sure the location is private enough that no one can find.
+Correct Answer: Johnny is a clown so he has mastered juggling. When he came to the bridge he judged the gold, always keeping one piece in the air.
+
+Question SP-66_SR: Juliana and Maria went out for drinks collectively. They placed a joint drink order. In the time it took Maria to finish one, Juliana, who was extremely thirsty, finished five. Only Maria perished despite the drinks being poisoned. How?
+Model Answer: The poison need time to dissolve.
+Correct Answer: The poison was in the ice.
+
+Question SP-163_CR: There was a guy who was really good at intercepting, however, each time he was caught intercepting, he wasn't being sent to jail. How's that possible?
+Model Answer: He was intercepting the ball in football and there was no warning for that.
+Correct Answer: He was intercepting the ball in football and there was no warning for that.
+
+Question SP-115_SR: A guy was just going about his business when his suit was ripped. Why did he pass away three minutes later?
+Model Answer: His suit was so expensive that he couldn't afford to buy a new one.
+Correct Answer: He was an astronaut on a space walk, doing repairs.
+
+Question SP-102_SR: In a pitch-black cave, three individuals are imprisoned. The first is terrified of total darkness, the second is terrified of bats, and the third is terrified of becoming lost. They lack any form of light source, including flashlights, lanterns, and mobile phones, which they cannot use as a light source since they have no signal. How are they going to escape the cave?
+Model Answer: They can just walk out as it's daytime outside the cave.
+Correct Answer: They can just walk out as it's daytime outside the cave.
+
+Question SP-124: A man was born in 1898. He is still alive now at the age 33 How is this possible ?
+Model Answer: he was born in room 1898 in the hospital.
+Correct Answer: he was born in room 1898 in the hospital.
+
+Question SP-106_SR: At 98 mph, an electric train is traveling south. There is a northeast wind. Where is the smoke coming from?
+Model Answer: Northeast.
+Correct Answer: None of above.
+
+Question SP-85: You are driving a bus. When you begin your route, there is an old woman named Mrs. Smith and a young boy named Raymond are on the bus. At the first stop, the old woman leaves, and a salesman, named Ed, enters. At the next stop, Jack and his sister Jill get on, as well as three women with shopping bags. The bus travels fifteen minutes, then stops and Raymond gets off and a man and his wife get on. Next, a woman with a bird in a cage gets on the bus. Who is bus driver?
+Model Answer: Jil.
+Correct Answer: None of above.
+
+Question SP-88: Name the most recent year in which New Year's came before Christmas.
+Model Answer: This year.
+Correct Answer: This year.
+
+Question SP-91_SR: Some months' names contain eight letters, while others only contain five. Which month has three?
+Model Answer: They all do.
+Correct Answer: They all do.
+
+Question SP-17: There once was an evil wizard. He took 3 woman from their homes and turned them into rose bushes that looked exactly alike. He put them in his garden. One of the woman had a husband and children and begged the wizard to let her see them. He agreed. At night, he brought the woman to her house. In the morning he came and took her home. One day the husband decided to go rescue her. So he stuck into the wizard's garden. He looked and looked at the 3 identical rose bushes trying to figure out which could be his wife. Suddenly, he knew the answer and he took his wife home. How did he know which rose bush was his wife?
+Model Answer: The husband knew which rose bush was his wife because it was the only one that still had her distinctive scent.
+Correct Answer: The wizard brought the rosebush to her home at night and returned her to the garden in the morning. Therefore, she was the only plant without dew.
+
+Question SP-93_CR: A person was outside when it started snowing heavily. Even though he was directly exposed to the snowfall without any protection, not a single snowflake landed on his hair. How is this possible?
+Model Answer: The man succeeded in avoiding all snow flake.
+Correct Answer: He is bold.
+
+Question SP-170_CR: There were a group of people including artists, doctors, and nurses all in a flight. The flight crashed before getting to the destination but no man was injured nor died. How's that possible?
+Model Answer: All the passengers were skilled in crash survival.
+Correct Answer: All the people on the flight were female.
+
+Question SP-35: Three men sitting in a small motorboat one meter from the shoreline. The first is afraid of water, the second is afraid of drowning, and the third is afraid of sharks. The boat's motor is not operational and there is nothing to row with. How do they get to the shoreline?
+Model Answer: They can just walk onto its as the boat is one-meter inland.
+Correct Answer: They can just walk onto its as the boat is one-meter inland.
+
+Question SP-41_CR: Tom received an invitation to a holiday party. He was shocked to discover that no single person was at the party. The party is still filled with singing, though. How is that even doable?
+Model Answer: The singing is came from the food on party.
+Correct Answer: All people at the party except Tom is married.
+
+Question SP-154_SR: Along an old dirt road, 50 kings are mounted on 50 horses. They arrived at a 50-peach tree. Each took one, there were still 49. How is that even possible?
+Model Answer: The peach tree grew new peaches when the kings were taking.
+Correct Answer: Each is the name of one of the kings and he's the only one that took one.
+
+Question SP-56_SR: There were two camels facing in different directions. One was facing directly East, and the other directly West. There was no reflection because they were in the desert. How do they manage to see one another without turning around, moving their heads, or moving around?
+Model Answer: They were in the middle of desert.
+Correct Answer: The two camels were facing each other the entire time. Hence facing in opposite directions.
+
+Question SP-180: If you were alone in a dark room, with only one match and an oil lamp, a fireplace, and a candle to choose from, which would you light first?
+Model Answer: Fireplace.
+Correct Answer: None of above.
+
+Question SP-95: A girl went over to the U.S. on the 4th of July and parties for 3 days and came back on the 4th of July. How did she do that?
+Model Answer: The girl drank a lot and slept at party for 3 days.
+Correct Answer: She went over on the date of the 4th of July and came home on the boat called the July 4.
+
+Question SP-67_SR: I departed my campsite and traveled 3 miles to the south. I then made an eastward turn and traveled 3 miles. After 3 miles of heading north, I turned around and saw a bear eating inside my tent! The bear was what color?
+Model Answer: White.
+Correct Answer: White.
+
+Question SP-8_CR: All but one of Mr. Brown's cars are red, and all but one are blue. However, Mr. Brown only has two cars. How is this possible?
+Model Answer: Mr. Brown has one red car and one blue car.
+Correct Answer: Mr. Brown has one red car and one blue car.
+
+Question SP-178_CR: Katie picks up 30 pages of papers every evening and write numbers from 0 to 20 on them. Why does she act this way?
+Model Answer: She tries to take full advantage of papers.
+Correct Answer: She has a class with 30 students and every day she distributes small quiz papers and in the evening she grades them
+
+Question SP-38: I dig out tiny caves and store gold and silver in them. I also build bridges of silver and make crowns of gold. They are the smallest you could imagine. Sooner or later everybody needs my help, yet many people are afraid to let me help them. Why?
+Model Answer: I am a dentist.
+Correct Answer: I am a dentist.
+
+Question SP-167: There is a bomb on top of a computer. Around the computer there is a phone, a hairbrush, keys and a cup. When the explosion comes which item is destroyed first?
+Model Answer: The hairbush.
+Correct Answer: None of above.
+
+Question SP-68_CR: How can a man goes to football team every day but doesn't play football at all.
+Model Answer: He is a coach.
+Correct Answer: He is a coach.
+
+Question SP-58: Two cops walked into a room with no windows and found a dead man who obviously hung himself from the ceiling, though they couldn't figure out how. There was no chair beneath him that he might have jumped off of, or a table. Just a paddle of water. How'd he do it?
+Model Answer: He stood on a block of ice until it melted.
+Correct Answer: He stood on a block of ice until it melted.
+
+Question SP-199_SR: In a small town, a logical with some free time made the decision to get a haircut. There were only two barbers in the town, and they each had a shop. The rational glance into one store revealed that it was incredibly expensive. His clothes were messy, his hair was poorly cut, and the barber needed to shave. The other store was very well-kept. The barber had recently had his hair cut and was immaculately dressed. Why did the logical get his haircut at the first place he went?
+Model Answer: Each barber must have cut the other's hair. The logical picked the barber who had given his rival the better haircut.
+Correct Answer: Each barber must have cut the other's hair. The logical picked the barber who had given his rival the better haircut.
+
+Question SP-136_SR: A horse was tethered to a 5 meter long rope, and the horse's food was 15 meters distant. What path did the horse use to get to the food?
+Model Answer: The rope stretches proportionally, providing the extra length needed for the horse to reach the hay fifteen meters away.
+Correct Answer: The rope wasn't tied to anything so he could reach the food.
+
+Question SP-48_SR: Why is Christmas Day so chilly?
+Model Answer: Because it's in December.
+Correct Answer: Because it's in December.
+
+Question SP-145_CR: A man was in a concert when he jumped on the audience, but nobody got him and he was seriously injured. How did that happen?
+Model Answer: The audiences all hated him even his music was very attractive.
+Correct Answer: He wasn't the performer, so when he jumped nobody cared
+
+Question SP-51_CR: Morgan is dying near the sea line. Many people witness her death but no one feel sad. Why?
+Model Answer: Morgan is the name of hurricane.
+Correct Answer: Morgan is the name of hurricane.
+
+Question SP-175: A woman enters a room and presses a button. Within seconds she instantly loses 20 pounds. How did she lose the weight?
+Model Answer: The room is actually an elevator. When she gets inside to go down, the elevator accelerates downward, making her weight temporarily lower.
+Correct Answer: The room is actually an elevator. When she gets inside to go down, the elevator accelerates downward, making her weight temporarily lower.
+
+Question SP-62_SR: Nolan is in front of a store. She is unable to read the signs, but she is aware that she must enter in order to make a purchase. Where in the store is she?
+Model Answer: Bakery.
+Correct Answer: Eye glasses store.
+
+Question SP-173: Laura says that she can throw a ball so that it flies away from her, will change direction suddenly, and then come right back to her all by itself. Is that even possible?
+Model Answer: Yes, if she throws it straight in the air.
+Correct Answer: Yes, if she throws it straight in the air.
+
+Question SP-105_CR: Two farmers got into a heated argument and started fighting. A farmer was so enraged that he threw a handful of stones at the other farmer. The stones hit the farmer exactly, but the other farmer received no harm at all. Why?
+Model Answer: The stones was actually seeds, not ordinary stones. The seed of a cherry is called a stone.
+Correct Answer: The stones was actually seeds, not ordinary stones. The seed of a cherry is called a stone.
+
+Question SP-99: Two teams were playing soccer against each other. One player from Team One scored a hat trick (triple goal). Their teammates were very happy. But when he scored the fourth goal, their teammates scolded him instead. How could this be possible?
+Model Answer: He should focus more on defense.
+Correct Answer: The player scored in their own goal.
+
+Question SP-145_SR: A man was staring out a sixth-floor window when he decided to jump. He did not perish or get any injuries. How?
+Model Answer: He jumped in the window. He was outside the window to wash it.
+Correct Answer: He jumped in the window. He was outside the window to wash it.
+
+Question SP-91: Some months have eight letters in their name, whereas others have five. How many have three?
+Model Answer: They all do.
+Correct Answer: They all do.
+
+Question SP-195_SR: Twenty-seven ducks are going to the pond. Five of them got lost, thirteen of them are staying home, and nine of them are at the pond. Where are the rest of them?
+Model Answer: Home.
+Correct Answer: None of above.
+
+Question SP-134: A man sails off on a cruise between Mexico and the USA. He does not stop at any ports and does not even come out of the cabin, yet he makes $300,000 from his trip. How?
+Model Answer: He's a captain though he forgot to carry the passengers.
+Correct Answer: He's a smuggler.
+
+Question SP-163_SR: Despite being caught stealing 27 times in one year, Thomas was never arrested. Why is this so?
+Model Answer: Thomas was a baseball player and was stealing bases.
+Correct Answer: Thomas was a baseball player and was stealing bases.
+
+Question SP-168_CR: A woman is stuck on an isolated island with no food, water, or other human beings. The only things she has are a backpack and a fishing rod. She can't fish because there are no fish in the surrounding waters and she can't drink the seawater. How will she survive?
+Model Answer: The woman has to use the fishing rod to catch birds or other wildlife and use the backpack to collect rainwater for drinking.
+Correct Answer: The woman has to use the fishing rod to catch birds or other wildlife and use the backpack to collect rainwater for drinking.
+
+Question SP-63: Which would see most clearly in total darkness? A bat, a tiger, or an owl.
+Model Answer: Bat.
+Correct Answer: None of above.
+
+Question SP-49_SR: Wednesday, Tom and Joe had dinner at a restaurant. After finishing, they paid and departed. Joe and Tom don't have to pay. Who paid the bill?
+Model Answer: They found money in their hamburger.
+Correct Answer: Wednesday. The name of the third person in the group, not the day.
+
+Question SP-87_CR: How to fit an entire mountain inside a suitcase?
+Model Answer: Dissolve the mountain in the water.
+Correct Answer: None of above.
+
+Question SP-159_CR: Two men are found dead in their house, however there is no sign of one of them killing the other one, neither the sign of any other intruders. How's that possible?
+Model Answer: They both comitted suiside.
+Correct Answer: They both comitted suiside.
+
+Question SP-18: There are 3 apples for 2 sons and 2 fathers to eat. Each of them get their own apple. How is it numerically possible?
+Model Answer: They are one son, one father and one grandfather.
+Correct Answer: They are one son, one father and one grandfather.
+
+Question SP-125: A man is late for an appointment and, in his haste, takes a corner so fast that only two wheels were on the pavement. A policeman is standing on the corner, but he did not give him a ticket. Why?
+Model Answer: The policeman was superised by his driving skill.
+Correct Answer: He was on a motorcycle.
+
+Question SP-172_SR: Which month does the average person sleep the least?
+Model Answer: December.
+Correct Answer: February.
+
+Question SP-94: Two men had to go to the south side of the river, the river is pretty wide and rapid. There is one boat, but only one person fits on it. Lucky they both got to the south side of the river. How?
+Model Answer: One men go home to get a another boat.
+Correct Answer: One person already at the south side of the river.
+
+Question SP-5_SR: There are five apples in a basket. You distribute them among the five girls, giving each one an apple while leaving one apple in the basket. How is that even doable?
+Model Answer: Give the fifth girl her apple in the basket.
+Correct Answer: Give the fifth girl her apple in the basket.
+
+Question SP-40_CR: The king's horse was bitten by a tiger one day while hunting. The king was so furious that he punished the tiger by sending him to a cell and depriving him of food. One year later, the bishop offended the king with a joke. The king imprisoned the bishop in the same cell as a tiger for a month. But a month later, the bishop was completely unharmed and free. How is that even doable?
+Model Answer: Tiger eats the bishop slowly and bishop gets recovered everyday.
+Correct Answer: Since the tiger haven't eaten in one year it will have died.
+
+Question SP-23: A simple peasant bought a number of camels and is taking them to his farm. As he rides contentedly along he counts them - he counts 29. He was sure he had bought 30 camel, so in alarm he jumps off his camel and counts the camels again. To his delight there are 30. Half an hour later, he counts his camels and once more there are just 29. Confused, he climbs off his camel and counts again. Once more there are 30. Can you explain?
+Model Answer: When he is on the camel he omits to count it.
+Correct Answer: When he is on the camel he omits to count it.
+
+Question SP-196_CR: A chopper had ten pigeons inside and threw all of them out to die. However, there were some tall trees that could've survived them. How many survived?
+Model Answer: Five.
+Correct Answer: None of above.
+
+Question SP-125_CR: A thief was running when he passed a policeman as well, but nobody stopped him. Why?
+Model Answer: The people whom he had stolen are kind and rich.
+Correct Answer: Although he was a thief, he wasn't stealing something at that time
+
+Question SP-55: A man buys a rope from a woman for $3.00 and hands the woman a $10 bill. The woman goes into the grocery store next door to get change. She returns and gives the man $7.00. After the man leaves, the clerk from the store comes and says, "Hey, that was a counterfeit bill you gave me." The woman gives the clerk a good bill. How much has the woman lost?
+Model Answer: Seven dollars plus the rope.
+Correct Answer: Seven dollars plus the rope.
+
+Question SP-53: A woman who lives in new york legally married three men, she did not get divorce, get an enrollment, or legally seperate. How is this possible?
+Model Answer: She is a minister.
+Correct Answer: She is a minister.
+
+Question SP-28_SR: Here on Earth, a certain big animal prospers and lives happily. One day, a mystery disease that solely affects this unique species annihilates each and every one of these writers. They are all gone; there are none remaining everywhere on earth. They start to reappear on Earth again a year or so later. How is this possible?
+Model Answer: The animal is the dinosaur. Millions of years ago, dinosaurs roamed the Earth, but eventually, they became extinct due to various factors such as climate change or asteroid impact.
+Correct Answer: The animal is the Mule. Since all Mules are born sterile, you can only get a Mule by crossing a donkey with a horse.
+
+Question SP-111: A pet shop owner had a parrot with a sign on its cage that said "Parrot repeats everything it hears". Davey bought the parrot and for two weeks he spoke to it and it didn't say a word. He returned the parrot but the shopkeeper said he never lied about the parrot. How can this be?
+Model Answer: Davey was deaf.
+Correct Answer: The parrot was deaf.
+
+Question SP-115_CR: A man was swimming in a sea, when he had a small injury and he lost only a small amount of blood, a minute later, he died in a painful way
+Model Answer: When he started bleeding, a shark noticed and ate him.
+Correct Answer: When he started bleeding, a shark noticed and ate him.
+
+Question SP-180_SR: Which would you light first if you were alone in a dark room with just one match with an oil lamp, a fireplace, and a candle to select from?
+Model Answer: Fireplace.
+Correct Answer: None of above.
+
+Question SP-206: There is a pink single-story house and everything in it is pink. The doors are pink, the windows are pink and the top is pink. What color are the stairs?
+Model Answer: There are no stairs in a single story house.
+Correct Answer: There are no stairs in a single story house.
+
+Question SP-130_CR: In 1250, a woman is 30 years old. In 1240, the same woman is 20 years old. How can this be possible?
+Model Answer: The years are being counted in B.C
+Correct Answer: The years are being counted in B.C
+
+Question SP-58_SR: Two police officers entered a room without any windows and discovered a dead man who had apparently hung himself from the ceiling, though they were unable to determine how. There was no table or chair beneath him from which he could have jumped. merely a water paddle. What was his method?
+Model Answer: He stood on a block of ice until it melted.
+Correct Answer: He stood on a block of ice until it melted.
+
+Question SP-5: Five apples are in a basket. How do you divide them among five girls so that each girl gets an apple, but one apple remains in the basket?
+Model Answer: One girl is polite and return her apple back.
+Correct Answer: Give the fifth girl her apple in the basket.
+
+Question SP-24: One day a little boy named John went over to his parents and said that he wanted to shoot people and blow them up. His parents were really proud of his career choice. keep in mind that his parents were not very violent people. Why?
+Model Answer: John wanted to be a photographer.
+Correct Answer: John wanted to be a photographer.
+
+Question SP-21: Joe and Sally were sitting in their family room one night. While Joe was watching T.V, his wife Sally was reading. All of a sudden the power went out and Joe decided to go to bed, but Sally kept on reading. With no use of artificial light, Sally kept on reading. How?
+Model Answer: Because it was daytime.
+Correct Answer: Sally was blind, she was reading a book by Braille.
+
+Question SP-39_SR: How was it possible for a cowboy to arrive in town on Friday, stay for two days, and leave on Wednesday?
+Model Answer: Friday and Saturday are holidays.
+Correct Answer: His horse is named Wednesday.
+
+Question SP-149_CR: What's that one number that when added to numbers, don't change them, but when added in other ways, it does increase them
+Model Answer: One.
+Correct Answer: Zero.
+
+Question SP-138_CR: Two lifeguards are monitoring a one-way swimming lane in a public pool, watching for any safety infractions. They see a swimmer moving in the wrong direction but they don't take action. Why?
+Model Answer: The swimmer wasn't swimming at the time, he was just walking in the shallow end of the pool.
+Correct Answer: The swimmer wasn't swimming at the time, he was just walking in the shallow end of the pool.
+
+Question SP-153_CR: They were eight students, taking an exam with nobody else inside the room. when the time was up, they were only 7 taken tests. How's that possible?
+Model Answer: One of the students was a examiner.
+Correct Answer: One of the students was a examiner.
+
+Question SP-45_SR: Danny had just passed under an overpass in his semi when he abruptly came to a stop. Danny accidentally drove under the overpass that was only just tall enough for his truck because he wasn't paying enough attention. He was unable to move forward or backward in the semi due to how tightly it was wedged. When another tracker passed by, he was told how simple it would be to remove the semi from underneath the bridge. What did he recommend?
+Model Answer: He told Danny to let some air out of his tires.
+Correct Answer: He told Danny to let some air out of his tires.
+
+Question SP-53_CR: A woman living in Rome legally gave birth to five children, but she has never been pregnant. How is this possible?
+Model Answer: The woman is a surrogate mother.
+Correct Answer: The woman is a surrogate mother.
+
+Question SP-96: There are 8 brothers. Brother 1 is playing checkers. Brother 2 is eating. Brother 3 is watching video games. Brother 4 is dancing. Brother 5 is texting. Brother 6 is at school. Brother 7 is sleeping. What is Brother 8 doing?
+Model Answer: Brother 8 is playing checkers.
+Correct Answer: Brother 8 is playing checkers.
+
+Question SP-196: Ten fish are in a tank. Two fish drown. Four fish swim away.Three fish die.How many fish are left in the tank?
+Model Answer: Five.
+Correct Answer: None of above.
+
+Question SP-164: Not a single parent objected when the teacher spanked every child in the class. How come?
+Model Answer: The teacher was in an orphanage school.
+Correct Answer: The teacher was in an orphanage school.
+
+Question SP-84_SR: Why is the value of 1968 pennies higher than 1967 pennies?
+Model Answer: Because there is one more penny in 1968 pennies than in 1967 pennies
+Correct Answer: Because there is one more penny in 1968 pennies than in 1967 pennies
+
+Question SP-103: A woman living in London, has four sons. All of them are doctors, but none of them ever attended medical school. How is this possible?
+Model Answer: Woman's sons are too busy to take courses in medical school.
+Correct Answer: The woman's sons are all "doctors" in the academic sense
+
+Question SP-28_CR: A certain kind of animal has parents but no children, lives happily but can not give birth to offspring. This kind of animal has existed on earth for a long history. How is that possible?
+Model Answer: The animal is the Mule. Since all Mules are born sterile, you can only get a Mule by crossing a donkey with a horse.
+Correct Answer: The animal is the Mule. Since all Mules are born sterile, you can only get a Mule by crossing a donkey with a horse.
+
+Question SP-206_SR: The entire single-story home is pink, including the outside. The windows, the top, and the doors are all pink. What are the stair's colors?
+Model Answer: The stairs is uncolored as people always step on that.
+Correct Answer: There are no stairs in a single story house.
+
+Question SP-194: A hiker arrives near a lake. He sees a sign where it is written "No swimming allowed.", but the duck jumps into the water. Why?
+Model Answer: Because ducks can't read.
+Correct Answer: Because ducks can't read.
+
+Question SP-93: While a cat was outside, it started to downpour. The cat couldn’t find any shelter and got completely soaked by the rain, yet not a single hair was wet. How could this be?
+Model Answer: The outside whether is changing frequently.
+Correct Answer: It was a hairless cat.
+
+Question SP-133_CR: A guy buys a car that can go up to 55 mph, doesn't require any petrol nor electricity and also provide the solution for itself when it gets old. How's that possible to have a deal as good as this?
+Model Answer: The car is a horse that can give birth to baby horses as well.
+Correct Answer: The car is a horse that can give birth to baby horses as well.
+
+Question SP-133: A store has on sale a computer and word processor small enough to fit in your pocket. It can add, multiply, subtract, divide, and write in all languages. A delete device will correct any error. No electricity is required to operate it. The price? Only a few cents! How can the store make a profit by selling it so cheap?
+Model Answer: The store stole steal this computer from others.
+Correct Answer: The computer is a wooden pencil with an eraser.
+
+Question SP-69_CR: There are many people in the park when a woman shoots in public toward them, but no one is killed. How is that even doable?
+Model Answer: She is a photographer.
+Correct Answer: She is a photographer.
+
+Question SP-130: In 1990, a person is 15 years old. In 1995 that same person is 10 years old. How is this possible?
+Model Answer: This person wanted to be younger so he revised his birthday.
+Correct Answer: The years are in B.C.
+
+Question SP-160_CR: What question can never be answered with a "no"?
+Model Answer: Can you give me your phone number?
+Correct Answer: Are you awake?
+
+Question SP-188_SR: Who will grab the banana first if a monkey, a squirrel, and a bird race to the top of a coconut tree?
+Model Answer: The bird.
+Correct Answer: None of above.
+
+Question SP-37_CR: The brother of a police passed away, but the dead man actually had no brother. How is that possible?
+Model Answer: The police was the man's sister.
+Correct Answer: The police was the man's sister.
+
+Question SP-151_CR: Why you go to gym everyday, but still can't do a marathon in New York.
+Model Answer: Since you're not in new york to do the marathon
+Correct Answer: Since you're not in new york to do the marathon
+
+Question SP-194_CR: A cat was walking pass a security guard when the guard told him not to enter the area since it was restricted. However, the cat passed the security guard without any sense of obedience.Why?
+Model Answer: Since cats can't understand humans' language
+Correct Answer: Since cats can't understand humans' language
+
+Question SP-41_SR: Despite the fact that the entire flight was lost in a plane crash and each single person is killed, there were survivors. Describe how?
+Model Answer: The survivors could refer to individuals who were not on the plane.
+Correct Answer: The married people lived and the singles died.
+

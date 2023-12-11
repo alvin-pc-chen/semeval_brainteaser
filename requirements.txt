@@ -4,3 +4,8 @@ numpy
 torch
 colabcode
 scikit-learn
+accelerate
+datasets
+evaluate
+nlpaug
+transformers
