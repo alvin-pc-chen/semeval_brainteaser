@@ -15,6 +15,9 @@ SUBMISSION = ROOTDIR + "/submission"
 # Models
 GPT3_TURBO = "gpt-3.5-turbo"
 ADA_EMBED = "text-embedding-ada-002"
+GPT4 = "gpt-4"
 
 # Request Rates
-ADA_RATE = 2500
+RATES = {ADA_EMBED: {"tokens": 60000, "requests": 500},
+         GPT3_TURBO: {"tokens": 1000000, "requests": 3000},
+         GPT4: {"tokens": 10000, "requests": 500},}

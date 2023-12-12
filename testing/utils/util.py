@@ -4,9 +4,10 @@ import numpy as np
 from typing import List
 import random
 from datetime import datetime
-from openai import OpenAI
-import prompts
-import constants
+import time
+
+from utils import prompts
+from utils import constants
 
 #### UTIL FOR DATA ####
 def load_data(path=constants.WORKING_DIR):
@@ -58,13 +59,15 @@ def submission_log(data, name, path=constants.SUBMISSION):
     answer_word for WP
     """
     filename = f"{path}/{name}.txt"
-    with open(filename, "a") as f:
+    with open(filename, "w") as f:
         for d in data:
             f.write(f"{str(d)}\n")
     print(f"Saved submission to {filename}")
 
+#### HUGGINGFACE TESTING ####
 
-#### UTIL FOR TESTING ####
+
+#### GPT TESTING ####
 def log_embeddings_rate_limited(
         data,
         name,
@@ -72,8 +75,8 @@ def log_embeddings_rate_limited(
         model="text-embedding-ada-002",
         rate=2500,
         path=constants.EMBEDDINGS,):
-    time = datetime.utcnow().strftime("%Y-%m-%d")
-    filename = f"{path}/{name}_{time}.npy"
+    date = datetime.utcnow().strftime("%Y-%m-%d")
+    filename = f"{path}/{name}_{date}.npy"
     embeddings = []
     count = 0
     for d in data:
@@ -103,8 +106,8 @@ def log_results(answers,
                 multishot=False,
                 version="0",
                 path=constants.TEST_LOGS):
-    time = datetime.utcnow().strftime("%Y-%m-%d_%H-%M-%S")
-    name = model + "_" + version + "_" + time
+    date = datetime.utcnow().strftime("%Y-%m-%d_%H-%M-%S")
+    name = model + "_" + version + "_" + date
     if multishot:
         name += "_multishot"
     # Find datapoints
@@ -145,8 +148,8 @@ def log_results_gpt_nofinetune(
     Header: timestamp, model, version, statistics, prompts
     Body: question, correct answer, model answer
     """
-    time = datetime.utcnow().strftime("%Y-%m-%d_%H-%M-%S")
-    name = model + "_" + version + "_" + time
+    date = datetime.utcnow().strftime("%Y-%m-%d_%H-%M-%S")
+    name = model + "_" + version + "_" + date
     if training_data is not None:
         name += "_multishot"
     with open(f"{path}/{name}.log", "a") as f:
@@ -167,6 +170,43 @@ def log_results_gpt_nofinetune(
             f.write(f"Correct Answer: {dataset[i]['answer']}\n\n")
 
 
+def log_eval_results(
+        answers,
+        wrong_answers,
+        ids,
+        model,
+        question_prompt,
+        system_prompt,
+        n,
+        m,
+        dataset,
+        training_data,
+        version,
+        path=constants.TEST_LOGS):
+    """
+    Header: timestamp, model, version, statistics, prompts
+    Body: question, correct answer, model answer
+    """
+    date = datetime.utcnow().strftime("%Y-%m-%d_%H-%M-%S")
+    name = model + "_" + version + "_" + date
+    if training_data is not None:
+        name += "_multishot"
+    with open(f"{path}/{name}.log", "a") as f:
+        # Write header
+        f.write(f"Created: {time}\n")
+        f.write(f"Model: {model}, Version: {version}\n")
+        f.write(f"Number of Questions: {n}, Number of Examples: {m}, Number of Bad Outputs: {len(wrong_answers)}\n")
+        f.write(f"System Prompt: {system_prompt}\n")
+        f.write(f"User Prompt: {question_prompt}\n\n\n")
+        # Write question, correct answer, model answer
+        for i in range(n):
+            f.write(f"Question {ids[i]}: {dataset[i]['question']}\n")
+            if ids[i] in wrong_answers:
+                f.write(f"Model Answer (Wrong): {wrong_answers[ids[i]]}\n\n")
+            else:
+                f.write(f"Model Answer: {dataset[i]['choice_list'][answers[i]]}\n\n")
+
+
 def generate_prompt(question, prefix):
     choices = "".join(str(i) + " = " + question["choice_list"][i] + "; " for i in range(4))
     content = prefix + "\"" + question["question"] + "\"\nChoices: " + choices + "\nResponse: "
@@ -181,7 +221,7 @@ def multishot_prompt(training, prefix):
     return {"role": "system", "content": prompt}
 
 
-# Testing for GPT
+# Testing Loop for GPT with labels
 def run_test_nofinetune(
             client,
             model,
@@ -212,7 +252,16 @@ def run_test_nofinetune(
     if training_data is not None:
         random.shuffle(training_data)
     # Run test
+    req_count = 0
+    token_count = 0
+    req_rate = constants.RATES[model]["requests"]
+    token_rate = constants.RATES[model]["tokens"]
     for i in range(n):
+        if req_count > req_rate or token_count > token_rate:
+            time.sleep(60)
+            req_count = 0
+            token_count = 0
+        req_count += 1
         user_prompt = generate_prompt(dataset[i], question_prompt)
         if training_data is not None:
             first_prompt = multishot_prompt(training_data[:m], multi_prefix)
@@ -220,8 +269,9 @@ def run_test_nofinetune(
             first_prompt = system_prompt
             m = 0
         prompt = [first_prompt, user_prompt]
-        response = client.chat.completions.create(model=model, messages=prompt)
+        response = client.chat.completions.create(model=model, messages=prompt, n=1)
         ans = response.choices[0].message.content
+        token_count += response.usage.total_tokens
         if ans in ["0", "1", "2", "3"]:
             answers.append(int(ans))
         elif dataset[i]["label"] == 0:
@@ -239,28 +289,71 @@ def run_test_nofinetune(
     f1 = avg_f1_score(answers, labels, classes)
     acc = count/n
     # Log results
-    log_results_gpt_nofinetune(
-        answers,
-        wrong_answers,
-        ids,
-        model,
-        f1,
-        acc,
-        question_prompt,
-        first_prompt['content'],
-        n,
-        m,
-        dataset[:n],
-        training_data,
-        version,
-    )
+    log_results_gpt_nofinetune(answers, wrong_answers, ids, model, f1, acc,
+        question_prompt, first_prompt['content'], n, m, dataset[:n], training_data, version,)
+    
     return f1, acc
 
 
-# Make finetune testing
+# Testing Loop for GPT on eval set
+def run_eval_nofinetune(
+            client,
+            model,
+            dataset,
+            question_prompt,
+            system_prompt,
+            multi_prefix,
+            n=30,
+            training_data=None,
+            m=10,
+            version="eval",):
+    """
+    Do the same thing as run_test_nofinetune but on evalset, no f1 and accuracy and make submission
+    """
+    answers = []
+    ids = []
+    wrong_answers = {}
+    # Randomize dataset
+    if training_data is not None:
+        random.shuffle(training_data)
+    # Set up rate limiting
+    req_count = 0
+    token_count = 0
+    req_rate = constants.RATES[model]["requests"]
+    token_rate = constants.RATES[model]["tokens"]
+    # Run test
+    id = 1
+    for i in range(n):
+        if req_count > req_rate or token_count > token_rate:
+            time.sleep(60)
+            req_count = 0
+            token_count = 0
+        req_count += 1
+        user_prompt = generate_prompt(dataset[i], question_prompt)
+        if training_data is not None:
+            first_prompt = multishot_prompt(training_data[:m], multi_prefix)
+        else:
+            first_prompt = system_prompt
+            m = 0
+        prompt = [first_prompt, user_prompt]
+        response = client.chat.completions.create(model=model, messages=prompt, n=1)
+        ans = response.choices[0].message.content
+        token_count += response.usage.total_tokens
+        if ans in ["0", "1", "2", "3"]:
+            answers.append(int(ans))
+        else:
+            answers.append(3) # chooses none of the above
+            wrong_answers[id] = ans
+        ids.append(id)
+        id += 1
+    # Log results
+    log_eval_results(answers, wrong_answers, ids, model, question_prompt,first_prompt['content'],
+                     n, m, dataset[:n], training_data, version,)
+    
+    return answers
 
 
-# F1 starts here
+#### EVALUATION UTIL ####
 def accuracy(predicted_labels: List[int], true_labels: List[int]):
     """
     Accuracy is correct predictions / all predicitons

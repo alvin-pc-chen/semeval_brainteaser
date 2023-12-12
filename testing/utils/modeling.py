@@ -7,6 +7,8 @@ from collections import Counter
 import torch
 import numpy as np
 
+
+#### IRONY DETECTOR LSTM ####
 class BiLSTM(torch.nn.Module):
     def __init__(
         self,
