@@ -55,6 +55,7 @@ def split_data_by_type(data):
 
 def submission_log(data, name, path=constants.SUBMISSION):
     """
+    name:
     answer_sen for SP
     answer_word for WP
     """
@@ -348,6 +349,71 @@ def run_eval_nofinetune(
         id += 1
     # Log results
     log_eval_results(answers, wrong_answers, ids, model, question_prompt,first_prompt['content'],
+                     n, m, dataset[:n], training_data, version,)
+    
+    return answers
+
+
+# Few shot (8) Chain-of-thought for GPT on eval set
+def run_eval_cot(
+            client,
+            model,
+            dataset,
+            question_prompt,
+            system_prompt,
+            multi_prefix,
+            n=30,
+            training_data=None,
+            m=10,
+            version="eval",):
+    """
+    Do the same thing as run_test_nofinetune but on evalset, no f1 and accuracy and make submission
+    """
+    api_discount = 0.75
+    answers = []
+    ids = []
+    outputs = {}
+    # Randomize dataset
+    if training_data is not None:
+        random.shuffle(training_data)
+    # Set up rate limiting
+    req_count = 0
+    token_count = 0
+    req_rate = constants.RATES[model]["requests"]
+    token_rate = constants.RATES[model]["tokens"] * api_discount
+    # Run test
+    id = 1
+    for i in range(n):
+        if req_count > req_rate or token_count > token_rate:
+            time.sleep(60)
+            req_count = 0
+            token_count = 0
+        req_count += 1
+        user_prompt = generate_prompt(dataset[i], question_prompt)
+        if training_data is not None:
+            first_prompt = multishot_prompt(training_data[:m], multi_prefix)
+        else:
+            first_prompt = system_prompt
+            m = 0
+        prompt = [first_prompt, user_prompt]
+        response = client.chat.completions.create(model=model, messages=prompt)
+        ans = response.choices[0].message.content
+        token_count += response.usage.total_tokens
+        if ans[-1] in ["0", "1", "2", "3"]:
+            answers.append(int(ans[-1]))
+        elif dataset[i]["choice_list"][0] in ans:
+            answers.append(0)
+        elif dataset[i]["choice_list"][1] in ans:
+            answers.append(1)
+        elif dataset[i]["choice_list"][2] in ans:
+            answers.append(2)
+        else:
+            answers.append(3)
+        outputs[id] = ans
+        ids.append(id)
+        id += 1
+    # Log results
+    log_eval_results(answers, outputs, ids, model, question_prompt,first_prompt['content'],
                      n, m, dataset[:n], training_data, version,)
     
     return answers
