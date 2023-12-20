@@ -108,7 +108,7 @@ def log_results(answers,
                 version="0",
                 path=constants.TEST_LOGS):
     date = datetime.utcnow().strftime("%Y-%m-%d_%H-%M-%S")
-    name = model + "_" + version + "_" + date
+    name = model + "_" + version + "_" + str(date)
     if multishot:
         name += "_multishot"
     # Find datapoints
@@ -150,7 +150,7 @@ def log_results_gpt_nofinetune(
     Body: question, correct answer, model answer
     """
     date = datetime.utcnow().strftime("%Y-%m-%d_%H-%M-%S")
-    name = model + "_" + version + "_" + date
+    name = model + "_" + version + "_" + str(date)
     if training_data is not None:
         name += "_multishot"
     with open(f"{path}/{name}.log", "a") as f:
@@ -189,7 +189,7 @@ def log_eval_results(
     Body: question, correct answer, model answer
     """
     date = datetime.utcnow().strftime("%Y-%m-%d_%H-%M-%S")
-    name = model + "_" + version + "_" + date
+    name = model + "_" + version + "_" + str(date)
     if training_data is not None:
         name += "_multishot"
     with open(f"{path}/{name}.log", "a") as f:

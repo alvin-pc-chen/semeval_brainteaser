@@ -1,0 +1,749 @@
+Created: <module 'time' (built-in)>
+Model: gpt-4, Version: eval
+Number of Questions: 120, Number of Examples: 0, Number of Bad Outputs: 120
+System Prompt: You are a Question Answering Model that answers questions by finding logical entailments between the question and answer choices.
+User Prompt: Question: Samuel was out for a walk when it started to rain. He did not have an umbrella and he wasn't wearing a hat. His clothes were soaked, yet not a single hair on his head got wet. How could this happen?
+                Choices: 0 = His hair is dyed.; 1 = This man is bald.; 2 = This man walk upside down to avoid rain.; 3 = None of above.;
+                Response: Samuel got wet from the rain, but no hair on his head got wet. If Samuel dyed his hair it would still be wet. Samuel is bald, so his hair didn't get wet. The answer is 1
+                Question: A horse is tied to a five-meter rope in front of an old saloon. Ten meters behind the horse is a bale of hay. Without breaking his rope, the horse is able to eat the hay whenever he chooses. How is this possible?
+                Choices: 0 = The rope stretches proportionally, providing the extra length needed for the horse to reach the hay ten meters away.; 1 = The rope is not tied to anything else.; 2 = The walls of the saloon retract or collapse inwards, creating more space for the horse to reach the hay.; 3 = None of above.;
+                Response: That the rope is not tied to anything else is the simplest choice. The horse can reach the hay whenever he chooses. The answer is 1
+                Question: A woman who lives in new york legally married three men, she did not get divorce, get an enrollment, or legally seperate. How is this possible?
+                Choices: 0 = The woman is not a good person.; 1 = His husband is not a good husband.; 2 = She is a minister.; 3 = None of above.;
+                Response: In new york it is not legal to be married to more than one person at a time. If the woman did not get divorced or legally separated, she cannot be legally married to more than one person. Ministers perform marriages, they do not get married. The answer is 2
+                Question: Why is the value of 1968 pennies higher than 1967 pennies?
+                Choices: 0 = Old money weight more than new money.; 1 = Old money is dirtier than new money.; 2 = Because there is one more penny in 1968 pennies than in 1967 pennies.; 3 = None of above.;
+                Response: 1968 and 1967 refer to the number of pennies. The value of 1968 pennies is higher than 1967 pennies because there is one more penny in 1968 pennies than in 1967 pennies. The answer is 2
+                Question: Not a single parent objected when the teacher spanked every child in the class. How come?
+                Choices: 0 = The teacher had informed all the parents in advance about the unique disciplinary approach.; 1 = The teacher had informed all the children in advance about the unique disciplinary approach.; 2 = The teacher was in an orphanage school.; 3 = None of above.;
+                Response: Even if the teacher had informed all the parents or all the students in advance about the unique disciplinary approach, it is unlikely that nobody would object. If the teacher is in an orphange school, there would be no parents to object. The answer is 2
+                Question: Twenty-seven ducks are going to the pond. Five of them got lost, thirteen of them are staying home, and nine of them are at the pond. Where are the rest of them?
+                Choices: 0 = Home.; 1 = The way to the pond.; 2 = Pond.; 3 = None of above.;
+                Response: Twenty-seven ducks are going to the pond. Five of them are lost, 27 - 5 = 22. Thirteen of them are staying home, 22 - 13 = 9. Nine of them are at the pond, 9 - 9 = 0. There are no more ducks so the question is invalid. The answer is 3
+                Question: How many birth days does the average person have?
+                Choices: 0 = People may celebrate their birthdays annually, so it depends on their life span.; 1 = They technically only have one birth day in their lifetime.; 2 = It can be zero as some people are too busy to celebrating their birthdays.; 3 = None of above.;
+                Response: Everyone is born only once so technically the average person has one birthday in their lifetime. The answer is 1
+                Question: The more you take, the more you leave behind
+                Choices: 0 = Love.; 1 = Footsteps.; 2 = Money.; 3 = None of above.;
+                Response: Footsteps. The more you walk, the more footsteps you leave behind. The answer is 1
+
+Question 1: Everyone called him "Batman," but he knew nothing about bats and thought they were disgusting. He still cherished being referred to as Batman! How is this possible?
+Choices: 0 = Sally is smart that she remembered all chapters in Bible.; 1 = Because it was daytime.; 2 = Sally was blind, she was reading a book by Braille.; 3 = None of above.; 
+Model Output: In baseball, the player who strikes the ball with a bat is often referred to as 'Batman.' So, if he cherished being referred to as Batman, it's possible that he was the star baseball player. The answer is 2.
+Corresponding Answer: 2 = He was the star baseball player.
+Correct Answer: 2 = Sally was blind, she was reading a book by Braille.
+
+Question 2: All of Mrs. Smith pets are dogs except one, and all her pets are cats except one. But Mrs.Smith only has 2 pets, how is that possible?
+Choices: 0 = Matthew is a deep-sea diver.; 1 = Consistent exercise has made him a very strong man.; 2 = Matthew was just raving to show her is outstanding.; 3 = None of above.; 
+Model Output: Mrs. Smith only has two pets and both statements claim that except for one pet, all of her pets are either dogs or cats. This could only be possible if she has one dog and one cat. The answer is 2.
+Corresponding Answer: 2 = Mrs. Smith has one cat and one dog.
+Correct Answer: 0 = Matthew is a deep-sea diver.
+
+Question 3: Three doors are present. Every door has a way to exit. The first door has lava and fire inside. Lions behind the second door haven't eaten in five years. There is a 1,000-foot drop into an alligator inside the third door. Which door will you probably get through?
+Choices: 0 = It is a spaceship.; 1 = The ship is exactly in between the two lighthouses.; 2 = There are reflection on the island.; 3 = None of above.; 
+Model Output: Lions cannot survive for five years without food, they'll die of starvation. Therefore, the second door is the safest choice. The answer is 1.
+Corresponding Answer: 1 = The second door with the lions. Since they haven't eaten in 5 years they will have died.
+Correct Answer: 1 = The ship is exactly in between the two lighthouses.
+
+Question 4: Tom and his younger sister were fighting. Their mother was tired of the fighting and decided to punish them by making them stand on the same piece of newspaper in such a way that they couldn't touch each other. How did she accomplish this?
+Choices: 0 = The two men were partners playing doubles.; 1 = They were playing tennis in turns.; 2 = They followed a round-robin format, where each player competes against every other player in the tournament.; 3 = None of above.; 
+Model Output: Tom's mother put a newspaper under a door and made them stand on each side of the door. In this way, they cannot touch each other. The answer is 0
+Corresponding Answer: 0 = Tom's mother slid a newspaper under a door, each sibling standing on each side.
+Correct Answer: 0 = The two men were partners playing doubles.
+
+Question 5: A woman sells a bottle of perfume to a man for $5.00 and receives a $20 bill from him. She doesn't have change, so she goes to the bakery next door to get it. She comes back and gives the man $15.00. After the man leaves, the baker comes over and says, "That bill you gave me was counterfeit." The woman gives the baker a real $20 bill. How much has the woman lost?
+Choices: 0 = The woman was a photographer.; 1 = People are enjoying themselves in the park.; 2 = The woman wanted to cause chaos.; 3 = None of above.; 
+Model Output: The woman had to give $20 to the baker because of the counterfeit money, and she also lost the $15 she gave as change to the man, and she lost the perfume. That adds up to $35 and the perfume. The answer is 3.
+Corresponding Answer: 3 = None of above.
+Correct Answer: 0 = The woman was a photographer.
+
+Question 6: An individual shoots their spouse. She continues by keeping him submerged for over five minutes. She hangs him finally. However, they go out together and have a fantastic supper five minutes later. Why is this the case?
+Choices: 0 = An underwater earthquake caused a rapid drop in the water level and resulted in the loss of buoyancy for the ship.; 1 = It was a Submarine.; 2 = There are too many fish around the ship.; 3 = None of above.; 
+Model Output: The woman was a photographer. She shot a picture of her husband, developed it, and hung it up to dry. The answer is 1
+Corresponding Answer: 1 = The woman was a photographer. She shot a picture of her husband, developed it, and hung it up to dry.
+Correct Answer: 1 = It was a Submarine.
+
+Question 7: In Jamaica, if you drop a steel ball weighing five pounds from a height of 45 inches, it falls more rapidly through the water at 40 degrees Fahrenheit than water at 20 degrees Fahrenheit. How is that possible?
+Choices: 0 = The woman gets arrested for murder after dinner.; 1 = The woman gets a new partner.; 2 = The woman was a photographer. She shot a picture of her husband, developed it, and hung it up to dry.; 3 = None of above.; 
+Model Output: Water at 20 degrees Fahrenheit would be ice. Therefore, a steel ball could not pass through it at this temperature. However, at 40 degrees Fahrenheit the water is in liquid form and the ball can pass through it. The answer is 1.
+Corresponding Answer: 1 = At 20 degrees Fahrenheit the water would be ice.
+Correct Answer: 2 = The woman was a photographer. She shot a picture of her husband, developed it, and hung it up to dry.
+
+Question 8: Two camels were facing in opposite directions. One was facing due East and one was facing due West. They were in the desert so there was no reflection. How can they manage to see each other without walking around or turning around or moving their heads?
+Choices: 0 = He positioned himself.; 1 = He stood on a block of ice until it melted.; 2 = The man sat on the floor.; 3 = None of above.; 
+Model Output: The camels were facing each other the entire time. They were in opposite directions, but they could have also been nose-to-nose at the same time. They would therefore be able to see each other without walking around or turning around or moving their heads. The answer is 2.
+Corresponding Answer: 2 = The two camels were facing each other the entire time.
+Correct Answer: 1 = He stood on a block of ice until it melted.
+
+Question 9: In Jamaica, some kids can stand on the water at 20 degrees Fahrenheit, how is that possible?
+Choices: 0 = The son has two fathers.; 1 = The son calls the police for help to save his father.; 2 = Because the doctor is the mother of the son.; 3 = None of above.; 
+Model Output: At 20 degrees Fahrenheit, water would be frozen and it is possible for kids to stand on ice. So, the answer is 2.
+Corresponding Answer: 2 = At 20 degrees Fahrenheit the water would be ice.
+Correct Answer: 2 = Because the doctor is the mother of the son.
+
+Question 10: A five-pound steel ball will fall through water at 40 degrees Fahrenheit more quickly than water at 20 degrees Fahrenheit if it is dropped from a height of 45 inches in Jamaica. How is that even doable?
+Choices: 0 = Penguins only live in Antarctica.; 1 = Penguins' eggs are toxic.; 2 = Penguins and their eggs are not part of their traditional or cultural diet.; 3 = None of above.; 
+Model Output: At 20 degrees Fahrenheit, the water would be frozen and thus a steel ball cannot fall through ice. The answer is 1.
+Corresponding Answer: 1 = At 20 degrees Fahrenheit the water would be ice.
+Correct Answer: 0 = Penguins only live in Antarctica.
+
+Question 11: A boy had just finished getting ready for his prom, shaving, applying cologne, and there would be an after-party. His parents had told him to be home for the next sunrise, but he arrived with a full-grown beard instead. How is this possible?
+Choices: 0 = The woman was on a cliff edge when she first saw the bear so she couldn't step off the path immediately.; 1 = By moving towards the oncoming bear, the woman's brain interprets the change in distance and relative motion as a decrease in speed.; 2 = By moving towards the bear momentarily, the woman minimizes the risk of being catch by the bear.; 3 = None of above.; 
+Model Output: In certain parts of Alaska, there's a phenomenon where the sun does not rise for more than a month, especially during winter. So, even though he was told to be home by the next sunrise, he could technically stay out for a while if it was during this period. The answer is 0.
+Corresponding Answer: 0 = He lives in Alaska and sunrise are every six months.
+Correct Answer: 0 = The woman was on a cliff edge when she first saw the bear so she couldn't step off the path immediately.
+
+Question 12: There were eight girls going to school. They were sharing one umbrella. How come all the girls did not get wet?
+Choices: 0 = The restaurant is too expensive.; 1 = Friday is also the name of one person, there are three people in total.; 2 = Kobe likes eating with two knives and two forks.; 3 = None of above.; 
+Model Output: The girls did not get wet possibly because it was not raining. So their sharing of the umbrella did not result in anyone getting wet. The answer is 1.
+Corresponding Answer: 1 = Because it was not raining.
+Correct Answer: 1 = Friday is also the name of one person, there are three people in total.
+
+Question 13: In the midst of a plumbing shutdown, Jack was stuck on the tenth floor of an apartment building fixing a leaky pipe. The elevator was out of order due to the plumbing issue. How did he manage to get out of the building before the plumbing was fixed?
+Choices: 0 = Some brothers were not loved by family and moved away.; 1 = Some daughters get married and have their own family.; 2 = Each daughter shares the same brother.; 3 = None of above.; 
+Model Output: Jack was on the tenth floor and the elevator was out of order. Jack can use the stairs to leave the building. Theanswer is 1
+Corresponding Answer: 1 = Jack used the stairs. He was fixing the leaky pipe inside the apartment, not trapped in the elevator.
+Correct Answer: 2 = Each daughter shares the same brother.
+
+Question 14: A beggar's brother died, but the man who died had no brother. How could that be?
+Choices: 0 = During rainy weather, the elevator was programmed to automatically bypass certain floors above the fifteenth story.; 1 = The building had a system in place where, during rainy conditions, certain residents were granted exclusive access to the higher floors.; 2 = The man wasn't tall enough to reach the button for the 20th floor. He could only reach the 15th story button on the elevator. When it rained, he brought his umbrella, and used it to press the 20th story button on the elevator.; 3 = None of above.; 
+Model Output: The beggar is a woman, so the man who died is her brother, but as the man didn't have any brothers so the answer is 2.
+Corresponding Answer: 2 = The beggar was the man's sister.
+Correct Answer: 2 = The man wasn't tall enough to reach the button for the 20th floor. He could only reach the 15th story button on the elevator. When it rained, he brought his umbrella, and used it to press the 20th story button on the elevator.
+
+Question 15: There were two camels facing in different directions. One was facing directly East, and the other directly West. There was no reflection because they were in the desert. How do they manage to see one another without turning around, moving their heads, or moving around?
+Choices: 0 = The woman is not a good person.; 1 = His husband is not a good husband.; 2 = She is a minister.; 3 = None of above.; 
+Model Output: The camels were facing in different directions - one East, and the other West. They were facing each other the entire time, so they could see each other despite being in opposite directions. The answer is 0.
+Corresponding Answer: 0 = The two camels were facing each other the entire time. Hence facing in opposite directions.
+Correct Answer: 2 = She is a minister.
+
+Question 16: When there was a severe power outage, George was on the eighth floor of an office building cleaning the windows. He had disabled the electric hoist on his platform. So how did he escape before the power was turned back on?
+Choices: 0 = Seven dollars plus the rope.; 1 = Thirteen dollars.; 2 = Seven dollars.; 3 = None of above.; 
+Model Output: George is inside the building cleaning the windows because the hoist is disabled. He can get out of the building by walking down the stairs. The answer is 0
+Corresponding Answer: 0 = George walked down the stairs. He was cleaning the inside of the windows.
+Correct Answer: 0 = Seven dollars plus the rope.
+
+Question 17: Although Dorothy has never stated suicide ideas, whenever she feels down or depressed, she makes plans to go to a very high location that she has frequented before. Once there, she makes the decision to jump from the enormous height. The amazing thing is that she has never experienced an injury as a result of her leap, and she even claims to feel much better afterwards. What is going on here, and why has she never been hurt or, worse still, killed as a result of her dangerous behavior, if she isn't suicidal?
+Choices: 0 = He suggested that she deflate her kayak slightly.; 1 = He told she to overturn the kayak.; 2 = He suggested that she expand the river slightly.; 3 = None of above.; 
+Model Output: If Dorothy jumps from an enormous height, and experiences no injuries, it’s possible that she is skydiving. This means she's a skydiver. Therefore, the answer is 1.
+Corresponding Answer: 1 = Dorothy is a sky jumper.
+Correct Answer: 0 = He suggested that she deflate her kayak slightly.
+
+Question 18: Every night, a man would sleep with a light on, as bright as the sun, dazzling the neighbors. But why did his neighbors never complain?
+Choices: 0 = She is an execellent chef.; 1 = She is good at physicis.; 2 = She counted the pits of apricots.; 3 = None of above.; 
+Model Output: A man who sleeps with a light as bright as the sun but doesn't bother his neighbors most likely lives in a lighthouse. The nature of a lighthouse is to have a very bright light. The answer is 2.
+Corresponding Answer: 2 = He lived in a light house.
+Correct Answer: 2 = She counted the pits of apricots.
+
+Question 19: I dig out tiny caves and store gold and silver in them. I also build bridges of silver and make crowns of gold. They are the smallest you could imagine. Sooner or later everybody needs my help, yet many people are afraid to let me help them. Why?
+Choices: 0 = The intense weather conditions flood the marina.; 1 = The boat is towed by police.; 2 = The station wasn't fixed in the marina; 3 = None of above.; 
+Model Output: The answer is a dentist. Dentists make crowns for teeth out of gold and fill cavities with silver filings, which is referred to as 'tiny caves'. People need dentists for dental care but some are afraid due to fear of pain or discomfort. The answer is 1.
+Corresponding Answer: 1 = I am a dentist.
+Correct Answer: 2 = The station wasn't fixed in the marina
+
+Question 20: A man walking along a railroad track sees a train laundering at high speed towards him. Instead of immediately jumping off the track, he charges directly at the train for about ten feet and only then gets off the track. Why?
+Choices: 0 = He is afraid others will laugh at him.; 1 = He was the star baseball player.; 2 = He tries to be friendly.; 3 = None of above.; 
+Model Output: He was on a bridge when he first saw the train, so he couldn't jump off the track immediately. He had to run towards the train to get off the bridge and only then could he jump off the track. The answer is 1.
+Corresponding Answer: 1 = The man was on a bridge when he first saw the train so he couldn't jump off the track immediately.
+Correct Answer: 1 = He was the star baseball player.
+
+Question 21: George was cleaning the windows on the eighteenth floor of an office block when there was a massive power failure. The electric hoist on his platform was immoblized. So how did he manage to get down before the power was restored?
+Choices: 0 = Seven dollars.; 1 = Seven dollars plus the rope.; 2 = Thirteen dollars.; 3 = None of above.; 
+Model Output: George was cleaning the windows when the power failure occurred. If George was cleaning the inside of windows, he could walk down the stairs before the power was restored. So, the answer is 2.
+Corresponding Answer: 2 = George walked down the stairs. He was cleaning the inside of the windows.
+Correct Answer: 1 = Seven dollars plus the rope.
+
+Question 22: One evening, Joe and Sally were relaxing in their family room. Sally, Joe's wife, was reading while he was watching television. The moment the electricity went out, Joe made the decision to retire to bed, but Sally continued to read. Sally carried on reading without using any artificial lighting. How?
+Choices: 0 = She is an execellent chef.; 1 = She is good at physicis.; 2 = She counted the peach pits.; 3 = None of above.; 
+Model Output: The electricity went out, but Sally was still able to read. If it were daytime, there would be no need for electricity to read. But as Joe and Sally relaxed in the evening, it's unlikely the natural light would be enough for reading. If Sally were blind, she could read a book using Braille. Sally's intelligence is not relevant in this context. The answer is 1
+Corresponding Answer: 1 = Sally was blind, she was reading a book by Braille.
+Correct Answer: 2 = She counted the peach pits.
+
+Question 23: A woman living in Rome legally gave birth to five children, but she has never been pregnant. How is this possible?
+Choices: 0 = The glass had a chemical component to produce water.; 1 = The water vapor in the air become water in the drinks.; 2 = The ice in the drinks melted and become water.; 3 = None of above.; 
+Model Output: Surrogate mothers carry and give birth to children for those who can't conceive. However, if the woman has never been pregnant, she cannot be a surrogate. The answer that logically explains this situation is not among the choices provided. So, the answer is 3.
+Corresponding Answer: 3 = None of above.
+Correct Answer: 2 = The ice in the drinks melted and become water.
+
+Question 24: A woman shoots publicly at people at a National Park. The park is full of people, but no one gets killed. How is that possible?
+Choices: 0 = The temperature of stell ball is more consistent with water in 40 degrees Fahrenheit.; 1 = At 20 degrees Fahrenheit the water would be ice.; 2 = The temperature of stell ball is more consistent with water in 20 degrees Fahrenheit.; 3 = None of above.; 
+Model Output: The woman was shooting with a camera, not a gun. This means she was a photographer, hence no one got killed. The answer is 0.
+Corresponding Answer: 0 = The woman was a photographer.
+Correct Answer: 1 = At 20 degrees Fahrenheit the water would be ice.
+
+Question 25: All but one of Mrs. Smith's pets are dogs, and all but one are cats. But how is it possible that Mrs. Smith only has two pets?
+Choices: 0 = She was in a hot air balloon which was losing altitude and crashed.; 1 = She was dead of a heart attack.; 2 = The womam killed herself with the toxic in ballon.; 3 = None of above.; 
+Model Output: If all but one of Mrs. Smith's pets are dogs, this means she has at least one pet which isn't a dog. If all but one are cats, this means she also has at least one pet that isn't a cat. If Mrs. Smith only has two pets, this implies she has one dog and one cat. So, the correct answer is 2.
+Corresponding Answer: 2 = Mrs. Smith has one cat and one dog.
+Correct Answer: 0 = She was in a hot air balloon which was losing altitude and crashed.
+
+Question 26: A woman is found dead in a field of snow. The only tracks are her own leading up to her. There are no signs of struggle, no other footprints, and no other evidence. Only an abandoned pack of balloons is found nearby. How did she die?
+Choices: 0 = Owl.; 1 = Tiger.; 2 = Bat.; 3 = None of above.; 
+Model Output: The lady could not have died of a heart attack, since there is no evidence supporting it. Likewise, there is no evidence to suggest that the lady killed herself using a toxic substance in a balloon. However, a hot air balloon losing altitude could have led to her death. The abandoned pack of balloons could be from the hot air balloon. When the ballon was losing altitude, she may have thrown them out to lighten the balloon, but it did not work and she died in the crash. The answer is 0.
+Corresponding Answer: 0 = She was in a hot air balloon which was losing altitude and crashed.
+Correct Answer: 3 = None of above.
+
+Question 27: There is a man who everyone calls "Lightning," yet he's afraid of storms and has no interest in meteorology. Despite this, he is delighted when people refer to him as "Lightning." How could this be?
+Choices: 0 = His horse is named Wednesday.; 1 = Friday and Saturday are holidays.; 2 = While in town, he stays in bed for two days.; 3 = None of above.; 
+Model Output: "Lightning" could be a nickname referring to his speed if he's a professional sprinter. This reason would also explain why he is pleased when people call him "Lightning." The answer is 0.
+Corresponding Answer: 0 = He's a professional sprinter.
+Correct Answer: 0 = His horse is named Wednesday.
+
+Question 28: I break down walls and devour towers. I consume iron and corrode steel, but still, I am essential to all. Sometimes, people desire me, yet they fear my uncontrolled presence. What am I?
+Choices: 0 = While in town, he stays in bed for two days.; 1 = His horse is named Wednesday.; 2 = Friday and Saturday are holidays.; 3 = None of above.; 
+Model Output: Oxygen breaks down walls and devours towers through the process of oxidation, which is what happens when iron rusts and steel corrodes. Oxygen is essential to all life on Earth, and while people need it to live, an uncontrolled presence of it can lead to fires or other problems. The answer is 0
+Corresponding Answer: 0 = I am oxygen.
+Correct Answer: 1 = His horse is named Wednesday.
+
+Question 29: A horse is tied to a five-meter rope in front of an old saloon. Ten meters behind the horse is a bale of hay. Without breaking his rope, the horse is able to eat the hay whenever he chooses.How is this possible?
+Choices: 0 = The coach of the team is the boy's mother.; 1 = The boy's father gets a promotion.; 2 = The boy has two fathers.; 3 = None of above.; 
+Model Output: That the rope is not tied to anything else is the simplest choice. The horse can reach the hay whenever he chooses. The answer is 1
+Corresponding Answer: 1 = The rope is not tied to anything else.
+Correct Answer: 0 = The coach of the team is the boy's mother.
+
+Question 30: Two lighthouses are situated back to back on the same island, one faces due North and the other due South. They never turn or rotate. How can they both illuminate the same ship at the same time?
+Choices: 0 = He lives in Alaska and sunrise are every six months.; 1 = He went crazy with friends in that unnormal party.; 2 = His beard grows in an amazing speed.; 3 = None of above.; 
+Model Output: The lighthouses face opposite directions and do not rotate. The only possible way for both of them to illuminate the same ship at the same time is if the ship is not on water but in the sky i.e., it is a spaceship. The answer is 0
+Corresponding Answer: 0 = It is a spaceship.
+Correct Answer: 0 = He lives in Alaska and sunrise are every six months.
+
+Question 31: Emily stands outside a building. She doesn't know what time it is, but she knows she has to go in to find out. Where is Emily?
+Choices: 0 = I am oxygen.; 1 = I am sound.; 2 = I am sunshine.; 3 = None of above.; 
+Model Output: Emily would need to enter a place where she can see the time. Among the options, only a clock store is likely to have this information readily available. The answer is 2.
+Corresponding Answer: 2 = Clock store.
+Correct Answer: 0 = I am oxygen.
+
+Question 32: How can a pilot take off in Los Angeles on Tuesday, fly for 48 hours, and land in Tokyo on Tuesday?
+Choices: 0 = Bat.; 1 = Dolphin.; 2 = Dog.; 3 = None of above.; 
+Model Output: The pilot's airplane is named Tuesday. No matter how the airplane flies or how long it flies, it is still Tuesday. The answer is 0.
+Corresponding Answer: 0 = The pilot's airplane is named Tuesday.
+Correct Answer: 3 = None of above.
+
+Question 33: A shooter put his hat away and donned a blindfold. He then made a 100-yard walk, turned around, and shot a bullet in the hat. The man's vision was completely obscured by the effective blindfold. How did he pull this off?
+Choices: 0 = The son has two fathers.; 1 = Because the doctor is the mother of the son.; 2 = The son calls the police for help to save his father.; 3 = None of above.; 
+Model Output: The man put his hat away and donned a blindfold. His vision was completely obscured by the effective blindfold. He did not use a computer to compute his actions or the sound to feel the direction. If he hung his hat on the barrel of his gun, even with the blindfold, he could shoot the hat. The answer is 0
+Corresponding Answer: 0 = He hung his hat on the barrel of his gun.
+Correct Answer: 1 = Because the doctor is the mother of the son.
+
+Question 34: There are three doors. In each door is a way to die. The first door has fire and lava. The second door has lions that haven't eaten in 5 years. In the third door, there is a 1,000-foot drop into an alligator. Which door will you likely survive?
+Choices: 0 = He went crazy with friends in that unnormal party.; 1 = His beard grows in an amazing speed.; 2 = He lives in Alaska and sunrise are every six months.; 3 = None of above.; 
+Model Output: Lions cannot survive without food for 5 years. So, if the lions haven't eaten in 5 years, they would have died. The answer is 2
+Corresponding Answer: 2 = The second door with the lions. Since they haven't eaten in 5 years they will have died.
+Correct Answer: 2 = He lives in Alaska and sunrise are every six months.
+
+Question 35: A sharpshooter hung up his hat and put on a blindfolded. He then walked 100 yards, turned around, and shot a bullet through his hat. The blindfolded was a perfectly good one, completely blocking the man's vision. How did he manage this?
+Choices: 0 = Sally is smart that she pretended to reading the book.; 1 = Sally was blind, she was reading a book by Braille.; 2 = Because it was daytime.; 3 = None of above.; 
+Model Output: The sharpshooter could not use sound to determine direction, a computer would not help him see, and a blindfold would block his vision. However, if he hung his hat on the barrel of his gun, he would know exactly where his hat was when he turned around to shoot, even if he couldn't see it. The answer is 1.
+Corresponding Answer: 1 = He hung his hat on the barrel of his gun.
+Correct Answer: 1 = Sally was blind, she was reading a book by Braille.
+
+Question 36: Dorothy has never expressed suicidal thoughts, but whenever she experiences feelings of sadness or depression, she makes arrangements to travel to a very high spot that she has visited on numerous occasions. Once there, she proceeds to jump from that great height. The fascinating fact though is she has never been injured from this leap, and in fact, she tells everyone that she feels much better afterward. If she’s not suicidal, then what is going on here, and why has she never been injured, or even worse, died from her risky actions?
+Choices: 0 = The first coach has better performance during tenure.; 1 = Their parents got divorced.; 2 = They were the same man.; 3 = None of above.; 
+Model Output: The fact that she has never been injured from jumping from great heights and feels much better afterward suggests that Dorothy is a skydiver or a bungee jumper rather than suicidal. Skydiving or bungee jumping can be very therapeutic for some people. The answer is 2.
+Corresponding Answer: 2 = Dorothy is a sky jumper.
+Correct Answer: 2 = They were the same man.
+
+Question 37: After moving into a new home, a man decided that he was exhausted from the trip and turned out all the lights before retiring to bed. He did not sleepwalk the night before he killed 365 people; instead, he slept soundly. How is this possible?
+Choices: 0 = Jack get to the roof and escape.; 1 = Jack used the stairs. He was fixing the leaky pipe inside the apartment, not trapped in the elevator.; 2 = Jack needs to lift a heavy object.; 3 = None of above.; 
+Model Output: The man did not literally kill 365 people. In this context, 'killed' is a metaphor. If he lives in a lighthouse, his job would be to keep the lights on to prevent ships from crashing into the coast. By deciding to sleep rather than keeping the lights on, he indirectly caused the death of 365 people on a ship that crashed because there was no light to guide them. The answer is 0
+Corresponding Answer: 0 = He lived in a light house.
+Correct Answer: 1 = Jack used the stairs. He was fixing the leaky pipe inside the apartment, not trapped in the elevator.
+
+Question 38: Craig passed away there. Tracy passed away at sea shortly after. No one was sad; in fact, everyone was ecstatic. Why?
+Choices: 0 = It was a Submarine.; 1 = There are too many fish around the ship.; 2 = There are too many spectators in the harbor.; 3 = None of above.; 
+Model Output: Craig and Tracy passed away but everyone was ecstatic. This could be because they were both hurricanes. When hurricanes dissipate, people are often relieved because they no longer pose a threat. The answer is 0
+Corresponding Answer: 0 = They were both hurricanes.
+Correct Answer: 0 = It was a Submarine.
+
+Question 39: Mr. and Mrs. Mustard have six daughters and each daughter has one brother. But there are only 9 people in the family, how is that possible?
+Choices: 0 = He told Danny to left the bridge.; 1 = He told Danny to overturn the track.; 2 = He told Danny to let some air out of his tires.; 3 = None of above.; 
+Model Output: There are six daughters, all of whom share the same one brother. This means there are seven children in total. Add in the two parents, Mr. and Mrs. Mustard, and the family is made up of nine people. So, the answer is 1.
+Corresponding Answer: 1 = Each daughter shares the same brother.
+Correct Answer: 2 = He told Danny to let some air out of his tires.
+
+Question 40: A woman shoots her husband. Then she holds him underwater for over 5 minutes. Finally, she hangs him. But 5 minutes later, they both go out and enjoy a wonderful dinner together. How can this be?
+Choices: 0 = The pilot's airplane is named Tuesday.; 1 = There was a one-week long holidays.; 2 = He fiies straightly for 24 hours and flies quickly for the hours left.; 3 = None of above.; 
+Model Output: The woman does not commit murder. In this context, "shooting" someone means taking their photo, "holding him underwater" refers to the development process in photography, and "hanging him" refers to hanging the photo up to dry. The answer is 2.
+Corresponding Answer: 2 = The woman was a photographer. She shot a picture of her husband, developed it, and hung it up to dry.
+Correct Answer: 0 = The pilot's airplane is named Tuesday.
+
+Question 41: A train is approaching a man who is strolling down a railroad track quickly. He charges directly at the train for roughly 10 feet before finally jumping off the track instead of doing so right away. Why?
+Choices: 0 = He's a professional sprinter.; 1 = He is afraid others will laugh at him.; 2 = He tries to be friendly.; 3 = None of above.; 
+Model Output: If the man was on a bridge when he first saw the train, he wouldn't be able to jump off the track right away. He can only do so once he's not on the bridge. The answer is 2
+Corresponding Answer: 2 = The man was on a bridge when he first saw the train so he couldn't jump off the track immediately.
+Correct Answer: 0 = He's a professional sprinter.
+
+Question 42: Mary was enjoying a peaceful paddle in her inflatable kayak on a narrow river. As she turned a bend, she realized that the river became significantly narrower, too narrow for her kayak to pass through. She can't paddle backward due to the strong current. A fellow kayaker on the shore knew how to solve her predicament. What was his suggestion?
+Choices: 0 = Cafe.; 1 = Bakery.; 2 = Clock store.; 3 = None of above.; 
+Model Output: Given the circumstances, it's plausible that she could deflate her kayak slightly to pass through the narrow part of the river. The other options either don't solve the problem or wouldn't be practical in her predicament. Therefore, the answer is 0.
+Corresponding Answer: 0 = He suggested that she deflate her kayak slightly.
+Correct Answer: 2 = Clock store.
+
+Question 43: A famed pilot walks 100 yards away from his plane, puts on a blindfold, and then flies his plane through a ring hanging in the sky, all without any technological assistance or help from others. His vision was entirely obscured by the blindfold. How did he do this?
+Choices: 0 = George get to the roof and escape.; 1 = George needs to lift a heavy object.; 2 = George walked down the stairs. He was cleaning the inside of the windows.; 3 = None of above.; 
+Model Output: The question clearly states that the pilot did this without any technological assistance or help from others, and with his vision completely obscured. So, he cannot receive technological assistance stealthy or use the sound to feel the direction. Attaching the ring to the front of his plane before putting on the blindfold is a plausible response, as this would allow him to fly through the ring without seeing. The answer is 2.
+Corresponding Answer: 2 = Before putting on the blindfold, the pilot attached the ring to the front of his plane.
+Correct Answer: 2 = George walked down the stairs. He was cleaning the inside of the windows.
+
+Question 44: A woman hiking along a narrow mountain path notices a fast-approaching grizzly bear. Instead of immediately stepping off the path, she sprints directly towards the bear for about twenty feet and only then steps off the path. Why?
+Choices: 0 = They were both hurricanes.; 1 = It is a culture traditional.; 2 = People are getting used to it.; 3 = None of above.; 
+Model Output: The woman might have been on a cliff edge when she saw the bear, and couldn't immediately step off the path. The most logical answer here is not that she was trying to trick her own brain or minimize risk, so the answer is 0.
+Corresponding Answer: 0 = The woman was on a cliff edge when she first saw the bear so she couldn't step off the path immediately.
+Correct Answer: 0 = They were both hurricanes.
+
+Question 45: Emma was making a peach cobbler. After peeling and chopping all the peaches, she realized that she had to add a teaspoon of cinnamon for every four peaches. How did she figure out how much cinnamon to add?
+Choices: 0 = He tries to be friendly.; 1 = He is afraid others will laugh at him.; 2 = He was the star baseball player.; 3 = None of above.; 
+Model Output: If Emma peeled and chopped all the peaches, the pits would be left. By counting the pits, she would know how many peaches she used and could calculate how much cinnamon to add. The answer is 2.
+Corresponding Answer: 2 = She counted the peach pits.
+Correct Answer: 2 = He was the star baseball player.
+
+Question 46: A man took his son to a baseball game. The coach of the team saw the man and said, "That boy is my son." Yet, the man at the baseball game was the boy's father. How is that possible?
+Choices: 0 = All his neighbors are blind.; 1 = The man would wake up early.; 2 = He lived in a light house.; 3 = None of above.; 
+Model Output: The man at the baseball game is the boy's father. The coach, who is also claiming to be the boy's parent, can be the boy's mother. Thus, the answer is 0.
+Corresponding Answer: 0 = The coach of the team is the boy's mother.
+Correct Answer: 2 = He lived in a light house.
+
+Question 47: A car accident involving a father and son resulted in the death of the father. The son was transported to the hospital by ambulance. He required surgery right away. A doctor entered the operating room and said, "I can't operate on him. He's my son." after taking one look at the young patient. Why?
+Choices: 0 = The 24th president has better performance during tenure.; 1 = Their parents got divorced.; 2 = They were the same man.; 3 = None of above.; 
+Model Output: The doctor is the mother of the son. This makes it possible for the doctor to be the parent of the son needing surgery, despite the deceased father. The answer is 1.
+Corresponding Answer: 1 = Because the doctor is the mother of the son.
+Correct Answer: 2 = They were the same man.
+
+Question 48: The six daughters of Mr. and Mrs. Mustard each have one brother. However, the family only consists of nine people; how is that possible?
+Choices: 0 = I am a miner.; 1 = I am a dentist.; 2 = I am a theif.; 3 = None of above.; 
+Model Output: Each daughter shares the same brother, so there are six daughters, one brother, and the two parents. Totaling nine people. The answer is 2.
+Corresponding Answer: 2 = Each daughter shares the same brother.
+Correct Answer: 1 = I am a dentist.
+
+Question 49: Juliana and Maria went out for drinks collectively. They placed a joint drink order. In the time it took Maria to finish one, Juliana, who was extremely thirsty, finished five. Then Juliana went out for a phone call and came back several minutes later. However, there were new liquid in the five finished drinks. Maria didn't leap her drink to Juliana's and no one is around. How is that possible?
+Choices: 0 = The eight girls could have been sharing the umbrella at different times or taking turns using it.; 1 = Because it was not raining.; 2 = The umbrella that the girls were sharing was exceptionally large or had a wide canopy.; 3 = None of above.; 
+Model Output: The drinks that they ordered could have had ice in them. After drinking, the leftover ice in Juliana's glasses could have melted into water, thus refilling a portion of the those glasses. Therefore, the answer is 2.
+Corresponding Answer: 2 = The ice in the drinks melted and become water.
+Correct Answer: 1 = Because it was not raining.
+
+Question 50: I excavate little caves and keep my gold and silver there. I also create gold crowns and silver bridges. They are the tiniest things you can imagine. Everyone will eventually require my assistance, but many people are reluctant to accept it. Why?
+Choices: 0 = The two men were partners playing doubles.; 1 = TUmNioAvy4g4yjtpm7NddBi9chAAB9RUep; 2 = They followed a round-robin format, where each player competes against every other player in the tournament.; 3 = None of above.; 
+Model Output: A dentist fills cavities (little caves) and creates bridges and crowns. Everyone needs dental work at some point in their life. The answer is 0.
+Corresponding Answer: 0 = I am a dentist.
+Correct Answer: 0 = The two men were partners playing doubles.
+
+Question 51: In front of an old saloon, a horse is chained to a five-meter rope. Hay bale is ten meters behind the horse. The horse can eat the hay whenever he wants without severing his rope. How is that even possible?
+Choices: 0 = Brad was so sick and tired of window washing, he opened the window and jumped inside.; 1 = The ground outside the building is wet.; 2 = Consistent exercise has made him a very strong man.; 3 = None of above.; 
+Model Output: The rope doesn't need to be extended, nor does the saloon's structure need to be altered for the horse to reach the hay. The horse can eat the hay because the rope isn't tied to anything else, allowing the horse to roam freely. The answer is 1.
+Corresponding Answer: 1 = The rope is not tied to anything else.
+Correct Answer: 0 = Brad was so sick and tired of window washing, he opened the window and jumped inside.
+
+Question 52: A couple is having a disagreement over the man's error. The man kept apologizing and pleading with the woman to allow him to see her directly. The woman was still upset. Thus, she wouldn't agree. The couple, though, was positioned on the same mat. How is that even doable?
+Choices: 0 = He told Danny to left the bridge.; 1 = He told Danny to overturn the track.; 2 = He told Danny to let some air out of his tires.; 3 = None of above.; 
+Model Output: The couple is positioned on the same mat. It is possible the woman is turning her back on the man. This way, even if they are on the same mat, he can't see her directly. The answer is 1
+Corresponding Answer: 1 = The woman kept turning her back to the man.
+Correct Answer: 2 = He told Danny to let some air out of his tires.
+
+Question 53: Several harvested radishes were once stolen from a neighbor by a slothful farmer. The radishes were missing, so his neighbor reported it to the police. The farmer told the authorities that the radishes came from his own farm this morning. Even though he planted radishes on his own farm, he was nonetheless detained by the police anyway. How?
+Choices: 0 = Dprpyju was just raving to show her is outstanding.; 1 = Dorothy is a sky jumper.; 2 = Consistent exercise has made him a very strong man.; 3 = None of above.; 
+Model Output: The farmer claimed that he harvested the radishes from his own farm that morning but there was no dew on the radishes. Dew would have been present on radishes harvested that morning. The answer is 1
+Corresponding Answer: 1 = There are no dew on the raddishes, so they were not harvested from his own farm on the morning.
+Correct Answer: 1 = Dorothy is a sky jumper.
+
+Question 54: Wednesday, Tom and Joe had dinner at a restaurant. After finishing, they paid and departed. Joe and Tom don't have to pay. Who paid the bill?
+Choices: 0 = Surface tension prevents water from spilling.; 1 = The glass is too heavy.; 2 = The glass was filled, but not with water.; 3 = None of above.; 
+Model Output: The name of the third person in the group is "Wednesday," not the day of the week. Wednesday paid the bill. The answer is 2
+Corresponding Answer: 2 = Wednesday. The name of the third person in the group, not the day.
+Correct Answer: 2 = The glass was filled, but not with water.
+
+Question 55: Which would see most clearly in total darkness? A bat, a tiger, or an owl.
+Choices: 0 = Mrs.Smith has one hybrid pet that is a dog and a cat at the same time.; 1 = Mrs.Smith has one additional pet that is neither a dog or a cat.; 2 = Mrs. Smith has one cat and one dog.; 3 = None of above.; 
+Model Output: Bats are known for their ability to navigate and find food in complete darkness. They use echolocation, a process of emitting sounds and listening to the echoes to determine the location and distance of objects. So, among the choices, a bat would see most clearly in total darkness. The answer is 2.
+Corresponding Answer: 2 = Bat.
+Correct Answer: 2 = Mrs. Smith has one cat and one dog.
+
+Question 56: A magician had a water glass that was filled to the top. Holding the glass above his head he let it drop to the carpet without spilling a single drop of water. How could he manage to drop the glass from a height of six feet and not spill any water?
+Choices: 0 = People are getting used to it.; 1 = It is a culture traditional.; 2 = Morgan is the name of hurricane.; 3 = None of above.; 
+Model Output: The water glass is filled to the top, but the magician dropped the glass without spilling any water. This could only be possible if the glass was filled with something else, not water. The answer is 0.
+Corresponding Answer: 0 = The glass was filled, but not with water.
+Correct Answer: 2 = Morgan is the name of hurricane.
+
+Question 57: Morgan is dying near the sea line. Many people witness her death but no one feel sad. Why?
+Choices: 0 = The third door, the alligator can be tierd and won't eat people.; 1 = The second door with the lions. Since they haven't eaten in 5 years they will have died.; 2 = The first door, the first door is destroyed and you can see the fire in it.; 3 = None of above.; 
+Model Output: Morgan is the name of a hurricane. People don't feel sad when a hurricane dies out. The answer is 2
+Corresponding Answer: 2 = Morgan is the name of hurricane.
+Correct Answer: 1 = The second door with the lions. Since they haven't eaten in 5 years they will have died.
+
+Question 58: Even though Matthew has never expressed any desire to endanger himself, whenever he feels stressed or overwhelmed, he makes plans to visit a certain deep spot that he has visited many times before. Once there, he decides to plunge into the profound depth. The astonishing thing is that he has never been hurt because of his dive, and he even says he feels much better afterwards. What is happening here, and why has he never been injured or, even worse, killed as a result of his risky behavior, if he isn't trying to harm himself?
+Choices: 0 = The eight girls could have been sharing the umbrella at different times or taking turns using it.; 1 = Because it was not raining.; 2 = The umbrella that the girls were sharing was exceptionally large or had a wide canopy.; 3 = None of above.; 
+Model Output: The story suggests that every time Matthew takes a dive, he feels better, which implies that he might be diving into water, not putting himself in danger. So, Matthew could be a deep-sea diver. The answer is 0.
+Corresponding Answer: 0 = Matthew is a deep-sea diver.
+Correct Answer: 1 = Because it was not raining.
+
+Question 59: How could a cowboy ride into town on Friday, stay two days, and ride out on Wednesday?
+Choices: 0 = By moving towards the oncoming train, the man's brain interprets the change in distance and relative motion as a decrease in speed.; 1 = By moving towards the train momentarily, the man minimizes the risk of being hit directly by the front of the train.; 2 = The man was on a bridge when he first saw the train so he couldn't jump off the track immediately.; 3 = None of above.; 
+Model Output: The cowboy rode into town on Friday, stayed two days, and rode out on Wednesday. This could only occur if his horse was named Friday, not that Friday and Saturday are holidays or he stayed in bed for two days. So, the answer is 1.
+Corresponding Answer: 1 = His horse is named Wednesday.
+Correct Answer: 2 = The man was on a bridge when he first saw the train so he couldn't jump off the track immediately.
+
+Question 60: There once was an evil wizard. He took 3 woman from their homes and turned them into rose bushes that looked exactly alike. He put them in his garden. One of the woman had a husband and children and begged the wizard to let her see them. He agreed. At night, he brought the woman to her house. In the morning he came and took her home. One day the husband decided to go rescue her. So he stuck into the wizard's garden. He looked and looked at the 3 identical rose bushes trying to figure out which could be his wife. Suddenly, he knew the answer and he took his wife home. How did he know which rose bush was his wife?
+Choices: 0 = Penguins only live in Antarctica.; 1 = Penguins' eggs are toxic.; 2 = Penguins and their eggs are not part of their traditional or cultural diet.; 3 = None of above.; 
+Model Output: The husband knew which rose bush was his wife because the wizard took the wife to her house at night and returned her to the garden in the morning. Therefore, the plant that represented the wife would be the only one without dew, as it had been indoors and not outside in the cool night air. The answer is 1.
+Corresponding Answer: 1 = The wizard brought the rosebush to her home at night and returned her to the garden in the morning. Therefore, she was the only plant without dew.
+Correct Answer: 0 = Penguins only live in Antarctica.
+
+Question 61: Even if they are starving, natives living in the Arctic will never eat a penguin's egg. Why not?
+Choices: 0 = I am a dentist.; 1 = I am a theif.; 2 = I am a miner.; 3 = None of above.; 
+Model Output: Penguins are native to the Southern Hemisphere, particularly Antarctica, not the Arctic. So, people living in the Arctic would not have access to penguin eggs. The answer is 0.
+Corresponding Answer: 0 = Penguins only live in Antarctica.
+Correct Answer: 0 = I am a dentist.
+
+Question 62: A man uses the elevator since he is too old to use his crutch to ascend to the 12th floor. He is asked to hit the 17th button by a woman who is taller than him because she is unable to do it herself. Why?
+Choices: 0 = The girl has two mothers.; 1 = The gril's mother gets a promotion.; 2 = The secretary was the girl's father.; 3 = None of above.; 
+Model Output: None of the provided choices logically explain why the woman, who is taller than the man, would be unable to press the 17th button herself. The answer is 3.
+Corresponding Answer: 3 = None of above.
+Correct Answer: 2 = The secretary was the girl's father.
+
+Question 63: Two men were playing tennis. They played five sets and each man won three sets. How can this be possible?
+Choices: 0 = The husband knew which rose bush was his wife because it was the only one that still had her distinctive scent.; 1 = The wizard brought the rosebush to her home at night and returned her to the garden in the morning. Therefore, she was the only plant without dew.; 2 = The husband knew which rose bush was his wife because it was the only one that leaned towards him as he approached; 3 = None of above.; 
+Model Output: In a tennis match, a player has to win more sets than their opponent. If each man won three sets, they would have played more than five sets. However, if the two men were partners playing doubles, they could win three sets together. The answer is 0.
+Corresponding Answer: 0 = The two men were partners playing doubles.
+Correct Answer: 1 = The wizard brought the rosebush to her home at night and returned her to the garden in the morning. Therefore, she was the only plant without dew.
+
+Question 64: Who would hear the quietest sound in a completely soundproof room? A dog, a dolphin, or a bat?
+Choices: 0 = The man could be a calendar maker. He accidentally excluding February 29th on a leap year's calendar before sleep. This "killed" the day for 365 people.; 1 = The man is a world-renowned botanist who has just moved into a new house with a rare greenhouse containing 365 unique and endangered plant species.; 2 = He lived in a light house.; 3 = None of above.; 
+Model Output: In a completely soundproof room, no sound can be heard by any creature, including a dog, a dolphin, or a bat. The answer is 3
+Corresponding Answer: 3 = None of above.
+Correct Answer: 2 = He lived in a light house.
+
+Question 65: The brother of a police passed away, but the dead man actually had no brother. How is that possible?
+Choices: 0 = Each player shares the same coach.; 1 = Some players are backups and not allowed to play.; 2 = Some coaches get a raise.; 3 = None of above.; 
+Model Output: The person who passed away is the brother of a police officer. The police officer is the sister of the person who died. Therefore, the answer is 2
+Corresponding Answer: 2 = The police was the man's sister.
+Correct Answer: 0 = Each player shares the same coach.
+
+Question 66: Two cops walked into a room with no windows and found a dead man who obviously hung himself from the ceiling, though they couldn't figure out how. There was no chair beneath him that he might have jumped off of, or a table. Just a paddle of water. How'd he do it?
+Choices: 0 = Bat.; 1 = Tiger.; 2 = Owl.; 3 = None of above.; 
+Model Output: The man could have hung himself by standing on a block of ice. As the ice melted, he would be left hanging with no sign of how he got there, except for the puddle of water. The answer is 1.
+Corresponding Answer: 1 = He stood on a block of ice until it melted.
+Correct Answer: 3 = None of above.
+
+Question 67: The ship was in the central Pacific Ocean. The ship suddenly began to sink without being crushed. However, each team was still preoccupied with its own tasks, so none was threatening. Why?
+Choices: 0 = Tom's mother slid a newspaper under a door, each sibling standing on each side.; 1 = Tom and his younger sister stand on the newspaper back-to-back.; 2 = The newspaper was folded multiple times and ended with a special shape.; 3 = None of above.; 
+Model Output: A submarine is designed to sink and surface as part of its normal operations, so the fact that it began to sink in the ocean is not alarming to the crew. The answer is 1
+Corresponding Answer: 1 = It was a Submarine.
+Correct Answer: 0 = Tom's mother slid a newspaper under a door, each sibling standing on each side.
+
+Question 68: A woman who lives in New York legally wed three men; she didn't get divorced, enroll, or separate from them in any other way. How is that even possible?
+Choices: 0 = The rope stretches proportionally, providing the extra length needed for the horse to reach the hay ten meters away.; 1 = The rope is not tied to anything else.; 2 = The walls of the saloon retract or collapse inwards, creating more space for the horse to reach the hay.; 3 = None of above.; 
+Model Output: The woman cannot legally be married to three men at the same time without getting divorced or separated from any of them. If she is a minister, she might have performed marriage ceremonies for three men, but she would not be married to them. The answer is 2.
+Corresponding Answer: 2 = She is a minister.
+Correct Answer: 1 = The rope is not tied to anything else.
+
+Question 69: Juliana and Maria went out for drinks collectively. They placed a joint drink order. In the time it took Maria to finish one, Juliana, who was extremely thirsty, finished five. Only Maria perished despite the drinks being poisoned. How?
+Choices: 0 = The mat was folded in multiple times and end up with a special shape.; 1 = The woman kept turning her back to the man.; 2 = The couple was standing on two sides of the girl's apartment door, which had a rug under it.; 3 = None of above.; 
+Model Output: The poison must have been in the ice. As Maria took longer to drink her drink, the ice would have had time to melt and release the poison. Juliana who drank quickly, would not have allowed the ice in her drinks to melt. The answer is 0.
+Corresponding Answer: 0 = The poison was in the ice.
+Correct Answer: 2 = The couple was standing on two sides of the girl's apartment door, which had a rug under it.
+
+Question 70: Jessica will read the Bible every night before bed. Jessica had forgotten to buy candles for a backup one day when the electricity went out, but she still read a chapter before turning in. How is that even doable?
+Choices: 0 = The two camels were facing each other the entire time. Hence facing in opposite directions.; 1 = Their eyes have a very wide view.; 2 = They were in the middle of desert.; 3 = None of above.; 
+Model Output: If Jessica didn't have electricity for lights and she didn't have candles, the only way she could have read would be if there was enough light. Because it was daytime, Jesscia could read the Bible. The answer is 1.
+Corresponding Answer: 1 = Because it was daytime.
+Correct Answer: 0 = The two camels were facing each other the entire time. Hence facing in opposite directions.
+
+Question 71: A father and son were in a car accident where the father was killed. The ambulance brought the son to the hospital. He needed immediate surgery. In the operating room, a doctor came in and looked at the little boy and said I can't operate on him he is my son. Why?
+Choices: 0 = She is good at physicis.; 1 = She is an execellent chef.; 2 = She counted the pits of apricots.; 3 = None of above.; 
+Model Output: The doctor could be the mother of the son. The question didn't specify the doctor's gender. So, the answer is 2.
+Corresponding Answer: 2 = Because the doctor is the mother of the son.
+Correct Answer: 2 = She counted the pits of apricots.
+
+Question 72: Despite sharing the same parents, the 22nd and 24th presidents of the United States of America were not related. How is this even conceivable?
+Choices: 0 = The four people were playing in two teams of two each. Each team won twice.; 1 = Some rounds ended in ties or draws.; 2 = The board game takes a long time to end.; 3 = None of above.; 
+Model Output: The 22nd and 24th presidents of the United States were actually the same person, Grover Cleveland. He served two non-consecutive terms. The answer is 2.
+Corresponding Answer: 2 = They were the same man.
+Correct Answer: 0 = The four people were playing in two teams of two each. Each team won twice.
+
+Question 73: A man moved into a new house and decided he was tired after the journey and turned off all the lights and went to bed. The next morning he killed 365 people, he does not sleep walk he slept like a baby. How could this be?
+Choices: 0 = The woman is a surrogate mother.; 1 = The woman is not a good person.; 2 = His husband is not a good husband.; 3 = None of above.; 
+Model Output: The man was probably a lighthouse keeper. By turning off the lights, he failed to signal to incoming ships that there were dangers ahead, which resulted in injuries or deaths. The answer is 2
+Corresponding Answer: 2 = He lived in a light house.
+Correct Answer: 0 = The woman is a surrogate mother.
+
+Question 74: Even in the harshest of droughts, a man living in New York City would never drink from the Mississippi River. Why not?
+Choices: 0 = The walls of the saloon retract or collapse inwards, creating more space for the horse to reach the hay.; 1 = The rope is not tied to anything else.; 2 = The rope stretches proportionally, providing the extra length needed for the horse to reach the hay ten meters away.; 3 = None of above.; 
+Model Output: The Mississippi River does not flow through New York City, which is likely why a man living there would not drink from it. So, the answer is 1.
+Corresponding Answer: 1 = The Mississippi River doesn't flow through New York City.
+Correct Answer: 1 = The rope is not tied to anything else.
+
+Question 75: A woman went to visit her bank manager and she took her young daughter with her. The bank manager said that the woman's daughter could stay with his secretary during the meeting. When the woman and her daughter left, the secretary turned to the other secretary and said to her, "That little girl was my daughter." How could that be?
+Choices: 0 = He receives technological assistance stealthy.; 1 = He uses the sound to feel the direction.; 2 = Before putting on the blindfold, the pilot attached the ring to the front of his plane.; 3 = None of above.; 
+Model Output: The secretary could be the girl's father. The story doesn't specify the gender of the bank manager's secretary. So, the secretary was the girl's father. The answer is 2
+Corresponding Answer: 2 = The secretary was the girl's father.
+Correct Answer: 2 = Before putting on the blindfold, the pilot attached the ring to the front of his plane.
+
+Question 76: A man gives a woman a $10 bill and pays her $3 for a rope. To get change, the woman enters the grocery store right next door. When she comes back, she gives the man $7. Hey, that was a counterfeit bill you gave me, the store clerk says as the customer leaves. The lady hands the cashier a decent bill. How much has she lost in total?
+Choices: 0 = George walked down the stairs. He was cleaning the inside of the windows.; 1 = George get to the roof and escape.; 2 = George needs to lift a heavy object.; 3 = None of above.; 
+Model Output: She lost ten dollars for the counterfeit bill, three dollars for the rope, and seven dollars giving back to the man. So 10 + 3 + 7 = 20 dollars. None of the answer choices gives this amount. The answer is 3
+Corresponding Answer: 3 = None of above.
+Correct Answer: 0 = George walked down the stairs. He was cleaning the inside of the windows.
+
+Question 77: There was a man who everybody called Batman he knew nothing about bats and thought they were gross. He still loved it when people called him Batman! How could this be?
+Choices: 0 = Because the teacher is the mother of the Tom.; 1 = The son has two fathers.; 2 = Tom's father suddenly realizing that he was assigned as the supervisor.; 3 = None of above.; 
+Model Output: The answer is 1, "He was the star baseball player". This implies that the nickname "Batman" is due to his skill in baseball, not because of any relation to bats or the superhero Batman.
+Corresponding Answer: 1 = He was the star baseball player.
+Correct Answer: 0 = Because the teacher is the mother of the Tom.
+
+Question 78: If a boat is parked in a marina and tied to a nearby station, how did its owner found the boat a couple of hours later in the middle of the ocean?
+Choices: 0 = Bakery.; 1 = Fruit store.; 2 = Eye glasses store.; 3 = None of above.; 
+Model Output: If the boat was parked and tied to a station in the marina, it could not move to the middle of the ocean unless the station wasn't fixed in the marina. The boat would drift with the station. The answer is 2.
+Corresponding Answer: 2 = The station wasn't fixed in the marina
+Correct Answer: 2 = Eye glasses store.
+
+Question 79: A woman took her young daughter with her when she went to see her bank manager. The bank manager permitted the woman's daughter to spend the meeting with his secretary. The secretary turned to the other secretary after the woman and her daughter left and told her, "That little girl was my daughter." How is that possible?
+Choices: 0 = The bagger's brother is a murderer.; 1 = The beggar was the man's sister.; 2 = The man is angry for his brother being a beggar and cut ties with him.; 3 = None of above.; 
+Model Output: The secretary is the girl's father. It is possible because men can also be secretaries. The answer is 2.
+Corresponding Answer: 2 = The secretary was the girl's father.
+Correct Answer: 1 = The beggar was the man's sister.
+
+Question 80: One the final exam day, Tom's father send him to one classroom. A teacher came over and said " Tom can not take exam under my supervise as he is my son." Then Tom is asked to switch to another room. Why?
+Choices: 0 = The poison need time to dissolve.; 1 = The poison is unfunctional when you drink them together.; 2 = The poison was in the ice.; 3 = None of above.; 
+Model Output: The teacher can be Tom's mother. The prompt does not specify the teacher's gender and it's possible for the teacher to be a female and Tom's mother. The answer is 0
+Corresponding Answer: 0 = Because the teacher is the mother of the Tom.
+Correct Answer: 2 = The poison was in the ice.
+
+Question 81: Maria and Juliana went out for drinks together. They ordered the same drink. Juliana was really thirsty and finished five in the time it took Maria to finish one. The drinks were poisoned, but only Maria died. How?
+Choices: 0 = They were both hurricanes.; 1 = It is a culture traditional.; 2 = People are getting used to it.; 3 = None of above.; 
+Model Output: Both Maria and Juliana had the same drink, but Maria was the only one who died. If the poison took time to dissolve, both of them should have still been affected. It was also likely that Juliana would have been more affected since she drank more. Similarly, if the poison was unfunctional when drunk together, both women should have survived. If the poison was in the ice, Maria who drank slowly would have given the ice more time to melt and therefore consumed more poison. The answer is 2.
+Corresponding Answer: 2 = The poison was in the ice.
+Correct Answer: 0 = They were both hurricanes.
+
+Question 82: Brad began by entering the office tower's 22nd story through the filthy common window. He slid the window open and leapt through it after becoming depressed. Outside the building, there was a cliff-like drop to the ground. Amazingly, he came to rest entirely unharmed. How could he have survived the fall if there was nothing to slow or cushion his descent?
+Choices: 0 = He uses the sound to feel the direction.; 1 = He hung his hat on the barrel of his gun.; 2 = He uses a computer to compute his actions.; 3 = None of above.; 
+Model Output: Brad was on the 22nd floor of the building's story. He went from the outside of the window to the inside of the building, not from the inside to the outside. He is a window washer. The answer is 0
+Corresponding Answer: 0 = Brad was so sick and tired of window washing, he opened the window and jumped inside.
+Correct Answer: 1 = He hung his hat on the barrel of his gun.
+
+Question 83: A man was dancing at a ball when he unintentionally swung his arm off a glass on the table; oddly, not a drop of wine leaked. How is that possible?
+Choices: 0 = Because it was daytime.; 1 = Sally was blind, she was reading a book by Braille.; 2 = Sally is smart that she pretended to reading the book.; 3 = None of above.; 
+Model Output: If the man accidentally swung his arm off a glass and no wine spilled, the most likely situation is that there was no wine in the glass to begin with. So the answer is 1.
+Corresponding Answer: 1 = There is no wine in the glass.
+Correct Answer: 1 = Sally was blind, she was reading a book by Braille.
+
+Question 84: The brother of a beggar passed away, but the deceased had no brothers. How is that possible?
+Choices: 0 = The man is a criminal and too ashamed to admit he has a police brother.; 1 = The police's brother is a murderer.; 2 = The police was the man's sister.; 3 = None of above.; 
+Model Output: The beggar can be a woman, and the person who died was her brother. Even though the deceased man didn't have any brothers, he could have had a sister. The answer is 1
+Corresponding Answer: 1 = The beggar was the man's sister.
+Correct Answer: 2 = The police was the man's sister.
+
+Question 85: Danny had just passed under an overpass in his semi when he abruptly came to a stop. Danny accidentally drove under the overpass that was only just tall enough for his truck because he wasn't paying enough attention. He was unable to move forward or backward in the semi due to how tightly it was wedged. When another tracker passed by, he was told how simple it would be to remove the semi from underneath the bridge. What did he recommend?
+Choices: 0 = The woman is not a good person.; 1 = His husband is not a good husband.; 2 = She is a minister.; 3 = None of above.; 
+Model Output: Letting some air out of the tires would lower the truck, possibly providing enough space for it to be driven out from under the overpass. The answer is 2.
+Corresponding Answer: 2 = He told Danny to let some air out of his tires.
+Correct Answer: 2 = She is a minister.
+
+Question 86: The coaches of the first and the fifth national basket ball champion shares the same parents, but were not brothers. How can this be possible?
+Choices: 0 = Eye glasses store.; 1 = Fruit store.; 2 = Bakery.; 3 = None of above.; 
+Model Output: The explanation that the coaches of the first and fifth national basketball championship were the same person fits the shared parents condition and the non-brother condition. The answer is 2.
+Corresponding Answer: 2 = They were the same man.
+Correct Answer: 0 = Eye glasses store.
+
+Question 87: On a fine sunny day a ship was in the harbor. All of a sudden the ship began to sink. There was no storm and nothing wrong with the ship yet it sank right in front of the spectators eyes. What caused the ship to sink?
+Choices: 0 = Consistent exercise has made him a very strong man.; 1 = The ground outside the building is wet.; 2 = Lily was exhausted from apartment cleaning, she opened the balcony door and stepped inside.; 3 = None of above.; 
+Model Output: Submarines are vessels that are designed to operate underwater. If it began to sink, it's because it's a submarine and it's doing what it's supposed to do. The answer is 0.
+Corresponding Answer: 0 = It was a Submarine.
+Correct Answer: 2 = Lily was exhausted from apartment cleaning, she opened the balcony door and stepped inside.
+
+Question 88: Morgan was making apricot jam. She put all the apricots in the pot and stirred them up. Then she remembered she had to add 1 ounce of lemon juice for every two apricots! How did she figure out how much lemon juice to put?
+Choices: 0 = He hung his hat on the barrel of his gun.; 1 = He uses a computer to compute his actions.; 2 = He uses the sound to feel the direction.; 3 = None of above.; 
+Model Output: The most logical way to determine the amount of lemon juice needed is by counting the pits of apricots. That would give Morgan the total number of apricots and allow her to calculate the amount of lemon juice required. The answer is 2.
+Corresponding Answer: 2 = She counted the pits of apricots.
+Correct Answer: 0 = He hung his hat on the barrel of his gun.
+
+Question 89: All but one of Mr. Brown's cars are red, and all but one are blue. However, Mr. Brown only has two cars. How is this possible?
+Choices: 0 = The temperature of stell ball is more consistent with water in 20 degrees Fahrenheit.; 1 = At 20 degrees Fahrenheit the water would be ice.; 2 = The temperature of stell ball is more consistent with water in 40 degrees Fahrenheit.; 3 = None of above.; 
+Model Output: Mr. Brown has two cars. If we follow the conditions "all but one of Mr. Brown's cars are red, and all but one are blue," it is logical to infer that Mr. Brown has one car that is red and one car that is blue. The answer is 2
+Corresponding Answer: 2 = Mr. Brown has one red car and one blue car.
+Correct Answer: 1 = At 20 degrees Fahrenheit the water would be ice.
+
+Question 90: A boy had just gotten out of the shower and was getting ready for his prom, shaved and with cologne, and there would be an after-party. And his mom and dad said to be home for the next sunrise and he was home for the next sunrise but with a full-grown beard. How can this be?
+Choices: 0 = There are too many fish around the ship.; 1 = There are too many spectators in the harbor.; 2 = It was a Submarine.; 3 = None of above.; 
+Model Output: In certain parts of Alaska, the sun doesn't rise for several months during the winter. If his parents told him to be home by the next sunrise, and it was during this time period, it could be months before the sun rises again, giving him plenty of time to grow a full beard. The answer is 2.
+Corresponding Answer: 2 = He lives in Alaska and sunrise are every six months.
+Correct Answer: 2 = It was a Submarine.
+
+Question 91: Brad started through the dirty sort-shared window on the 22nd floor of the office tower. Overcome with depression he slid the window open and jumped through it. It was a sheer drop outside the building to the ground. Miraculously after he landed he was completely uninjured. Since there was nothing to cushion his fall or slow his descent, how could he have survived the fall?
+Choices: 0 = It was winter and the tree doesn't have any leaves.; 1 = People were camping under the tree.; 2 = The wind blows heavily.; 3 = None of above.; 
+Model Output: Brad wouldn't have survived an unaided fall from the 22nd floor. It doesn't matter if the ground was wet or if Brad is bodybuilder. The physics won't allow it. However, from the given choices, Brad was a window washer so theoretically he jumped inside the building, not outside. The answer is 1.
+Corresponding Answer: 1 = Brad was so sick and tired of window washing, he opened the window and jumped inside.
+Correct Answer: 0 = It was winter and the tree doesn't have any leaves.
+
+Question 92: Wednesday,Tom and Joe went to a restaurant and ate dinner. When they were done they paid and left. Tom and Joe didn't pay. Who did?
+Choices: 0 = They were the same man.; 1 = Their parents got divorced.; 2 = The 24th president has better performance during tenure.; 3 = None of above.; 
+Model Output: The logical entailment here is the name misdirection. The sentence "Wednesday, Tom and Joe went to a restaurant and ate dinner" can be confusing because Wednesday is a day of the week, but in this context it is used as a person's name. Thus, it was Wednesday who paid for the dinner and not Tom and Joe. The answer is 0.
+Corresponding Answer: 0 = Wednesday. The name of the third person in the group, not the day.
+Correct Answer: 0 = They were the same man.
+
+Question 93: Joe and Sally were sitting in their family room one night. While Joe was watching T.V, his wife Sally was reading. All of a sudden the power went out and Joe decided to go to bed, but Sally kept on reading. With no use of artificial light, Sally kept on reading. How?
+Choices: 0 = Mrs.Smith has one additional pet that is neither a dog or a cat.; 1 = Mrs.Smith has one hybrid pet that is a dog and a cat at the same time.; 2 = Mrs. Smith has one cat and one dog.; 3 = None of above.; 
+Model Output: Sally was able to continue reading after the power outage because she was reading in Braille, a tactile writing system used by the blind and visually impaired. The answer is 1
+Corresponding Answer: 1 = Sally was blind, she was reading a book by Braille.
+Correct Answer: 2 = Mrs. Smith has one cat and one dog.
+
+Question 94: Eight people were sitting under a large tree. Suddenly, a gust of wind blows, yet none of them got hit by any falling leaves. How is this possible?
+Choices: 0 = He stood on a block of ice until it melted.; 1 = He positioned himself.; 2 = The man sat on the floor.; 3 = None of above.; 
+Model Output: If it was winter and the tree doesn't have any leaves, then no leaves would fall to hit anyone despite the wind. So, the answer is 0.
+Corresponding Answer: 0 = It was winter and the tree doesn't have any leaves.
+Correct Answer: 0 = He stood on a block of ice until it melted.
+
+Question 95: The 22nd and 24th presidents of the United States of America had the same parents, but were not brothers. How can this be possible?
+Choices: 0 = Wednesday. The name of the third person in the group, not the day.; 1 = They found money in their hamburger.; 2 = The restaurant is too expensive.; 3 = None of above.; 
+Model Output: The 22nd and 24th presidents of the United States were the same man. Grover Cleveland served two non-consecutive terms in office. The answer is 0.
+Corresponding Answer: 0 = They were the same man.
+Correct Answer: 0 = Wednesday. The name of the third person in the group, not the day.
+
+Question 96: Two police officers entered a room without any windows and discovered a dead man who had apparently hung himself from the ceiling, though they were unable to determine how. There was no table or chair beneath him from which he could have jumped. merely a water paddle. What was his method?
+Choices: 0 = The woman gets arrested for murder after dinner.; 1 = The woman was a photographer. She shot a picture of her husband, developed it, and hung it up to dry.; 2 = The woman gets a new partner.; 3 = None of above.; 
+Model Output: The room had no chair or table that he could have used to hang himself. What is mentioned is a water puddle, which could imply that he stood on a block of ice and it melted. Thus, the ice melted after he used it to commit suicide, and only a puddle of water remained. This is a common riddle. The answer is 0.
+Corresponding Answer: 0 = He stood on a block of ice until it melted.
+Correct Answer: 1 = The woman was a photographer. She shot a picture of her husband, developed it, and hung it up to dry.
+
+Question 97: Nolan is outside a shop. She can not read the signs but she knows she needs to go in to make a purchase. What store is she at?
+Choices: 0 = The newspaper was folded multiple times and ended with a special shape.; 1 = Tom and his younger sister stand on the newspaper back-to-back.; 2 = Tom's mother slid a newspaper under a door, each sibling standing on each side.; 3 = None of above.; 
+Model Output: If Nolan can't read the signs, it is likely because she needs eyeglasses. Therefore, the most likely option is the eyeglasses store. The answer is 0.
+Corresponding Answer: 0 = Eye glasses store.
+Correct Answer: 2 = Tom's mother slid a newspaper under a door, each sibling standing on each side.
+
+Question 98: Danny was driving his semi under an overpass when suddenly he came to a screening halt. Danny wasn't paying enough attention and inadvertently drove under the overpass that was just barely as high as his truck. The semi was wedge so tightly that he could not go forward or backward. A fellow tracker came by and told him how he could easily get the semi out from under the bridge. What did he suggest?
+Choices: 0 = Mrs.Smith has one additional car that is neither a red or a blue.; 1 = Mrs.Smith has one car that is blue and red at the same time.; 2 = Mr. Brown has one red car and one blue car.; 3 = None of above.; 
+Model Output: Danny could easily get the semi out from under the bridge by letting some air out of his tires. This will lower the semi enough for it to come out of the overpass. The answer is 2.
+Corresponding Answer: 2 = He told Danny to let some air out of his tires.
+Correct Answer: 2 = Mr. Brown has one red car and one blue car.
+
+Question 99: A chess team has five players, and each player has one coach. But there are only six participants in the team. How is that possible?
+Choices: 0 = Water from Mississippi river are not part of his traditional or cultural diet.; 1 = The Mississippi River doesn't flow through New York City.; 2 = Mississippi river water are toxic.; 3 = None of above.; 
+Model Output: The most logical choice is 0. If there are five players and each player has one coach, and the total number of people in the team is six, then the players must share the same coach. This would mean that there is one coach who trains all five players. The answer is 0.
+Corresponding Answer: 0 = Each player shares the same coach.
+Correct Answer: 1 = The Mississippi River doesn't flow through New York City.
+
+Question 100: Craig died in Florida. Shortly after, Tracy died at sea. Nobody mourned, In fact, everyone was absolute delighted. Why?
+Choices: 0 = He lived in a light house.; 1 = The man is a world-renowned botanist who has just moved into a new house with a rare greenhouse containing 365 unique and endangered plant species.; 2 = The man could be a calendar maker. He accidentally excluding February 29th on a leap year's calendar. This "killed" the day for 365 people.; 3 = None of above.; 
+Model Output: Craig and Tracy are names of hurricanes. When a hurricane "dies," it means it has dissipated and no longer poses a threat. Therefore, people are delighted. The answer is 0
+Corresponding Answer: 0 = They were both hurricanes.
+Correct Answer: 0 = He lived in a light house.
+
+Question 101: A woman who lives in new york legally married three men, she did not get divorce, get an enrollment, or legally seperate. How is this possible?
+Choices: 0 = The farmer's farm did not have suitable conditions for growing radishes.; 1 = There are no dew on the raddishes, so they were not harvested from his own farm on the morning.; 2 = Radishes don't grow during the current season.; 3 = None of above.; 
+Model Output: In new york it is not legal to be married to more than one person at a time. If the woman did not get divorced or legally separated, she cannot be legally married to more than one person. Ministers perform marriages, they do not get married. The answer is 2
+Corresponding Answer: 2 = She is a minister.
+Correct Answer: 1 = There are no dew on the raddishes, so they were not harvested from his own farm on the morning.
+
+Question 102: A man sets out to plant a flower at sunrise and his friend asks him to return by the next moonrise. But when he returns, the flower he planted has already wither and fall. How is this possible?
+Choices: 0 = The ground outside the building is wet.; 1 = Brad was so sick and tired of window washing, he opened the window and jumped inside.; 2 = Consistent exercise has made him a very strong man.; 3 = None of above.; 
+Model Output: In Alaska, there are certain times of the year when the sun and moon may remain in the sky for long periods, sometimes months. If the man planted the flower at sunrise, and the moonrise didn't occur for several months, it's possible the flower could have withered and fallen during that period. The answer is 2
+Corresponding Answer: 2 = He lives in Alaska where a single day and night can last for months.
+Correct Answer: 1 = Brad was so sick and tired of window washing, he opened the window and jumped inside.
+
+Question 103: Tom was arguing with his younger sister. Because of the fighting, their mother decided to have them stand on the same piece of newspaper so they couldn't touch each other as punishment. How did she manage to do this?
+Choices: 0 = Since the tiger haven't eaten in one year it will have died.; 1 = Tiger eats the bishop slowly and bishop gets recovered everyday.; 2 = The bishop is a good person.; 3 = None of above.; 
+Model Output: The siblings could stand on the same piece of newspaper without touching each other if the mother slid a newspaper under the door, with each sibling standing on their own side of the door. The answer is 2.
+Corresponding Answer: 2 = Tom's mother slid a newspaper under a door, each sibling standing on each side.
+Correct Answer: 0 = Since the tiger haven't eaten in one year it will have died.
+
+Question 104: A man buys a rope from a woman for $3.00 and hands the woman a $10 bill. The woman goes into the grocery store next door to get change. She returns and gives the man $7.00. After the man leaves, the clerk from the store comes and says, "Hey, that was a counterfeit bill you gave me." The woman gives the clerk a good bill. How much has the woman lost?
+Choices: 0 = Fifteen dollars.; 1 = Fifteen dollars plus the perfume.; 2 = Twenty-five dollars.; 3 = None of above.; 
+Model Output: The woman lost the three dollars given in change to the man, the seven dollars she replaced the counterfeit bill with and also the rope. Therefore, the answer is 2.
+Corresponding Answer: 2 = Thirteen dollars.
+Correct Answer: 1 = Fifteen dollars plus the perfume.
+
+Question 105: A man who lived on the top floor of a twenty story building had to go up and down daily for work, and of course, for food and the other necessities. On most days he could only ride the elevator to the fifteenth story, and he would have to walk the rest of the way. When it rained, however, he could ride all the way up to the twentieth story. Why?
+Choices: 0 = During rainy weather, the elevator was programmed to automatically bypass certain floors above the fifteenth story.; 1 = The man wasn't tall enough to reach the button for the 20th floor. He could only reach the 15th story button on the elevator. When it rained, he brought his umbrella, and used it to press the 20th story button on the elevator.; 2 = The building had a system in place where, during rainy conditions, certain residents were granted exclusive access to the higher floors.; 3 = None of above.; 
+Model Output: The man wasn't tall enough to reach the button for the 20th floor but when it rained, he used his umbrella to press the button for the 20th floor in the elevator. The answer is 2.
+Corresponding Answer: 2 = The man wasn't tall enough to reach the button for the 20th floor. He could only reach the 15th story button on the elevator. When it rained, he brought his umbrella, and used it to press the 20th story button on the elevator.
+Correct Answer: 1 = The man wasn't tall enough to reach the button for the 20th floor. He could only reach the 15th story button on the elevator. When it rained, he brought his umbrella, and used it to press the 20th story button on the elevator.
+
+Question 106: Apricot Jam was being made by Morgan. She stirred the apricots in the pot after adding them all. It was then that she realized she needed to add 1 ounce of lemon juice for every 2 apricots! How did she calculate the appropriate amount of lemon juice?
+Choices: 0 = They were in the middle of desert.; 1 = Their eyes have a very wide view.; 2 = The two camels were facing each other the entire time.; 3 = None of above.; 
+Model Output: Morgan wouldn't need to know if she was excellent at being a chef or if she was good at physics to measure the amount of lemon juice. She needs to count apricots to know how much lemon juice to add. One method to estimate the count of apricots is to count the pits. The answer is 2.
+Corresponding Answer: 2 = She counted the pits of apricots.
+Correct Answer: 2 = The two camels were facing each other the entire time.
+
+Question 107: Friday, Jason and Kobe go to a restaurant for dinner. The waiter gave three sets of knives and forks to their table. Why?
+Choices: 0 = The girl has two mothers.; 1 = The gril's mother gets a promotion.; 2 = The secretary was the girl's father.; 3 = None of above.; 
+Model Output: The names mentioned are Friday, Jason, and Kobe. Assuming "Friday" is a person, there are indeed three people, which corresponds to the three sets of knives and forks. The answer is 1
+Corresponding Answer: 1 = Friday is also the name of one person, there are three people in total.
+Correct Answer: 2 = The secretary was the girl's father.
+
+Question 108: Four people sat down to play a board game. They played four rounds and each person won twice. How can this be possible?
+Choices: 0 = The husband knew which rose bush was his wife because it was the only one that leaned towards him as he approached; 1 = The wizard brought the rosebush to her home at night and returned her to the garden in the morning. Therefore, she was the only plant without dew.; 2 = The husband knew which rose bush was his wife because it was the only one that still had her distinctive scent.; 3 = None of above.; 
+Model Output: If each person won twice, it's logical to assume they were playing in pairs or teams (thus creating the possibility of each person being a part of two victories). Hence, the correct answer is 0.
+Corresponding Answer: 0 = The four people were playing in two teams of two each. Each team won twice.
+Correct Answer: 1 = The wizard brought the rosebush to her home at night and returned her to the garden in the morning. Therefore, she was the only plant without dew.
+
+Question 109: A man who resided on the twenty-story building's top floor had to travel up and down each day for work, as well as for food and other requirements. He could only use the elevator up to the fifteenth story most days, after which he had to continue walking. However, he could ride all the way to the twentieth storey when it poured. Why?
+Choices: 0 = The bagger's brother is a murderer.; 1 = The man is angry for his brother being a beggar and cut ties with him.; 2 = The beggar was the man's sister.; 3 = None of above.; 
+Model Output: The man wasn't tall enough to reach the button for the 20th floor. He could only reach the 15th story button on the elevator. When it rained, he brought his umbrella, and used it to press the 20th story button on the elevator. The answer is 1
+Corresponding Answer: 1 = The man wasn't tall enough to reach the button for the 20th floor. He could only reach the 15th story button on the elevator. When it rained, he brought his umbrella, and used it to press the 20th story button on the elevator.
+Correct Answer: 2 = The beggar was the man's sister.
+
+Question 110: The king's horse was bitten by a tiger one day while hunting. The king was so furious that he punished the tiger by sending him to a cell and depriving him of food. One year later, the bishop offended the king with a joke. The king imprisoned the bishop in the same cell as a tiger for a month. But a month later, the bishop was completely unharmed and free. How is that even doable?
+Choices: 0 = The poison was in the ice.; 1 = The poison is unfunctional when you drink them together.; 2 = The poison need time to dissolve.; 3 = None of above.; 
+Model Output: The tiger has been deprived of food for a year, so it is most likely that the tiger would have died within that year. Hence, the reason the bishop was unharmed and free after a month in the same cell with the tiger. The answer is 0
+Corresponding Answer: 0 = Since the tiger haven't eaten in one year it will have died.
+Correct Answer: 0 = The poison was in the ice.
+
+Question 111: There was once a bad wizard. He abducted three women from their homes and transformed them into identical rose plants. They were placed in his garden. One of the women pleaded with the magician to allow her to see her husband and kids. He concurred. He took the woman to her home at night. He arrived early in the morning and drove her home. The spouse made the decision to go get her one day. He entered the wizard's garden as a result. He kept glancing at the three identical rose bushes, trying to determine which one might be his wife. He took his wife home as soon as he realized the solution. How did he recognize his wife among the rosebushes?
+Choices: 0 = The third door, the alligator can be tierd and won't eat people.; 1 = The first door, the first door is destroyed and you can see the fire in it.; 2 = The second door with the lions. Since they haven't eaten in 5 years they will have died.; 3 = None of above.; 
+Model Output: The husband could identify his wife because the wizard had brought her home at night and returned in the morning, hence she would be the only plant without dew. The answer is 1
+Corresponding Answer: 1 = The wizard brought the rosebush to her home at night and returned her to the garden in the morning. Therefore, she was the only plant without dew.
+Correct Answer: 2 = The second door with the lions. Since they haven't eaten in 5 years they will have died.
+
+Question 112: Eight girls attended the school. They were using the same umbrella. Why did none of the females get wet?
+Choices: 0 = The restaurant is too expensive.; 1 = They found money in their hamburger.; 2 = Wednesday. The name of the third person in the group, not the day.; 3 = None of above.; 
+Model Output: It is not stated whether it was raining. If it was not raining, then all eight girls could share the same umbrella without getting wet. The answer is 1
+Corresponding Answer: 1 = Because it was not raining.
+Correct Answer: 2 = Wednesday. The name of the third person in the group, not the day.
+
+Question 113: Lily stood on the edge of the 18th floor of the high-rise apartment complex. Overwhelmed with fatigue, she opened the balcony door and stepped through. It was a steep drop from the balcony to the pavement below. Amazingly, after stepping, she was unscathed. Given that there was nothing to soften her landing or slow her descent, how could she have survived the step?
+Choices: 0 = Some daughters get married and have their own family.; 1 = Each daughter shares the same brother.; 2 = Some brothers were not loved by family and moved away.; 3 = None of above.; 
+Model Output: Lily was standing on the edge of her balcony on the 18th floor. She opened the balcony door and stepped through it, which suggests that she stepped inside her apartment, not off the balcony. The answer is 2
+Corresponding Answer: 2 = Lily was exhausted from apartment cleaning, she opened the balcony door and stepped inside.
+Correct Answer: 1 = Each daughter shares the same brother.
+
+Question 114: The tennis match involved two men. Each man won three sets in the five that were played. How is this even conceivable?
+Choices: 0 = The old man can reach the button with the help of his crutch.; 1 = The old man was granted exclusive access to the higher floors.; 2 = The woman thinks pressing the 17th button in the elevator brings good luck or wards off bad luck.; 3 = None of above.; 
+Model Output: The two men were partners playing doubles. This is the only option that would allow both to win three sets out of five. The answer is 0.
+Corresponding Answer: 0 = The two men were partners playing doubles.
+Correct Answer: 0 = The old man can reach the button with the help of his crutch.
+
+Question 115: Nolan is in front of a store. She is unable to read the signs, but she is aware that she must enter in order to make a purchase. Where in the store is she?
+Choices: 0 = His friends waters the flower very carefully.; 1 = His flower grows in an amazing speed.; 2 = He lives in Alaska where a single day and night can last for months.; 3 = None of above.; 
+Model Output: Considering that Nolan can't read the signs, but needs to enter to make a purchase, it implies that she has an issue with her sight. The most logical place that fits this scenario is an eye glasses store where she could get help for her sight problem. The answer is 2.
+Corresponding Answer: 2 = Eye glasses store.
+Correct Answer: 2 = He lives in Alaska where a single day and night can last for months.
+
+Question 116: How was it possible for a cowboy to arrive in town on Friday, stay for two days, and leave on Wednesday?
+Choices: 0 = The glass was filled, but not with water.; 1 = The glass is too heavy.; 2 = Surface tension prevents water from spilling.; 3 = None of above.; 
+Model Output: The name of his horse is Friday, which allows for the cowboy to arrive in town on Friday, stay for two days, and then leave on Wednesday. Answer 0 is correct.
+Corresponding Answer: 0 = His horse is named Wednesday.
+Correct Answer: 0 = The glass was filled, but not with water.
+
+Question 117: Natives of the Arctic will never eat a penguin's egg, not even if they are starving. Exactly why not?
+Choices: 0 = Dprpyju was just raving to show her is outstanding.; 1 = Consistent exercise has made him a very strong man.; 2 = Dorothy is a sky jumper.; 3 = None of above.; 
+Model Output: People living in the Arctic do not eat penguin eggs because penguins only live in Antarctica. The answer is 0
+Corresponding Answer: 0 = Penguins only live in Antarctica.
+Correct Answer: 2 = Dorothy is a sky jumper.
+
+Question 118: A full water glass was in the hands of the magician. Without spilling a single drop of water, he held the glass above his head and allowed it to fall to the carpet. How did he accomplish dropping the glass from a height of six feet without any water spilling?
+Choices: 0 = The glass is too heavy.; 1 = There is no wine in the glass.; 2 = Surface tension prevents wine from spilling.; 3 = None of above.; 
+Model Output: The question does not provide an accurate answer among the choices. Surface tension wouldn't prevent water from spilling if the glass falls from six feet. The weight of the glass is irrelevant. If the glass had been filled with a substance other than water, the problem statement would have indicated it. However, none of above does not provide an explanation either. Therefore, none of the provided choices answer the question correctly. The answer is 3.
+Corresponding Answer: 3 = None of above.
+Correct Answer: 1 = There is no wine in the glass.
+
+Question 119: Which could see the best in complete darkness? a tiger, a bat, or an owl.
+Choices: 0 = The water in Jamaica is not dirty; 1 = Kids in Jamaica have lower density than water.; 2 = At 20 degrees Fahrenheit the water would be ice.; 3 = None of above.; 
+Model Output: Bats use echolocation to navigate and find food in the dark, which allows them to "see" better than other animals in complete darkness. The answer is 0
+Corresponding Answer: 0 = Bat.
+Correct Answer: 2 = At 20 degrees Fahrenheit the water would be ice.
+
+Question 120: The ship was in the harbor on a beautiful sunny day. The ship suddenly started to sink. The ship sank in front of the onlookers despite there being no storm or mechanical issue. What led to the ship's sinking?
+Choices: 0 = By moving towards the train momentarily, the man minimizes the risk of being hit directly by the front of the train.; 1 = The man was on a bridge when he first saw the train so he couldn't jump off the track immediately.; 2 = By moving towards the oncoming train, the man's brain interprets the change in distance and relative motion as a decrease in speed.; 3 = None of above.; 
+Model Output: Submarines are designed to sink or 'submerge' in water as a part of their operations. If there was no external influence like a storm or a mechanical problem, it may still sink if it is a submarine. The answer is 2.
+Corresponding Answer: 2 = It was a Submarine.
+Correct Answer: 1 = The man was on a bridge when he first saw the train so he couldn't jump off the track immediately.
+

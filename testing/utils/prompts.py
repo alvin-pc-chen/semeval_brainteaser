@@ -1,3 +1,5 @@
+# Zero shot - Sentence
+ZERO_SP_BASE = "Using commonsense reasoning, find the best choice for the following question:\n"
 # Chain of Thought - Sentence
 CHAIN_SYSTEM = {"role": "system", 
                  "content": "You are a Question Answering Model that answers questions by finding logical entailments between the question and answer choices."}
