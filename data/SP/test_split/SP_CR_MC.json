@@ -1,0 +1,402 @@
+[
+    {
+        "id": "SP-122_CR",
+        "question": "In a small village, two farmers are working in their fields - a diligent farmer and a lazy farmer. The hardworking farmer is the son of the lazy farmer, but the lazy farmer is not the father of the hardworking farmer. Can you explain this unusual relationship?",
+        "choice_list": [
+            "The lazy farmer is his mother.",
+            "The lazy farmer is not a responsible father as he is lazy.",
+            "The diligent farmer devoted himself to the farm and gradually forgot his father.",
+            "None of above."
+        ]
+    },
+    {
+        "id": "SP-147_CR",
+        "question": "How many years in your life it happens that before your birthday you'd be one year younger than tomorrow",
+        "choice_list": [
+            "In each leap year.",
+            "In the first year of graduation.",
+            "It happens every year.",
+            "None of above."
+        ]
+    },
+    {
+        "id": "SP-191_CR",
+        "question": "How many times can you divide 100 by 10?",
+        "choice_list": [
+            "Infinite times.",
+            "Once.",
+            "Two times.",
+            "None of above."
+        ]
+    },
+    {
+        "id": "SP-157_CR",
+        "question": "In a city, there are so many criminals that police cannot catch all of them and fit them in their prisons. This number is approximately 10% of the population of the city but no names are available. To start catching the rest of the criminals police starts checking the list of criminals they have in the prisons namebook with 200 names, and go out searching for the rest wandering in the city. How many can they find?",
+        "choice_list": [
+            "Twenty people.",
+            "Eighty people.",
+            "Two hundred people.",
+            "None of above."
+        ]
+    },
+    {
+        "id": "SP-205_CR",
+        "question": "A conscientious farmer formerly provided food for his roosters each day, but throughout the years, not a single egg was produced for him. How is it even imaginable?",
+        "choice_list": [
+            "His neighbor always stolen eggs away from him.",
+            "Because roosters don't lay eggs.",
+            "Roosters will eat their own eggs once they were laid.",
+            "None of above."
+        ]
+    },
+    {
+        "id": "SP-120_CR",
+        "question": "Mark was in a playground where somebody noticed a great player playing and with the announcements, gathered a lot of people. There were many great players from basketball, volleyball, football, and even swimmers, But Mark directly went to the footballer and took a photo with him. How did he know who was the person that people got excited for in the first place?",
+        "choice_list": [
+            "Since the playground was a football playground and the other players could've not been playing in the playground at the time of the announcement",
+            "Since Mark was a crazy fan of football, only a football player can be considered as great player in his mind.",
+            "Since Mark stood closest to the football players, he only focused on football players and didn't notice others.",
+            "None of above."
+        ]
+    },
+    {
+        "id": "SP-146_CR",
+        "question": "A man bet his friend that he can jump the distance from one house to another one. He won the bet. How?",
+        "choice_list": [
+            "He is a jumping athlete.",
+            "Two houses were wall-to-wall next to each other",
+            "One house is much higher than another, providing him enough time to fly in the air.",
+            "None of above."
+        ]
+    },
+    {
+        "id": "SP-16_CR",
+        "question": "A group of students plan to go trekking in the afternoon, but one of them forgets to bring their rubber boots. But how is it possible that his feet are still dry after a lengthy stroll around the park?",
+        "choice_list": [
+            "The ground is not wet.",
+            "The one is walking on his hands.",
+            "By walking on stilts, the one elevates his feet above the wet ground.",
+            "None of above."
+        ]
+    },
+    {
+        "id": "SP-73_CR",
+        "question": "James was surrounded by several hungry bears, but the bears approached me just took a look and left. How is that possible?",
+        "choice_list": [
+            "James was at the zoo.",
+            "It is too cold outside.",
+            "James is not healthy.",
+            "None of above."
+        ]
+    },
+    {
+        "id": "SP-90_CR",
+        "question": "If the vice coach of a sports team is unable to attend a game, who is supposed to lead the team?",
+        "choice_list": [
+            "The coach.",
+            "The captain.",
+            "The team's management",
+            "None of above."
+        ]
+    },
+    {
+        "id": "SP-30_CR",
+        "question": "Why do old people consume more food than young people.",
+        "choice_list": [
+            "Older adults may have specific dietary requirements to address age-related issues",
+            "Older people require increased nutrient intake to support overall health and well-being.",
+            "Because older people live longer.",
+            "None of above."
+        ]
+    },
+    {
+        "id": "SP-4_CR",
+        "question": "A sudden wave knocked Jack out of the water when he was swimming on the beach; he died five minutes later. How is that possible?",
+        "choice_list": [
+            "Jack needs to to go to the hospital but no one is welling to help.",
+            "Jack is so scared of the water.",
+            "Jack is a fish in the ocean.",
+            "None of above."
+        ]
+    },
+    {
+        "id": "SP-184_CR",
+        "question": "Five people were at a football match, and a sudden shower started. The four that rushed to take cover still got soaked, but the one who didn't move stayed completely dry. Why didn't he get wet?",
+        "choice_list": [
+            "The man is an excellent football player that can avoid rain in high speed.",
+            "The man was lucky enough to avoid all the rain.",
+            "He was a photograph, the other people were there to honor a former player.",
+            "None of above."
+        ]
+    },
+    {
+        "id": "SP-19_CR",
+        "question": "Shopping is done by Jack, Tom and their parents. They divided the $40 they have equally amongst themselves. How is that possible?",
+        "choice_list": [
+            "Jack and Tom are the parents themselves.",
+            "Each kid's parents pooled $10 for division.",
+            "Jack and Tom are brothers who share the same parents.",
+            "None of above."
+        ]
+    },
+    {
+        "id": "SP-47_CR",
+        "question": "Tom and John bet $100 on John correctly predicting the outcome of the forthcoming basketball game. Tom agrees, but he loses the bet. What caused Tom to lose the bet?",
+        "choice_list": [
+            "John said the score would be 0-0 and he was right. \"Before\" any basketball game starts, the score is always 0-0.",
+            "John possesses an extraordinary ability to see into the future.",
+            "Tom gave his money to show his kindness.",
+            "None of above."
+        ]
+    },
+    {
+        "id": "SP-166_CR",
+        "question": "A farmer has 11 sheep. Half of them are white. How is this possible?",
+        "choice_list": [
+            "One sheep is regarded as both white and other colors same time.",
+            "A famer raises his sheep in both white way and another way.",
+            "They are all white.",
+            "None of above."
+        ]
+    },
+    {
+        "id": "SP-186_CR",
+        "question": "The officer arrested James and said I don't have a brother anymore, however, James also didn't have a brother. How's that possible?",
+        "choice_list": [
+            "The officer was not loved by family and had moved away when he was young.",
+            "The officer is angry about his brother and cut ties with him.",
+            "Officer was actually his sister so the whole story makes sense",
+            "None of above."
+        ]
+    },
+    {
+        "id": "SP-190_CR",
+        "question": "The coach asked the two boys who looked remarkably similar the following questions: a.) Do you live in the same house? b.) Do you have the same mother and father? c.) Were you both born on the same date? The boys responded truthfully with \"yes\" to these inquiries, yet were honest when they said they weren't twins. How could this be?",
+        "choice_list": [
+            "They were triplets.",
+            "Their parent raised them differently due to the lack of money.",
+            "One of the boys was not loved by their family.",
+            "None of above."
+        ]
+    },
+    {
+        "id": "SP-156_CR",
+        "question": "A driver is told to make a stop every half an hour for the engine to cool down, for five times. How long do the stops take?",
+        "choice_list": [
+            "Three hours.",
+            "Two and a half hours.",
+            "Two hours.",
+            "None of above."
+        ]
+    },
+    {
+        "id": "SP-123_CR",
+        "question": "Two fishes in a tank were swimming in the opposite directions, but they were seeing each other every couple of few minutes. How's that possible?",
+        "choice_list": [
+            "Water in the tank can reflect each other in some degree.",
+            "The fish tank was like a ring.",
+            "Fish had an unusual vision so they can see what happend behind them.",
+            "None of above."
+        ]
+    },
+    {
+        "id": "SP-182_CR",
+        "question": "When you put a white shirt on a stone that is red and wet, it will become red, if you do the same thing for Yellowstone, what will happen?",
+        "choice_list": [
+            "White.",
+            "Red.",
+            "Yellow.",
+            "None of above."
+        ]
+    },
+    {
+        "id": "SP-3_CR",
+        "question": "On Friday, the man rode out of town to pick some berries. 2 hours later, he rode back on Sunday. How is that possible?",
+        "choice_list": [
+            "His horse was called Sunday.",
+            "The man was too exhausted that he forgot his way home.",
+            "Next week is a national holiday.",
+            "None of above."
+        ]
+    },
+    {
+        "id": "SP-189_CR",
+        "question": "How can you toss a fragile glass ball against a sturdy brick wall from a distance without shattering it?",
+        "choice_list": [
+            "No problem, because sturdy bricks are very hard to crack",
+            "You need to throw the glass ball hard.",
+            "You need to throw the glass ball gently.",
+            "None of above."
+        ]
+    },
+    {
+        "id": "SP-60_CR",
+        "question": "A man jumped off a 50-story building, but he didn't get hurt at all. How is this possible?",
+        "choice_list": [
+            "He get medical attention.",
+            "He jumped off the ground floor, not from the top of the building.",
+            "The building is not so tall for the man.",
+            "None of above."
+        ]
+    },
+    {
+        "id": "SP-121_CR",
+        "question": "You're visiting a village in Vietnam that you see a lot of small boats grounded, but you're wondering how they're always using their boats and now you see no water around them. How's that possible?",
+        "choice_list": [
+            "The tide makes the boats to float again and the issues get resolved at that time.",
+            "People in village use the boat to store water because water is rare.",
+            "People in village use the boat to store fruits because it is cheap.",
+            "None of above."
+        ]
+    },
+    {
+        "id": "SP-59_CR",
+        "question": "He has authored countless books, but has never written a single word. Who is he?",
+        "choice_list": [
+            "A business man.",
+            "A publisher.",
+            "A writer.",
+            "None of above."
+        ]
+    },
+    {
+        "id": "SP-139_CR",
+        "question": "If a boat is parked in a marina and tied to a nearby station, how did its owner found the boat a couple of hours later in the middle of the ocean?",
+        "choice_list": [
+            "The station wasn't fixed in the marina",
+            "The dolphins untied the knots.",
+            "The waves were powerful, which pushed the boat and the marina together.",
+            "None of above."
+        ]
+    },
+    {
+        "id": "SP-33_CR",
+        "question": "An office worker usually walks to work daily. There are two coffee shops on his route; the first one is half a mile away from his house and the second one is a mile away in the opposite direction. He always stops at the first coffee shop in the morning and always visits the second one in the evening on his way back home. Why?",
+        "choice_list": [
+            "The coffee shops and his home are on a slope, which allows him to walk downhill easily both to work and back home.",
+            "The second coffee shop is too far away.",
+            "The first coffee shop is too far away.",
+            "None of above."
+        ]
+    },
+    {
+        "id": "SP-183_CR",
+        "question": "You wanted to reserve a table in a restaurant but they told you all their tables were already booked. however, when you're passing by, you see that there is not a single person eating in the restaurant. Why did they tell you that all their tables were fully booked?",
+        "choice_list": [
+            "All the people left the restaurant in a moment.",
+            "The resturant was soo big that all the people can hide themselves in a moment.",
+            "All the people in the restaurant are in relationships.",
+            "None of above."
+        ]
+    },
+    {
+        "id": "SP-158_CR",
+        "question": "In a 5-day marathon, a professional runner runs 70 kilometers. Each day, he ran two kilometers more than the previous day. How many kilometers did the runner run on the first day?",
+        "choice_list": [
+            "Five.",
+            "Six.",
+            "Seven.",
+            "None of above."
+        ]
+    },
+    {
+        "id": "SP-72_CR",
+        "question": "Tony and Jack are brothers and Tony is not married. However, Tony's nephew is not Jack's nephew. How is that possible?",
+        "choice_list": [
+            "Tony's nephew is Jack's son.",
+            "Jack is adopted.",
+            "Jack and Tony share same father but not mother.",
+            "None of above."
+        ]
+    },
+    {
+        "id": "SP-117_CR",
+        "question": "A man goes to a restaurant everyday but he does't pay at all. How's that possible?",
+        "choice_list": [
+            "He works there in the restaurant.",
+            "He is a superstar.",
+            "He always finish the dish without any waste.",
+            "None of above."
+        ]
+    },
+    {
+        "id": "SP-181_CR",
+        "question": "You enter a room with five of the organization' heads. All of them are there to make an important decision. How many heads are there in the room?",
+        "choice_list": [
+            "Ten.",
+            "Five.",
+            "One.",
+            "None of above."
+        ]
+    },
+    {
+        "id": "SP-78_CR",
+        "question": "A chess team have five players and each player has one coach. But there are only six participants in the team. How is that possible?",
+        "choice_list": [
+            "Each player shares the same coach.",
+            "Some players are backups and not allowed to play.",
+            "Some coach get a raise.",
+            "None of above."
+        ]
+    },
+    {
+        "id": "SP-187_CR",
+        "question": "There was a burglary going on when firemen got to the scene first since they were not sure if there is a fire going on as well. Four people were coming out of the place, two covering their face. Who did the firemen arrest?",
+        "choice_list": [
+            "The two covered their face.",
+            "All of them.",
+            "The two with no masks.",
+            "None of above."
+        ]
+    },
+    {
+        "id": "SP-79_CR",
+        "question": "Each night in her bedroom, Jessica always reads in complete darkness. Her parents, however, never stop her and often send cake to reward her hard work. Why?",
+        "choice_list": [
+            "Because it was daytime.",
+            "Jessica is smart that she pretended to reading the book.",
+            "Jessica is blind and she can braille.",
+            "None of above."
+        ]
+    },
+    {
+        "id": "SP-42_CR",
+        "question": "Amy was shocked to see his adorable pet dog perched on the edge of the balcony. She shouted at her pet to come back. This sudden fright made the pet immobile, and fell over the edge. Although Amy's apartment is on the 17th floor, the family dog was unharmed. How is that even doable?",
+        "choice_list": [
+            "Amy is so well exercised that she can reach to the base in a second to catch the pet.",
+            "The pet is strong enough to not get hurt from falling.",
+            "The pet dog fell back into her apartment, jumping from the balcony into the inside. ",
+            "None of above."
+        ]
+    },
+    {
+        "id": "SP-142_CR",
+        "question": "Ana's school has 4 students in Alaska: Maria, James, Jonghyun. What is the name of other student?",
+        "choice_list": [
+            "Mark.",
+            "Ana",
+            "Michael.",
+            "None of above."
+        ]
+    },
+    {
+        "id": "SP-14_CR",
+        "question": "Tom teaches in a Chinese school. One day, he handed homework to the children after printing it accidentally in English. Despite not having learned English yet, every student completed their assignments flawlessly the following day. Why?",
+        "choice_list": [
+            "They used translation tools or sought assistance from external sources.",
+            "Tom is a math teacher, numbers are the same in Chinese as they are in English.",
+            "The student are smart enough to rely on their prior konwledge to guess the homework answers.",
+            "None of above."
+        ]
+    },
+    {
+        "id": "SP-141_CR",
+        "question": "Bob was working on a project when suddenly the internet got disconnected. He then searched google but didn't find anything. Why?",
+        "choice_list": [
+            "He needed a membership to search in google.",
+            "He searched the google in a wrong way.",
+            "The internet was disconnected so he couldn't search on google",
+            "None of above."
+        ]
+    }
+]

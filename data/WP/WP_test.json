@@ -1,0 +1,1154 @@
+[
+    {
+        "id": "WP-140",
+        "question": "What kind of stock doesn't have shares?",
+        "answer": "Livestock.",
+        "label": 1,
+        "choice_list": [
+            "Small-cap stock.",
+            "Livestock.",
+            "Growth stock.",
+            "None of above."
+        ]
+    },
+    {
+        "id": "WP-87_SR",
+        "question": "What do you call a toothless bear?",
+        "answer": "A gummy bear.",
+        "label": 2,
+        "choice_list": [
+            "A brown bear.",
+            "A polar bear.",
+            "A gummy bear.",
+            "None of above."
+        ]
+    },
+    {
+        "id": "WP-62_CR",
+        "question": "Where will a computer technician keep all his key?",
+        "answer": "A keyboard.",
+        "label": 2,
+        "choice_list": [
+            "A mouse.",
+            "A monitor.",
+            "A keyboard.",
+            "None of above."
+        ]
+    },
+    {
+        "id": "WP-87",
+        "question": "What do you call a bear with no teeth?",
+        "answer": "A gummy bear.",
+        "label": 1,
+        "choice_list": [
+            "A brown bear.",
+            "A gummy bear.",
+            "A polar bear.",
+            "None of above."
+        ]
+    },
+    {
+        "id": "WP-88_SR",
+        "question": "What was the result of the tiny lobster's math test?",
+        "answer": "Sea-plus.",
+        "label": 1,
+        "choice_list": [
+            "Very-bad.",
+            "Sea-plus.",
+            "Very-Good.",
+            "None of above."
+        ]
+    },
+    {
+        "id": "WP-125",
+        "question": "What tree can you carry in your hand?",
+        "answer": "Palm.",
+        "label": 0,
+        "choice_list": [
+            "Palm.",
+            "Oak.",
+            "Pine.",
+            "None of above."
+        ]
+    },
+    {
+        "id": "WP-137_CR",
+        "question": "What chain is having trouble in connecting?",
+        "answer": "Blockchain.",
+        "label": 0,
+        "choice_list": [
+            "Blockchain.",
+            "Supply chain.",
+            "Logic chain.",
+            "None of above."
+        ]
+    },
+    {
+        "id": "WP-157",
+        "question": "What kind of shot didn't hurt?",
+        "answer": "A screenshot.",
+        "label": 1,
+        "choice_list": [
+            "A fireshot.",
+            "A screenshot.",
+            "A gunshot.",
+            "None of above."
+        ]
+    },
+    {
+        "id": "WP-87_CR",
+        "question": "What kind of birds always make noise?",
+        "answer": "Humming bird.",
+        "label": 0,
+        "choice_list": [
+            "Humming bird.",
+            "Hawk.",
+            "Owl.",
+            "None of above."
+        ]
+    },
+    {
+        "id": "WP-127_CR",
+        "question": "What type of  table doesn't have chairs?",
+        "answer": "A water table.",
+        "label": 2,
+        "choice_list": [
+            "A dining table.",
+            "A coffee table.",
+            "A water table.",
+            "None of above."
+        ]
+    },
+    {
+        "id": "WP-134",
+        "question": "What type of chase never involves running?",
+        "answer": "Paperchase.",
+        "label": 1,
+        "choice_list": [
+            "Escape chase.",
+            "Paperchase.",
+            "Risky chase.",
+            "None of above."
+        ]
+    },
+    {
+        "id": "WP-98_SR",
+        "question": "What is the most difficult key to turn?",
+        "answer": "A donkey.",
+        "label": 2,
+        "choice_list": [
+            "A new key.",
+            "A gold key.",
+            "A donkey.",
+            "None of above."
+        ]
+    },
+    {
+        "id": "WP-30",
+        "question": "What clothing does a house wear?",
+        "answer": "Address.",
+        "label": 0,
+        "choice_list": [
+            "Address.",
+            "Suit.",
+            "Wedding dress.",
+            "None of above."
+        ]
+    },
+    {
+        "id": "WP-86_SR",
+        "question": "What species of geese engages in snake-fighting?",
+        "answer": "Mongoose.",
+        "label": 2,
+        "choice_list": [
+            "Canada goose.",
+            "Snow goose.",
+            "Mongoose.",
+            "None of above."
+        ]
+    },
+    {
+        "id": "WP-43",
+        "question": "What is the capital in Washington?",
+        "answer": "The letter W.",
+        "label": 2,
+        "choice_list": [
+            "The letter N.",
+            "The letter T.",
+            "The letter W.",
+            "None of above."
+        ]
+    },
+    {
+        "id": "WP-15",
+        "question": "How do you make \"one\" disappear?",
+        "answer": "Add a \"g\" and \"one\" Gone.",
+        "label": 1,
+        "choice_list": [
+            "By saying \"zero,two,three\" to omit \"one\".",
+            "Add a \"g\" and \"one\" Gone.",
+            "Use \"single\" as an alternative word.",
+            "None of above."
+        ]
+    },
+    {
+        "id": "WP-15_SR",
+        "question": "How do you get rid of \"one\"?",
+        "answer": "Add a \"g\" and \"one\" Gone.",
+        "label": 0,
+        "choice_list": [
+            "Add a \"g\" and \"one\" Gone.",
+            "Use \"single\" as an alternative word.",
+            "By saying \"zero,two,three\" to omit \"one\".",
+            "None of above."
+        ]
+    },
+    {
+        "id": "WP-134_CR",
+        "question": "What kind of wave doesn't involve water?",
+        "answer": "Microwave.",
+        "label": 0,
+        "choice_list": [
+            "Microwave.",
+            "Seawave.",
+            "Tidewave.",
+            "None of above."
+        ]
+    },
+    {
+        "id": "WP-86",
+        "question": "What kind of goose fights with snakes?",
+        "answer": "Mongoose.",
+        "label": 2,
+        "choice_list": [
+            "Snow goose.",
+            "Canada goose.",
+            "Mongoose.",
+            "None of above."
+        ]
+    },
+    {
+        "id": "WP-137",
+        "question": "What kind of chain is edible?",
+        "answer": "Food chain.",
+        "label": 0,
+        "choice_list": [
+            "Food chain.",
+            "Logic chain.",
+            "Blockchain.",
+            "None of above."
+        ]
+    },
+    {
+        "id": "WP-59",
+        "question": "What animal keeps the best time?",
+        "answer": "A watchdog.",
+        "label": 0,
+        "choice_list": [
+            "A watchdog.",
+            "An elephant.",
+            "A whale.",
+            "None of above."
+        ]
+    },
+    {
+        "id": "WP-59_SR",
+        "question": "What animal has the best chronology?",
+        "answer": "A watchdog.",
+        "label": 1,
+        "choice_list": [
+            "An elephant.",
+            "A watchdog.",
+            "A whale.",
+            "None of above."
+        ]
+    },
+    {
+        "id": "WP-140_CR",
+        "question": "What stocks make everyone happy no matter what the situation?",
+        "answer": "Laughingstock.",
+        "label": 0,
+        "choice_list": [
+            "Laughingstock.",
+            "Penny stock.",
+            "Value stock.",
+            "None of above."
+        ]
+    },
+    {
+        "id": "WP-140_SR",
+        "question": "If a stock doesn't have shares, what kind is it?",
+        "answer": "Livestock.",
+        "label": 0,
+        "choice_list": [
+            "Livestock.",
+            "Growth stock.",
+            "Small-cap stock.",
+            "None of above."
+        ]
+    },
+    {
+        "id": "WP-125_CR",
+        "question": "What kind of tree is most safe?",
+        "answer": "Hemlock.",
+        "label": 1,
+        "choice_list": [
+            "Pine.",
+            "Hemlock.",
+            "Oak.",
+            "None of above."
+        ]
+    },
+    {
+        "id": "WP-98",
+        "question": "What is the hardest key to turn?",
+        "answer": "A donkey.",
+        "label": 1,
+        "choice_list": [
+            "A new key.",
+            "A donkey.",
+            "A gold key.",
+            "None of above."
+        ]
+    },
+    {
+        "id": "WP-43_CR",
+        "question": "What is the capital in London?",
+        "answer": "The letter L.",
+        "label": 0,
+        "choice_list": [
+            "The letter L.",
+            "The letter N.",
+            "The letter D.",
+            "None of above."
+        ]
+    },
+    {
+        "id": "WP-43_SR",
+        "question": "What is Washington's capital?",
+        "answer": "The letter W.",
+        "label": 1,
+        "choice_list": [
+            "The letter T.",
+            "The letter W.",
+            "The letter N.",
+            "None of above."
+        ]
+    },
+    {
+        "id": "WP-125_SR",
+        "question": "What kind of tree can you hold in your hands?",
+        "answer": "Palm.",
+        "label": 2,
+        "choice_list": [
+            "Oak.",
+            "Pine.",
+            "Palm.",
+            "None of above."
+        ]
+    },
+    {
+        "id": "WP-134_SR",
+        "question": "What kind of chase involves running at all times?",
+        "answer": "Paperchase.",
+        "label": 2,
+        "choice_list": [
+            "Risky chase.",
+            "Escape chase.",
+            "Paperchase.",
+            "None of above."
+        ]
+    },
+    {
+        "id": "WP-30_CR",
+        "question": "What kind of pet would houses like to keep even it doesn't make sound?",
+        "answer": "Carpet.",
+        "label": 1,
+        "choice_list": [
+            "Cat.",
+            "Carpet.",
+            "Dog.",
+            "None of above."
+        ]
+    },
+    {
+        "id": "WP-88_CR",
+        "question": "When the king was performing really bad with throwing arrows, to give a score to him, what did the hand of the king say?",
+        "answer": "Aim-highness",
+        "label": 0,
+        "choice_list": [
+            "Aim-highness",
+            "King-winner.",
+            "Good-shooter.",
+            "None of above."
+        ]
+    },
+    {
+        "id": "WP-62_SR",
+        "question": "What is the best key for a satisfying meal?",
+        "answer": "A turkey.",
+        "label": 1,
+        "choice_list": [
+            "A joykey.",
+            "A turkey.",
+            "A hockey.",
+            "None of above."
+        ]
+    },
+    {
+        "id": "WP-96",
+        "question": "What does a rain cloud wear under their raincoat?",
+        "answer": "Thunderware.",
+        "label": 0,
+        "choice_list": [
+            "Thunderware.",
+            "Suit.",
+            "Skirt.",
+            "None of above."
+        ]
+    },
+    {
+        "id": "WP-98_CR",
+        "question": "What is the cake that if you wouldn't be careful, eating it can result in losing your fingers?",
+        "answer": "A crab cake.",
+        "label": 0,
+        "choice_list": [
+            "A crab cake.",
+            "A birthday cake.",
+            "A spicy cake.",
+            "None of above."
+        ]
+    },
+    {
+        "id": "WP-127_SR",
+        "question": "What sort of table doesn't have legs?",
+        "answer": "A multiplication table.",
+        "label": 2,
+        "choice_list": [
+            "A dining table.",
+            "A coffee table.",
+            "A multiplication table.",
+            "None of above."
+        ]
+    },
+    {
+        "id": "WP-30_SR",
+        "question": "What dress do houses wear?",
+        "answer": "Address.",
+        "label": 0,
+        "choice_list": [
+            "Address.",
+            "Suit.",
+            "Wedding dress.",
+            "None of above."
+        ]
+    },
+    {
+        "id": "WP-15_CR",
+        "question": "How do you get rid of \"all\"?",
+        "answer": "Add a \"f\" and \"all\" fall.",
+        "label": 1,
+        "choice_list": [
+            "By saying \"not none\" to refer \"all\".",
+            "Add a \"f\" and \"all\" fall.",
+            "Use \"whole\" as an alternative word.",
+            "None of above."
+        ]
+    },
+    {
+        "id": "WP-88",
+        "question": "What did the little lobster get on its math test?",
+        "answer": "Sea-plus.",
+        "label": 0,
+        "choice_list": [
+            "Sea-plus.",
+            "Very-bad.",
+            "Very-Good.",
+            "None of above."
+        ]
+    },
+    {
+        "id": "WP-157_CR",
+        "question": "What kind of shot can aim the space?",
+        "answer": "A moonshot.",
+        "label": 0,
+        "choice_list": [
+            "A moonshot.",
+            "A gunshot.",
+            "A fireshot.",
+            "None of above."
+        ]
+    },
+    {
+        "id": "WP-157_SR",
+        "question": "What sort of injection wasn't painful?",
+        "answer": "A screenshot.",
+        "label": 1,
+        "choice_list": [
+            "A fireshot.",
+            "A screenshot.",
+            "A gunshot.",
+            "None of above."
+        ]
+    },
+    {
+        "id": "WP-127",
+        "question": "What kind of table has no legs?",
+        "answer": "A multiplication table.",
+        "label": 0,
+        "choice_list": [
+            "A multiplication table.",
+            "A coffee table.",
+            "A dining table.",
+            "None of above."
+        ]
+    },
+    {
+        "id": "WP-59_CR",
+        "question": "What kind of bird is always out of breath?",
+        "answer": "Puffin.",
+        "label": 2,
+        "choice_list": [
+            "Sparrow.",
+            "Hawk.",
+            "Puffin.",
+            "None of above."
+        ]
+    },
+    {
+        "id": "WP-96_SR",
+        "question": "What do rain clouds wear beneath their raincoat?",
+        "answer": "Thunderware.",
+        "label": 0,
+        "choice_list": [
+            "Thunderware.",
+            "Suit.",
+            "Skirt.",
+            "None of above."
+        ]
+    },
+    {
+        "id": "WP-137_SR",
+        "question": "Which chain exactly is edible?",
+        "answer": "Food chain.",
+        "label": 1,
+        "choice_list": [
+            "Logic chain.",
+            "Food chain.",
+            "Gold chain.",
+            "None of above."
+        ]
+    },
+    {
+        "id": "WP-62",
+        "question": "What is the best key to a good dinner?",
+        "answer": "A turkey.",
+        "label": 2,
+        "choice_list": [
+            "A joykey.",
+            "A hockey.",
+            "A turkey.",
+            "None of above."
+        ]
+    },
+    {
+        "id": "WP-86_CR",
+        "question": "What type of fish participates in space research?",
+        "answer": "Starfish.",
+        "label": 0,
+        "choice_list": [
+            "Starfish.",
+            "Catfish.",
+            "Yellow fish.",
+            "None of above."
+        ]
+    },
+    {
+        "id": "WP-96_CR",
+        "question": "What does the moon use to lighten up its face?",
+        "answer": "Moonbeam.",
+        "label": 1,
+        "choice_list": [
+            "Cloud.",
+            "Moonbeam.",
+            "Nightmare.",
+            "None of above."
+        ]
+    },
+    {
+        "id": "WP-26_SR",
+        "question": "What lacks legs and feet but has toes?",
+        "answer": "Tomatoes.",
+        "label": 1,
+        "choice_list": [
+            "Cabbages.",
+            "Tomatoes.",
+            "Onions",
+            "None of above."
+        ]
+    },
+    {
+        "id": "WP-26_CR",
+        "question": "What has ears but can't hear a thing?",
+        "answer": "Corn ears.",
+        "label": 0,
+        "choice_list": [
+            "Corn ears.",
+            "Wild polar bear.",
+            "Young child.",
+            "None of above."
+        ]
+    },
+    {
+        "id": "WP-26",
+        "question": "What has toes but no feet or legs?",
+        "answer": "Tomatoes.",
+        "label": 1,
+        "choice_list": [
+            "Cabbages.",
+            "Tomatoes.",
+            "Onions",
+            "None of above."
+        ]
+    },
+    {
+        "id": "WP-97",
+        "question": "What table has not a leg to stand on?",
+        "answer": "periodic table",
+        "label": 2,
+        "choice_list": [
+            "Pool table.",
+            "Tennis table.",
+            "periodic table",
+            "None of above."
+        ]
+    },
+    {
+        "id": "WP-79_CR",
+        "question": "What's the beginning of an argument",
+        "answer": "The letter A.",
+        "label": 1,
+        "choice_list": [
+            "The letter T.",
+            "The letter A.",
+            "The letter U.",
+            "None of above."
+        ]
+    },
+    {
+        "id": "WP-124_SR",
+        "question": "What kind of market never grows in size?",
+        "answer": "A flea market.",
+        "label": 1,
+        "choice_list": [
+            "Hypermarket.",
+            "A flea market.",
+            "A super market.",
+            "None of above."
+        ]
+    },
+    {
+        "id": "WP-122_CR",
+        "question": "Which letter of the alphabet is the oldest?",
+        "answer": " \"A'', because it's always surrounded by 'BC.",
+        "label": 0,
+        "choice_list": [
+            " \"A'', because it's always surrounded by 'BC.",
+            " 'Z', because it's the end of alphabet.",
+            " 'O', because it's the start of \"OLD\".",
+            "None of above."
+        ]
+    },
+    {
+        "id": "WP-130",
+        "question": "What type of phone is never answered?",
+        "answer": "A xylophone.",
+        "label": 1,
+        "choice_list": [
+            "A smartphone.",
+            "A xylophone.",
+            "A cellphone.",
+            "None of above."
+        ]
+    },
+    {
+        "id": "WP-37_CR",
+        "question": "How spell \"I SEE YOU\" in three letters?",
+        "answer": "I C U.",
+        "label": 1,
+        "choice_list": [
+            "O P T",
+            "I C U.",
+            "S O S",
+            "None of above."
+        ]
+    },
+    {
+        "id": "WP-19_CR",
+        "question": "What kind of drive ensures you remain stationary?",
+        "answer": "A hard drive in a computer.",
+        "label": 1,
+        "choice_list": [
+            "Driving with limited oil.",
+            "A hard drive in a computer.",
+            "Diving at a low speed.",
+            "None of above."
+        ]
+    },
+    {
+        "id": "WP-32_CR",
+        "question": "Which of the following pens should never be used for writing?",
+        "answer": "Bullpen.",
+        "label": 0,
+        "choice_list": [
+            "Bullpen.",
+            "Hard pencil.",
+            "Crayon.",
+            "None of above."
+        ]
+    },
+    {
+        "id": "WP-71_CR",
+        "question": "There were two sticks on the ground. A boy made five out of them without breaking them in halfs. How's that possible?",
+        "answer": "Shape the two sticks to form a 45 degree between themselves, then they become V which is 5 in Roman.",
+        "label": 1,
+        "choice_list": [
+            "Take two matches and form the numeral \"II\" .",
+            "Shape the two sticks to form a 45 degree between themselves, then they become V which is 5 in Roman.",
+            "Take two matches and form the numeral \"X\" .",
+            "None of above."
+        ]
+    },
+    {
+        "id": "WP-37",
+        "question": "Which three letters can fighter a thief away?",
+        "answer": "I C U.",
+        "label": 0,
+        "choice_list": [
+            "I C U.",
+            "S O S",
+            "O P T",
+            "None of above."
+        ]
+    },
+    {
+        "id": "WP-97_SR",
+        "question": "What table doesn't have a leg to stand on?",
+        "answer": "periodic table",
+        "label": 1,
+        "choice_list": [
+            "Tennis table.",
+            "periodic table",
+            "Pool table.",
+            "None of above."
+        ]
+    },
+    {
+        "id": "WP-60",
+        "question": "How did the farmer fix his jeans?",
+        "answer": "A cabbage patch.",
+        "label": 2,
+        "choice_list": [
+            "A peach jam.",
+            "An eggplant.",
+            "A cabbage patch.",
+            "None of above."
+        ]
+    },
+    {
+        "id": "WP-97_CR",
+        "question": "What chair only has two legs to stand on?",
+        "answer": "Committee chair",
+        "label": 1,
+        "choice_list": [
+            "Club chair.",
+            "Committee chair",
+            "Armchair.",
+            "None of above."
+        ]
+    },
+    {
+        "id": "WP-36_CR",
+        "question": "Without using any R sounds, how do you say, \"Purchased A Rabbit\"?",
+        "answer": "Bought a bunny.",
+        "label": 0,
+        "choice_list": [
+            "Bought a bunny.",
+            "Purchased A Rabbit.",
+            "Uchased a abbit.",
+            "None of above."
+        ]
+    },
+    {
+        "id": "WP-3_SR",
+        "question": "The eight is first, tomorrow comes before yesterday, and after happens before by and where are they?",
+        "answer": "In a dictionary.",
+        "label": 1,
+        "choice_list": [
+            "In a science fiction.",
+            "In a dictionary.",
+            "In a caculus book.",
+            "None of above."
+        ]
+    },
+    {
+        "id": "WP-37_SR",
+        "question": "Which three letters can fend off a thief?",
+        "answer": "I C U.",
+        "label": 0,
+        "choice_list": [
+            "I C U.",
+            "O P T",
+            "S O S",
+            "None of above."
+        ]
+    },
+    {
+        "id": "WP-60_CR",
+        "question": "How does a computer technician fix his pants?",
+        "answer": "With a software patch.",
+        "label": 1,
+        "choice_list": [
+            "With an internet web.",
+            "With a software patch.",
+            "With a mobile app.",
+            "None of above."
+        ]
+    },
+    {
+        "id": "WP-101_CR",
+        "question": "What's in the beginning of the road to Paris?",
+        "answer": "The letter R.",
+        "label": 2,
+        "choice_list": [
+            "The letter P.",
+            "The letter S.",
+            "The letter R.",
+            "None of above."
+        ]
+    },
+    {
+        "id": "WP-122_SR",
+        "question": "Which letter of the alphabet is the coolest?",
+        "answer": " 'B', because it's always surrounded by 'AC'.",
+        "label": 2,
+        "choice_list": [
+            " 'A', because it's the start of alphabet.",
+            " 'Z', because it's the end of alphabet.",
+            " 'B', because it's always surrounded by 'AC'.",
+            "None of above."
+        ]
+    },
+    {
+        "id": "WP-3",
+        "question": "Where is the After before By, tomorrow before yesterday, and the eight is first?",
+        "answer": "In a dictionary.",
+        "label": 1,
+        "choice_list": [
+            "In a caculus book.",
+            "In a dictionary.",
+            "In a science fiction.",
+            "None of above."
+        ]
+    },
+    {
+        "id": "WP-56",
+        "question": "What kind of bird writes?",
+        "answer": "Penguin.",
+        "label": 2,
+        "choice_list": [
+            "Hawk.",
+            "Sparrow.",
+            "Penguin.",
+            "None of above."
+        ]
+    },
+    {
+        "id": "WP-19",
+        "question": "What kind of running means walking?",
+        "answer": "Running out of gas.",
+        "label": 0,
+        "choice_list": [
+            "Running out of gas.",
+            "Running at a low speed.",
+            "Running with an old person.",
+            "None of above."
+        ]
+    },
+    {
+        "id": "WP-60_SR",
+        "question": "How were the farmer's jeans fixed?",
+        "answer": "A cabbage patch.",
+        "label": 1,
+        "choice_list": [
+            "A peach jam.",
+            "A cabbage patch.",
+            "An eggplant.",
+            "None of above."
+        ]
+    },
+    {
+        "id": "WP-32_SR",
+        "question": "Which of the following pens should never be used for writing?",
+        "answer": "Pigpen.",
+        "label": 0,
+        "choice_list": [
+            "Pigpen.",
+            "Crayon.",
+            "Hard pencil.",
+            "None of above."
+        ]
+    },
+    {
+        "id": "WP-19_SR",
+        "question": "Which type of running equates to walking?",
+        "answer": "Running out of gas.",
+        "label": 2,
+        "choice_list": [
+            "Running with an old person.",
+            "Running at a low speed.",
+            "Running out of gas.",
+            "None of above."
+        ]
+    },
+    {
+        "id": "WP-3_CR",
+        "question": "Where does run before it walks, the dawn before rises, and eat before grow ?",
+        "answer": "In a dictionary.",
+        "label": 2,
+        "choice_list": [
+            "In a caculus book.",
+            "In a science fiction.",
+            "In a dictionary.",
+            "None of above."
+        ]
+    },
+    {
+        "id": "WP-101_SR",
+        "question": "What exactly is at the heart of Paris?",
+        "answer": "The letter R.",
+        "label": 1,
+        "choice_list": [
+            "The letter P.",
+            "The letter R.",
+            "The letter S.",
+            "None of above."
+        ]
+    },
+    {
+        "id": "WP-130_SR",
+        "question": "What kind of phone never gets a response?",
+        "answer": "A xylophone.",
+        "label": 2,
+        "choice_list": [
+            "A smartphone.",
+            "A cellphone.",
+            "A xylophone.",
+            "None of above."
+        ]
+    },
+    {
+        "id": "WP-56_SR",
+        "question": "What kind of bird can be an author?",
+        "answer": "Penguin.",
+        "label": 0,
+        "choice_list": [
+            "Penguin.",
+            "Hawk.",
+            "Sparrow.",
+            "None of above."
+        ]
+    },
+    {
+        "id": "WP-32",
+        "question": "What pen should never be used for writing?",
+        "answer": "Pigpen.",
+        "label": 0,
+        "choice_list": [
+            "Pigpen.",
+            "Hard pencil.",
+            "Crayon.",
+            "None of above."
+        ]
+    },
+    {
+        "id": "WP-153_SR",
+        "question": "Which kind of cap doesn't go on the head?",
+        "answer": "A bottle cap.",
+        "label": 1,
+        "choice_list": [
+            "A baseball cap.",
+            "A bottle cap.",
+            "A cowboy hat.",
+            "None of above."
+        ]
+    },
+    {
+        "id": "WP-36",
+        "question": "How can you say - \"Purchased A Rotweiler\" without using any R's?",
+        "answer": "Bought a dog.",
+        "label": 2,
+        "choice_list": [
+            "Uchased a otweile.",
+            "Purchased A Rotweiler.",
+            "Bought a dog.",
+            "None of above."
+        ]
+    },
+    {
+        "id": "WP-153_CR",
+        "question": "What sort of cap shouldn't be worn on the head?",
+        "answer": "A jar cap.",
+        "label": 0,
+        "choice_list": [
+            "A jar cap.",
+            "A cowboy hat.",
+            "A baseball cap.",
+            "None of above."
+        ]
+    },
+    {
+        "id": "WP-79",
+        "question": "What is at the end of a rainbow?",
+        "answer": "The letter W.",
+        "label": 0,
+        "choice_list": [
+            "The letter W.",
+            "The letter R.",
+            "The letter I.",
+            "None of above."
+        ]
+    },
+    {
+        "id": "WP-124",
+        "question": "What type of market is never large?",
+        "answer": "A flea market.",
+        "label": 0,
+        "choice_list": [
+            "A flea market.",
+            "Hypermarket.",
+            "A super market.",
+            "None of above."
+        ]
+    },
+    {
+        "id": "WP-56_CR",
+        "question": "What kind of shell writes?",
+        "answer": "Pen shell.",
+        "label": 0,
+        "choice_list": [
+            "Pen shell.",
+            "Oyester.",
+            "Calm.",
+            "None of above."
+        ]
+    },
+    {
+        "id": "WP-71_SR",
+        "question": "A table has three matches on it. Make three matches four without adding another. You are not permitted to disrupt any of the matches. How can this be accomplished?",
+        "answer": "Shape the 3 matches into a roman numeral four \"IV\".",
+        "label": 2,
+        "choice_list": [
+            "Take three matches and form the numeral \"III\" .",
+            "Take two matches and form the numeral \"X\" .",
+            "Shape the 3 matches into a roman numeral four \"IV\".",
+            "None of above."
+        ]
+    },
+    {
+        "id": "WP-71",
+        "question": "Three matches are sitting on a table. Without adding another make for three matches four. You are not allowed to break any of the matches. How can this be done?",
+        "answer": "Shape the 3 matches into a roman numeral four \"IV\".",
+        "label": 1,
+        "choice_list": [
+            "Take two matches and form the numeral \"X\" .",
+            "Shape the 3 matches into a roman numeral four \"IV\".",
+            "Take three matches and form the numeral \"III\" .",
+            "None of above."
+        ]
+    },
+    {
+        "id": "WP-153",
+        "question": "What type of cap isn't worn on the head?",
+        "answer": "A bottle cap.",
+        "label": 0,
+        "choice_list": [
+            "A bottle cap.",
+            "A cowboy hat.",
+            "A baseball cap.",
+            "None of above."
+        ]
+    },
+    {
+        "id": "WP-124_CR",
+        "question": "What kind of market is most dangerous?",
+        "answer": "Bear market.",
+        "label": 0,
+        "choice_list": [
+            "Bear market.",
+            "Supermarket.",
+            "Hypermarket.",
+            "None of above."
+        ]
+    },
+    {
+        "id": "WP-79_SR",
+        "question": "What can you find at the end of a rainbow?",
+        "answer": "The letter W.",
+        "label": 1,
+        "choice_list": [
+            "The letter R.",
+            "The letter W.",
+            "The letter I.",
+            "None of above."
+        ]
+    },
+    {
+        "id": "WP-36_SR",
+        "question": "Without using any R sounds, how do you say, \"Purchased A Rotweiler\"?",
+        "answer": "Bought a dog.",
+        "label": 0,
+        "choice_list": [
+            "Bought a dog.",
+            "Purchased A Rotweiler.",
+            "Uchased a otweile.",
+            "None of above."
+        ]
+    },
+    {
+        "id": "WP-130_CR",
+        "question": "What kind of phone is most colorful?",
+        "answer": "Chromophone.",
+        "label": 2,
+        "choice_list": [
+            "A cellphone.",
+            "A smartphone.",
+            "Chromophone.",
+            "None of above."
+        ]
+    },
+    {
+        "id": "WP-122",
+        "question": "What's the coolest letter in the alphabet?",
+        "answer": " 'B', because it's always surrounded by 'AC'.",
+        "label": 2,
+        "choice_list": [
+            " 'Z', because it's the end of alphabet.",
+            " 'A', because it's the start of alphabet.",
+            " 'B', because it's always surrounded by 'AC'.",
+            "None of above."
+        ]
+    },
+    {
+        "id": "WP-101",
+        "question": "What is in the middle of Paris?",
+        "answer": "The letter R.",
+        "label": 0,
+        "choice_list": [
+            "The letter R.",
+            "The letter S.",
+            "The letter P.",
+            "None of above."
+        ]
+    }
+]

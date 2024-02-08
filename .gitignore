@@ -3,3 +3,7 @@ testing/utils/keys.py
 /testing/models/__MACOSX
 /testing/models/bert-BASED-uncased
 submission
+/data/old
+/data-functions/convert.ipynb
+credentials.json
+/forms/
