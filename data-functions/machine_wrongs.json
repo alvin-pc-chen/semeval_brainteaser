@@ -1,0 +1,116 @@
+[
+    {
+        "id": "SP-30_CR",
+        "question": "Why do old people consume more food than young people.",
+        "answer": "Because older people live longer.",
+        "label": 2,
+        "choice_list": [
+            "Older adults may have specific dietary requirements to address age-related issues",
+            "Older people require increased nutrient intake to support overall health and well-being.",
+            "Because older people live longer.",
+            "None of above."
+        ],
+        "base_new": 3,
+        "base": 3,
+        "cr": 3,
+        "sr": 3,
+        "mix_new": 3,
+        "mix": 3,
+        "human": 3
+    },
+    {
+        "id": "SP-156_CR",
+        "question": "A driver is told to make a stop every half an hour for the engine to cool down, for five times. How long do the stops take?",
+        "answer": "Two hours.",
+        "label": 2,
+        "choice_list": [
+            "Three hours.",
+            "Two and a half hours.",
+            "Two hours.",
+            "None of above."
+        ],
+        "base_new": 3,
+        "base": 3,
+        "cr": 3,
+        "sr": 1,
+        "mix_new": 3,
+        "mix": 1,
+        "human": 3
+    },
+    {
+        "id": "SP-16_SR",
+        "question": "Crossing a lush and muddy meadow are three men. The third man's feet are still dry despite the fact that only two of them are wearing rubber boots. Why?",
+        "answer": "The ground is not wet.",
+        "label": 0,
+        "choice_list": [
+            "The ground is not wet.",
+            "By walking on stilts, the third man elevates his feet above the wet ground.",
+            "The third man is walking on his hands.",
+            "None of above."
+        ],
+        "base_new": 1,
+        "base": 1,
+        "cr": 1,
+        "sr": 1,
+        "mix_new": 1,
+        "mix": 1,
+        "human": 1
+    },
+    {
+        "id": "SP-189_CR",
+        "question": "How can you toss a fragile glass ball against a sturdy brick wall from a distance without shattering it?",
+        "answer": "No problem, because sturdy bricks are very hard to crack",
+        "label": 0,
+        "choice_list": [
+            "No problem, because sturdy bricks are very hard to crack",
+            "You need to throw the glass ball hard.",
+            "You need to throw the glass ball gently.",
+            "None of above."
+        ],
+        "base_new": 3,
+        "base": 3,
+        "cr": 3,
+        "sr": 3,
+        "mix_new": 3,
+        "mix": 3,
+        "human": 2
+    },
+    {
+        "id": "SP-189_SR",
+        "question": "How can you throw a raw egg against a hard rock wall and not break it?",
+        "answer": "No problem, because concrete floors are very hard to crack",
+        "label": 1,
+        "choice_list": [
+            "You need to drop the egg gently.",
+            "No problem, because concrete floors are very hard to crack",
+            "You need to drop the egg hard.",
+            "None of above."
+        ],
+        "base_new": 3,
+        "base": 3,
+        "cr": 3,
+        "sr": 3,
+        "mix_new": 3,
+        "mix": 3,
+        "human": 1
+    },
+    {
+        "id": "SP-183_CR",
+        "question": "You wanted to reserve a table in a restaurant but they told you all their tables were already booked. however, when you're passing by, you see that there is not a single person eating in the restaurant. Why did they tell you that all their tables were fully booked?",
+        "answer": "All the people in the restaurant are in relationships.",
+        "label": 2,
+        "choice_list": [
+            "All the people left the restaurant in a moment.",
+            "The resturant was soo big that all the people can hide themselves in a moment.",
+            "All the people in the restaurant are in relationships.",
+            "None of above."
+        ],
+        "base_new": 3,
+        "base": 3,
+        "cr": 3,
+        "sr": 3,
+        "mix_new": 3,
+        "mix": 3,
+        "human": 3
+    }
+]

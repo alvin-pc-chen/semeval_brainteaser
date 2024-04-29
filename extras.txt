@@ -1,0 +1,11 @@
+BERT
+\subsection{Fine-Tuned BERT}
+As a baseline comparison, we fine-tune \verb|bert-large-uncased| \citep{DBLP:journals/corr/abs-1810-04805} using synthetic data from the training set to compare with the commonsense experiments performed in the task paper. The fine-tuning process tunes the model towards lateral thinking and provides some context for question types. The training set provided by SemEval was first manually cleaned of typos and other inconsistencies to create the \verb|clean| dataset before being further augmented with \verb|nlpaug|\footnote{\url{https://github.com/makcedward/nlpaug}} \citep{makcedward2019} to create three synthetic datasets: \verb|mismatched|, \verb|translated|, and \verb|mutated|. The augmentation techniques were as follows:
+\begin{itemize}
+    \item \verb|mismatch|, which swaps questions between samples and updates their correct labels to \verb|label=3, "None of above."|
+    \item \verb|translate|, which backtranslates questions through a pipeline of three differing language families and back to English.
+    \item \verb|mutate|, which iteratively replaces one word in the sample with a synonym from \href{http://paraphrase.org/#/download}{PPDB} \citep{pavlick-etal-2015-ppdb}, paraphrases up to twice the input length, summarizes down to the output length, and repeats \verb|n| times with the previous output as the next input.
+\end{itemize}
+
+\subsection{Fine-Tuning BERT}
+A training pipeline was built following the Hugging Face Multiple Choice tutorial\footnote{\url{https://huggingface.co/docs/transformers/tasks/multiple_choice}}, and the augmented dataset was split into 80\% \verb|training| and 20\% \verb|validation|. All BERT fine-tuning experiments were conducted with the following hyperparameters: \verb|batch_size=16|, \verb|epochs=5|, \verb|learn_rate=5e-5|, \verb|weight_decay=0.01|.

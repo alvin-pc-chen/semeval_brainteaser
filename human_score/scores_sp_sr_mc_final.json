@@ -1,0 +1,402 @@
+[
+    {
+        "id": "SP-4_SR",
+        "question": "Romeo and Juliet are discovered dead on the bedroom floor. Glass shards and some water were on the floor when they were found. A bookcase and a bed are the sole pieces of furniture in the space. Other than the neighboring railroad track, the house is located in a rural area. How is that even doable?",
+        "label": 2,
+        "human_score": [
+            2,
+            2,
+            2
+        ]
+    },
+    {
+        "id": "SP-90_SR",
+        "question": "Who would serve as the team's captain if a crucial assistant captain departed from a sporting organization?",
+        "label": 1,
+        "human_score": [
+            1,
+            1,
+            1
+        ]
+    },
+    {
+        "id": "SP-157_SR",
+        "question": "In one city, 5% of the population has an unlisted phone number. How many persons will have unlisted phone numbers if you pick 100 names at random from that city's phone directory?",
+        "label": 3,
+        "human_score": [
+            2,
+            3,
+            3
+        ]
+    },
+    {
+        "id": "SP-146_SR",
+        "question": "A man wagered $50 on his dog's ability to jump higher than a house. The neighbor took the wager, thinking it was impossible, and lost. Why did he fail to win the bet?",
+        "label": 0,
+        "human_score": [
+            2,
+            0,
+            0
+        ]
+    },
+    {
+        "id": "SP-147_SR",
+        "question": "When did Christmas and New Year's Day fall on the same year?",
+        "label": 1,
+        "human_score": [
+            1,
+            1,
+            1
+        ]
+    },
+    {
+        "id": "SP-186_SR",
+        "question": "\"The attorney is my brother,\" the accountant testified. However, the attorney claimed that he did not have a brother. No one is lying, why?",
+        "label": 0,
+        "human_score": [
+            0,
+            0,
+            0
+        ]
+    },
+    {
+        "id": "SP-19_SR",
+        "question": "Shopping is done by two mothers and two daughters. They divide the $21 they have equally amongst themselves. How is this even conceivable?",
+        "label": 2,
+        "human_score": [
+            2,
+            2,
+            2
+        ]
+    },
+    {
+        "id": "SP-156_SR",
+        "question": "You go to the doctor because you're sick, and he gives you three medicines to take every half hour. How long do the drugs keep you going?",
+        "label": 2,
+        "human_score": [
+            0,
+            3,
+            4
+        ]
+    },
+    {
+        "id": "SP-205_SR",
+        "question": "There was a farmer who wanted to go investigate a problem with his chicken coop. As soon as he arrived, he saw a rooster perched atop the barn. Now the barn had a top that resembled a triangle. However, the rooster unexpectedly laid an egg. How did it roll on that side?",
+        "label": 1,
+        "human_score": [
+            1,
+            4,
+            1
+        ]
+    },
+    {
+        "id": "SP-191_SR",
+        "question": "How many times can you deduct 10 from 100?",
+        "label": 0,
+        "human_score": [
+            0,
+            1,
+            0
+        ]
+    },
+    {
+        "id": "SP-122_SR",
+        "question": "A large dog and a slim dog are sitting on a porch. The small dog is the fat dog's kid, but the fat dog is not the thin dog's father. Could you please explain?",
+        "label": 2,
+        "human_score": [
+            2,
+            2,
+            2
+        ]
+    },
+    {
+        "id": "SP-184_SR",
+        "question": "There were five guys in church, and it began to rain while they were outside. The four that fled got wet, while the one that remained dry kept entirely dry. Why didn't he drink?",
+        "label": 0,
+        "human_score": [
+            0,
+            0,
+            0
+        ]
+    },
+    {
+        "id": "SP-30_SR",
+        "question": "Why do white sheep consume more food than black sheep?",
+        "label": 0,
+        "human_score": [
+            0,
+            0,
+            0
+        ]
+    },
+    {
+        "id": "SP-73_SR",
+        "question": "A woman spotted a bear in the distance on a Sunday afternoon. She ran in excitement toward it as opposed to being afraid. Why didn't she feel fear?",
+        "label": 1,
+        "human_score": [
+            1,
+            1,
+            1
+        ]
+    },
+    {
+        "id": "SP-47_SR",
+        "question": "Tom and John made a $100 wager that John could correctly predict the outcome of the upcoming football game. Tom concurs, but he loses the wager. What led Tom to lose the wager?",
+        "label": 1,
+        "human_score": [
+            3,
+            4,
+            1
+        ]
+    },
+    {
+        "id": "SP-166_SR",
+        "question": "A man has nine kids. Males make up half of them. How is that even possible?",
+        "label": 2,
+        "human_score": [
+            3,
+            2,
+            2
+        ]
+    },
+    {
+        "id": "SP-120_SR",
+        "question": "When a cop was going through a restaurant, he heard someone yell, \"No John, not the gun!\" He dashed inside, where he discovered a doctor, a lawyer, a priest, and a dead corpse on the floor. He quickly approached the man and arrested him. He was not present when the shooting occurred, there was no obvious evidence to indicate who shot the guy, and no one notified him who the killer was. How did the cop recognize the milan so quickly?",
+        "label": 0,
+        "human_score": [
+            0,
+            0,
+            0
+        ]
+    },
+    {
+        "id": "SP-190_SR",
+        "question": "The teacher questioned the two girls who had the same appearance: Are you related to each other? b.) Do your parents look alike? c.) Did you share the same birthday? They genuinely replied \"yes\" to those inquiries, and they were honest when they said they weren't identical twins. How is this possible?",
+        "label": 0,
+        "human_score": [
+            0,
+            0,
+            0
+        ]
+    },
+    {
+        "id": "SP-16_SR",
+        "question": "Crossing a lush and muddy meadow are three men. The third man's feet are still dry despite the fact that only two of them are wearing rubber boots. Why?",
+        "label": 0,
+        "human_score": [
+            1,
+            0,
+            1
+        ]
+    },
+    {
+        "id": "SP-123_SR",
+        "question": "Two entries were stationed outside of a barracks. One was looking up the road for anyone arriving from the north. The other checked the road to see if anyone was approaching from the south. \"Why are you smiling?\" one of them asked the other. How did he find out his partner was smiling?",
+        "label": 1,
+        "human_score": [
+            1,
+            1,
+            1
+        ]
+    },
+    {
+        "id": "SP-139_SR",
+        "question": "If a Lion is tied to a piece of metal that is 6m long, how can it reach a human that is 7m away?",
+        "label": 1,
+        "human_score": [
+            1,
+            1,
+            1
+        ]
+    },
+    {
+        "id": "SP-181_SR",
+        "question": "You stroll into a room, find a bed, and lie down on it. There are two dogs, five cats, a giraffe, six cows, and a goose on the bed. Three doves are also fluttering above the bed. How many legs are there on the ground?",
+        "label": 1,
+        "human_score": [
+            3,
+            1,
+            3
+        ]
+    },
+    {
+        "id": "SP-42_SR",
+        "question": "A woman who appears to be about to jump off the balcony of her 20-story apartment building is being caught in a net by a fireman who is running to reach her. There is a 20-story fall below her and nothing else. When she falls, the fireman is still 100 yards away and is not nearly in time. The damage to the woman is not worse than a bruise. How is that even doable?",
+        "label": 1,
+        "human_score": [
+            1,
+            1,
+            1
+        ]
+    },
+    {
+        "id": "SP-117_SR",
+        "question": "Who can shave three times a day and maintain a beard?",
+        "label": 1,
+        "human_score": [
+            1,
+            1,
+            1
+        ]
+    },
+    {
+        "id": "SP-187_SR",
+        "question": "In a house, there are three major rooms. The first is stuffed with cash. The second is stuffed with crucial documents. The third is stuffed with jewels. One day, all of these rooms caught fire. Which room did the cops initially put out the fire?",
+        "label": 3,
+        "human_score": [
+            1,
+            4,
+            3
+        ]
+    },
+    {
+        "id": "SP-14_SR",
+        "question": "Math, English language arts, and history are Sally's three subjects. Once she got an exam, she took it in French because she wanted to have fun. Only one teacher could understand her work when she received the results of her tests. Which teacher was able to grasp the test and how did they understand it since none of Sally's teachers could speak French?",
+        "label": 2,
+        "human_score": [
+            2,
+            2,
+            2
+        ]
+    },
+    {
+        "id": "SP-79_SR",
+        "question": "In order for her friends to determine if the following story is true or false, Jessica tells them: \"There was a man sitting in a house at night that had no lights at all. There was no candle, lamp, or other light source present. He nonetheless gladly read his book while sitting in the home. Jessica responds to her friends' accusations of lying by insisting that she is speaking the truth. Jessica's account is accurate, but how?",
+        "label": 1,
+        "human_score": [
+            1,
+            1,
+            1
+        ]
+    },
+    {
+        "id": "SP-189_SR",
+        "question": "How can you throw a raw egg against a hard rock wall and not break it?",
+        "label": 1,
+        "human_score": [
+            1,
+            3,
+            1
+        ]
+    },
+    {
+        "id": "SP-182_SR",
+        "question": "If you paint a brown home white, it will turn white. The light is green if the spotlight switches from red to green. So, what happens if you throw a white shirt into the Red Sea?",
+        "label": 3,
+        "human_score": [
+            3,
+            3,
+            3
+        ]
+    },
+    {
+        "id": "SP-60_SR",
+        "question": "A young man fell off a 100-foot ladder, but he was unharmed. How is that even possible?",
+        "label": 1,
+        "human_score": [
+            1,
+            1,
+            1
+        ]
+    },
+    {
+        "id": "SP-121_SR",
+        "question": "You've found yourself on an island in the midst of a lake. The lake is in a remote area of the country, and no bridge has ever connected the island to the mainland. A tractor and wagon provide daily hay rides around the island. You inquire as to how the tractor arrived onto the island and discover that it was not carried to the island by boat or plane. It was also not constructed on the island. How did the tractor get there?",
+        "label": 2,
+        "human_score": [
+            2,
+            2,
+            2
+        ]
+    },
+    {
+        "id": "SP-158_SR",
+        "question": "During a 5-day competition, a professional fisherman caught 30 fish. He caught three more fish each day than the day before. On the first day, how many fish did the fisherman catch?",
+        "label": 3,
+        "human_score": [
+            3,
+            3,
+            3
+        ]
+    },
+    {
+        "id": "SP-3_SR",
+        "question": "A man left town on Sunday, spent the entire night in a motel, and then rode back the next day, again on Sunday. How is that even possible?",
+        "label": 1,
+        "human_score": [
+            1,
+            1,
+            1
+        ]
+    },
+    {
+        "id": "SP-72_SR",
+        "question": "Even though Emily is William's sister and William isn't married, Lisa is William's niece but not Emily's. How is that even doable?",
+        "label": 2,
+        "human_score": [
+            2,
+            2,
+            2
+        ]
+    },
+    {
+        "id": "SP-33_SR",
+        "question": "A student leans forward while riding his scooter to the train station to go to college. Two stops are not far from his home; the first is one mile away and the second is two miles away in the opposite direction. He always boards at the first stop in the morning and always exits at the second stop in the afternoon. Why?",
+        "label": 1,
+        "human_score": [
+            1,
+            1,
+            1
+        ]
+    },
+    {
+        "id": "SP-141_SR",
+        "question": "Ten birds are perched atop a fence. You shoot one. How many are there left?",
+        "label": 3,
+        "human_score": [
+            2,
+            3,
+            3
+        ]
+    },
+    {
+        "id": "SP-142_SR",
+        "question": "Mary's father is the father of five children. Nana, None, Nine, and Non are their names. What is the name of the fifth child?",
+        "label": 2,
+        "human_score": [
+            2,
+            2,
+            2
+        ]
+    },
+    {
+        "id": "SP-183_SR",
+        "question": "You're out on the sea and notice a boat full of people. You take a quick glance away and then back, but there is not a single person on the boat. Why?",
+        "label": 2,
+        "human_score": [
+            2,
+            2,
+            2
+        ]
+    },
+    {
+        "id": "SP-59_SR",
+        "question": "He has wed numerous women, but never himself. He is who?",
+        "label": 1,
+        "human_score": [
+            1,
+            1,
+            1
+        ]
+    },
+    {
+        "id": "SP-78_SR",
+        "question": "Four of Mrs. Jones' daughters exist. She has one brother for each of her daughters. Mrs. Jones, however, only has five kids. How is it even doable?",
+        "label": 2,
+        "human_score": [
+            2,
+            2,
+            2
+        ]
+    }
+]

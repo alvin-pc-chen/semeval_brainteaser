@@ -1,0 +1,401 @@
+[
+    {
+        "id": "SP-191_CR",
+        "question": "How many times can you divide 100 by 10?",
+        "answer": "Once.",
+        "label": 1,
+        "choice_list": [
+            "Infinite times.",
+            "Once.",
+            "Two times.",
+            "None of above."
+        ],
+        "base_new": 1,
+        "base": 2,
+        "cr": 1,
+        "sr": 1,
+        "mix_new": 1,
+        "mix": 1,
+        "human": 0
+    },
+    {
+        "id": "SP-120_CR",
+        "question": "Mark was in a playground where somebody noticed a great player playing and with the announcements, gathered a lot of people. There were many great players from basketball, volleyball, football, and even swimmers, But Mark directly went to the footballer and took a photo with him. How did he know who was the person that people got excited for in the first place?",
+        "answer": "Since the playground was a football playground and the other players could've not been playing in the playground at the time of the announcement",
+        "label": 0,
+        "choice_list": [
+            "Since the playground was a football playground and the other players could've not been playing in the playground at the time of the announcement",
+            "Since Mark was a crazy fan of football, only a football player can be considered as great player in his mind.",
+            "Since Mark stood closest to the football players, he only focused on football players and didn't notice others.",
+            "None of above."
+        ],
+        "base_new": 3,
+        "base": 3,
+        "cr": 0,
+        "sr": 3,
+        "mix_new": 3,
+        "mix": 3,
+        "human": 3
+    },
+    {
+        "id": "SP-156_SR",
+        "question": "You go to the doctor because you're sick, and he gives you three medicines to take every half hour. How long do the drugs keep you going?",
+        "answer": "An hour.",
+        "label": 2,
+        "choice_list": [
+            "One and a half hours.",
+            "Two hours.",
+            "An hour.",
+            "None of above."
+        ],
+        "base_new": 0,
+        "base": 2,
+        "cr": 2,
+        "sr": 2,
+        "mix_new": 2,
+        "mix": 2,
+        "human": 3
+    },
+    {
+        "id": "SP-30_CR",
+        "question": "Why do old people consume more food than young people.",
+        "answer": "Because older people live longer.",
+        "label": 2,
+        "choice_list": [
+            "Older adults may have specific dietary requirements to address age-related issues",
+            "Older people require increased nutrient intake to support overall health and well-being.",
+            "Because older people live longer.",
+            "None of above."
+        ],
+        "base_new": 3,
+        "base": 3,
+        "cr": 3,
+        "sr": 3,
+        "mix_new": 3,
+        "mix": 3,
+        "human": 3
+    },
+    {
+        "id": "SP-184_CR",
+        "question": "Five people were at a football match, and a sudden shower started. The four that rushed to take cover still got soaked, but the one who didn't move stayed completely dry. Why didn't he get wet?",
+        "answer": "He was a photograph, the other people were there to honor a former player.",
+        "label": 2,
+        "choice_list": [
+            "The man is an excellent football player that can avoid rain in high speed.",
+            "The man was lucky enough to avoid all the rain.",
+            "He was a photograph, the other people were there to honor a former player.",
+            "None of above."
+        ],
+        "base_new": 3,
+        "base": 3,
+        "cr": 2,
+        "sr": 3,
+        "mix_new": 2,
+        "mix": 2,
+        "human": 3
+    },
+    {
+        "id": "SP-47_SR",
+        "question": "Tom and John made a $100 wager that John could correctly predict the outcome of the upcoming football game. Tom concurs, but he loses the wager. What led Tom to lose the wager?",
+        "answer": "John said the score would be 0-0 and he was right. \"Before\" any football game starts, the score is always 0-0.",
+        "label": 1,
+        "choice_list": [
+            "John possesses an extraordinary ability to see into the future.",
+            "John said the score would be 0-0 and he was right. \"Before\" any football game starts, the score is always 0-0.",
+            "Tom gave his money to show his kindness.",
+            "None of above."
+        ],
+        "base_new": 3,
+        "base": 1,
+        "cr": 1,
+        "sr": 1,
+        "mix_new": 1,
+        "mix": 1,
+        "human": 3
+    },
+    {
+        "id": "SP-191",
+        "question": "How many times can you subtract 10 from 100?",
+        "answer": "Once.",
+        "label": 2,
+        "choice_list": [
+            "Infinite times.",
+            "Twice.",
+            "Once.",
+            "None of above."
+        ],
+        "base_new": 2,
+        "base": 2,
+        "cr": 2,
+        "sr": 2,
+        "mix_new": 2,
+        "mix": 2,
+        "human": 0
+    },
+    {
+        "id": "SP-166_CR",
+        "question": "A farmer has 11 sheep. Half of them are white. How is this possible?",
+        "answer": "They are all white.",
+        "label": 2,
+        "choice_list": [
+            "One sheep is regarded as both white and other colors same time.",
+            "A famer raises his sheep in both white way and another way.",
+            "They are all white.",
+            "None of above."
+        ],
+        "base_new": 2,
+        "base": 2,
+        "cr": 0,
+        "sr": 2,
+        "mix_new": 2,
+        "mix": 2,
+        "human": 0
+    },
+    {
+        "id": "SP-186_CR",
+        "question": "The officer arrested James and said I don't have a brother anymore, however, James also didn't have a brother. How's that possible?",
+        "answer": "Officer was actually his sister so the whole story makes sense",
+        "label": 2,
+        "choice_list": [
+            "The officer was not loved by family and had moved away when he was young.",
+            "The officer is angry about his brother and cut ties with him.",
+            "Officer was actually his sister so the whole story makes sense",
+            "None of above."
+        ],
+        "base_new": 2,
+        "base": 2,
+        "cr": 2,
+        "sr": 2,
+        "mix_new": 2,
+        "mix": 2,
+        "human": 1
+    },
+    {
+        "id": "SP-156_CR",
+        "question": "A driver is told to make a stop every half an hour for the engine to cool down, for five times. How long do the stops take?",
+        "answer": "Two hours.",
+        "label": 2,
+        "choice_list": [
+            "Three hours.",
+            "Two and a half hours.",
+            "Two hours.",
+            "None of above."
+        ],
+        "base_new": 3,
+        "base": 3,
+        "cr": 3,
+        "sr": 1,
+        "mix_new": 3,
+        "mix": 1,
+        "human": 3
+    },
+    {
+        "id": "SP-16_SR",
+        "question": "Crossing a lush and muddy meadow are three men. The third man's feet are still dry despite the fact that only two of them are wearing rubber boots. Why?",
+        "answer": "The ground is not wet.",
+        "label": 0,
+        "choice_list": [
+            "The ground is not wet.",
+            "By walking on stilts, the third man elevates his feet above the wet ground.",
+            "The third man is walking on his hands.",
+            "None of above."
+        ],
+        "base_new": 1,
+        "base": 1,
+        "cr": 1,
+        "sr": 1,
+        "mix_new": 1,
+        "mix": 1,
+        "human": 1
+    },
+    {
+        "id": "SP-181_SR",
+        "question": "You stroll into a room, find a bed, and lie down on it. There are two dogs, five cats, a giraffe, six cows, and a goose on the bed. Three doves are also fluttering above the bed. How many legs are there on the ground?",
+        "answer": "Six. The bed's four legs, plus your two legs.",
+        "label": 1,
+        "choice_list": [
+            "Thirty-six, as there are eighteen animals.",
+            "Six. The bed's four legs, plus your two legs.",
+            "Seventy-two, as there are eighteen animals.",
+            "None of above."
+        ],
+        "base_new": 1,
+        "base": 1,
+        "cr": 3,
+        "sr": 1,
+        "mix_new": 1,
+        "mix": 1,
+        "human": 3
+    },
+    {
+        "id": "SP-189_CR",
+        "question": "How can you toss a fragile glass ball against a sturdy brick wall from a distance without shattering it?",
+        "answer": "No problem, because sturdy bricks are very hard to crack",
+        "label": 0,
+        "choice_list": [
+            "No problem, because sturdy bricks are very hard to crack",
+            "You need to throw the glass ball hard.",
+            "You need to throw the glass ball gently.",
+            "None of above."
+        ],
+        "base_new": 3,
+        "base": 3,
+        "cr": 3,
+        "sr": 3,
+        "mix_new": 3,
+        "mix": 3,
+        "human": 2
+    },
+    {
+        "id": "SP-59_CR",
+        "question": "He has authored countless books, but has never written a single word. Who is he?",
+        "answer": "A publisher.",
+        "label": 1,
+        "choice_list": [
+            "A business man.",
+            "A publisher.",
+            "A writer.",
+            "None of above."
+        ],
+        "base_new": 1,
+        "base": 1,
+        "cr": 3,
+        "sr": 3,
+        "mix_new": 1,
+        "mix": 3,
+        "human": 3
+    },
+    {
+        "id": "SP-183_CR",
+        "question": "You wanted to reserve a table in a restaurant but they told you all their tables were already booked. however, when you're passing by, you see that there is not a single person eating in the restaurant. Why did they tell you that all their tables were fully booked?",
+        "answer": "All the people in the restaurant are in relationships.",
+        "label": 2,
+        "choice_list": [
+            "All the people left the restaurant in a moment.",
+            "The resturant was soo big that all the people can hide themselves in a moment.",
+            "All the people in the restaurant are in relationships.",
+            "None of above."
+        ],
+        "base_new": 3,
+        "base": 3,
+        "cr": 3,
+        "sr": 3,
+        "mix_new": 3,
+        "mix": 3,
+        "human": 3
+    },
+    {
+        "id": "SP-187",
+        "question": "There are three important rooms in a house. The first one is filled with money. The second one is filled with important papers. The third one is filled with jewelry. One day all of these rooms burst into fire. Which room did the policemen put out the fire in first?",
+        "answer": "None of above.",
+        "label": 3,
+        "choice_list": [
+            "The one with with jewelry.",
+            "The one with important papers.",
+            "The one filled with money.",
+            "None of above."
+        ],
+        "base_new": 3,
+        "base": 3,
+        "cr": 3,
+        "sr": 3,
+        "mix_new": 3,
+        "mix": 3,
+        "human": 1
+    },
+    {
+        "id": "SP-141",
+        "question": "There are ten birds sitting on a fence. You shoot one. How many are left?",
+        "answer": "None of above.",
+        "label": 3,
+        "choice_list": [
+            "Ten.",
+            "One.",
+            "Nine.",
+            "None of above."
+        ],
+        "base_new": 3,
+        "base": 3,
+        "cr": 3,
+        "sr": 3,
+        "mix_new": 3,
+        "mix": 3,
+        "human": 2
+    },
+    {
+        "id": "SP-181_CR",
+        "question": "You enter a room with five of the organization' heads. All of them are there to make an important decision. How many heads are there in the room?",
+        "answer": "None of above.",
+        "label": 3,
+        "choice_list": [
+            "Ten.",
+            "Five.",
+            "One.",
+            "None of above."
+        ],
+        "base_new": 3,
+        "base": 1,
+        "cr": 1,
+        "sr": 3,
+        "mix_new": 3,
+        "mix": 3,
+        "human": 1
+    },
+    {
+        "id": "SP-42_CR",
+        "question": "Amy was shocked to see his adorable pet dog perched on the edge of the balcony. She shouted at her pet to come back. This sudden fright made the pet immobile, and fell over the edge. Although Amy's apartment is on the 17th floor, the family dog was unharmed. How is that even doable?",
+        "answer": "The pet dog fell back into her apartment, jumping from the balcony into the inside. ",
+        "label": 2,
+        "choice_list": [
+            "Amy is so well exercised that she can reach to the base in a second to catch the pet.",
+            "The pet is strong enough to not get hurt from falling.",
+            "The pet dog fell back into her apartment, jumping from the balcony into the inside. ",
+            "None of above."
+        ],
+        "base_new": 2,
+        "base": 2,
+        "cr": 2,
+        "sr": 2,
+        "mix_new": 2,
+        "mix": 2,
+        "human": 3
+    },
+    {
+        "id": "SP-142_CR",
+        "question": "Ana's school has 4 students in Alaska: Maria, James, Jonghyun. What is the name of other student?",
+        "answer": "Ana",
+        "label": 1,
+        "choice_list": [
+            "Mark.",
+            "Ana",
+            "Michael.",
+            "None of above."
+        ],
+        "base_new": 1,
+        "base": 1,
+        "cr": 1,
+        "sr": 1,
+        "mix_new": 1,
+        "mix": 1,
+        "human": 3
+    },
+    {
+        "id": "SP-182",
+        "question": "If you paint a brown house white it will become a white house. If the spotlight changes from red to green, then the light is green. So, if you throw a white shirt into the Red Sea, what will it become?",
+        "answer": "None of above.",
+        "label": 3,
+        "choice_list": [
+            "Green.",
+            "Red.",
+            "White.",
+            "None of above."
+        ],
+        "base_new": 3,
+        "base": 2,
+        "cr": 2,
+        "sr": 2,
+        "mix_new": 3,
+        "mix": 3,
+        "human": 2
+    }
+]

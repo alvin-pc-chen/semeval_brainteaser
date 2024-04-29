@@ -1,7 +1,6 @@
 testing/utils/keys.py
 /testing/models/bert-BASED-uncased.zip
-/testing/models/__MACOSX
-/testing/models/bert-BASED-uncased
+/testing/models/
 submission
 /data/old
 /data-functions/convert.ipynb
